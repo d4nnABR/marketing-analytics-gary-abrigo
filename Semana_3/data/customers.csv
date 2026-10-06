@@ -1,0 +1,2001 @@
+customer_id,segment,city,signup_date,last_active_date,tenure_days,acquisition_cost,treatment_group
+1,Occasional,Los Angeles,2025-02-04,2025-03-06,573,15.0,treatment
+2,Office Worker,Washington DC,2025-10-12,2026-02-10,323,12.0,treatment
+3,Occasional,Dallas,2026-03-12,2026-08-31,172,15.0,treatment
+4,Weekend Social,Miami,2025-04-21,2026-08-31,497,15.0,control
+5,Daily Commuter,Los Angeles,2025-02-13,2026-08-31,564,12.0,control
+6,One-Time,Chicago,2025-06-04,2025-10-03,453,18.0,treatment
+7,Weekend Social,Dallas,2025-04-22,2026-05-22,496,15.0,treatment
+8,Occasional,Seattle,2026-01-20,2026-08-31,223,15.0,treatment
+9,Daily Commuter,Denver,2025-05-17,2026-08-31,471,12.0,treatment
+10,Office Worker,Miami,2025-05-21,2025-11-19,467,12.0,treatment
+11,Office Worker,Chicago,2026-06-23,2026-08-31,69,12.0,treatment
+12,Occasional,Washington DC,2025-10-10,2025-11-09,325,15.0,treatment
+13,Weekend Social,Atlanta,2026-06-12,2026-08-31,80,15.0,treatment
+14,Occasional,Seattle,2026-01-10,2026-02-09,233,15.0,treatment
+15,Office Worker,San Francisco,2026-05-12,2026-08-31,111,12.0,treatment
+16,Daily Commuter,Boston,2025-01-14,2026-01-14,594,12.0,treatment
+17,Weekend Social,Chicago,2026-06-18,2026-08-31,74,15.0,treatment
+18,Daily Commuter,Philadelphia,2026-06-22,2026-08-21,70,12.0,treatment
+19,Occasional,Boston,2024-09-28,2025-02-27,702,15.0,treatment
+20,Weekend Social,Atlanta,2025-05-07,2025-06-06,481,15.0,treatment
+21,Weekend Social,Atlanta,2025-06-16,2025-10-15,441,15.0,treatment
+22,Office Worker,Chicago,2025-06-20,2026-08-31,437,12.0,treatment
+23,One-Time,Atlanta,2026-02-26,2026-03-28,186,18.0,control
+24,Occasional,San Francisco,2026-01-01,2026-08-31,242,15.0,treatment
+25,Occasional,Seattle,2025-01-27,2026-03-29,581,15.0,treatment
+26,Daily Commuter,Boston,2025-10-31,2026-07-31,304,12.0,control
+27,Office Worker,Miami,2026-07-14,2026-08-31,48,12.0,treatment
+28,Daily Commuter,New York,2025-07-05,2025-09-03,422,12.0,treatment
+29,Daily Commuter,Austin,2026-06-11,2026-08-31,81,12.0,treatment
+30,Weekend Social,Portland,2025-11-28,2026-02-27,276,15.0,treatment
+31,Weekend Social,San Francisco,2026-06-09,2026-08-31,83,15.0,treatment
+32,One-Time,Miami,2026-05-24,2026-06-23,99,18.0,treatment
+33,Office Worker,San Francisco,2024-09-11,2024-12-11,719,12.0,treatment
+34,Office Worker,Portland,2026-03-14,2026-07-13,170,12.0,treatment
+35,Office Worker,Los Angeles,2025-01-10,2026-08-31,598,12.0,treatment
+36,Daily Commuter,Miami,2026-03-30,2026-08-31,154,12.0,control
+37,Daily Commuter,Seattle,2026-03-19,2026-08-31,165,12.0,treatment
+38,Office Worker,Seattle,2025-02-27,2026-03-29,550,12.0,treatment
+39,Daily Commuter,Chicago,2024-10-16,2026-08-31,684,12.0,treatment
+40,Weekend Social,Los Angeles,2025-06-20,2025-09-19,437,15.0,treatment
+41,Office Worker,Denver,2025-03-31,2026-01-29,518,12.0,control
+42,Occasional,Los Angeles,2025-09-22,2026-01-21,343,15.0,treatment
+43,Weekend Social,Chicago,2024-10-27,2025-04-27,673,15.0,treatment
+44,Office Worker,New York,2024-09-30,2025-06-30,700,12.0,treatment
+45,Occasional,Washington DC,2025-07-02,2026-07-02,425,15.0,treatment
+46,Occasional,Austin,2026-02-20,2026-08-31,192,15.0,treatment
+47,Office Worker,Chicago,2025-04-08,2026-05-08,510,12.0,treatment
+48,Daily Commuter,New York,2025-04-14,2025-07-14,504,12.0,treatment
+49,Weekend Social,Dallas,2024-12-23,2025-03-24,616,15.0,treatment
+50,Daily Commuter,Portland,2025-03-16,2026-08-31,533,12.0,treatment
+51,Daily Commuter,Washington DC,2025-03-28,2025-06-27,521,12.0,control
+52,Daily Commuter,Los Angeles,2025-02-28,2025-09-29,549,12.0,treatment
+53,Occasional,Boston,2025-04-28,2025-07-28,490,15.0,treatment
+54,Weekend Social,New York,2025-03-17,2025-09-15,532,15.0,control
+55,Weekend Social,Boston,2025-12-20,2026-07-21,254,15.0,treatment
+56,Occasional,Los Angeles,2025-04-24,2025-05-24,494,15.0,treatment
+57,Office Worker,Seattle,2026-02-10,2026-05-12,202,12.0,control
+58,Weekend Social,Atlanta,2025-10-28,2026-08-31,307,15.0,control
+59,Daily Commuter,Philadelphia,2025-11-22,2026-08-31,282,12.0,treatment
+60,Daily Commuter,Portland,2025-10-13,2026-08-31,322,12.0,treatment
+61,Weekend Social,Austin,2026-06-08,2026-08-07,84,15.0,control
+62,Office Worker,Dallas,2025-02-25,2026-07-27,552,12.0,treatment
+63,Weekend Social,Philadelphia,2026-07-19,2026-08-31,43,15.0,treatment
+64,Weekend Social,New York,2025-01-22,2025-06-23,586,15.0,treatment
+65,Weekend Social,Chicago,2024-12-05,2026-08-31,634,15.0,treatment
+66,Weekend Social,Miami,2026-04-01,2026-08-31,152,15.0,control
+67,Weekend Social,Dallas,2026-05-20,2026-08-31,103,15.0,control
+68,Office Worker,Austin,2024-11-03,2026-08-31,666,12.0,treatment
+69,Daily Commuter,Austin,2025-10-24,2026-08-31,311,12.0,treatment
+70,Office Worker,San Francisco,2025-08-24,2026-08-31,372,12.0,treatment
+71,Daily Commuter,Boston,2025-02-01,2025-05-03,576,12.0,treatment
+72,Office Worker,New York,2025-08-30,2026-07-30,366,12.0,treatment
+73,Occasional,San Francisco,2025-12-24,2026-04-24,250,15.0,treatment
+74,Daily Commuter,Los Angeles,2025-10-06,2026-06-06,329,12.0,treatment
+75,Daily Commuter,Philadelphia,2025-08-29,2026-05-29,367,12.0,treatment
+76,Daily Commuter,New York,2026-05-12,2026-08-31,111,12.0,treatment
+77,Daily Commuter,Boston,2025-02-04,2025-04-05,573,12.0,treatment
+78,Weekend Social,Washington DC,2025-11-10,2026-08-31,294,15.0,control
+79,Weekend Social,Philadelphia,2025-04-09,2025-05-09,509,15.0,treatment
+80,Occasional,Boston,2026-07-13,2026-08-31,49,15.0,treatment
+81,Weekend Social,Denver,2025-02-23,2025-10-24,554,15.0,treatment
+82,Office Worker,Atlanta,2026-05-02,2026-08-31,121,12.0,treatment
+83,Occasional,Dallas,2025-11-16,2026-08-31,288,15.0,treatment
+84,Daily Commuter,Austin,2025-01-28,2026-08-31,580,12.0,treatment
+85,Daily Commuter,Atlanta,2026-02-13,2026-08-31,199,12.0,treatment
+86,Daily Commuter,Boston,2025-02-15,2025-03-17,562,12.0,treatment
+87,Weekend Social,Boston,2025-03-02,2026-08-31,547,15.0,treatment
+88,Office Worker,Portland,2025-04-29,2026-01-27,489,12.0,treatment
+89,Daily Commuter,Dallas,2025-12-21,2026-06-21,253,12.0,treatment
+90,Office Worker,New York,2025-06-01,2025-11-30,456,12.0,treatment
+91,Daily Commuter,Austin,2025-10-03,2026-08-31,332,12.0,treatment
+92,Weekend Social,Denver,2025-09-22,2026-08-31,343,15.0,treatment
+93,Office Worker,Los Angeles,2025-01-15,2025-12-15,593,12.0,control
+94,Office Worker,New York,2025-02-09,2025-06-10,568,12.0,treatment
+95,Office Worker,San Francisco,2025-04-02,2025-07-02,516,12.0,treatment
+96,Weekend Social,Chicago,2025-02-02,2025-03-04,575,15.0,treatment
+97,Office Worker,New York,2026-06-05,2026-08-31,87,12.0,treatment
+98,Daily Commuter,San Francisco,2025-05-24,2026-08-31,464,12.0,treatment
+99,Daily Commuter,Dallas,2025-06-10,2026-08-31,447,12.0,control
+100,One-Time,Austin,2025-12-14,2026-01-13,260,18.0,treatment
+101,Occasional,Los Angeles,2026-03-05,2026-08-04,179,15.0,treatment
+102,Weekend Social,Portland,2025-12-25,2026-06-25,249,15.0,treatment
+103,Daily Commuter,Denver,2025-09-20,2026-08-31,345,12.0,treatment
+104,One-Time,Austin,2026-07-15,2026-08-31,47,18.0,control
+105,Occasional,Chicago,2026-05-22,2026-06-21,101,15.0,control
+106,Weekend Social,Seattle,2025-01-19,2026-03-21,589,15.0,treatment
+107,Office Worker,San Francisco,2024-12-21,2026-08-31,618,12.0,treatment
+108,Daily Commuter,Philadelphia,2025-06-02,2025-07-02,455,12.0,treatment
+109,Daily Commuter,Atlanta,2026-04-07,2026-08-31,146,12.0,treatment
+110,Occasional,Seattle,2026-07-07,2026-08-31,55,15.0,treatment
+111,Office Worker,Philadelphia,2026-01-04,2026-03-05,239,12.0,control
+112,Daily Commuter,Dallas,2025-12-27,2026-08-31,247,12.0,treatment
+113,Office Worker,Atlanta,2025-02-10,2025-08-11,567,12.0,treatment
+114,Weekend Social,Austin,2025-10-19,2026-08-31,316,15.0,treatment
+115,Daily Commuter,Los Angeles,2025-01-07,2026-08-31,601,12.0,treatment
+116,Occasional,Miami,2025-09-12,2026-08-31,353,15.0,treatment
+117,Weekend Social,Washington DC,2025-01-13,2025-09-13,595,15.0,treatment
+118,Weekend Social,Denver,2024-10-22,2024-11-21,678,15.0,treatment
+119,Office Worker,Seattle,2026-07-09,2026-08-08,53,12.0,control
+120,Weekend Social,Austin,2026-05-18,2026-06-17,105,15.0,treatment
+121,Weekend Social,Austin,2025-12-23,2026-05-24,251,15.0,treatment
+122,Weekend Social,Austin,2025-11-11,2026-08-31,293,15.0,treatment
+123,Daily Commuter,Portland,2025-02-14,2026-03-16,563,12.0,treatment
+124,Office Worker,New York,2025-10-05,2025-11-04,330,12.0,treatment
+125,Daily Commuter,New York,2026-02-05,2026-08-31,207,12.0,control
+126,Office Worker,Dallas,2025-09-12,2026-08-31,353,12.0,treatment
+127,Office Worker,Dallas,2025-03-16,2025-05-15,533,12.0,treatment
+128,Daily Commuter,New York,2025-06-01,2026-08-31,456,12.0,treatment
+129,Daily Commuter,Miami,2026-04-11,2026-08-31,142,12.0,treatment
+130,Weekend Social,Atlanta,2025-02-25,2025-12-26,552,15.0,control
+131,Daily Commuter,San Francisco,2026-07-04,2026-08-31,58,12.0,treatment
+132,Occasional,Portland,2026-02-10,2026-04-11,202,15.0,treatment
+133,Weekend Social,Washington DC,2026-05-16,2026-08-31,107,15.0,control
+134,Office Worker,Dallas,2025-08-22,2026-08-22,374,12.0,treatment
+135,Weekend Social,Los Angeles,2025-02-03,2025-11-03,574,15.0,treatment
+136,Daily Commuter,Denver,2024-09-23,2026-06-24,707,12.0,treatment
+137,One-Time,Philadelphia,2025-09-09,2026-01-08,356,18.0,treatment
+138,Office Worker,Chicago,2025-06-06,2025-11-05,451,12.0,treatment
+139,Occasional,Dallas,2024-11-18,2025-02-17,651,15.0,control
+140,Daily Commuter,Denver,2026-06-12,2026-08-31,80,12.0,treatment
+141,Office Worker,Atlanta,2026-07-11,2026-08-31,51,12.0,treatment
+142,Office Worker,Chicago,2025-05-19,2026-08-31,469,12.0,control
+143,Occasional,Washington DC,2025-12-11,2026-03-12,263,15.0,treatment
+144,Weekend Social,Atlanta,2025-06-16,2026-02-14,441,15.0,treatment
+145,Office Worker,Miami,2025-08-13,2026-08-31,383,12.0,treatment
+146,Daily Commuter,Denver,2025-11-10,2026-08-31,294,12.0,treatment
+147,Office Worker,New York,2025-06-18,2025-08-17,439,12.0,treatment
+148,Weekend Social,Austin,2026-03-15,2026-08-31,169,15.0,treatment
+149,Office Worker,San Francisco,2025-01-10,2026-04-11,598,12.0,treatment
+150,Daily Commuter,Chicago,2025-12-11,2026-08-31,263,12.0,treatment
+151,Occasional,Austin,2026-07-20,2026-08-31,42,15.0,treatment
+152,Occasional,Los Angeles,2026-04-18,2026-05-18,135,15.0,treatment
+153,Daily Commuter,Portland,2024-10-02,2025-05-03,698,12.0,treatment
+154,Weekend Social,Denver,2024-11-18,2025-02-17,651,15.0,treatment
+155,Daily Commuter,Dallas,2025-11-14,2026-08-14,290,12.0,treatment
+156,Weekend Social,Seattle,2026-06-09,2026-08-31,83,15.0,treatment
+157,Daily Commuter,Austin,2026-04-13,2026-08-31,140,12.0,treatment
+158,Weekend Social,Chicago,2026-05-25,2026-08-31,98,15.0,treatment
+159,Weekend Social,Washington DC,2024-12-13,2026-06-13,626,15.0,treatment
+160,Weekend Social,San Francisco,2025-08-29,2026-02-27,367,15.0,treatment
+161,Daily Commuter,Seattle,2026-01-21,2026-08-31,222,12.0,treatment
+162,Occasional,Denver,2025-11-11,2025-12-11,293,15.0,treatment
+163,Daily Commuter,Seattle,2026-02-25,2026-08-31,187,12.0,treatment
+164,Daily Commuter,Chicago,2025-01-26,2026-08-31,582,12.0,control
+165,Weekend Social,Austin,2025-07-16,2025-09-14,411,15.0,treatment
+166,Office Worker,Atlanta,2025-07-10,2026-08-31,417,12.0,control
+167,Occasional,Portland,2026-06-19,2026-08-31,73,15.0,control
+168,Occasional,Washington DC,2025-01-19,2026-02-18,589,15.0,treatment
+169,Office Worker,Denver,2025-04-16,2025-07-16,502,12.0,treatment
+170,One-Time,Atlanta,2024-09-15,2024-10-15,715,18.0,treatment
+171,Daily Commuter,Seattle,2024-12-15,2026-04-16,624,12.0,control
+172,Office Worker,San Francisco,2026-07-18,2026-08-31,44,12.0,treatment
+173,Daily Commuter,Austin,2026-04-16,2026-08-31,137,12.0,control
+174,Occasional,Seattle,2025-02-28,2025-08-29,549,15.0,treatment
+175,Daily Commuter,Boston,2026-01-04,2026-08-31,239,12.0,treatment
+176,Daily Commuter,New York,2025-10-20,2026-08-31,315,12.0,treatment
+177,Office Worker,Washington DC,2026-05-27,2026-08-31,96,12.0,treatment
+178,One-Time,Atlanta,2025-03-29,2025-04-28,520,18.0,treatment
+179,Occasional,Portland,2026-07-28,2026-08-31,34,15.0,control
+180,Weekend Social,Portland,2025-05-17,2025-06-16,471,15.0,treatment
+181,Occasional,Chicago,2026-01-14,2026-08-15,229,15.0,control
+182,Occasional,Seattle,2025-06-05,2025-10-04,452,15.0,control
+183,Office Worker,Boston,2025-12-14,2026-08-31,260,12.0,treatment
+184,Office Worker,Los Angeles,2025-04-22,2025-08-21,496,12.0,treatment
+185,Occasional,San Francisco,2026-04-13,2026-08-31,140,15.0,treatment
+186,Weekend Social,San Francisco,2025-11-20,2026-03-21,284,15.0,treatment
+187,Office Worker,Austin,2025-03-21,2025-09-19,528,12.0,control
+188,Daily Commuter,San Francisco,2026-07-04,2026-08-31,58,12.0,control
+189,Weekend Social,Los Angeles,2026-01-09,2026-05-10,234,15.0,control
+190,Daily Commuter,Philadelphia,2025-06-27,2025-08-26,430,12.0,treatment
+191,Occasional,Seattle,2024-12-04,2026-07-05,635,15.0,treatment
+192,Daily Commuter,Los Angeles,2026-07-13,2026-08-31,49,12.0,treatment
+193,Daily Commuter,San Francisco,2026-02-10,2026-08-31,202,12.0,control
+194,Occasional,Seattle,2025-12-11,2026-05-12,263,15.0,treatment
+195,Daily Commuter,Washington DC,2026-04-06,2026-07-06,147,12.0,treatment
+196,Daily Commuter,San Francisco,2025-10-29,2026-08-31,306,12.0,treatment
+197,Weekend Social,Austin,2025-02-09,2025-07-11,568,15.0,treatment
+198,Occasional,New York,2025-02-12,2025-03-14,565,15.0,treatment
+199,Daily Commuter,Atlanta,2024-10-25,2025-04-25,675,12.0,treatment
+200,Office Worker,New York,2024-10-14,2025-05-15,686,12.0,control
+201,Occasional,Chicago,2026-01-23,2026-04-24,220,15.0,treatment
+202,One-Time,Boston,2026-04-19,2026-05-19,134,18.0,treatment
+203,Office Worker,Washington DC,2024-12-23,2025-02-21,616,12.0,treatment
+204,Daily Commuter,San Francisco,2025-10-06,2025-12-05,329,12.0,treatment
+205,Daily Commuter,Austin,2024-11-25,2026-08-31,644,12.0,treatment
+206,Daily Commuter,New York,2025-06-17,2026-08-31,440,12.0,treatment
+207,Daily Commuter,Chicago,2026-03-07,2026-07-06,177,12.0,treatment
+208,Weekend Social,Miami,2026-03-22,2026-08-31,162,15.0,treatment
+209,Daily Commuter,Denver,2026-06-26,2026-08-31,66,12.0,treatment
+210,Office Worker,Atlanta,2025-04-05,2026-08-31,513,12.0,treatment
+211,Weekend Social,Portland,2026-06-26,2026-08-31,66,15.0,treatment
+212,Weekend Social,New York,2026-03-02,2026-08-31,182,15.0,treatment
+213,Daily Commuter,Portland,2025-04-25,2026-07-25,493,12.0,treatment
+214,Occasional,Washington DC,2025-04-17,2025-11-16,501,15.0,treatment
+215,Weekend Social,Austin,2024-11-14,2025-08-14,655,15.0,treatment
+216,Weekend Social,Chicago,2026-06-06,2026-08-31,86,15.0,treatment
+217,Daily Commuter,San Francisco,2025-01-20,2025-02-19,588,12.0,treatment
+218,Daily Commuter,Philadelphia,2025-03-06,2026-08-31,543,12.0,treatment
+219,Occasional,Dallas,2025-06-16,2025-08-15,441,15.0,treatment
+220,Office Worker,Philadelphia,2024-12-05,2025-05-06,634,12.0,treatment
+221,Office Worker,Washington DC,2026-03-18,2026-08-31,166,12.0,treatment
+222,Office Worker,Denver,2026-01-01,2026-08-31,242,12.0,treatment
+223,Weekend Social,New York,2024-12-18,2025-02-16,621,15.0,treatment
+224,One-Time,Chicago,2024-12-22,2025-02-20,617,18.0,treatment
+225,Daily Commuter,San Francisco,2024-09-15,2024-12-15,715,12.0,treatment
+226,Occasional,Dallas,2026-06-26,2026-08-31,66,15.0,treatment
+227,Daily Commuter,Chicago,2025-07-02,2026-08-31,425,12.0,control
+228,Weekend Social,Boston,2025-12-02,2026-08-31,272,15.0,treatment
+229,Weekend Social,Dallas,2024-12-13,2025-12-13,626,15.0,treatment
+230,Daily Commuter,Los Angeles,2025-02-08,2026-08-09,569,12.0,treatment
+231,Daily Commuter,Portland,2025-09-14,2026-08-31,351,12.0,treatment
+232,Office Worker,Atlanta,2025-01-24,2026-01-24,584,12.0,treatment
+233,One-Time,Philadelphia,2025-11-03,2025-12-03,301,18.0,treatment
+234,Weekend Social,Denver,2026-06-08,2026-08-31,84,15.0,treatment
+235,Occasional,Atlanta,2025-04-01,2025-05-01,517,15.0,control
+236,Occasional,Dallas,2025-10-30,2025-12-29,305,15.0,control
+237,Office Worker,Philadelphia,2026-06-02,2026-08-31,90,12.0,treatment
+238,Occasional,Austin,2026-05-18,2026-08-31,105,15.0,control
+239,Daily Commuter,Portland,2024-09-05,2026-08-31,725,12.0,control
+240,Daily Commuter,Washington DC,2024-11-16,2025-03-17,653,12.0,treatment
+241,Occasional,Philadelphia,2026-07-22,2026-08-31,40,15.0,treatment
+242,Occasional,Austin,2026-06-09,2026-08-31,83,15.0,treatment
+243,Daily Commuter,San Francisco,2025-04-13,2026-08-31,505,12.0,treatment
+244,Weekend Social,Miami,2025-08-30,2026-08-31,366,15.0,treatment
+245,Weekend Social,Chicago,2025-10-05,2026-06-05,330,15.0,treatment
+246,Occasional,Atlanta,2025-12-11,2026-08-31,263,15.0,treatment
+247,Weekend Social,Denver,2026-02-07,2026-04-08,205,15.0,treatment
+248,Office Worker,Philadelphia,2025-05-19,2025-12-18,469,12.0,treatment
+249,Office Worker,Atlanta,2026-05-15,2026-08-31,108,12.0,treatment
+250,Office Worker,Philadelphia,2024-10-11,2025-04-11,689,12.0,control
+251,Weekend Social,Dallas,2024-09-22,2025-04-23,708,15.0,control
+252,Occasional,Dallas,2026-07-02,2026-08-31,60,15.0,treatment
+253,Office Worker,Los Angeles,2025-01-02,2025-06-03,606,12.0,treatment
+254,Daily Commuter,Austin,2026-07-28,2026-08-31,34,12.0,control
+255,Daily Commuter,Chicago,2025-03-19,2026-06-18,530,12.0,treatment
+256,Weekend Social,Miami,2025-05-13,2026-02-10,475,15.0,control
+257,Occasional,Denver,2024-09-19,2025-03-20,711,15.0,treatment
+258,Daily Commuter,Chicago,2026-06-22,2026-08-31,70,12.0,treatment
+259,Daily Commuter,Philadelphia,2025-05-09,2026-02-06,479,12.0,treatment
+260,Weekend Social,Washington DC,2024-12-26,2026-05-27,613,15.0,treatment
+261,Daily Commuter,Miami,2025-08-04,2026-08-31,392,12.0,treatment
+262,Occasional,Seattle,2024-12-17,2025-04-17,622,15.0,treatment
+263,Office Worker,Los Angeles,2026-03-06,2026-04-05,178,12.0,control
+264,Daily Commuter,Chicago,2024-10-21,2026-08-31,679,12.0,treatment
+265,Occasional,Philadelphia,2025-08-15,2025-10-14,381,15.0,treatment
+266,Daily Commuter,Boston,2025-05-31,2026-08-31,457,12.0,treatment
+267,Daily Commuter,Seattle,2024-09-26,2025-03-27,704,12.0,treatment
+268,Daily Commuter,Miami,2024-10-06,2026-08-31,694,12.0,treatment
+269,Daily Commuter,Philadelphia,2025-08-29,2026-08-31,367,12.0,treatment
+270,Daily Commuter,Atlanta,2025-06-03,2026-08-31,454,12.0,treatment
+271,Daily Commuter,Denver,2024-11-29,2026-08-31,640,12.0,control
+272,Daily Commuter,Los Angeles,2024-12-05,2026-06-05,634,12.0,treatment
+273,Daily Commuter,Washington DC,2026-03-17,2026-08-31,167,12.0,treatment
+274,Weekend Social,New York,2026-01-24,2026-08-31,219,15.0,control
+275,Weekend Social,Philadelphia,2025-10-30,2026-08-31,305,15.0,treatment
+276,Office Worker,Chicago,2026-04-06,2026-08-31,147,12.0,treatment
+277,Office Worker,New York,2024-10-18,2025-05-19,682,12.0,treatment
+278,Office Worker,San Francisco,2025-12-25,2026-08-31,249,12.0,control
+279,Occasional,Seattle,2026-02-08,2026-07-10,204,15.0,treatment
+280,Occasional,Seattle,2025-01-18,2025-11-18,590,15.0,treatment
+281,Daily Commuter,Los Angeles,2025-09-10,2026-03-11,355,12.0,treatment
+282,Daily Commuter,Portland,2026-02-18,2026-08-31,194,12.0,treatment
+283,Daily Commuter,Dallas,2025-10-27,2026-08-31,308,12.0,control
+284,Daily Commuter,Chicago,2025-02-21,2026-08-31,556,12.0,treatment
+285,Weekend Social,Portland,2025-12-09,2026-07-10,265,15.0,treatment
+286,Office Worker,San Francisco,2026-02-13,2026-08-31,199,12.0,treatment
+287,Daily Commuter,Denver,2024-09-06,2026-08-07,724,12.0,control
+288,Office Worker,San Francisco,2025-10-02,2026-07-02,333,12.0,treatment
+289,Weekend Social,Washington DC,2025-08-19,2026-05-19,377,15.0,treatment
+290,Daily Commuter,Atlanta,2025-05-14,2026-04-13,474,12.0,treatment
+291,Occasional,Atlanta,2024-09-30,2025-03-01,700,15.0,treatment
+292,Daily Commuter,Washington DC,2024-10-28,2026-08-31,672,12.0,treatment
+293,Occasional,Portland,2026-02-07,2026-08-08,205,15.0,treatment
+294,Daily Commuter,Los Angeles,2026-04-02,2026-06-01,151,12.0,treatment
+295,Occasional,Los Angeles,2025-06-20,2025-07-20,437,15.0,treatment
+296,Occasional,San Francisco,2026-06-19,2026-08-31,73,15.0,treatment
+297,One-Time,New York,2026-06-11,2026-07-11,81,18.0,treatment
+298,Occasional,Portland,2025-12-10,2026-02-08,264,15.0,treatment
+299,Occasional,Denver,2025-10-11,2026-08-31,324,15.0,treatment
+300,Weekend Social,Seattle,2026-07-07,2026-08-31,55,15.0,treatment
+301,Occasional,Boston,2025-10-31,2026-01-30,304,15.0,control
+302,Daily Commuter,Dallas,2026-06-15,2026-08-31,77,12.0,treatment
+303,Weekend Social,Washington DC,2026-07-17,2026-08-31,45,15.0,control
+304,Office Worker,Philadelphia,2025-01-14,2026-08-31,594,12.0,treatment
+305,Occasional,Washington DC,2025-12-06,2026-02-04,268,15.0,treatment
+306,Office Worker,Miami,2026-01-24,2026-08-25,219,12.0,control
+307,Office Worker,Washington DC,2026-03-28,2026-07-27,156,12.0,treatment
+308,Weekend Social,Philadelphia,2025-05-02,2025-12-31,486,15.0,treatment
+309,Daily Commuter,Miami,2026-04-26,2026-08-31,127,12.0,treatment
+310,Daily Commuter,Boston,2025-08-07,2026-07-07,389,12.0,treatment
+311,Office Worker,Philadelphia,2025-05-28,2026-08-31,460,12.0,control
+312,Office Worker,Boston,2024-12-18,2026-02-17,621,12.0,treatment
+313,Daily Commuter,Los Angeles,2025-04-12,2026-08-31,506,12.0,treatment
+314,Office Worker,New York,2026-07-14,2026-08-31,48,12.0,treatment
+315,Office Worker,Atlanta,2026-01-14,2026-08-31,229,12.0,treatment
+316,Office Worker,Seattle,2026-01-21,2026-08-31,222,12.0,control
+317,Office Worker,New York,2026-05-19,2026-08-31,104,12.0,treatment
+318,Weekend Social,Chicago,2025-03-05,2026-02-02,544,15.0,control
+319,Daily Commuter,Atlanta,2025-12-07,2026-06-07,267,12.0,treatment
+320,Occasional,Denver,2025-05-18,2026-01-16,470,15.0,treatment
+321,Occasional,Atlanta,2026-04-16,2026-08-15,137,15.0,treatment
+322,Office Worker,Atlanta,2025-06-22,2026-01-21,435,12.0,treatment
+323,Office Worker,Philadelphia,2026-04-21,2026-08-31,132,12.0,treatment
+324,Weekend Social,Chicago,2026-02-05,2026-08-31,207,15.0,treatment
+325,Occasional,Denver,2026-02-22,2026-03-24,190,15.0,treatment
+326,Weekend Social,Miami,2026-06-09,2026-08-31,83,15.0,control
+327,Occasional,Chicago,2026-03-07,2026-07-06,177,15.0,treatment
+328,Weekend Social,Los Angeles,2025-04-13,2025-11-12,505,15.0,treatment
+329,Weekend Social,Seattle,2025-08-31,2025-11-30,365,15.0,treatment
+330,Daily Commuter,San Francisco,2025-07-27,2026-08-31,400,12.0,treatment
+331,Weekend Social,Chicago,2024-10-15,2024-12-14,685,15.0,control
+332,Daily Commuter,Los Angeles,2025-10-20,2026-08-31,315,12.0,treatment
+333,Weekend Social,Chicago,2025-07-03,2026-05-03,424,15.0,treatment
+334,Occasional,Portland,2025-06-02,2026-04-02,455,15.0,treatment
+335,Daily Commuter,Dallas,2024-11-15,2024-12-15,654,12.0,treatment
+336,Weekend Social,Atlanta,2025-08-18,2025-12-17,378,15.0,treatment
+337,Daily Commuter,Seattle,2025-10-10,2026-04-10,325,12.0,treatment
+338,Weekend Social,Austin,2024-11-12,2026-08-31,657,15.0,treatment
+339,Daily Commuter,Los Angeles,2025-11-18,2026-07-19,286,12.0,treatment
+340,Occasional,Seattle,2024-12-26,2025-02-24,613,15.0,treatment
+341,Daily Commuter,Atlanta,2024-12-10,2026-08-10,629,12.0,treatment
+342,One-Time,Boston,2025-06-07,2025-07-07,450,18.0,treatment
+343,Occasional,San Francisco,2025-05-30,2025-08-29,458,15.0,treatment
+344,Weekend Social,Philadelphia,2026-06-02,2026-08-31,90,15.0,treatment
+345,Occasional,New York,2024-10-17,2024-11-16,683,15.0,control
+346,Occasional,Seattle,2025-05-02,2025-06-01,486,15.0,treatment
+347,Occasional,Miami,2026-01-27,2026-02-26,216,15.0,treatment
+348,Daily Commuter,Boston,2025-02-21,2026-08-31,556,12.0,treatment
+349,Weekend Social,Dallas,2026-07-19,2026-08-31,43,15.0,treatment
+350,Daily Commuter,Seattle,2026-02-02,2026-08-31,210,12.0,treatment
+351,Weekend Social,Boston,2026-06-24,2026-08-31,68,15.0,treatment
+352,Daily Commuter,Los Angeles,2026-06-26,2026-08-31,66,12.0,treatment
+353,Weekend Social,Seattle,2024-11-15,2025-05-16,654,15.0,treatment
+354,Weekend Social,Denver,2025-07-18,2026-08-31,409,15.0,treatment
+355,Office Worker,Austin,2026-02-03,2026-08-31,209,12.0,treatment
+356,Weekend Social,Los Angeles,2024-09-06,2026-08-31,724,15.0,treatment
+357,Weekend Social,Dallas,2025-07-13,2026-08-31,414,15.0,treatment
+358,Occasional,Atlanta,2025-12-25,2026-07-26,249,15.0,control
+359,Office Worker,Denver,2026-03-09,2026-08-31,175,12.0,treatment
+360,Weekend Social,Washington DC,2025-06-17,2026-07-17,440,15.0,treatment
+361,Occasional,San Francisco,2026-04-27,2026-08-31,126,15.0,control
+362,Daily Commuter,Los Angeles,2025-12-15,2026-08-31,259,12.0,treatment
+363,Daily Commuter,Dallas,2024-10-01,2025-08-31,699,12.0,treatment
+364,Daily Commuter,New York,2025-03-13,2026-08-31,536,12.0,treatment
+365,Weekend Social,Washington DC,2026-06-18,2026-08-31,74,15.0,treatment
+366,Office Worker,Dallas,2024-09-01,2025-05-02,729,12.0,treatment
+367,Occasional,Philadelphia,2024-11-14,2025-01-13,655,15.0,treatment
+368,Weekend Social,Denver,2025-04-29,2025-06-28,489,15.0,treatment
+369,Office Worker,Miami,2026-07-27,2026-08-31,35,12.0,control
+370,Occasional,Washington DC,2026-01-06,2026-05-07,237,15.0,treatment
+371,Weekend Social,New York,2024-12-12,2025-03-13,627,15.0,treatment
+372,Daily Commuter,San Francisco,2025-06-02,2026-08-31,455,12.0,treatment
+373,Office Worker,Denver,2026-06-19,2026-08-31,73,12.0,treatment
+374,Office Worker,Miami,2025-01-31,2025-10-31,577,12.0,treatment
+375,Daily Commuter,Portland,2025-10-07,2026-08-31,328,12.0,treatment
+376,Daily Commuter,Washington DC,2025-07-21,2026-05-21,406,12.0,treatment
+377,Occasional,Denver,2026-02-14,2026-05-16,198,15.0,control
+378,Office Worker,Los Angeles,2026-02-08,2026-08-31,204,12.0,treatment
+379,Office Worker,Los Angeles,2026-04-06,2026-06-05,147,12.0,treatment
+380,Weekend Social,Dallas,2024-11-22,2025-08-22,647,15.0,treatment
+381,Weekend Social,Denver,2025-07-14,2025-12-13,413,15.0,treatment
+382,Occasional,Miami,2025-12-28,2026-01-27,246,15.0,treatment
+383,Occasional,Atlanta,2025-06-20,2026-07-20,437,15.0,treatment
+384,Office Worker,Dallas,2025-12-11,2026-08-31,263,12.0,treatment
+385,Office Worker,Chicago,2025-11-19,2026-03-20,285,12.0,treatment
+386,One-Time,Los Angeles,2025-05-17,2025-08-16,471,18.0,control
+387,Weekend Social,Austin,2024-11-09,2026-01-09,660,15.0,treatment
+388,One-Time,Denver,2026-07-11,2026-08-10,51,18.0,treatment
+389,Daily Commuter,Dallas,2026-04-01,2026-08-31,152,12.0,treatment
+390,Occasional,New York,2026-05-19,2026-08-31,104,15.0,treatment
+391,Weekend Social,Chicago,2025-03-28,2025-06-27,521,15.0,control
+392,Daily Commuter,Philadelphia,2025-04-09,2025-05-09,509,12.0,treatment
+393,Weekend Social,Dallas,2025-04-14,2026-08-31,504,15.0,treatment
+394,Weekend Social,Seattle,2024-09-21,2024-10-21,709,15.0,control
+395,Daily Commuter,Dallas,2024-12-27,2026-08-31,612,12.0,treatment
+396,Office Worker,Seattle,2025-04-03,2025-06-02,515,12.0,treatment
+397,Occasional,New York,2026-07-23,2026-08-22,39,15.0,treatment
+398,Daily Commuter,Washington DC,2025-01-21,2026-06-22,587,12.0,treatment
+399,Office Worker,New York,2025-08-21,2025-12-20,375,12.0,treatment
+400,Office Worker,San Francisco,2025-09-18,2026-08-31,347,12.0,control
+401,Office Worker,New York,2025-05-09,2025-09-07,479,12.0,treatment
+402,Occasional,Miami,2026-06-05,2026-08-31,87,15.0,treatment
+403,Occasional,Seattle,2024-11-04,2025-08-04,665,15.0,treatment
+404,Daily Commuter,San Francisco,2026-05-02,2026-08-31,121,12.0,treatment
+405,One-Time,San Francisco,2026-02-02,2026-03-04,210,18.0,treatment
+406,Occasional,Portland,2025-04-02,2026-03-02,516,15.0,treatment
+407,Daily Commuter,Denver,2026-02-19,2026-08-20,193,12.0,treatment
+408,Occasional,Los Angeles,2025-06-27,2026-03-27,430,15.0,treatment
+409,Daily Commuter,Denver,2026-07-11,2026-08-31,51,12.0,treatment
+410,One-Time,Denver,2024-09-25,2025-02-24,705,18.0,treatment
+411,Weekend Social,San Francisco,2024-09-20,2025-09-20,710,15.0,treatment
+412,Weekend Social,Atlanta,2025-09-15,2026-05-16,350,15.0,treatment
+413,Daily Commuter,San Francisco,2026-06-14,2026-08-31,78,12.0,treatment
+414,Occasional,San Francisco,2024-10-14,2025-03-15,686,15.0,control
+415,Daily Commuter,Austin,2026-02-26,2026-08-31,186,12.0,treatment
+416,Daily Commuter,Chicago,2026-06-19,2026-08-31,73,12.0,treatment
+417,Daily Commuter,San Francisco,2025-08-06,2026-08-31,390,12.0,treatment
+418,Occasional,New York,2026-04-29,2026-08-31,124,15.0,treatment
+419,Daily Commuter,Portland,2026-02-11,2026-06-12,201,12.0,control
+420,Occasional,Portland,2025-01-27,2025-10-27,581,15.0,treatment
+421,Weekend Social,Portland,2026-04-20,2026-07-20,133,15.0,treatment
+422,Daily Commuter,Los Angeles,2026-01-02,2026-08-31,241,12.0,treatment
+423,Daily Commuter,Denver,2024-09-08,2024-11-07,722,12.0,treatment
+424,Daily Commuter,San Francisco,2025-10-02,2026-08-02,333,12.0,control
+425,Weekend Social,Austin,2025-12-02,2026-01-01,272,15.0,control
+426,Occasional,San Francisco,2026-03-14,2026-07-13,170,15.0,treatment
+427,Daily Commuter,Boston,2026-02-21,2026-08-31,191,12.0,treatment
+428,Occasional,Denver,2025-07-29,2025-11-27,398,15.0,treatment
+429,Daily Commuter,Austin,2025-03-28,2026-08-31,521,12.0,treatment
+430,Occasional,Portland,2025-01-12,2025-04-13,596,15.0,control
+431,Occasional,Dallas,2024-11-01,2024-12-31,668,15.0,treatment
+432,Occasional,Boston,2025-11-21,2025-12-21,283,15.0,control
+433,Weekend Social,Dallas,2026-07-03,2026-08-31,59,15.0,treatment
+434,Occasional,Washington DC,2024-10-26,2025-05-27,674,15.0,treatment
+435,Daily Commuter,Atlanta,2026-01-04,2026-08-31,239,12.0,treatment
+436,Daily Commuter,Portland,2025-10-14,2026-01-13,321,12.0,treatment
+437,Daily Commuter,Washington DC,2024-12-29,2025-04-29,610,12.0,treatment
+438,Office Worker,Dallas,2025-01-26,2025-05-27,582,12.0,treatment
+439,Weekend Social,Chicago,2025-03-18,2026-08-31,531,15.0,treatment
+440,Weekend Social,Austin,2025-12-23,2026-05-24,251,15.0,treatment
+441,Occasional,Denver,2025-03-28,2025-08-27,521,15.0,treatment
+442,Daily Commuter,Los Angeles,2026-04-02,2026-08-31,151,12.0,control
+443,Weekend Social,Boston,2025-05-16,2026-04-15,472,15.0,treatment
+444,Daily Commuter,Philadelphia,2024-11-15,2024-12-15,654,12.0,treatment
+445,Daily Commuter,Philadelphia,2024-11-05,2026-06-06,664,12.0,treatment
+446,Weekend Social,Dallas,2025-06-07,2025-08-06,450,15.0,treatment
+447,One-Time,Philadelphia,2025-06-12,2025-08-11,445,18.0,control
+448,Weekend Social,Miami,2026-01-26,2026-04-27,217,15.0,treatment
+449,Daily Commuter,Austin,2025-08-01,2025-10-31,395,12.0,treatment
+450,Weekend Social,Los Angeles,2024-12-23,2026-06-23,616,15.0,treatment
+451,Daily Commuter,San Francisco,2025-01-27,2025-04-28,581,12.0,treatment
+452,Occasional,Los Angeles,2025-10-01,2025-11-30,334,15.0,treatment
+453,Weekend Social,Philadelphia,2025-04-21,2026-08-31,497,15.0,treatment
+454,Daily Commuter,Miami,2025-12-14,2026-08-31,260,12.0,treatment
+455,Daily Commuter,Philadelphia,2026-06-08,2026-08-31,84,12.0,control
+456,Daily Commuter,Boston,2025-05-06,2025-08-05,482,12.0,treatment
+457,One-Time,Boston,2025-09-21,2025-10-21,344,18.0,treatment
+458,Office Worker,Portland,2026-04-05,2026-08-31,148,12.0,treatment
+459,Occasional,Atlanta,2025-01-25,2025-02-24,583,15.0,treatment
+460,Weekend Social,Boston,2025-08-23,2025-10-22,373,15.0,treatment
+461,Weekend Social,San Francisco,2025-04-01,2025-05-31,517,15.0,treatment
+462,Daily Commuter,Atlanta,2025-11-12,2026-08-31,292,12.0,treatment
+463,Occasional,New York,2026-02-02,2026-07-04,210,15.0,treatment
+464,Office Worker,Los Angeles,2024-12-07,2025-04-07,632,12.0,treatment
+465,Weekend Social,Seattle,2025-01-09,2026-02-08,599,15.0,treatment
+466,Weekend Social,Los Angeles,2024-09-16,2025-02-15,714,15.0,treatment
+467,Weekend Social,Los Angeles,2024-09-08,2024-10-08,722,15.0,treatment
+468,Occasional,New York,2024-10-05,2025-07-05,695,15.0,control
+469,Daily Commuter,Seattle,2026-01-07,2026-08-31,236,12.0,treatment
+470,Office Worker,Dallas,2026-05-25,2026-08-31,98,12.0,treatment
+471,Office Worker,Los Angeles,2025-06-13,2025-10-12,444,12.0,treatment
+472,Office Worker,Atlanta,2026-05-10,2026-08-31,113,12.0,treatment
+473,Daily Commuter,New York,2026-01-23,2026-08-31,220,12.0,treatment
+474,Daily Commuter,Philadelphia,2026-03-19,2026-08-31,165,12.0,treatment
+475,Daily Commuter,Chicago,2026-01-30,2026-08-31,213,12.0,treatment
+476,Office Worker,Austin,2025-01-17,2026-08-31,591,12.0,treatment
+477,Office Worker,Miami,2025-09-01,2026-08-01,364,12.0,treatment
+478,Weekend Social,Austin,2025-09-02,2026-03-03,363,15.0,treatment
+479,Weekend Social,Miami,2025-11-23,2026-08-31,281,15.0,treatment
+480,Office Worker,Atlanta,2026-03-11,2026-08-31,173,12.0,treatment
+481,Office Worker,Austin,2024-11-17,2026-05-18,652,12.0,control
+482,Daily Commuter,Dallas,2025-12-16,2026-08-31,258,12.0,treatment
+483,Weekend Social,Boston,2026-04-06,2026-05-06,147,15.0,control
+484,Office Worker,Philadelphia,2024-11-19,2025-08-19,650,12.0,treatment
+485,Daily Commuter,Philadelphia,2025-06-17,2025-07-17,440,12.0,treatment
+486,Office Worker,Austin,2026-05-19,2026-08-18,104,12.0,treatment
+487,Office Worker,Philadelphia,2024-09-17,2026-04-18,713,12.0,treatment
+488,Daily Commuter,New York,2024-12-21,2026-07-22,618,12.0,treatment
+489,Weekend Social,Atlanta,2026-03-16,2026-08-31,168,15.0,treatment
+490,Weekend Social,Portland,2024-12-29,2025-07-30,610,15.0,treatment
+491,Weekend Social,Washington DC,2026-01-04,2026-08-31,239,15.0,treatment
+492,Weekend Social,New York,2026-05-23,2026-08-31,100,15.0,control
+493,Weekend Social,Dallas,2025-08-14,2026-08-31,382,15.0,treatment
+494,Office Worker,New York,2025-08-05,2026-08-31,391,12.0,control
+495,Occasional,Boston,2025-06-27,2025-08-26,430,15.0,treatment
+496,Weekend Social,Portland,2025-05-19,2025-08-18,469,15.0,treatment
+497,Office Worker,San Francisco,2025-05-24,2026-08-31,464,12.0,treatment
+498,Weekend Social,Dallas,2025-09-22,2025-12-22,343,15.0,treatment
+499,Office Worker,Philadelphia,2026-05-19,2026-08-31,104,12.0,treatment
+500,Office Worker,Los Angeles,2026-07-18,2026-08-31,44,12.0,treatment
+501,Weekend Social,Chicago,2026-04-29,2026-08-31,124,15.0,treatment
+502,Occasional,New York,2024-11-22,2025-06-23,647,15.0,treatment
+503,Occasional,Portland,2025-04-02,2026-04-02,516,15.0,control
+504,Office Worker,Washington DC,2026-02-11,2026-03-13,201,12.0,treatment
+505,Weekend Social,Miami,2025-09-16,2026-07-17,349,15.0,treatment
+506,Occasional,New York,2025-04-22,2025-12-21,496,15.0,treatment
+507,Office Worker,Los Angeles,2025-04-05,2026-08-31,513,12.0,treatment
+508,Occasional,Seattle,2024-11-20,2024-12-20,649,15.0,treatment
+509,Office Worker,Denver,2025-04-20,2026-06-20,498,12.0,treatment
+510,Daily Commuter,Austin,2025-06-22,2025-10-21,435,12.0,treatment
+511,Daily Commuter,Los Angeles,2025-06-18,2026-08-31,439,12.0,treatment
+512,Occasional,Dallas,2025-09-19,2025-10-19,346,15.0,treatment
+513,Daily Commuter,Chicago,2025-03-10,2026-07-10,539,12.0,treatment
+514,Daily Commuter,Atlanta,2025-01-22,2026-04-23,586,12.0,treatment
+515,Office Worker,Portland,2026-05-14,2026-08-31,109,12.0,control
+516,Daily Commuter,Atlanta,2025-06-10,2026-04-10,447,12.0,treatment
+517,Office Worker,Denver,2025-02-25,2025-05-27,552,12.0,treatment
+518,Weekend Social,San Francisco,2025-11-18,2026-03-19,286,15.0,control
+519,Daily Commuter,Denver,2025-09-14,2026-08-31,351,12.0,treatment
+520,Occasional,Chicago,2025-10-08,2026-08-31,327,15.0,treatment
+521,Occasional,San Francisco,2025-02-02,2025-04-03,575,15.0,treatment
+522,Office Worker,Austin,2026-01-19,2026-08-31,224,12.0,treatment
+523,Daily Commuter,Washington DC,2025-01-12,2026-08-31,596,12.0,treatment
+524,Weekend Social,Dallas,2026-04-08,2026-08-31,145,15.0,treatment
+525,Daily Commuter,San Francisco,2025-06-23,2026-08-31,434,12.0,treatment
+526,Office Worker,San Francisco,2025-06-13,2025-07-13,444,12.0,treatment
+527,One-Time,Seattle,2025-05-29,2025-08-28,459,18.0,treatment
+528,One-Time,Chicago,2025-06-23,2025-07-23,434,18.0,control
+529,Occasional,Miami,2025-12-09,2026-02-07,265,15.0,treatment
+530,Office Worker,Chicago,2025-08-13,2026-08-31,383,12.0,treatment
+531,Weekend Social,Austin,2024-11-27,2025-09-27,642,15.0,treatment
+532,Weekend Social,Seattle,2025-10-01,2026-08-31,334,15.0,treatment
+533,Office Worker,Boston,2025-03-05,2025-05-04,544,12.0,treatment
+534,Weekend Social,Chicago,2024-11-14,2025-10-14,655,15.0,treatment
+535,Daily Commuter,Denver,2026-04-10,2026-08-31,143,12.0,treatment
+536,Daily Commuter,Seattle,2025-04-06,2026-08-31,512,12.0,treatment
+537,Weekend Social,Boston,2025-10-21,2026-01-20,314,15.0,treatment
+538,Daily Commuter,Dallas,2024-12-29,2026-08-31,610,12.0,treatment
+539,Daily Commuter,Dallas,2025-04-25,2026-08-31,493,12.0,treatment
+540,Occasional,Chicago,2025-05-28,2026-01-26,460,15.0,treatment
+541,One-Time,Denver,2024-12-02,2025-01-01,637,18.0,treatment
+542,Weekend Social,Portland,2026-07-13,2026-08-31,49,15.0,treatment
+543,Occasional,Denver,2025-04-06,2025-08-05,512,15.0,treatment
+544,One-Time,Atlanta,2025-10-12,2025-12-11,323,18.0,treatment
+545,Daily Commuter,San Francisco,2025-09-30,2026-08-31,335,12.0,treatment
+546,Office Worker,Dallas,2025-06-27,2026-03-27,430,12.0,control
+547,Office Worker,Miami,2025-10-14,2026-07-14,321,12.0,treatment
+548,Daily Commuter,Philadelphia,2025-10-01,2026-01-30,334,12.0,treatment
+549,Weekend Social,Austin,2024-10-26,2026-08-31,674,15.0,control
+550,Office Worker,Boston,2025-12-12,2026-02-10,262,12.0,treatment
+551,Office Worker,San Francisco,2024-11-18,2024-12-18,651,12.0,treatment
+552,Daily Commuter,New York,2025-07-01,2025-07-31,426,12.0,treatment
+553,Daily Commuter,Miami,2025-05-13,2026-08-31,475,12.0,control
+554,Occasional,Austin,2025-07-10,2026-08-31,417,15.0,treatment
+555,Daily Commuter,San Francisco,2024-10-20,2025-01-19,680,12.0,treatment
+556,Daily Commuter,Seattle,2026-01-03,2026-04-04,240,12.0,control
+557,Daily Commuter,Dallas,2025-06-19,2026-08-31,438,12.0,treatment
+558,Office Worker,Chicago,2024-10-12,2025-10-12,688,12.0,control
+559,Weekend Social,Miami,2024-09-02,2026-08-31,728,15.0,treatment
+560,Office Worker,Seattle,2025-09-13,2025-10-13,352,12.0,control
+561,Daily Commuter,Seattle,2025-12-10,2026-08-31,264,12.0,treatment
+562,Daily Commuter,Washington DC,2025-09-18,2026-08-31,347,12.0,treatment
+563,Occasional,Portland,2026-01-17,2026-04-18,226,15.0,control
+564,Weekend Social,Seattle,2026-02-11,2026-08-31,201,15.0,treatment
+565,Weekend Social,New York,2026-05-03,2026-08-31,120,15.0,treatment
+566,Weekend Social,Denver,2026-07-19,2026-08-31,43,15.0,treatment
+567,Weekend Social,Portland,2026-05-12,2026-06-11,111,15.0,control
+568,Daily Commuter,Boston,2026-03-11,2026-05-10,173,12.0,treatment
+569,Office Worker,Washington DC,2025-06-28,2026-08-31,429,12.0,control
+570,Weekend Social,Portland,2025-08-18,2025-10-17,378,15.0,treatment
+571,Office Worker,Miami,2025-11-05,2026-08-31,299,12.0,treatment
+572,Occasional,San Francisco,2024-12-27,2025-02-25,612,15.0,treatment
+573,Office Worker,Portland,2025-12-18,2026-08-31,256,12.0,control
+574,Weekend Social,Washington DC,2025-10-16,2026-08-31,319,15.0,treatment
+575,Occasional,Seattle,2025-08-30,2026-01-29,366,15.0,treatment
+576,Office Worker,Austin,2026-04-07,2026-08-31,146,12.0,treatment
+577,Occasional,Washington DC,2025-12-25,2026-08-31,249,15.0,control
+578,Weekend Social,Denver,2026-06-14,2026-08-31,78,15.0,treatment
+579,Occasional,Austin,2026-07-15,2026-08-31,47,15.0,treatment
+580,Office Worker,Boston,2026-03-31,2026-08-31,153,12.0,treatment
+581,Office Worker,Los Angeles,2025-03-27,2025-04-26,522,12.0,treatment
+582,Weekend Social,Dallas,2025-01-10,2026-01-10,598,15.0,treatment
+583,Daily Commuter,San Francisco,2025-03-28,2026-03-28,521,12.0,control
+584,Office Worker,Austin,2026-01-11,2026-03-12,232,12.0,treatment
+585,Occasional,San Francisco,2026-04-28,2026-05-28,125,15.0,treatment
+586,Weekend Social,Boston,2026-05-09,2026-06-08,114,15.0,treatment
+587,Daily Commuter,Portland,2025-12-22,2026-08-31,252,12.0,treatment
+588,Office Worker,San Francisco,2025-12-20,2026-05-21,254,12.0,treatment
+589,Daily Commuter,Dallas,2026-06-28,2026-08-31,64,12.0,treatment
+590,Daily Commuter,Seattle,2025-12-24,2026-08-31,250,12.0,treatment
+591,Occasional,Seattle,2024-12-07,2025-01-06,632,15.0,treatment
+592,Office Worker,New York,2025-08-16,2026-02-14,380,12.0,treatment
+593,Office Worker,Chicago,2025-05-09,2026-02-06,479,12.0,treatment
+594,Weekend Social,Seattle,2025-11-19,2026-05-20,285,15.0,treatment
+595,Daily Commuter,Boston,2025-11-19,2026-08-31,285,12.0,treatment
+596,Daily Commuter,Seattle,2025-03-25,2026-08-31,524,12.0,treatment
+597,Weekend Social,Austin,2025-03-28,2026-08-31,521,15.0,treatment
+598,Weekend Social,Los Angeles,2024-11-01,2025-03-02,668,15.0,treatment
+599,One-Time,Philadelphia,2025-03-24,2025-04-23,525,18.0,treatment
+600,Weekend Social,Dallas,2026-04-02,2026-05-02,151,15.0,treatment
+601,Office Worker,Portland,2025-12-02,2026-08-31,272,12.0,treatment
+602,Weekend Social,Dallas,2026-06-22,2026-08-31,70,15.0,treatment
+603,Occasional,Austin,2026-06-10,2026-08-09,82,15.0,treatment
+604,Weekend Social,Dallas,2026-04-22,2026-06-21,131,15.0,treatment
+605,One-Time,Atlanta,2025-01-03,2025-02-02,605,18.0,treatment
+606,Occasional,Miami,2025-04-21,2025-06-20,497,15.0,treatment
+607,Occasional,Denver,2024-10-10,2025-02-08,690,15.0,treatment
+608,Daily Commuter,Miami,2024-11-04,2026-08-31,665,12.0,treatment
+609,Weekend Social,Boston,2025-02-08,2026-08-31,569,15.0,treatment
+610,Office Worker,New York,2025-03-15,2026-08-31,534,12.0,treatment
+611,Weekend Social,Philadelphia,2024-09-10,2025-10-10,720,15.0,treatment
+612,Weekend Social,Portland,2026-04-12,2026-08-31,141,15.0,treatment
+613,One-Time,Portland,2025-09-03,2025-10-03,362,18.0,treatment
+614,One-Time,Chicago,2025-12-03,2026-03-04,271,18.0,treatment
+615,Daily Commuter,Austin,2025-12-01,2026-08-31,273,12.0,treatment
+616,Weekend Social,Atlanta,2026-07-08,2026-08-31,54,15.0,treatment
+617,Weekend Social,New York,2024-12-12,2025-01-11,627,15.0,treatment
+618,Office Worker,Philadelphia,2025-04-27,2025-11-26,491,12.0,treatment
+619,Daily Commuter,Philadelphia,2025-04-03,2026-08-31,515,12.0,control
+620,Daily Commuter,Washington DC,2025-09-21,2026-08-31,344,12.0,treatment
+621,Occasional,Denver,2025-09-03,2026-03-04,362,15.0,treatment
+622,Office Worker,Chicago,2026-03-07,2026-05-06,177,12.0,treatment
+623,One-Time,Seattle,2025-09-27,2025-10-27,338,18.0,control
+624,Office Worker,Austin,2025-02-10,2026-01-10,567,12.0,treatment
+625,One-Time,Washington DC,2025-09-30,2025-10-30,335,18.0,treatment
+626,Office Worker,New York,2026-07-06,2026-08-31,56,12.0,treatment
+627,Occasional,Portland,2025-10-10,2026-02-08,325,15.0,treatment
+628,Daily Commuter,Seattle,2025-10-19,2026-08-31,316,12.0,treatment
+629,Weekend Social,Austin,2025-01-01,2026-03-03,607,15.0,control
+630,Occasional,Seattle,2024-09-05,2024-11-04,725,15.0,control
+631,Occasional,Philadelphia,2025-01-24,2025-06-25,584,15.0,control
+632,Occasional,Los Angeles,2024-09-17,2024-12-17,713,15.0,treatment
+633,Daily Commuter,Boston,2025-07-13,2025-10-12,414,12.0,treatment
+634,Office Worker,Portland,2026-05-10,2026-08-31,113,12.0,treatment
+635,Daily Commuter,Dallas,2025-07-09,2026-08-31,418,12.0,treatment
+636,Daily Commuter,Boston,2025-11-25,2026-08-31,279,12.0,treatment
+637,Weekend Social,Philadelphia,2026-04-21,2026-08-31,132,15.0,treatment
+638,Weekend Social,Seattle,2026-02-16,2026-08-31,196,15.0,treatment
+639,Occasional,Denver,2025-11-29,2026-01-28,275,15.0,control
+640,Occasional,Philadelphia,2026-03-02,2026-04-01,182,15.0,control
+641,Weekend Social,Chicago,2025-03-15,2026-01-13,534,15.0,treatment
+642,Occasional,Atlanta,2025-06-21,2025-11-20,436,15.0,treatment
+643,Daily Commuter,Denver,2025-06-06,2025-12-05,451,12.0,treatment
+644,Daily Commuter,Boston,2026-03-13,2026-07-12,171,12.0,treatment
+645,Weekend Social,Austin,2025-06-13,2025-10-12,444,15.0,treatment
+646,Occasional,Atlanta,2026-06-18,2026-08-31,74,15.0,treatment
+647,Daily Commuter,Portland,2025-01-08,2025-07-09,600,12.0,treatment
+648,Office Worker,Atlanta,2024-12-29,2026-08-29,610,12.0,control
+649,Weekend Social,Philadelphia,2026-01-14,2026-08-31,229,15.0,control
+650,Daily Commuter,Denver,2026-02-16,2026-08-31,196,12.0,treatment
+651,Office Worker,Dallas,2025-12-19,2026-02-17,255,12.0,treatment
+652,Occasional,Miami,2025-04-03,2025-05-03,515,15.0,treatment
+653,Weekend Social,Dallas,2024-09-06,2026-08-31,724,15.0,treatment
+654,Daily Commuter,Washington DC,2025-04-13,2025-10-12,505,12.0,treatment
+655,Occasional,Chicago,2025-07-23,2025-08-22,404,15.0,treatment
+656,Office Worker,San Francisco,2025-06-15,2025-08-14,442,12.0,treatment
+657,Occasional,San Francisco,2026-06-07,2026-07-07,85,15.0,treatment
+658,Daily Commuter,Denver,2026-04-27,2026-07-27,126,12.0,treatment
+659,Weekend Social,Denver,2026-02-24,2026-08-31,188,15.0,control
+660,Office Worker,Seattle,2024-09-15,2024-10-15,715,12.0,treatment
+661,Daily Commuter,Washington DC,2024-11-28,2026-04-29,641,12.0,treatment
+662,Occasional,Washington DC,2025-06-30,2025-07-30,427,15.0,control
+663,Daily Commuter,Miami,2025-11-09,2026-08-31,295,12.0,treatment
+664,Daily Commuter,San Francisco,2025-12-20,2026-04-20,254,12.0,treatment
+665,Office Worker,Dallas,2025-03-26,2026-08-31,523,12.0,control
+666,Weekend Social,Chicago,2024-11-16,2026-08-31,653,15.0,treatment
+667,Occasional,San Francisco,2025-04-17,2025-11-16,501,15.0,treatment
+668,One-Time,Philadelphia,2026-03-08,2026-04-07,176,18.0,treatment
+669,Daily Commuter,Washington DC,2026-07-22,2026-08-31,40,12.0,treatment
+670,Office Worker,Miami,2026-06-21,2026-08-31,71,12.0,treatment
+671,Daily Commuter,Los Angeles,2025-10-20,2026-08-31,315,12.0,treatment
+672,Weekend Social,New York,2024-11-02,2024-12-02,667,15.0,treatment
+673,One-Time,Philadelphia,2026-07-09,2026-08-31,53,18.0,treatment
+674,Weekend Social,Chicago,2024-12-16,2025-10-16,623,15.0,control
+675,Weekend Social,Portland,2025-03-06,2025-06-05,543,15.0,treatment
+676,Office Worker,San Francisco,2026-07-13,2026-08-31,49,12.0,treatment
+677,Occasional,Denver,2025-08-18,2025-09-17,378,15.0,control
+678,Office Worker,Philadelphia,2025-01-16,2025-10-16,592,12.0,treatment
+679,Daily Commuter,Miami,2025-08-17,2026-07-17,379,12.0,treatment
+680,Office Worker,Denver,2024-10-25,2024-11-24,675,12.0,treatment
+681,Daily Commuter,Boston,2025-04-08,2025-05-08,510,12.0,treatment
+682,Daily Commuter,Chicago,2026-06-28,2026-08-31,64,12.0,treatment
+683,Daily Commuter,Atlanta,2025-03-27,2026-08-31,522,12.0,treatment
+684,Office Worker,Atlanta,2026-05-17,2026-08-31,106,12.0,control
+685,Weekend Social,New York,2025-09-15,2026-08-31,350,15.0,treatment
+686,Office Worker,Boston,2025-12-03,2026-08-31,271,12.0,treatment
+687,Office Worker,Portland,2026-01-05,2026-08-31,238,12.0,treatment
+688,One-Time,Seattle,2025-09-21,2025-10-21,344,18.0,control
+689,Weekend Social,Philadelphia,2024-09-24,2024-10-24,706,15.0,treatment
+690,Weekend Social,Washington DC,2026-06-05,2026-08-31,87,15.0,treatment
+691,Daily Commuter,Miami,2025-07-29,2026-08-31,398,12.0,treatment
+692,Occasional,Seattle,2025-12-02,2026-03-03,272,15.0,treatment
+693,Daily Commuter,Atlanta,2025-09-22,2026-08-31,343,12.0,control
+694,Office Worker,Washington DC,2025-12-04,2026-07-05,270,12.0,treatment
+695,Occasional,Seattle,2025-05-06,2025-07-05,482,15.0,treatment
+696,Weekend Social,Dallas,2026-04-13,2026-08-31,140,15.0,treatment
+697,Weekend Social,Dallas,2025-02-04,2026-08-31,573,15.0,treatment
+698,Weekend Social,New York,2025-12-01,2026-04-01,273,15.0,treatment
+699,Weekend Social,Chicago,2025-10-09,2025-11-08,326,15.0,treatment
+700,Daily Commuter,Austin,2025-08-18,2026-08-31,378,12.0,treatment
+701,Daily Commuter,Washington DC,2024-09-15,2026-08-31,715,12.0,treatment
+702,Office Worker,Austin,2025-05-30,2026-08-31,458,12.0,treatment
+703,Daily Commuter,Atlanta,2024-10-03,2026-08-31,697,12.0,treatment
+704,Occasional,Miami,2025-08-18,2026-05-18,378,15.0,treatment
+705,Daily Commuter,Atlanta,2025-12-25,2026-08-31,249,12.0,treatment
+706,Weekend Social,Miami,2025-08-31,2025-12-30,365,15.0,control
+707,Occasional,Austin,2026-02-11,2026-04-12,201,15.0,control
+708,Occasional,Seattle,2025-05-10,2025-06-09,478,15.0,control
+709,Office Worker,Los Angeles,2025-04-02,2025-12-01,516,12.0,treatment
+710,Office Worker,Seattle,2025-07-10,2026-08-31,417,12.0,treatment
+711,One-Time,Dallas,2025-02-07,2025-03-09,570,18.0,control
+712,Weekend Social,Austin,2026-03-15,2026-05-14,169,15.0,treatment
+713,Occasional,Seattle,2026-03-20,2026-04-19,164,15.0,treatment
+714,Occasional,New York,2025-06-18,2025-08-17,439,15.0,control
+715,Occasional,Chicago,2026-03-08,2026-08-31,176,15.0,treatment
+716,Daily Commuter,Chicago,2024-09-17,2025-12-17,713,12.0,treatment
+717,Weekend Social,Atlanta,2024-12-17,2025-03-18,622,15.0,treatment
+718,Daily Commuter,Denver,2025-03-17,2025-06-16,532,12.0,treatment
+719,Weekend Social,Boston,2025-05-29,2025-06-28,459,15.0,treatment
+720,One-Time,Los Angeles,2025-02-09,2025-04-10,568,18.0,treatment
+721,Office Worker,Portland,2025-08-24,2025-12-23,372,12.0,treatment
+722,Office Worker,Dallas,2026-03-09,2026-05-08,175,12.0,treatment
+723,Daily Commuter,Miami,2025-07-16,2026-08-31,411,12.0,treatment
+724,One-Time,Dallas,2025-07-11,2025-08-10,416,18.0,treatment
+725,Daily Commuter,Washington DC,2024-10-11,2026-08-31,689,12.0,treatment
+726,Daily Commuter,Dallas,2025-03-15,2025-07-14,534,12.0,control
+727,Daily Commuter,Portland,2026-03-19,2026-08-31,165,12.0,treatment
+728,Daily Commuter,Seattle,2026-03-21,2026-06-20,163,12.0,control
+729,Office Worker,San Francisco,2024-11-11,2025-01-10,658,12.0,treatment
+730,Office Worker,Boston,2024-09-13,2024-10-13,717,12.0,treatment
+731,Office Worker,Portland,2026-04-04,2026-08-31,149,12.0,treatment
+732,Daily Commuter,Dallas,2024-12-30,2025-06-30,609,12.0,treatment
+733,Daily Commuter,Miami,2025-10-07,2026-08-31,328,12.0,treatment
+734,Office Worker,Boston,2026-04-01,2026-05-31,152,12.0,treatment
+735,Daily Commuter,Dallas,2026-03-05,2026-08-31,179,12.0,treatment
+736,Weekend Social,Portland,2025-09-20,2026-08-31,345,15.0,control
+737,Daily Commuter,Dallas,2025-05-21,2025-10-20,467,12.0,treatment
+738,Office Worker,Miami,2026-02-23,2026-07-25,189,12.0,control
+739,Office Worker,Portland,2025-12-30,2026-08-31,244,12.0,treatment
+740,Office Worker,San Francisco,2026-04-09,2026-08-31,144,12.0,control
+741,Daily Commuter,Boston,2025-08-25,2026-08-31,371,12.0,treatment
+742,Daily Commuter,Chicago,2026-06-21,2026-08-31,71,12.0,treatment
+743,Occasional,Chicago,2026-02-20,2026-08-21,192,15.0,treatment
+744,Daily Commuter,Portland,2024-10-14,2026-05-15,686,12.0,control
+745,Office Worker,Boston,2025-03-24,2025-06-23,525,12.0,treatment
+746,Office Worker,New York,2026-03-13,2026-08-31,171,12.0,treatment
+747,Office Worker,Seattle,2024-11-20,2024-12-20,649,12.0,control
+748,Office Worker,Washington DC,2026-01-09,2026-05-10,234,12.0,treatment
+749,Occasional,Denver,2025-04-26,2025-09-25,492,15.0,treatment
+750,Occasional,Miami,2025-01-22,2025-05-23,586,15.0,treatment
+751,Daily Commuter,Washington DC,2025-09-12,2026-08-31,353,12.0,treatment
+752,Office Worker,New York,2026-06-14,2026-08-13,78,12.0,treatment
+753,Daily Commuter,Philadelphia,2026-05-21,2026-08-31,102,12.0,treatment
+754,Office Worker,Portland,2025-06-09,2025-10-08,448,12.0,treatment
+755,Weekend Social,Miami,2024-09-02,2025-08-02,728,15.0,treatment
+756,Daily Commuter,Denver,2026-05-14,2026-06-13,109,12.0,treatment
+757,Office Worker,Portland,2026-05-21,2026-08-31,102,12.0,control
+758,Occasional,Los Angeles,2025-10-28,2026-02-26,307,15.0,treatment
+759,Daily Commuter,San Francisco,2025-11-13,2026-08-31,291,12.0,treatment
+760,Office Worker,Philadelphia,2025-09-03,2026-08-31,362,12.0,treatment
+761,Weekend Social,Chicago,2024-09-08,2026-08-31,722,15.0,treatment
+762,Daily Commuter,Austin,2024-12-20,2025-08-20,619,12.0,treatment
+763,Daily Commuter,Philadelphia,2024-12-09,2026-08-31,630,12.0,treatment
+764,Daily Commuter,Miami,2026-06-02,2026-08-31,90,12.0,treatment
+765,Occasional,San Francisco,2024-10-04,2024-11-03,696,15.0,treatment
+766,Daily Commuter,Dallas,2025-09-24,2026-08-31,341,12.0,control
+767,Daily Commuter,Dallas,2025-05-11,2026-08-31,477,12.0,treatment
+768,Daily Commuter,Atlanta,2024-09-04,2026-08-31,726,12.0,treatment
+769,Daily Commuter,New York,2026-06-05,2026-08-31,87,12.0,treatment
+770,Weekend Social,Denver,2024-09-12,2025-05-13,718,15.0,treatment
+771,Daily Commuter,Denver,2026-04-22,2026-08-31,131,12.0,treatment
+772,Weekend Social,Los Angeles,2026-02-26,2026-06-27,186,15.0,control
+773,Weekend Social,Boston,2026-03-09,2026-08-31,175,15.0,treatment
+774,Occasional,Los Angeles,2024-12-22,2025-01-21,617,15.0,treatment
+775,Daily Commuter,Portland,2026-05-09,2026-08-31,114,12.0,treatment
+776,Occasional,Denver,2025-10-24,2026-08-31,311,15.0,treatment
+777,Weekend Social,Austin,2025-06-08,2025-09-07,449,15.0,control
+778,Daily Commuter,Denver,2025-12-20,2026-08-31,254,12.0,treatment
+779,Occasional,Portland,2025-04-27,2025-08-26,491,15.0,treatment
+780,Occasional,Austin,2025-03-14,2026-08-31,535,15.0,treatment
+781,Daily Commuter,Los Angeles,2025-03-20,2025-06-19,529,12.0,control
+782,Occasional,Denver,2025-10-03,2025-12-02,332,15.0,control
+783,Office Worker,Austin,2025-10-25,2026-08-31,310,12.0,treatment
+784,Weekend Social,Miami,2025-02-15,2025-03-17,562,15.0,treatment
+785,One-Time,Chicago,2025-02-18,2025-03-20,559,18.0,treatment
+786,Office Worker,Dallas,2026-06-24,2026-08-31,68,12.0,treatment
+787,Occasional,Los Angeles,2025-08-26,2025-09-25,370,15.0,treatment
+788,Office Worker,Philadelphia,2026-04-25,2026-08-31,128,12.0,treatment
+789,Occasional,Portland,2025-04-19,2026-02-17,499,15.0,treatment
+790,Weekend Social,San Francisco,2025-03-20,2025-05-19,529,15.0,treatment
+791,Daily Commuter,Los Angeles,2025-03-16,2025-05-15,533,12.0,treatment
+792,Office Worker,Washington DC,2025-09-05,2026-04-06,360,12.0,treatment
+793,Office Worker,Atlanta,2026-02-27,2026-08-31,185,12.0,treatment
+794,Daily Commuter,Dallas,2025-08-16,2026-03-17,380,12.0,treatment
+795,Daily Commuter,Dallas,2025-03-25,2026-08-31,524,12.0,control
+796,Office Worker,Seattle,2026-07-04,2026-08-31,58,12.0,control
+797,Daily Commuter,Portland,2025-10-05,2026-07-05,330,12.0,treatment
+798,Daily Commuter,San Francisco,2025-06-02,2026-08-31,455,12.0,treatment
+799,Weekend Social,Washington DC,2024-09-06,2025-01-05,724,15.0,treatment
+800,Weekend Social,Chicago,2025-09-28,2025-12-28,337,15.0,treatment
+801,Weekend Social,Seattle,2025-11-08,2026-08-08,296,15.0,treatment
+802,Office Worker,Portland,2026-06-12,2026-08-31,80,12.0,control
+803,Occasional,Atlanta,2025-02-08,2025-05-10,569,15.0,treatment
+804,Weekend Social,Atlanta,2024-12-22,2026-08-31,617,15.0,treatment
+805,Daily Commuter,Chicago,2026-07-31,2026-08-31,31,12.0,treatment
+806,Daily Commuter,Denver,2025-09-20,2026-08-31,345,12.0,treatment
+807,Weekend Social,Philadelphia,2024-09-18,2025-02-17,712,15.0,treatment
+808,Daily Commuter,Austin,2024-11-12,2025-04-13,657,12.0,treatment
+809,Office Worker,Philadelphia,2025-07-29,2025-08-28,398,12.0,control
+810,One-Time,San Francisco,2025-11-06,2026-01-05,298,18.0,treatment
+811,Daily Commuter,Washington DC,2025-02-17,2025-12-18,560,12.0,treatment
+812,Daily Commuter,Boston,2025-05-13,2026-08-31,475,12.0,treatment
+813,One-Time,Philadelphia,2026-01-28,2026-02-27,215,18.0,treatment
+814,Weekend Social,Washington DC,2026-07-09,2026-08-08,53,15.0,treatment
+815,Daily Commuter,Los Angeles,2025-08-09,2026-08-31,387,12.0,treatment
+816,Occasional,Philadelphia,2025-06-17,2026-04-17,440,15.0,treatment
+817,Occasional,Miami,2025-05-10,2025-10-09,478,15.0,control
+818,Weekend Social,Austin,2024-12-04,2026-06-04,635,15.0,treatment
+819,Weekend Social,Miami,2024-10-06,2025-05-07,694,15.0,control
+820,Daily Commuter,Chicago,2026-04-06,2026-08-31,147,12.0,treatment
+821,Daily Commuter,Philadelphia,2024-09-25,2025-10-25,705,12.0,control
+822,Weekend Social,New York,2026-03-28,2026-08-31,156,15.0,treatment
+823,Daily Commuter,Dallas,2025-02-20,2026-08-31,557,12.0,treatment
+824,Weekend Social,Los Angeles,2025-12-30,2026-02-28,244,15.0,treatment
+825,Occasional,Austin,2026-06-28,2026-08-31,64,15.0,treatment
+826,Daily Commuter,Boston,2026-02-06,2026-04-07,206,12.0,treatment
+827,Weekend Social,Chicago,2026-01-23,2026-02-22,220,15.0,treatment
+828,Daily Commuter,Chicago,2025-03-04,2025-11-02,545,12.0,treatment
+829,Occasional,San Francisco,2025-10-23,2026-04-23,312,15.0,treatment
+830,Daily Commuter,Washington DC,2025-11-23,2026-03-24,281,12.0,treatment
+831,Weekend Social,Austin,2025-06-24,2026-08-31,433,15.0,treatment
+832,Weekend Social,Portland,2024-09-26,2025-10-26,704,15.0,treatment
+833,Office Worker,Miami,2026-05-31,2026-08-30,92,12.0,treatment
+834,Weekend Social,Boston,2025-01-15,2025-04-16,593,15.0,treatment
+835,Weekend Social,Washington DC,2026-07-13,2026-08-31,49,15.0,control
+836,Weekend Social,Chicago,2026-06-14,2026-08-31,78,15.0,treatment
+837,Weekend Social,Philadelphia,2024-09-13,2025-10-13,717,15.0,treatment
+838,One-Time,Boston,2026-01-30,2026-03-01,213,18.0,treatment
+839,Office Worker,San Francisco,2025-11-17,2026-03-18,287,12.0,treatment
+840,Office Worker,Denver,2025-02-08,2025-10-09,569,12.0,treatment
+841,Daily Commuter,Austin,2026-03-22,2026-04-21,162,12.0,treatment
+842,Occasional,Portland,2024-11-16,2026-01-16,653,15.0,treatment
+843,Weekend Social,Austin,2025-02-21,2025-04-22,556,15.0,control
+844,Office Worker,New York,2026-06-26,2026-08-31,66,12.0,treatment
+845,Daily Commuter,Los Angeles,2026-02-01,2026-08-31,211,12.0,treatment
+846,Occasional,Dallas,2024-11-17,2025-02-16,652,15.0,treatment
+847,Office Worker,Philadelphia,2024-12-09,2026-08-31,630,12.0,treatment
+848,Weekend Social,New York,2025-02-26,2025-07-28,551,15.0,treatment
+849,Daily Commuter,Washington DC,2024-10-19,2025-09-18,681,12.0,treatment
+850,One-Time,Chicago,2025-01-05,2025-02-04,603,18.0,treatment
+851,Daily Commuter,Philadelphia,2025-10-05,2026-08-31,330,12.0,treatment
+852,Daily Commuter,Philadelphia,2024-09-05,2026-08-31,725,12.0,treatment
+853,Occasional,Miami,2025-03-20,2025-04-19,529,15.0,treatment
+854,Occasional,Los Angeles,2025-04-07,2025-07-07,511,15.0,treatment
+855,Daily Commuter,Dallas,2026-07-11,2026-08-31,51,12.0,treatment
+856,Office Worker,New York,2026-07-13,2026-08-31,49,12.0,treatment
+857,Weekend Social,San Francisco,2026-04-14,2026-08-13,139,15.0,treatment
+858,Occasional,Miami,2025-04-27,2025-07-27,491,15.0,treatment
+859,Office Worker,Seattle,2025-09-04,2026-04-05,361,12.0,control
+860,Office Worker,Boston,2025-08-19,2026-08-31,377,12.0,treatment
+861,Weekend Social,Dallas,2026-04-25,2026-08-31,128,15.0,treatment
+862,Weekend Social,New York,2026-02-04,2026-05-06,208,15.0,control
+863,Occasional,Boston,2026-05-27,2026-06-26,96,15.0,control
+864,Weekend Social,Seattle,2025-09-20,2025-10-20,345,15.0,treatment
+865,Daily Commuter,Portland,2026-06-05,2026-08-31,87,12.0,treatment
+866,Occasional,New York,2026-02-02,2026-06-03,210,15.0,treatment
+867,Occasional,Chicago,2026-01-30,2026-05-31,213,15.0,control
+868,Occasional,Atlanta,2025-12-07,2026-03-08,267,15.0,treatment
+869,Daily Commuter,Chicago,2025-04-22,2026-08-31,496,12.0,treatment
+870,Daily Commuter,Chicago,2025-10-30,2026-08-31,305,12.0,treatment
+871,Weekend Social,Dallas,2025-05-07,2026-08-31,481,15.0,control
+872,Daily Commuter,Austin,2025-11-28,2026-03-29,276,12.0,treatment
+873,One-Time,New York,2025-02-25,2025-03-27,552,18.0,treatment
+874,Office Worker,Washington DC,2026-03-13,2026-08-31,171,12.0,control
+875,Weekend Social,Denver,2025-10-04,2025-12-03,331,15.0,treatment
+876,Occasional,Los Angeles,2026-01-10,2026-07-11,233,15.0,treatment
+877,Office Worker,Washington DC,2025-02-02,2025-04-03,575,12.0,treatment
+878,Office Worker,San Francisco,2026-03-08,2026-08-31,176,12.0,treatment
+879,Weekend Social,San Francisco,2026-03-15,2026-04-14,169,15.0,treatment
+880,Weekend Social,Los Angeles,2024-12-10,2025-04-10,629,15.0,treatment
+881,Office Worker,Washington DC,2025-05-03,2025-10-02,485,12.0,treatment
+882,Weekend Social,San Francisco,2025-12-18,2026-08-31,256,15.0,treatment
+883,Occasional,Miami,2026-05-04,2026-06-03,119,15.0,treatment
+884,Office Worker,Chicago,2026-01-28,2026-08-31,215,12.0,control
+885,Daily Commuter,Washington DC,2025-07-27,2026-03-27,400,12.0,treatment
+886,Office Worker,Dallas,2025-03-28,2026-03-28,521,12.0,control
+887,Office Worker,Atlanta,2026-05-29,2026-08-31,94,12.0,treatment
+888,Daily Commuter,San Francisco,2026-05-05,2026-08-31,118,12.0,treatment
+889,Daily Commuter,Portland,2026-05-20,2026-08-31,103,12.0,treatment
+890,Weekend Social,Denver,2025-04-01,2026-08-31,517,15.0,control
+891,Office Worker,Philadelphia,2025-07-02,2025-08-31,425,12.0,treatment
+892,One-Time,Portland,2025-02-17,2025-10-18,560,18.0,treatment
+893,Daily Commuter,Seattle,2026-06-30,2026-08-31,62,12.0,treatment
+894,Daily Commuter,Dallas,2026-04-29,2026-08-31,124,12.0,treatment
+895,Weekend Social,Los Angeles,2024-12-30,2026-08-31,609,15.0,treatment
+896,Occasional,San Francisco,2025-02-19,2025-06-20,558,15.0,treatment
+897,Daily Commuter,Denver,2025-09-21,2026-08-31,344,12.0,treatment
+898,Daily Commuter,Los Angeles,2025-06-17,2025-07-17,440,12.0,control
+899,Daily Commuter,Philadelphia,2025-07-18,2026-08-31,409,12.0,treatment
+900,Weekend Social,Philadelphia,2025-05-15,2025-11-13,473,15.0,treatment
+901,Office Worker,Los Angeles,2025-12-15,2026-08-31,259,12.0,treatment
+902,Daily Commuter,San Francisco,2026-05-21,2026-08-31,102,12.0,control
+903,Daily Commuter,Boston,2026-06-04,2026-08-31,88,12.0,treatment
+904,Office Worker,Portland,2025-07-15,2025-10-14,412,12.0,treatment
+905,One-Time,Miami,2026-04-02,2026-05-02,151,18.0,treatment
+906,Weekend Social,Portland,2025-12-30,2026-08-31,244,15.0,treatment
+907,Office Worker,Seattle,2025-01-15,2026-06-16,593,12.0,treatment
+908,Daily Commuter,Atlanta,2026-03-09,2026-04-08,175,12.0,treatment
+909,Daily Commuter,Los Angeles,2025-05-03,2025-07-02,485,12.0,treatment
+910,Daily Commuter,Chicago,2025-11-13,2026-08-31,291,12.0,treatment
+911,Weekend Social,Austin,2026-01-17,2026-08-31,226,15.0,control
+912,Occasional,New York,2026-06-22,2026-08-31,70,15.0,control
+913,Occasional,Seattle,2026-06-25,2026-08-24,67,15.0,treatment
+914,One-Time,Denver,2026-03-15,2026-04-14,169,18.0,treatment
+915,One-Time,Austin,2025-08-20,2025-09-19,376,18.0,treatment
+916,One-Time,Atlanta,2025-06-07,2025-08-06,450,18.0,treatment
+917,Daily Commuter,Los Angeles,2025-07-05,2026-08-31,422,12.0,treatment
+918,Daily Commuter,Austin,2026-06-27,2026-08-31,65,12.0,treatment
+919,Office Worker,Boston,2025-01-21,2025-11-21,587,12.0,treatment
+920,Weekend Social,Portland,2025-09-02,2026-02-01,363,15.0,treatment
+921,Daily Commuter,Los Angeles,2025-12-19,2026-03-20,255,12.0,treatment
+922,Occasional,Washington DC,2024-09-15,2024-12-15,715,15.0,treatment
+923,Weekend Social,Chicago,2025-11-18,2026-06-19,286,15.0,treatment
+924,Weekend Social,Philadelphia,2025-03-01,2025-05-31,548,15.0,treatment
+925,Daily Commuter,Boston,2025-03-15,2026-08-31,534,12.0,treatment
+926,Daily Commuter,Austin,2025-11-09,2026-08-31,295,12.0,treatment
+927,Daily Commuter,Atlanta,2024-09-06,2025-01-05,724,12.0,treatment
+928,Occasional,New York,2024-12-18,2025-12-18,621,15.0,treatment
+929,Weekend Social,New York,2025-07-15,2026-04-14,412,15.0,control
+930,Weekend Social,Boston,2025-10-13,2026-02-11,322,15.0,treatment
+931,Daily Commuter,Los Angeles,2024-11-15,2026-08-31,654,12.0,control
+932,Office Worker,Miami,2025-05-11,2026-02-08,477,12.0,treatment
+933,Office Worker,New York,2025-04-03,2026-08-31,515,12.0,treatment
+934,Weekend Social,Miami,2025-09-09,2026-07-10,356,15.0,treatment
+935,Occasional,Los Angeles,2025-03-29,2025-05-28,520,15.0,treatment
+936,Daily Commuter,Los Angeles,2024-09-01,2026-08-31,729,12.0,treatment
+937,Occasional,Boston,2025-09-06,2025-11-05,359,15.0,treatment
+938,Daily Commuter,Miami,2026-04-16,2026-08-31,137,12.0,control
+939,Occasional,Boston,2025-10-14,2026-01-13,321,15.0,treatment
+940,Daily Commuter,San Francisco,2025-05-11,2026-05-11,477,12.0,control
+941,Daily Commuter,San Francisco,2025-08-03,2026-08-31,393,12.0,treatment
+942,Occasional,San Francisco,2024-12-07,2025-07-08,632,15.0,treatment
+943,Daily Commuter,Boston,2025-02-12,2026-04-14,565,12.0,treatment
+944,Office Worker,Dallas,2025-07-03,2026-05-03,424,12.0,treatment
+945,Office Worker,Miami,2025-10-19,2025-12-18,316,12.0,treatment
+946,Daily Commuter,Boston,2025-08-06,2026-08-31,390,12.0,control
+947,Weekend Social,Austin,2026-07-06,2026-08-31,56,15.0,control
+948,Occasional,Atlanta,2025-11-20,2026-01-19,284,15.0,treatment
+949,Occasional,Philadelphia,2024-09-16,2024-11-15,714,15.0,treatment
+950,Office Worker,Atlanta,2025-09-02,2026-08-02,363,12.0,treatment
+951,Weekend Social,Chicago,2025-10-12,2026-08-31,323,15.0,treatment
+952,Daily Commuter,Atlanta,2024-09-30,2026-01-30,700,12.0,treatment
+953,Daily Commuter,Austin,2025-05-27,2025-07-26,461,12.0,treatment
+954,Daily Commuter,Los Angeles,2026-05-03,2026-08-31,120,12.0,treatment
+955,Occasional,Los Angeles,2025-05-07,2025-07-06,481,15.0,treatment
+956,Occasional,Miami,2025-07-16,2025-10-15,411,15.0,treatment
+957,Occasional,Washington DC,2025-02-01,2026-04-03,576,15.0,treatment
+958,Office Worker,San Francisco,2024-10-23,2026-08-31,677,12.0,control
+959,Office Worker,Atlanta,2025-04-10,2026-04-10,508,12.0,treatment
+960,Weekend Social,Portland,2026-02-22,2026-08-31,190,15.0,treatment
+961,Weekend Social,Portland,2026-07-20,2026-08-31,42,15.0,treatment
+962,Office Worker,Los Angeles,2025-12-06,2026-05-07,268,12.0,control
+963,Daily Commuter,Boston,2026-04-04,2026-08-31,149,12.0,treatment
+964,Daily Commuter,Philadelphia,2025-11-28,2026-08-28,276,12.0,treatment
+965,One-Time,Washington DC,2025-12-05,2026-02-03,269,18.0,treatment
+966,Office Worker,Austin,2025-06-25,2026-01-24,432,12.0,treatment
+967,One-Time,Seattle,2024-10-12,2024-11-11,688,18.0,treatment
+968,Daily Commuter,Boston,2025-06-14,2026-08-31,443,12.0,treatment
+969,Weekend Social,Seattle,2026-04-28,2026-06-27,125,15.0,control
+970,Daily Commuter,San Francisco,2025-09-10,2026-08-31,355,12.0,treatment
+971,Daily Commuter,Washington DC,2026-02-15,2026-03-17,197,12.0,treatment
+972,Daily Commuter,Boston,2024-10-05,2026-02-04,695,12.0,treatment
+973,Daily Commuter,Los Angeles,2025-01-18,2026-08-31,590,12.0,treatment
+974,Occasional,Austin,2025-03-28,2025-11-26,521,15.0,treatment
+975,Office Worker,Austin,2025-05-09,2026-04-08,479,12.0,treatment
+976,Weekend Social,Portland,2026-07-23,2026-08-31,39,15.0,treatment
+977,Office Worker,Dallas,2025-07-20,2025-11-18,407,12.0,control
+978,Office Worker,Portland,2025-12-07,2026-03-08,267,12.0,control
+979,Weekend Social,Miami,2025-11-25,2025-12-25,279,15.0,treatment
+980,Daily Commuter,Washington DC,2025-06-20,2026-03-20,437,12.0,treatment
+981,One-Time,San Francisco,2026-07-08,2026-08-07,54,18.0,control
+982,Occasional,Denver,2025-02-02,2025-08-03,575,15.0,treatment
+983,Weekend Social,Atlanta,2024-09-24,2024-10-24,706,15.0,treatment
+984,Office Worker,Portland,2026-02-03,2026-08-31,209,12.0,treatment
+985,Daily Commuter,Denver,2025-12-01,2026-06-01,273,12.0,control
+986,Occasional,Denver,2025-03-01,2025-11-29,548,15.0,treatment
+987,Office Worker,Los Angeles,2026-04-30,2026-08-31,123,12.0,treatment
+988,Daily Commuter,Miami,2024-12-22,2025-06-22,617,12.0,treatment
+989,Office Worker,New York,2025-02-22,2026-05-24,555,12.0,treatment
+990,Occasional,Denver,2024-12-17,2026-06-17,622,15.0,treatment
+991,Weekend Social,Boston,2025-01-08,2025-07-09,600,15.0,treatment
+992,Weekend Social,Austin,2026-01-23,2026-05-24,220,15.0,treatment
+993,Occasional,Denver,2026-01-05,2026-07-06,238,15.0,control
+994,Daily Commuter,Seattle,2025-11-23,2026-08-31,281,12.0,treatment
+995,Occasional,Atlanta,2026-04-25,2026-08-24,128,15.0,control
+996,Office Worker,Chicago,2024-10-18,2024-11-17,682,12.0,treatment
+997,Weekend Social,Boston,2025-11-08,2025-12-08,296,15.0,treatment
+998,Daily Commuter,San Francisco,2024-11-19,2026-08-31,650,12.0,treatment
+999,One-Time,Los Angeles,2026-06-30,2026-07-30,62,18.0,treatment
+1000,Daily Commuter,Philadelphia,2025-11-17,2026-08-17,287,12.0,treatment
+1001,Daily Commuter,Chicago,2026-02-13,2026-08-31,199,12.0,treatment
+1002,Office Worker,Atlanta,2025-10-04,2026-08-31,331,12.0,control
+1003,Daily Commuter,Dallas,2025-05-26,2025-06-25,462,12.0,treatment
+1004,Daily Commuter,Boston,2025-12-24,2026-03-25,250,12.0,control
+1005,Weekend Social,Philadelphia,2026-04-08,2026-08-31,145,15.0,treatment
+1006,Office Worker,Boston,2025-01-02,2026-08-31,606,12.0,treatment
+1007,Occasional,Philadelphia,2026-05-03,2026-07-02,120,15.0,treatment
+1008,Office Worker,Denver,2026-01-21,2026-08-31,222,12.0,treatment
+1009,Weekend Social,Seattle,2024-10-30,2024-11-29,670,15.0,treatment
+1010,Office Worker,Washington DC,2026-06-17,2026-08-31,75,12.0,treatment
+1011,Weekend Social,Washington DC,2025-01-04,2025-06-05,604,15.0,treatment
+1012,Weekend Social,Philadelphia,2025-10-25,2026-08-31,310,15.0,treatment
+1013,Office Worker,New York,2024-11-29,2025-04-30,640,12.0,treatment
+1014,One-Time,Dallas,2025-01-15,2025-03-16,593,18.0,control
+1015,Office Worker,San Francisco,2025-11-24,2026-01-23,280,12.0,treatment
+1016,Daily Commuter,Dallas,2025-12-19,2026-08-31,255,12.0,treatment
+1017,Weekend Social,Philadelphia,2025-12-24,2026-02-22,250,15.0,treatment
+1018,Occasional,Los Angeles,2025-04-28,2026-01-26,490,15.0,treatment
+1019,Daily Commuter,Boston,2026-03-28,2026-08-31,156,12.0,control
+1020,Office Worker,Chicago,2024-10-04,2026-08-31,696,12.0,control
+1021,Occasional,San Francisco,2026-04-21,2026-05-21,132,15.0,treatment
+1022,Weekend Social,Miami,2025-03-30,2026-01-28,519,15.0,treatment
+1023,One-Time,Boston,2025-11-08,2026-02-07,296,18.0,control
+1024,Weekend Social,Portland,2026-05-26,2026-08-31,97,15.0,treatment
+1025,Weekend Social,Portland,2025-02-25,2026-08-31,552,15.0,treatment
+1026,Office Worker,Los Angeles,2025-06-14,2025-09-13,443,12.0,treatment
+1027,Occasional,Seattle,2026-04-02,2026-06-01,151,15.0,treatment
+1028,Office Worker,Austin,2026-04-28,2026-08-31,125,12.0,treatment
+1029,Weekend Social,Los Angeles,2025-02-11,2025-10-12,566,15.0,treatment
+1030,Office Worker,Los Angeles,2025-08-22,2026-03-23,374,12.0,control
+1031,Weekend Social,Miami,2025-04-21,2025-05-21,497,15.0,treatment
+1032,Weekend Social,Chicago,2025-08-27,2026-06-27,369,15.0,control
+1033,Office Worker,Los Angeles,2025-05-23,2025-12-22,465,12.0,treatment
+1034,Occasional,San Francisco,2024-09-03,2025-11-03,727,15.0,treatment
+1035,Office Worker,Atlanta,2026-06-09,2026-08-31,83,12.0,treatment
+1036,Weekend Social,Dallas,2025-11-19,2026-08-31,285,15.0,treatment
+1037,Office Worker,Philadelphia,2025-07-20,2026-06-19,407,12.0,control
+1038,Office Worker,Austin,2024-11-14,2026-08-31,655,12.0,treatment
+1039,Office Worker,Washington DC,2024-10-19,2025-02-17,681,12.0,control
+1040,Daily Commuter,Atlanta,2025-08-01,2025-10-31,395,12.0,treatment
+1041,Daily Commuter,Boston,2025-11-28,2026-03-29,276,12.0,treatment
+1042,Weekend Social,Dallas,2025-03-01,2025-03-31,548,15.0,treatment
+1043,Weekend Social,San Francisco,2026-02-03,2026-08-31,209,15.0,treatment
+1044,Weekend Social,Dallas,2025-06-01,2025-09-30,456,15.0,treatment
+1045,Daily Commuter,Philadelphia,2024-09-07,2026-08-31,723,12.0,treatment
+1046,Office Worker,Boston,2025-09-10,2026-08-10,355,12.0,treatment
+1047,Daily Commuter,Miami,2025-01-04,2026-08-31,604,12.0,treatment
+1048,Occasional,Austin,2024-09-10,2024-11-09,720,15.0,treatment
+1049,Occasional,Austin,2024-11-30,2025-01-29,639,15.0,treatment
+1050,Daily Commuter,Los Angeles,2025-03-18,2026-08-31,531,12.0,treatment
+1051,Weekend Social,Philadelphia,2025-08-26,2025-09-25,370,15.0,treatment
+1052,Daily Commuter,Atlanta,2026-07-24,2026-08-31,38,12.0,treatment
+1053,Daily Commuter,Seattle,2025-01-30,2025-03-01,578,12.0,treatment
+1054,Daily Commuter,New York,2024-10-10,2026-07-11,690,12.0,treatment
+1055,Daily Commuter,Austin,2025-01-11,2026-08-31,597,12.0,treatment
+1056,Weekend Social,Boston,2025-04-11,2026-08-31,507,15.0,treatment
+1057,Occasional,New York,2025-01-21,2025-03-22,587,15.0,treatment
+1058,Daily Commuter,Atlanta,2025-04-12,2026-08-12,506,12.0,treatment
+1059,Weekend Social,Miami,2026-07-10,2026-08-31,52,15.0,treatment
+1060,Weekend Social,New York,2025-05-23,2025-07-22,465,15.0,treatment
+1061,One-Time,San Francisco,2025-11-18,2026-01-17,286,18.0,treatment
+1062,Weekend Social,Denver,2025-12-23,2026-08-31,251,15.0,treatment
+1063,Daily Commuter,Austin,2024-11-30,2026-08-31,639,12.0,treatment
+1064,Weekend Social,Portland,2025-02-20,2025-06-21,557,15.0,treatment
+1065,Office Worker,New York,2025-06-18,2025-10-17,439,12.0,control
+1066,One-Time,Miami,2025-07-19,2025-08-18,408,18.0,treatment
+1067,Office Worker,Washington DC,2024-09-09,2024-10-09,721,12.0,treatment
+1068,Weekend Social,Seattle,2025-11-25,2026-08-31,279,15.0,control
+1069,Daily Commuter,Philadelphia,2025-03-29,2025-04-28,520,12.0,control
+1070,Office Worker,New York,2025-04-13,2025-11-12,505,12.0,treatment
+1071,Occasional,Miami,2025-10-27,2026-01-26,308,15.0,control
+1072,Weekend Social,San Francisco,2026-06-26,2026-08-31,66,15.0,treatment
+1073,Office Worker,Austin,2026-04-28,2026-08-31,125,12.0,treatment
+1074,Occasional,Dallas,2026-07-17,2026-08-16,45,15.0,treatment
+1075,Occasional,Dallas,2025-06-16,2025-07-16,441,15.0,treatment
+1076,Office Worker,Washington DC,2024-11-22,2026-06-23,647,12.0,treatment
+1077,Weekend Social,Dallas,2025-01-29,2026-04-30,579,15.0,treatment
+1078,Office Worker,San Francisco,2025-04-28,2026-08-31,490,12.0,treatment
+1079,Weekend Social,Denver,2025-03-29,2026-04-28,520,15.0,treatment
+1080,Office Worker,Austin,2025-01-23,2025-06-24,585,12.0,treatment
+1081,Daily Commuter,Los Angeles,2024-12-14,2026-08-31,625,12.0,treatment
+1082,Occasional,Miami,2025-01-08,2025-10-08,600,15.0,control
+1083,Occasional,Atlanta,2025-12-04,2026-08-04,270,15.0,treatment
+1084,Occasional,Philadelphia,2025-08-09,2025-09-08,387,15.0,treatment
+1085,One-Time,Seattle,2024-09-26,2024-10-26,704,18.0,treatment
+1086,Weekend Social,New York,2025-09-29,2025-11-28,336,15.0,treatment
+1087,Weekend Social,Seattle,2026-04-12,2026-08-31,141,15.0,treatment
+1088,Weekend Social,Atlanta,2025-06-24,2026-02-22,433,15.0,treatment
+1089,Office Worker,Atlanta,2025-04-11,2025-10-10,507,12.0,treatment
+1090,Office Worker,Miami,2025-03-09,2025-06-08,540,12.0,treatment
+1091,Daily Commuter,Chicago,2025-05-23,2025-08-22,465,12.0,treatment
+1092,Weekend Social,San Francisco,2025-03-14,2026-03-14,535,15.0,treatment
+1093,Daily Commuter,Boston,2026-06-08,2026-08-31,84,12.0,treatment
+1094,Daily Commuter,Seattle,2026-07-26,2026-08-31,36,12.0,treatment
+1095,Weekend Social,Austin,2025-04-28,2025-07-28,490,15.0,control
+1096,Office Worker,Seattle,2026-06-08,2026-08-31,84,12.0,treatment
+1097,Daily Commuter,Portland,2026-04-20,2026-05-20,133,12.0,treatment
+1098,Occasional,Denver,2024-10-23,2025-01-22,677,15.0,control
+1099,Occasional,Philadelphia,2025-08-09,2025-11-08,387,15.0,treatment
+1100,Daily Commuter,Portland,2025-12-03,2026-08-31,271,12.0,control
+1101,Daily Commuter,Denver,2025-06-22,2026-05-22,435,12.0,treatment
+1102,Office Worker,Portland,2025-07-16,2025-10-15,411,12.0,treatment
+1103,Occasional,New York,2025-08-11,2026-01-10,385,15.0,treatment
+1104,Occasional,Los Angeles,2025-12-26,2026-01-25,248,15.0,treatment
+1105,Daily Commuter,Denver,2025-03-24,2026-08-31,525,12.0,control
+1106,Occasional,Washington DC,2025-10-22,2026-08-22,313,15.0,treatment
+1107,Daily Commuter,Dallas,2025-02-17,2026-08-31,560,12.0,control
+1108,Office Worker,Boston,2026-05-15,2026-08-31,108,12.0,treatment
+1109,One-Time,Chicago,2024-10-29,2024-11-28,671,18.0,control
+1110,Daily Commuter,Philadelphia,2024-10-16,2026-08-31,684,12.0,control
+1111,Daily Commuter,Atlanta,2024-09-26,2026-01-26,704,12.0,treatment
+1112,Office Worker,New York,2025-05-02,2026-08-31,486,12.0,control
+1113,Weekend Social,Chicago,2025-10-29,2026-06-29,306,15.0,treatment
+1114,Occasional,Dallas,2026-07-21,2026-08-31,41,15.0,treatment
+1115,One-Time,Washington DC,2025-07-15,2025-10-14,412,18.0,treatment
+1116,Daily Commuter,Washington DC,2025-01-05,2026-08-31,603,12.0,treatment
+1117,Daily Commuter,Seattle,2025-05-15,2026-08-31,473,12.0,treatment
+1118,Occasional,Dallas,2024-11-28,2024-12-28,641,15.0,treatment
+1119,Daily Commuter,New York,2025-07-27,2025-12-26,400,12.0,treatment
+1120,Occasional,Dallas,2026-01-23,2026-05-24,220,15.0,treatment
+1121,Weekend Social,Washington DC,2024-09-24,2025-05-25,706,15.0,treatment
+1122,Daily Commuter,Boston,2026-02-26,2026-08-31,186,12.0,treatment
+1123,Occasional,Los Angeles,2025-02-06,2025-03-08,571,15.0,treatment
+1124,Daily Commuter,Portland,2025-12-14,2026-08-31,260,12.0,control
+1125,Office Worker,Seattle,2026-03-24,2026-07-23,160,12.0,control
+1126,Weekend Social,Miami,2026-02-25,2026-08-31,187,15.0,control
+1127,Office Worker,San Francisco,2025-12-12,2026-08-31,262,12.0,treatment
+1128,Weekend Social,Boston,2025-12-29,2026-08-31,245,15.0,treatment
+1129,Weekend Social,Dallas,2025-01-09,2025-04-10,599,15.0,control
+1130,One-Time,Philadelphia,2024-12-04,2025-01-03,635,18.0,treatment
+1131,One-Time,Boston,2025-05-24,2025-06-23,464,18.0,treatment
+1132,Office Worker,San Francisco,2025-10-30,2026-08-31,305,12.0,treatment
+1133,Daily Commuter,Dallas,2025-11-06,2026-08-31,298,12.0,treatment
+1134,Weekend Social,Boston,2026-02-25,2026-03-27,187,15.0,treatment
+1135,One-Time,Los Angeles,2025-04-03,2025-08-02,515,18.0,treatment
+1136,Office Worker,Washington DC,2026-04-28,2026-08-31,125,12.0,treatment
+1137,Office Worker,Philadelphia,2025-07-11,2026-08-31,416,12.0,treatment
+1138,Office Worker,San Francisco,2025-02-19,2026-03-21,558,12.0,treatment
+1139,Daily Commuter,Los Angeles,2026-01-27,2026-08-31,216,12.0,treatment
+1140,Weekend Social,Los Angeles,2024-11-28,2025-02-27,641,15.0,treatment
+1141,Office Worker,Miami,2025-06-10,2026-02-08,447,12.0,treatment
+1142,Occasional,San Francisco,2026-02-28,2026-08-29,184,15.0,treatment
+1143,Occasional,Miami,2026-02-21,2026-08-22,191,15.0,treatment
+1144,Occasional,Austin,2025-02-26,2025-12-27,551,15.0,treatment
+1145,Office Worker,Seattle,2024-12-25,2025-02-23,614,12.0,treatment
+1146,Office Worker,Washington DC,2024-09-22,2025-12-22,708,12.0,control
+1147,Weekend Social,Seattle,2024-11-01,2025-07-02,668,15.0,treatment
+1148,Occasional,New York,2026-03-31,2026-04-30,153,15.0,treatment
+1149,Office Worker,Austin,2026-03-02,2026-08-31,182,12.0,control
+1150,Occasional,Miami,2025-08-20,2025-12-19,376,15.0,treatment
+1151,Daily Commuter,Philadelphia,2025-10-04,2026-02-02,331,12.0,treatment
+1152,Occasional,Atlanta,2025-04-16,2025-06-15,502,15.0,treatment
+1153,Daily Commuter,Boston,2025-01-12,2026-08-31,596,12.0,treatment
+1154,Daily Commuter,Portland,2024-09-08,2026-08-31,722,12.0,treatment
+1155,Weekend Social,Austin,2025-12-14,2026-08-31,260,15.0,treatment
+1156,Daily Commuter,Portland,2024-09-24,2025-07-25,706,12.0,treatment
+1157,Daily Commuter,Boston,2024-11-12,2026-03-14,657,12.0,treatment
+1158,Daily Commuter,Philadelphia,2026-03-08,2026-08-31,176,12.0,treatment
+1159,Office Worker,San Francisco,2025-10-12,2026-08-31,323,12.0,treatment
+1160,Occasional,San Francisco,2025-08-08,2026-04-08,388,15.0,control
+1161,Daily Commuter,Chicago,2025-01-30,2025-12-30,578,12.0,treatment
+1162,Weekend Social,San Francisco,2024-12-13,2025-02-11,626,15.0,treatment
+1163,Occasional,Los Angeles,2025-07-23,2025-08-22,404,15.0,treatment
+1164,Daily Commuter,Miami,2025-05-08,2025-06-07,480,12.0,treatment
+1165,Daily Commuter,Austin,2025-09-08,2026-08-31,357,12.0,treatment
+1166,Occasional,Denver,2024-12-24,2025-04-24,615,15.0,treatment
+1167,Occasional,Washington DC,2025-02-09,2026-03-11,568,15.0,treatment
+1168,Weekend Social,Denver,2024-11-18,2025-08-18,651,15.0,control
+1169,Occasional,Denver,2025-06-24,2025-08-23,433,15.0,control
+1170,Daily Commuter,Seattle,2025-03-12,2026-08-31,537,12.0,treatment
+1171,Office Worker,Washington DC,2025-02-03,2025-06-04,574,12.0,treatment
+1172,Weekend Social,Los Angeles,2025-09-19,2026-08-31,346,15.0,treatment
+1173,Daily Commuter,Los Angeles,2025-08-14,2025-10-13,382,12.0,treatment
+1174,Weekend Social,Philadelphia,2025-01-25,2025-04-26,583,15.0,control
+1175,Office Worker,Atlanta,2026-01-02,2026-08-31,241,12.0,treatment
+1176,Weekend Social,Seattle,2025-04-28,2025-09-27,490,15.0,treatment
+1177,Office Worker,Denver,2025-04-26,2025-05-26,492,12.0,control
+1178,Office Worker,Miami,2025-07-31,2026-01-29,396,12.0,treatment
+1179,Daily Commuter,Seattle,2024-12-06,2025-12-06,633,12.0,treatment
+1180,Daily Commuter,Austin,2025-06-21,2026-01-20,436,12.0,treatment
+1181,Weekend Social,Portland,2025-10-12,2026-08-31,323,15.0,treatment
+1182,Daily Commuter,Seattle,2024-11-29,2026-06-30,640,12.0,treatment
+1183,Daily Commuter,Miami,2025-09-30,2026-08-31,335,12.0,treatment
+1184,Daily Commuter,Chicago,2024-09-27,2026-08-31,703,12.0,treatment
+1185,Daily Commuter,Austin,2025-10-27,2025-11-26,308,12.0,treatment
+1186,Occasional,Boston,2024-09-24,2024-11-23,706,15.0,control
+1187,Office Worker,Los Angeles,2024-12-31,2026-08-31,608,12.0,treatment
+1188,One-Time,Atlanta,2025-05-03,2025-06-02,485,18.0,treatment
+1189,Daily Commuter,Denver,2025-11-04,2026-08-31,300,12.0,treatment
+1190,Weekend Social,San Francisco,2026-01-16,2026-06-17,227,15.0,treatment
+1191,Office Worker,Washington DC,2025-07-25,2026-03-25,402,12.0,treatment
+1192,Office Worker,Portland,2024-11-30,2025-07-31,639,12.0,treatment
+1193,Occasional,Denver,2025-05-29,2026-05-29,459,15.0,treatment
+1194,One-Time,Chicago,2026-03-04,2026-04-03,180,18.0,treatment
+1195,Occasional,Atlanta,2024-11-02,2025-04-03,667,15.0,treatment
+1196,Daily Commuter,Seattle,2026-01-13,2026-08-31,230,12.0,treatment
+1197,Daily Commuter,Washington DC,2025-05-28,2026-08-31,460,12.0,control
+1198,Weekend Social,Seattle,2024-09-02,2025-09-02,728,15.0,control
+1199,Daily Commuter,Portland,2025-12-30,2026-08-31,244,12.0,treatment
+1200,Weekend Social,San Francisco,2024-09-18,2025-09-18,712,15.0,treatment
+1201,Weekend Social,Austin,2025-05-16,2026-08-31,472,15.0,treatment
+1202,Weekend Social,Boston,2025-01-14,2025-05-15,594,15.0,control
+1203,Occasional,Seattle,2025-10-13,2026-03-14,322,15.0,treatment
+1204,Weekend Social,Philadelphia,2024-10-09,2026-08-31,691,15.0,treatment
+1205,Daily Commuter,Austin,2024-11-02,2026-08-31,667,12.0,treatment
+1206,Daily Commuter,Seattle,2025-09-06,2025-12-06,359,12.0,treatment
+1207,Weekend Social,Seattle,2026-07-27,2026-08-31,35,15.0,treatment
+1208,Office Worker,Atlanta,2024-09-27,2025-11-27,703,12.0,treatment
+1209,Daily Commuter,Philadelphia,2025-07-19,2026-08-31,408,12.0,treatment
+1210,Office Worker,Miami,2026-03-15,2026-08-31,169,12.0,control
+1211,Weekend Social,Seattle,2025-03-22,2025-10-21,527,15.0,treatment
+1212,Occasional,Portland,2025-08-11,2026-04-11,385,15.0,control
+1213,Weekend Social,Boston,2026-04-10,2026-08-09,143,15.0,treatment
+1214,Office Worker,Miami,2026-01-22,2026-08-31,221,12.0,control
+1215,Daily Commuter,San Francisco,2025-03-24,2026-08-31,525,12.0,treatment
+1216,Weekend Social,Seattle,2026-02-07,2026-03-09,205,15.0,treatment
+1217,Office Worker,Seattle,2025-12-17,2026-08-31,257,12.0,treatment
+1218,Weekend Social,Miami,2025-08-20,2026-08-31,376,15.0,control
+1219,Weekend Social,Miami,2025-07-05,2026-03-05,422,15.0,treatment
+1220,Daily Commuter,San Francisco,2026-06-09,2026-08-31,83,12.0,treatment
+1221,Daily Commuter,New York,2026-05-04,2026-08-31,119,12.0,treatment
+1222,Daily Commuter,Austin,2026-07-25,2026-08-31,37,12.0,treatment
+1223,Occasional,Los Angeles,2025-12-16,2026-01-15,258,15.0,treatment
+1224,Weekend Social,Los Angeles,2025-05-09,2025-06-08,479,15.0,treatment
+1225,Daily Commuter,Denver,2024-11-15,2025-08-15,654,12.0,treatment
+1226,Occasional,Austin,2024-11-27,2026-07-28,642,15.0,treatment
+1227,Office Worker,Philadelphia,2026-06-27,2026-08-31,65,12.0,treatment
+1228,Office Worker,Miami,2025-05-12,2026-08-31,476,12.0,treatment
+1229,Occasional,Philadelphia,2024-11-16,2025-01-15,653,15.0,treatment
+1230,Daily Commuter,Portland,2025-02-03,2026-08-31,574,12.0,treatment
+1231,Daily Commuter,Dallas,2024-09-14,2024-10-14,716,12.0,treatment
+1232,Weekend Social,Los Angeles,2025-09-06,2026-05-07,359,15.0,treatment
+1233,Daily Commuter,Seattle,2025-10-18,2026-08-31,317,12.0,control
+1234,Weekend Social,Portland,2025-05-22,2025-06-21,466,15.0,treatment
+1235,Daily Commuter,Philadelphia,2026-02-02,2026-08-31,210,12.0,treatment
+1236,Daily Commuter,Austin,2025-08-02,2026-08-31,394,12.0,treatment
+1237,Daily Commuter,San Francisco,2026-07-03,2026-08-31,59,12.0,treatment
+1238,Office Worker,Denver,2026-02-16,2026-08-31,196,12.0,treatment
+1239,Daily Commuter,New York,2024-10-22,2026-08-31,678,12.0,control
+1240,Daily Commuter,San Francisco,2025-03-10,2025-10-09,539,12.0,treatment
+1241,Occasional,Portland,2026-02-09,2026-03-11,203,15.0,treatment
+1242,Office Worker,Los Angeles,2025-09-11,2026-08-31,354,12.0,treatment
+1243,Office Worker,Denver,2026-02-09,2026-08-31,203,12.0,treatment
+1244,Daily Commuter,San Francisco,2025-04-22,2026-08-31,496,12.0,treatment
+1245,Office Worker,Denver,2024-09-26,2025-06-26,704,12.0,control
+1246,Daily Commuter,Austin,2026-03-03,2026-08-31,181,12.0,treatment
+1247,Weekend Social,Washington DC,2026-03-03,2026-08-31,181,15.0,treatment
+1248,Daily Commuter,Boston,2025-11-21,2025-12-21,283,12.0,treatment
+1249,Occasional,Dallas,2025-06-10,2025-12-09,447,15.0,control
+1250,Occasional,Portland,2024-09-05,2025-03-06,725,15.0,treatment
+1251,Daily Commuter,Washington DC,2026-01-22,2026-08-31,221,12.0,treatment
+1252,Daily Commuter,Austin,2025-12-06,2026-08-31,268,12.0,control
+1253,Daily Commuter,Atlanta,2025-12-11,2026-08-31,263,12.0,control
+1254,Weekend Social,Portland,2024-12-28,2025-04-28,611,15.0,treatment
+1255,Daily Commuter,San Francisco,2026-01-24,2026-08-31,219,12.0,treatment
+1256,Occasional,Portland,2026-01-20,2026-02-19,223,15.0,treatment
+1257,Weekend Social,Portland,2026-04-23,2026-06-22,130,15.0,control
+1258,Occasional,Miami,2025-10-02,2026-01-01,333,15.0,treatment
+1259,Weekend Social,New York,2026-01-25,2026-08-31,218,15.0,treatment
+1260,One-Time,Atlanta,2025-06-08,2025-07-08,449,18.0,treatment
+1261,Daily Commuter,Portland,2025-12-31,2026-08-31,243,12.0,treatment
+1262,Office Worker,Los Angeles,2025-12-29,2026-01-28,245,12.0,treatment
+1263,Office Worker,Dallas,2026-02-27,2026-04-28,185,12.0,treatment
+1264,Occasional,Dallas,2026-04-22,2026-05-22,131,15.0,treatment
+1265,Weekend Social,Atlanta,2024-09-02,2025-08-02,728,15.0,treatment
+1266,Occasional,Philadelphia,2026-02-27,2026-04-28,185,15.0,control
+1267,Daily Commuter,Washington DC,2026-03-08,2026-08-31,176,12.0,treatment
+1268,One-Time,Denver,2025-09-16,2025-10-16,349,18.0,treatment
+1269,Office Worker,Washington DC,2025-08-29,2025-10-28,367,12.0,control
+1270,Office Worker,Philadelphia,2026-01-18,2026-02-17,225,12.0,treatment
+1271,One-Time,New York,2025-07-15,2025-09-13,412,18.0,control
+1272,Office Worker,Philadelphia,2025-06-16,2025-07-16,441,12.0,treatment
+1273,Office Worker,Seattle,2026-03-16,2026-08-31,168,12.0,treatment
+1274,Weekend Social,Denver,2026-03-06,2026-06-05,178,15.0,treatment
+1275,Daily Commuter,Philadelphia,2025-01-22,2026-04-23,586,12.0,treatment
+1276,Office Worker,Austin,2026-04-03,2026-08-31,150,12.0,treatment
+1277,Daily Commuter,Chicago,2025-04-16,2026-08-31,502,12.0,treatment
+1278,Daily Commuter,Portland,2024-12-05,2025-07-06,634,12.0,treatment
+1279,Occasional,Chicago,2026-05-07,2026-08-31,116,15.0,treatment
+1280,Weekend Social,Chicago,2025-02-13,2026-04-15,564,15.0,treatment
+1281,Office Worker,Washington DC,2025-01-20,2025-08-21,588,12.0,treatment
+1282,Office Worker,Seattle,2025-03-07,2025-04-06,542,12.0,treatment
+1283,Office Worker,Philadelphia,2025-08-10,2026-02-08,386,12.0,treatment
+1284,Weekend Social,Denver,2024-12-25,2025-12-25,614,15.0,treatment
+1285,Occasional,Seattle,2024-12-20,2025-02-18,619,15.0,treatment
+1286,Occasional,Dallas,2025-06-01,2025-07-01,456,15.0,treatment
+1287,Office Worker,Seattle,2025-01-30,2026-08-31,578,12.0,treatment
+1288,Office Worker,San Francisco,2025-01-13,2026-08-31,595,12.0,treatment
+1289,Office Worker,Chicago,2026-05-31,2026-08-31,92,12.0,treatment
+1290,Weekend Social,Austin,2025-10-21,2026-01-20,314,15.0,treatment
+1291,Office Worker,Boston,2024-09-09,2026-03-10,721,12.0,treatment
+1292,Weekend Social,Portland,2024-11-10,2025-02-09,659,15.0,treatment
+1293,Weekend Social,New York,2026-03-23,2026-08-31,161,15.0,treatment
+1294,Office Worker,Portland,2025-03-07,2026-08-31,542,12.0,treatment
+1295,Office Worker,Portland,2024-12-15,2026-04-16,624,12.0,treatment
+1296,Office Worker,San Francisco,2025-12-09,2026-01-08,265,12.0,treatment
+1297,Daily Commuter,Washington DC,2026-04-09,2026-08-31,144,12.0,treatment
+1298,Daily Commuter,Denver,2025-06-05,2025-09-04,452,12.0,treatment
+1299,Weekend Social,Portland,2026-02-02,2026-03-04,210,15.0,treatment
+1300,Office Worker,Los Angeles,2025-06-22,2025-09-21,435,12.0,treatment
+1301,Daily Commuter,Philadelphia,2024-11-15,2026-08-31,654,12.0,treatment
+1302,Weekend Social,Chicago,2026-03-12,2026-08-31,172,15.0,control
+1303,Weekend Social,Miami,2026-06-05,2026-08-31,87,15.0,treatment
+1304,Daily Commuter,New York,2026-07-21,2026-08-31,41,12.0,treatment
+1305,Occasional,Seattle,2024-11-09,2025-01-08,660,15.0,treatment
+1306,Occasional,New York,2025-09-30,2026-05-31,335,15.0,treatment
+1307,Weekend Social,Philadelphia,2025-11-10,2026-02-09,294,15.0,treatment
+1308,Weekend Social,Los Angeles,2024-10-25,2024-12-24,675,15.0,control
+1309,Daily Commuter,Washington DC,2026-06-28,2026-08-31,64,12.0,treatment
+1310,Occasional,Miami,2024-11-11,2025-09-11,658,15.0,treatment
+1311,Office Worker,New York,2025-03-07,2026-08-31,542,12.0,treatment
+1312,Occasional,Denver,2026-07-09,2026-08-08,53,15.0,control
+1313,Weekend Social,Denver,2025-09-24,2026-06-24,341,15.0,treatment
+1314,Daily Commuter,Chicago,2025-12-19,2026-08-31,255,12.0,treatment
+1315,Daily Commuter,Miami,2025-08-11,2026-08-31,385,12.0,control
+1316,Weekend Social,Washington DC,2026-02-08,2026-08-31,204,15.0,treatment
+1317,Weekend Social,Washington DC,2024-10-27,2024-12-26,673,15.0,treatment
+1318,Daily Commuter,Atlanta,2025-12-17,2026-08-31,257,12.0,treatment
+1319,Weekend Social,Washington DC,2024-10-16,2024-11-15,684,15.0,treatment
+1320,Occasional,Washington DC,2025-01-03,2025-02-02,605,15.0,treatment
+1321,Office Worker,New York,2025-08-20,2026-08-31,376,12.0,treatment
+1322,Office Worker,Miami,2025-07-10,2026-08-09,417,12.0,treatment
+1323,Daily Commuter,Austin,2024-12-15,2026-08-31,624,12.0,control
+1324,Occasional,Seattle,2026-03-12,2026-06-11,172,15.0,treatment
+1325,Office Worker,Miami,2025-03-30,2025-05-29,519,12.0,treatment
+1326,Occasional,Washington DC,2026-04-29,2026-08-28,124,15.0,treatment
+1327,Office Worker,Chicago,2024-09-10,2026-02-09,720,12.0,treatment
+1328,Weekend Social,Washington DC,2025-02-13,2025-05-15,564,15.0,treatment
+1329,Daily Commuter,Philadelphia,2025-03-26,2025-09-24,523,12.0,treatment
+1330,Daily Commuter,Miami,2025-10-22,2026-08-31,313,12.0,treatment
+1331,Occasional,Miami,2025-06-07,2025-07-07,450,15.0,treatment
+1332,Office Worker,Atlanta,2024-12-18,2026-08-31,621,12.0,control
+1333,Weekend Social,Boston,2025-10-04,2026-08-31,331,15.0,treatment
+1334,One-Time,Denver,2026-07-02,2026-08-01,60,18.0,treatment
+1335,One-Time,Atlanta,2024-12-02,2025-01-01,637,18.0,treatment
+1336,Occasional,Denver,2025-02-23,2025-04-24,554,15.0,treatment
+1337,Daily Commuter,Dallas,2025-07-31,2025-08-30,396,12.0,treatment
+1338,Weekend Social,Austin,2026-01-21,2026-08-31,222,15.0,control
+1339,Occasional,San Francisco,2024-12-04,2025-02-02,635,15.0,treatment
+1340,Office Worker,Atlanta,2025-02-08,2025-12-09,569,12.0,treatment
+1341,Daily Commuter,Chicago,2025-02-11,2025-08-12,566,12.0,treatment
+1342,Occasional,Los Angeles,2025-11-05,2026-06-06,299,15.0,treatment
+1343,Office Worker,Boston,2024-10-27,2025-04-27,673,12.0,treatment
+1344,Weekend Social,Seattle,2025-12-05,2026-04-05,269,15.0,control
+1345,One-Time,Dallas,2025-06-24,2025-08-23,433,18.0,treatment
+1346,Weekend Social,New York,2025-04-17,2025-11-16,501,15.0,treatment
+1347,Office Worker,San Francisco,2026-04-26,2026-08-31,127,12.0,treatment
+1348,Office Worker,Chicago,2026-03-27,2026-08-31,157,12.0,treatment
+1349,Office Worker,Los Angeles,2026-03-16,2026-06-15,168,12.0,treatment
+1350,Daily Commuter,Boston,2026-05-12,2026-08-31,111,12.0,treatment
+1351,Occasional,Austin,2025-02-10,2026-03-12,567,15.0,treatment
+1352,Occasional,Washington DC,2026-04-21,2026-08-31,132,15.0,treatment
+1353,Daily Commuter,Los Angeles,2025-01-01,2026-01-31,607,12.0,treatment
+1354,Office Worker,Chicago,2025-04-19,2026-05-19,499,12.0,treatment
+1355,Occasional,Denver,2025-09-23,2025-11-22,342,15.0,treatment
+1356,Daily Commuter,San Francisco,2026-02-03,2026-03-05,209,12.0,control
+1357,Weekend Social,Dallas,2025-10-09,2026-02-07,326,15.0,treatment
+1358,Office Worker,Chicago,2025-09-26,2026-08-31,339,12.0,treatment
+1359,Weekend Social,Boston,2025-05-21,2025-12-20,467,15.0,treatment
+1360,Daily Commuter,Atlanta,2025-10-19,2026-06-19,316,12.0,control
+1361,Weekend Social,Boston,2025-07-29,2025-11-27,398,15.0,treatment
+1362,Office Worker,Miami,2025-07-31,2026-08-31,396,12.0,control
+1363,Weekend Social,Dallas,2025-10-15,2026-01-14,320,15.0,treatment
+1364,Daily Commuter,Atlanta,2025-10-25,2026-02-23,310,12.0,control
+1365,Office Worker,Denver,2025-04-18,2026-05-18,500,12.0,treatment
+1366,Weekend Social,Philadelphia,2024-12-03,2025-03-04,636,15.0,treatment
+1367,Daily Commuter,Philadelphia,2025-03-28,2026-08-31,521,12.0,treatment
+1368,Daily Commuter,Philadelphia,2025-06-13,2026-08-31,444,12.0,control
+1369,Daily Commuter,Seattle,2024-12-21,2026-08-31,618,12.0,control
+1370,Office Worker,Dallas,2025-01-02,2025-02-01,606,12.0,treatment
+1371,Daily Commuter,Washington DC,2026-06-27,2026-08-31,65,12.0,treatment
+1372,Occasional,Dallas,2025-03-15,2026-08-31,534,15.0,treatment
+1373,Office Worker,Austin,2026-01-30,2026-07-01,213,12.0,treatment
+1374,Occasional,Boston,2024-11-28,2025-05-29,641,15.0,treatment
+1375,One-Time,Austin,2026-07-12,2026-08-31,50,18.0,treatment
+1376,Daily Commuter,Miami,2025-01-26,2025-02-25,582,12.0,control
+1377,Weekend Social,Dallas,2025-06-02,2026-04-02,455,15.0,control
+1378,Occasional,San Francisco,2026-03-01,2026-04-30,183,15.0,treatment
+1379,Weekend Social,Austin,2025-01-19,2025-02-18,589,15.0,treatment
+1380,Office Worker,Austin,2025-09-19,2026-04-20,346,12.0,control
+1381,Office Worker,Dallas,2026-03-03,2026-08-31,181,12.0,control
+1382,Daily Commuter,Los Angeles,2024-09-16,2024-12-16,714,12.0,treatment
+1383,Weekend Social,Washington DC,2024-09-17,2025-01-16,713,15.0,treatment
+1384,One-Time,Chicago,2026-03-05,2026-05-04,179,18.0,treatment
+1385,One-Time,Philadelphia,2025-03-02,2025-05-01,547,18.0,treatment
+1386,Daily Commuter,Seattle,2026-05-29,2026-08-31,94,12.0,treatment
+1387,Weekend Social,Chicago,2026-06-11,2026-08-31,81,15.0,treatment
+1388,Office Worker,Miami,2026-05-09,2026-08-31,114,12.0,treatment
+1389,Occasional,Atlanta,2026-07-29,2026-08-31,33,15.0,treatment
+1390,Daily Commuter,Portland,2026-03-30,2026-08-31,154,12.0,treatment
+1391,Occasional,Boston,2025-05-26,2025-10-25,462,15.0,treatment
+1392,Occasional,Seattle,2026-07-26,2026-08-31,36,15.0,control
+1393,Daily Commuter,Miami,2025-04-30,2026-08-31,488,12.0,treatment
+1394,Daily Commuter,Atlanta,2025-10-15,2026-08-31,320,12.0,treatment
+1395,Occasional,Atlanta,2024-09-03,2025-04-04,727,15.0,control
+1396,Daily Commuter,Boston,2026-07-05,2026-08-31,57,12.0,treatment
+1397,Weekend Social,Washington DC,2025-10-19,2026-08-31,316,15.0,treatment
+1398,Occasional,Dallas,2026-06-26,2026-08-31,66,15.0,control
+1399,Weekend Social,Los Angeles,2025-05-04,2026-01-02,484,15.0,treatment
+1400,Office Worker,Seattle,2025-04-07,2026-08-31,511,12.0,control
+1401,Office Worker,Los Angeles,2025-08-31,2025-09-30,365,12.0,control
+1402,Daily Commuter,Seattle,2026-04-27,2026-08-31,126,12.0,treatment
+1403,One-Time,Portland,2025-09-19,2025-12-19,346,18.0,treatment
+1404,Office Worker,Miami,2026-03-08,2026-08-31,176,12.0,treatment
+1405,Daily Commuter,Denver,2025-01-28,2025-04-29,580,12.0,treatment
+1406,Daily Commuter,Miami,2026-02-25,2026-08-31,187,12.0,treatment
+1407,One-Time,Dallas,2026-01-25,2026-03-26,218,18.0,treatment
+1408,Daily Commuter,Dallas,2026-05-20,2026-08-31,103,12.0,control
+1409,Occasional,Denver,2024-10-10,2024-11-09,690,15.0,treatment
+1410,Weekend Social,Miami,2025-05-26,2026-07-26,462,15.0,treatment
+1411,Occasional,Miami,2024-11-01,2025-07-02,668,15.0,treatment
+1412,One-Time,Philadelphia,2025-06-07,2025-07-07,450,18.0,treatment
+1413,Occasional,Austin,2026-02-13,2026-04-14,199,15.0,treatment
+1414,Occasional,San Francisco,2025-11-22,2026-01-21,282,15.0,treatment
+1415,Daily Commuter,Washington DC,2026-02-09,2026-08-31,203,12.0,treatment
+1416,Occasional,Boston,2026-01-29,2026-03-30,214,15.0,treatment
+1417,Weekend Social,Austin,2026-07-26,2026-08-31,36,15.0,treatment
+1418,Weekend Social,Philadelphia,2026-05-08,2026-08-31,115,15.0,treatment
+1419,Occasional,Dallas,2025-10-15,2026-01-14,320,15.0,treatment
+1420,One-Time,New York,2026-05-06,2026-07-05,117,18.0,control
+1421,Weekend Social,Los Angeles,2024-10-03,2026-05-04,697,15.0,treatment
+1422,Office Worker,Dallas,2026-01-17,2026-08-31,226,12.0,treatment
+1423,Office Worker,New York,2025-08-31,2026-08-31,365,12.0,treatment
+1424,Office Worker,Seattle,2026-07-01,2026-08-31,61,12.0,treatment
+1425,Office Worker,Chicago,2025-08-18,2025-09-17,378,12.0,treatment
+1426,Office Worker,Denver,2025-01-03,2025-12-03,605,12.0,treatment
+1427,Daily Commuter,New York,2026-01-19,2026-08-31,224,12.0,treatment
+1428,Daily Commuter,Los Angeles,2026-06-27,2026-08-31,65,12.0,treatment
+1429,Occasional,San Francisco,2024-09-11,2024-11-10,719,15.0,treatment
+1430,Office Worker,Miami,2024-10-14,2025-06-14,686,12.0,control
+1431,Occasional,Atlanta,2025-12-06,2026-07-07,268,15.0,treatment
+1432,Weekend Social,Dallas,2025-09-23,2025-12-23,342,15.0,treatment
+1433,Daily Commuter,Philadelphia,2025-09-19,2026-08-31,346,12.0,control
+1434,Daily Commuter,Seattle,2024-11-02,2025-02-01,667,12.0,treatment
+1435,Daily Commuter,Portland,2025-10-05,2026-08-31,330,12.0,treatment
+1436,One-Time,Los Angeles,2025-10-02,2025-11-01,333,18.0,treatment
+1437,Daily Commuter,Boston,2026-04-17,2026-08-31,136,12.0,control
+1438,Office Worker,San Francisco,2025-05-31,2026-08-31,457,12.0,treatment
+1439,Occasional,Portland,2025-05-01,2025-10-30,487,15.0,treatment
+1440,One-Time,Chicago,2024-10-27,2024-12-26,673,18.0,control
+1441,Daily Commuter,Washington DC,2025-10-01,2026-08-31,334,12.0,treatment
+1442,Daily Commuter,Boston,2025-11-27,2026-08-27,277,12.0,treatment
+1443,Daily Commuter,Dallas,2025-03-15,2026-07-15,534,12.0,treatment
+1444,Daily Commuter,Philadelphia,2026-01-24,2026-04-25,219,12.0,treatment
+1445,Daily Commuter,Atlanta,2026-06-18,2026-08-31,74,12.0,treatment
+1446,Weekend Social,New York,2024-12-30,2025-12-30,609,15.0,control
+1447,Occasional,Portland,2025-10-05,2026-03-06,330,15.0,treatment
+1448,Weekend Social,Boston,2025-12-30,2026-08-31,244,15.0,treatment
+1449,Weekend Social,San Francisco,2024-09-12,2026-08-31,718,15.0,treatment
+1450,Daily Commuter,Denver,2025-01-03,2026-08-31,605,12.0,treatment
+1451,Occasional,San Francisco,2025-06-03,2025-08-02,454,15.0,control
+1452,Weekend Social,Chicago,2024-12-05,2025-09-04,634,15.0,treatment
+1453,Occasional,Philadelphia,2025-05-06,2026-08-31,482,15.0,treatment
+1454,Occasional,Chicago,2024-12-12,2026-07-13,627,15.0,control
+1455,Office Worker,Denver,2026-05-20,2026-08-31,103,12.0,control
+1456,Daily Commuter,Austin,2025-10-24,2026-08-31,311,12.0,treatment
+1457,Daily Commuter,Chicago,2025-04-18,2026-02-16,500,12.0,treatment
+1458,Office Worker,Miami,2026-02-27,2026-06-28,185,12.0,treatment
+1459,Occasional,Washington DC,2024-09-12,2024-10-12,718,15.0,treatment
+1460,Office Worker,Dallas,2025-10-22,2026-08-31,313,12.0,treatment
+1461,Occasional,Seattle,2025-12-22,2026-07-23,252,15.0,control
+1462,Weekend Social,Boston,2026-03-20,2026-08-31,164,15.0,treatment
+1463,Daily Commuter,Seattle,2025-02-02,2026-08-31,575,12.0,treatment
+1464,Office Worker,Miami,2025-10-19,2026-08-31,316,12.0,treatment
+1465,Weekend Social,San Francisco,2026-02-19,2026-08-31,193,15.0,treatment
+1466,Weekend Social,Washington DC,2026-03-12,2026-08-31,172,15.0,treatment
+1467,Office Worker,Los Angeles,2024-12-31,2026-07-01,608,12.0,treatment
+1468,Daily Commuter,Dallas,2026-07-15,2026-08-31,47,12.0,treatment
+1469,Weekend Social,San Francisco,2025-03-10,2025-08-09,539,15.0,treatment
+1470,Daily Commuter,Washington DC,2025-05-31,2026-08-31,457,12.0,treatment
+1471,Occasional,Los Angeles,2025-01-12,2025-07-13,596,15.0,treatment
+1472,Daily Commuter,Chicago,2024-12-13,2026-03-14,626,12.0,treatment
+1473,Daily Commuter,San Francisco,2025-02-25,2025-04-26,552,12.0,treatment
+1474,Office Worker,Philadelphia,2024-12-03,2025-07-04,636,12.0,treatment
+1475,Office Worker,Austin,2026-01-25,2026-08-31,218,12.0,treatment
+1476,Office Worker,Dallas,2025-10-23,2026-08-23,312,12.0,treatment
+1477,Office Worker,Atlanta,2025-05-31,2025-12-30,457,12.0,treatment
+1478,One-Time,Dallas,2025-09-17,2026-02-16,348,18.0,treatment
+1479,Office Worker,Miami,2025-10-27,2026-08-31,308,12.0,control
+1480,Office Worker,Portland,2025-01-06,2025-12-06,602,12.0,treatment
+1481,Office Worker,Dallas,2025-03-26,2025-05-25,523,12.0,treatment
+1482,Daily Commuter,Philadelphia,2026-05-10,2026-08-31,113,12.0,treatment
+1483,Weekend Social,Miami,2024-09-08,2026-05-09,722,15.0,treatment
+1484,Daily Commuter,Denver,2026-07-01,2026-08-31,61,12.0,treatment
+1485,Weekend Social,Portland,2026-07-07,2026-08-31,55,15.0,control
+1486,Daily Commuter,Austin,2025-02-24,2026-08-31,553,12.0,treatment
+1487,One-Time,Philadelphia,2025-04-12,2025-06-11,506,18.0,treatment
+1488,Office Worker,Portland,2025-01-22,2026-08-31,586,12.0,treatment
+1489,Occasional,Philadelphia,2025-09-27,2026-02-26,338,15.0,treatment
+1490,Office Worker,Austin,2025-01-27,2026-04-28,581,12.0,control
+1491,Daily Commuter,Philadelphia,2026-03-07,2026-06-06,177,12.0,treatment
+1492,Occasional,Austin,2025-05-29,2026-04-28,459,15.0,treatment
+1493,Weekend Social,Washington DC,2026-07-09,2026-08-31,53,15.0,control
+1494,Occasional,Los Angeles,2026-04-20,2026-06-19,133,15.0,control
+1495,Office Worker,Philadelphia,2025-06-07,2025-11-06,450,12.0,treatment
+1496,Weekend Social,San Francisco,2025-10-22,2026-08-31,313,15.0,treatment
+1497,Occasional,Dallas,2024-09-17,2024-12-17,713,15.0,treatment
+1498,Weekend Social,Boston,2024-10-17,2025-08-17,683,15.0,control
+1499,Office Worker,Denver,2025-08-20,2026-02-18,376,12.0,treatment
+1500,Weekend Social,Austin,2025-07-28,2026-01-26,399,15.0,treatment
+1501,Weekend Social,Atlanta,2025-06-05,2025-10-04,452,15.0,treatment
+1502,One-Time,Austin,2024-11-02,2025-01-01,667,18.0,treatment
+1503,Office Worker,New York,2026-04-10,2026-08-31,143,12.0,treatment
+1504,Office Worker,Dallas,2025-06-11,2025-08-10,446,12.0,treatment
+1505,Occasional,Boston,2025-07-26,2025-11-24,401,15.0,treatment
+1506,Office Worker,Dallas,2025-06-09,2026-05-09,448,12.0,treatment
+1507,Weekend Social,Chicago,2025-08-14,2026-03-15,382,15.0,treatment
+1508,Office Worker,Miami,2025-11-27,2026-08-31,277,12.0,treatment
+1509,Daily Commuter,Miami,2026-02-16,2026-08-31,196,12.0,treatment
+1510,Weekend Social,New York,2025-09-19,2026-03-20,346,15.0,treatment
+1511,Daily Commuter,Denver,2024-12-25,2026-06-25,614,12.0,treatment
+1512,Daily Commuter,Miami,2026-05-05,2026-08-31,118,12.0,treatment
+1513,Weekend Social,Dallas,2025-03-18,2025-04-17,531,15.0,treatment
+1514,Weekend Social,Washington DC,2024-09-11,2025-09-11,719,15.0,treatment
+1515,Occasional,Boston,2024-09-27,2024-11-26,703,15.0,treatment
+1516,Daily Commuter,Portland,2026-02-23,2026-08-31,189,12.0,treatment
+1517,Daily Commuter,Los Angeles,2025-05-28,2026-08-31,460,12.0,treatment
+1518,One-Time,Washington DC,2024-09-15,2024-10-15,715,18.0,treatment
+1519,Daily Commuter,Washington DC,2026-03-22,2026-08-31,162,12.0,treatment
+1520,Daily Commuter,Philadelphia,2025-04-01,2026-08-31,517,12.0,treatment
+1521,Daily Commuter,Denver,2026-07-16,2026-08-31,46,12.0,treatment
+1522,Weekend Social,Boston,2026-05-08,2026-08-31,115,15.0,treatment
+1523,Occasional,Austin,2024-10-03,2025-08-03,697,15.0,control
+1524,Weekend Social,Austin,2025-12-27,2026-01-26,247,15.0,treatment
+1525,Weekend Social,Los Angeles,2025-10-27,2026-08-31,308,15.0,treatment
+1526,Daily Commuter,Atlanta,2024-12-29,2026-07-30,610,12.0,treatment
+1527,Office Worker,Portland,2025-04-28,2026-08-28,490,12.0,treatment
+1528,Office Worker,Denver,2025-08-09,2026-08-31,387,12.0,treatment
+1529,Daily Commuter,Boston,2024-12-11,2026-08-31,628,12.0,treatment
+1530,Daily Commuter,Chicago,2026-01-18,2026-08-31,225,12.0,treatment
+1531,Office Worker,Boston,2025-03-13,2025-10-12,536,12.0,control
+1532,Daily Commuter,Chicago,2026-06-18,2026-08-31,74,12.0,treatment
+1533,Weekend Social,San Francisco,2026-03-15,2026-07-14,169,15.0,treatment
+1534,Weekend Social,Los Angeles,2025-11-18,2026-08-31,286,15.0,treatment
+1535,Daily Commuter,Boston,2024-11-22,2026-08-31,647,12.0,control
+1536,Office Worker,Miami,2024-09-17,2025-06-17,713,12.0,treatment
+1537,Occasional,Boston,2024-12-11,2025-02-09,628,15.0,treatment
+1538,Weekend Social,New York,2025-08-15,2026-02-13,381,15.0,treatment
+1539,Occasional,Dallas,2026-02-28,2026-08-31,184,15.0,treatment
+1540,Office Worker,Denver,2024-12-16,2025-01-15,623,12.0,treatment
+1541,Occasional,Miami,2026-01-08,2026-02-07,235,15.0,treatment
+1542,Daily Commuter,Atlanta,2024-10-03,2026-02-02,697,12.0,treatment
+1543,Office Worker,Atlanta,2025-03-04,2026-08-31,545,12.0,treatment
+1544,Daily Commuter,Denver,2025-10-23,2026-08-31,312,12.0,treatment
+1545,Office Worker,Austin,2026-04-02,2026-08-31,151,12.0,treatment
+1546,Office Worker,Dallas,2026-02-25,2026-08-31,187,12.0,treatment
+1547,Daily Commuter,Washington DC,2025-09-07,2026-06-07,358,12.0,control
+1548,Weekend Social,Denver,2024-09-25,2025-07-26,705,15.0,control
+1549,Office Worker,San Francisco,2025-03-24,2025-12-22,525,12.0,treatment
+1550,Daily Commuter,New York,2026-03-02,2026-08-31,182,12.0,treatment
+1551,Daily Commuter,Denver,2024-10-26,2026-08-31,674,12.0,treatment
+1552,Office Worker,Philadelphia,2026-01-07,2026-06-08,236,12.0,control
+1553,Office Worker,Chicago,2026-01-05,2026-08-31,238,12.0,treatment
+1554,Office Worker,Dallas,2026-02-08,2026-08-31,204,12.0,treatment
+1555,Daily Commuter,Austin,2025-01-30,2025-10-30,578,12.0,treatment
+1556,Weekend Social,Portland,2025-02-18,2025-10-19,559,15.0,treatment
+1557,Occasional,Atlanta,2025-01-16,2025-04-17,592,15.0,control
+1558,Office Worker,Austin,2025-06-02,2025-09-01,455,12.0,control
+1559,Weekend Social,New York,2025-09-01,2025-10-01,364,15.0,treatment
+1560,Occasional,New York,2024-11-22,2025-02-21,647,15.0,treatment
+1561,One-Time,Los Angeles,2025-10-02,2025-11-01,333,18.0,control
+1562,Weekend Social,Austin,2025-02-14,2025-09-15,563,15.0,treatment
+1563,Occasional,Denver,2025-09-28,2025-10-28,337,15.0,treatment
+1564,Occasional,Los Angeles,2025-03-30,2025-06-29,519,15.0,treatment
+1565,Occasional,Seattle,2026-06-30,2026-07-30,62,15.0,treatment
+1566,Office Worker,Denver,2025-04-11,2026-04-11,507,12.0,treatment
+1567,Daily Commuter,Boston,2026-05-02,2026-07-01,121,12.0,treatment
+1568,Daily Commuter,Los Angeles,2024-12-31,2025-10-31,608,12.0,control
+1569,Office Worker,Seattle,2024-10-29,2026-08-31,671,12.0,control
+1570,Office Worker,Austin,2025-01-10,2026-08-31,598,12.0,treatment
+1571,Office Worker,Austin,2025-06-20,2026-08-31,437,12.0,treatment
+1572,Weekend Social,Chicago,2026-05-24,2026-08-31,99,15.0,treatment
+1573,Weekend Social,Denver,2025-01-01,2025-08-02,607,15.0,treatment
+1574,Occasional,Chicago,2026-03-02,2026-04-01,182,15.0,treatment
+1575,Daily Commuter,Boston,2025-12-31,2026-08-31,243,12.0,control
+1576,Daily Commuter,New York,2025-04-29,2026-08-31,489,12.0,treatment
+1577,Occasional,Philadelphia,2025-04-23,2025-07-23,495,15.0,treatment
+1578,Occasional,Austin,2026-06-25,2026-08-31,67,15.0,control
+1579,One-Time,Washington DC,2026-01-13,2026-02-12,230,18.0,control
+1580,Occasional,San Francisco,2025-02-14,2025-04-15,563,15.0,treatment
+1581,Occasional,Washington DC,2026-05-31,2026-08-31,92,15.0,treatment
+1582,Office Worker,Atlanta,2025-06-11,2026-08-31,446,12.0,treatment
+1583,Office Worker,Los Angeles,2024-10-25,2026-08-31,675,12.0,treatment
+1584,Daily Commuter,San Francisco,2026-03-23,2026-08-31,161,12.0,treatment
+1585,Weekend Social,Dallas,2026-05-01,2026-05-31,122,15.0,treatment
+1586,Occasional,Austin,2025-07-07,2026-08-31,420,15.0,treatment
+1587,Office Worker,Austin,2026-01-05,2026-08-31,238,12.0,treatment
+1588,Weekend Social,Chicago,2025-02-11,2026-08-31,566,15.0,treatment
+1589,Daily Commuter,Portland,2026-04-18,2026-08-31,135,12.0,treatment
+1590,Daily Commuter,Philadelphia,2025-05-15,2026-08-31,473,12.0,treatment
+1591,Daily Commuter,Seattle,2025-03-06,2026-08-31,543,12.0,treatment
+1592,Daily Commuter,San Francisco,2025-08-16,2026-02-14,380,12.0,treatment
+1593,Occasional,New York,2025-03-06,2025-07-05,543,15.0,control
+1594,Office Worker,New York,2025-11-08,2026-03-09,296,12.0,treatment
+1595,Occasional,Philadelphia,2026-02-05,2026-06-06,207,15.0,treatment
+1596,Weekend Social,Chicago,2025-06-10,2025-07-10,447,15.0,treatment
+1597,Daily Commuter,Los Angeles,2026-03-02,2026-08-31,182,12.0,control
+1598,Daily Commuter,New York,2025-06-28,2026-08-31,429,12.0,treatment
+1599,Occasional,Philadelphia,2026-07-11,2026-08-31,51,15.0,treatment
+1600,Daily Commuter,Denver,2025-03-03,2026-03-03,546,12.0,control
+1601,Occasional,Dallas,2026-01-06,2026-04-07,237,15.0,treatment
+1602,Daily Commuter,Chicago,2025-09-09,2026-08-31,356,12.0,treatment
+1603,Weekend Social,Miami,2026-06-22,2026-08-31,70,15.0,treatment
+1604,Occasional,Washington DC,2025-01-31,2025-07-02,577,15.0,control
+1605,Daily Commuter,Portland,2025-01-15,2026-08-31,593,12.0,treatment
+1606,Daily Commuter,Atlanta,2026-04-30,2026-08-31,123,12.0,treatment
+1607,One-Time,Los Angeles,2026-05-23,2026-06-22,100,18.0,control
+1608,Daily Commuter,Chicago,2026-02-05,2026-08-31,207,12.0,treatment
+1609,Office Worker,Miami,2025-07-29,2026-08-31,398,12.0,treatment
+1610,Office Worker,Denver,2025-06-14,2025-10-13,443,12.0,treatment
+1611,Daily Commuter,Seattle,2025-12-10,2026-08-31,264,12.0,treatment
+1612,Occasional,Los Angeles,2026-02-05,2026-05-07,207,15.0,treatment
+1613,Occasional,Denver,2025-03-12,2025-04-11,537,15.0,treatment
+1614,Office Worker,Los Angeles,2024-09-04,2025-01-03,726,12.0,control
+1615,Occasional,Atlanta,2024-10-21,2025-02-19,679,15.0,treatment
+1616,Daily Commuter,San Francisco,2025-04-29,2026-07-29,489,12.0,treatment
+1617,Daily Commuter,San Francisco,2025-12-21,2026-08-31,253,12.0,treatment
+1618,Weekend Social,New York,2025-07-05,2026-01-03,422,15.0,treatment
+1619,One-Time,Atlanta,2025-11-06,2026-02-05,298,18.0,treatment
+1620,Daily Commuter,Los Angeles,2025-07-25,2026-08-31,402,12.0,treatment
+1621,Daily Commuter,Miami,2025-02-23,2025-07-25,554,12.0,treatment
+1622,Office Worker,Philadelphia,2026-02-06,2026-08-31,206,12.0,treatment
+1623,Occasional,Washington DC,2026-01-19,2026-04-20,224,15.0,treatment
+1624,Daily Commuter,Portland,2026-07-05,2026-08-31,57,12.0,treatment
+1625,Office Worker,Dallas,2026-03-31,2026-08-31,153,12.0,treatment
+1626,Weekend Social,Washington DC,2025-05-23,2025-07-22,465,15.0,treatment
+1627,Office Worker,Portland,2026-01-06,2026-08-31,237,12.0,treatment
+1628,Daily Commuter,Chicago,2025-05-03,2026-08-31,485,12.0,treatment
+1629,Daily Commuter,Atlanta,2026-05-03,2026-08-31,120,12.0,treatment
+1630,Office Worker,Dallas,2025-11-01,2025-12-31,303,12.0,treatment
+1631,Office Worker,Portland,2026-04-07,2026-06-06,146,12.0,treatment
+1632,Occasional,Boston,2025-03-15,2025-04-14,534,15.0,control
+1633,Weekend Social,Los Angeles,2024-09-10,2025-01-09,720,15.0,treatment
+1634,Weekend Social,Los Angeles,2024-12-07,2025-09-06,632,15.0,treatment
+1635,One-Time,Boston,2025-09-06,2025-10-06,359,18.0,treatment
+1636,Office Worker,Dallas,2026-07-05,2026-08-31,57,12.0,treatment
+1637,Office Worker,Atlanta,2025-11-12,2026-01-11,292,12.0,treatment
+1638,Occasional,Seattle,2026-03-20,2026-04-19,164,15.0,control
+1639,Daily Commuter,Washington DC,2025-07-25,2026-08-31,402,12.0,treatment
+1640,Weekend Social,Boston,2026-07-02,2026-08-31,60,15.0,control
+1641,Weekend Social,Boston,2026-06-20,2026-08-31,72,15.0,treatment
+1642,Daily Commuter,Dallas,2025-01-30,2025-05-31,578,12.0,control
+1643,Office Worker,Boston,2026-04-26,2026-08-31,127,12.0,control
+1644,Daily Commuter,Miami,2024-09-12,2024-12-12,718,12.0,control
+1645,Daily Commuter,Washington DC,2025-10-19,2025-12-18,316,12.0,treatment
+1646,Office Worker,Atlanta,2025-07-03,2026-04-02,424,12.0,control
+1647,Daily Commuter,Miami,2025-03-29,2026-08-31,520,12.0,treatment
+1648,Occasional,San Francisco,2026-06-15,2026-08-14,77,15.0,treatment
+1649,Occasional,Washington DC,2025-12-07,2026-02-05,267,15.0,treatment
+1650,Occasional,New York,2024-12-05,2026-05-06,634,15.0,treatment
+1651,Daily Commuter,Chicago,2024-12-06,2026-08-31,633,12.0,treatment
+1652,Daily Commuter,Philadelphia,2024-11-21,2026-08-31,648,12.0,treatment
+1653,Daily Commuter,Denver,2025-03-31,2026-08-31,518,12.0,treatment
+1654,Daily Commuter,Los Angeles,2024-10-18,2026-06-18,682,12.0,treatment
+1655,Occasional,Boston,2025-03-03,2025-04-02,546,15.0,treatment
+1656,Office Worker,Chicago,2026-02-17,2026-03-19,195,12.0,control
+1657,Daily Commuter,Atlanta,2026-05-04,2026-08-31,119,12.0,treatment
+1658,Occasional,Chicago,2026-03-04,2026-08-31,180,15.0,treatment
+1659,Office Worker,Boston,2025-08-13,2025-11-12,383,12.0,control
+1660,Daily Commuter,Washington DC,2025-12-30,2026-05-31,244,12.0,treatment
+1661,Daily Commuter,New York,2026-06-22,2026-08-31,70,12.0,treatment
+1662,Weekend Social,Austin,2024-10-07,2024-11-06,693,15.0,treatment
+1663,Occasional,New York,2026-05-26,2026-07-25,97,15.0,treatment
+1664,Daily Commuter,Denver,2026-01-19,2026-08-31,224,12.0,treatment
+1665,Occasional,Portland,2025-05-28,2025-06-27,460,15.0,treatment
+1666,Occasional,Philadelphia,2025-07-11,2026-04-10,416,15.0,treatment
+1667,Occasional,Chicago,2025-07-03,2026-01-01,424,15.0,treatment
+1668,Daily Commuter,Seattle,2024-12-19,2026-08-31,620,12.0,treatment
+1669,Daily Commuter,Austin,2025-02-08,2026-08-31,569,12.0,treatment
+1670,Occasional,Washington DC,2025-03-25,2025-04-24,524,15.0,treatment
+1671,Office Worker,Atlanta,2024-09-04,2026-08-31,726,12.0,control
+1672,Weekend Social,Seattle,2025-08-16,2025-10-15,380,15.0,treatment
+1673,Weekend Social,Atlanta,2025-07-30,2026-01-28,397,15.0,treatment
+1674,Daily Commuter,Boston,2025-04-18,2026-08-31,500,12.0,treatment
+1675,Occasional,Denver,2025-01-01,2025-03-02,607,15.0,treatment
+1676,Occasional,Seattle,2026-07-10,2026-08-31,52,15.0,treatment
+1677,Weekend Social,San Francisco,2025-12-18,2026-08-31,256,15.0,treatment
+1678,Office Worker,Philadelphia,2025-07-29,2025-10-28,398,12.0,treatment
+1679,Occasional,Seattle,2026-01-18,2026-02-17,225,15.0,control
+1680,Weekend Social,Washington DC,2025-05-18,2025-10-17,470,15.0,treatment
+1681,Weekend Social,Atlanta,2025-01-28,2026-08-31,580,15.0,treatment
+1682,Occasional,Miami,2025-12-15,2026-05-16,259,15.0,control
+1683,Weekend Social,Philadelphia,2026-02-21,2026-04-22,191,15.0,treatment
+1684,Daily Commuter,Chicago,2025-11-29,2026-08-31,275,12.0,control
+1685,Daily Commuter,Philadelphia,2025-10-01,2025-12-31,334,12.0,treatment
+1686,Daily Commuter,Chicago,2024-09-01,2026-08-31,729,12.0,treatment
+1687,Office Worker,San Francisco,2025-11-20,2026-08-31,284,12.0,treatment
+1688,Office Worker,Denver,2025-11-06,2026-01-05,298,12.0,treatment
+1689,Weekend Social,Miami,2025-06-15,2026-07-15,442,15.0,treatment
+1690,Office Worker,San Francisco,2025-02-17,2026-02-17,560,12.0,control
+1691,Occasional,Dallas,2026-07-17,2026-08-31,45,15.0,treatment
+1692,Occasional,Seattle,2025-05-20,2025-09-18,468,15.0,control
+1693,Daily Commuter,Portland,2025-03-09,2026-07-09,540,12.0,treatment
+1694,Weekend Social,Portland,2026-01-07,2026-07-08,236,15.0,treatment
+1695,Weekend Social,Atlanta,2025-08-03,2026-08-31,393,15.0,control
+1696,Weekend Social,Miami,2025-09-25,2026-02-24,340,15.0,control
+1697,Daily Commuter,Austin,2025-11-27,2026-08-31,277,12.0,treatment
+1698,Occasional,Washington DC,2025-05-16,2026-03-16,472,15.0,treatment
+1699,One-Time,Chicago,2024-12-15,2025-02-13,624,18.0,treatment
+1700,Weekend Social,Denver,2024-12-26,2025-09-25,613,15.0,treatment
+1701,Occasional,Atlanta,2026-06-19,2026-08-31,73,15.0,treatment
+1702,One-Time,San Francisco,2025-08-19,2025-10-18,377,18.0,treatment
+1703,Office Worker,Philadelphia,2025-06-18,2025-09-17,439,12.0,treatment
+1704,Weekend Social,Atlanta,2025-04-11,2026-05-11,507,15.0,treatment
+1705,Office Worker,Miami,2026-01-18,2026-08-31,225,12.0,treatment
+1706,One-Time,Los Angeles,2026-06-01,2026-07-01,91,18.0,treatment
+1707,Daily Commuter,Boston,2026-02-20,2026-04-21,192,12.0,treatment
+1708,Office Worker,Miami,2025-09-09,2025-11-08,356,12.0,treatment
+1709,Occasional,Boston,2025-07-29,2025-10-28,398,15.0,control
+1710,Daily Commuter,Austin,2026-04-29,2026-08-31,124,12.0,control
+1711,Occasional,New York,2026-04-22,2026-08-31,131,15.0,treatment
+1712,Office Worker,Los Angeles,2025-05-31,2025-09-29,457,12.0,treatment
+1713,One-Time,San Francisco,2026-07-07,2026-08-31,55,18.0,control
+1714,Occasional,San Francisco,2026-04-02,2026-07-02,151,15.0,control
+1715,Office Worker,Dallas,2026-04-15,2026-08-31,138,12.0,control
+1716,Occasional,Washington DC,2024-10-09,2025-03-10,691,15.0,treatment
+1717,Office Worker,Denver,2024-11-30,2026-01-30,639,12.0,treatment
+1718,Weekend Social,Atlanta,2025-03-27,2026-07-27,522,15.0,treatment
+1719,Weekend Social,San Francisco,2026-02-14,2026-03-16,198,15.0,treatment
+1720,Occasional,Atlanta,2024-10-24,2025-03-25,676,15.0,treatment
+1721,Daily Commuter,Portland,2024-10-28,2026-07-29,672,12.0,treatment
+1722,Daily Commuter,Austin,2024-09-22,2026-08-31,708,12.0,treatment
+1723,Weekend Social,Philadelphia,2025-01-12,2025-06-13,596,15.0,treatment
+1724,Weekend Social,Miami,2026-06-05,2026-08-31,87,15.0,treatment
+1725,Office Worker,San Francisco,2026-01-17,2026-08-31,226,12.0,treatment
+1726,Daily Commuter,Seattle,2026-01-14,2026-08-31,229,12.0,treatment
+1727,Office Worker,Portland,2025-03-23,2025-12-21,526,12.0,treatment
+1728,Occasional,Dallas,2025-11-11,2025-12-11,293,15.0,control
+1729,Daily Commuter,Atlanta,2026-02-27,2026-08-31,185,12.0,treatment
+1730,Office Worker,Washington DC,2025-09-07,2026-08-07,358,12.0,treatment
+1731,Occasional,San Francisco,2026-04-22,2026-08-31,131,15.0,treatment
+1732,Daily Commuter,Seattle,2025-10-03,2026-08-31,332,12.0,treatment
+1733,Weekend Social,Miami,2025-04-15,2025-11-14,503,15.0,treatment
+1734,Daily Commuter,New York,2025-11-21,2026-08-31,283,12.0,treatment
+1735,Occasional,New York,2026-06-22,2026-08-31,70,15.0,control
+1736,Weekend Social,Portland,2026-04-01,2026-08-31,152,15.0,treatment
+1737,Occasional,Denver,2025-08-14,2025-09-13,382,15.0,control
+1738,Daily Commuter,Miami,2025-10-22,2026-03-23,313,12.0,treatment
+1739,Weekend Social,Austin,2026-07-15,2026-08-31,47,15.0,treatment
+1740,Occasional,Boston,2026-02-06,2026-04-07,206,15.0,treatment
+1741,Daily Commuter,Miami,2025-08-17,2026-08-31,379,12.0,treatment
+1742,Daily Commuter,Atlanta,2025-03-15,2026-08-31,534,12.0,control
+1743,Daily Commuter,Miami,2026-05-27,2026-08-31,96,12.0,treatment
+1744,One-Time,Portland,2026-07-15,2026-08-14,47,18.0,treatment
+1745,Weekend Social,Boston,2024-10-19,2026-08-31,681,15.0,treatment
+1746,Weekend Social,Atlanta,2024-09-22,2024-10-22,708,15.0,control
+1747,Weekend Social,Miami,2024-11-19,2025-03-20,650,15.0,treatment
+1748,Weekend Social,New York,2025-05-28,2025-11-26,460,15.0,treatment
+1749,Office Worker,Los Angeles,2024-12-20,2025-02-18,619,12.0,treatment
+1750,Office Worker,New York,2026-05-10,2026-08-31,113,12.0,treatment
+1751,Weekend Social,Los Angeles,2026-06-01,2026-08-31,91,15.0,treatment
+1752,Daily Commuter,Denver,2025-01-04,2026-07-05,604,12.0,treatment
+1753,Occasional,Philadelphia,2026-04-03,2026-08-02,150,15.0,control
+1754,Occasional,Washington DC,2024-12-07,2025-08-07,632,15.0,treatment
+1755,Office Worker,Austin,2026-03-05,2026-08-31,179,12.0,treatment
+1756,Weekend Social,Atlanta,2025-05-13,2025-06-12,475,15.0,treatment
+1757,Daily Commuter,Los Angeles,2024-09-28,2026-08-31,702,12.0,treatment
+1758,One-Time,Boston,2025-06-26,2025-08-25,431,18.0,treatment
+1759,Occasional,Austin,2026-03-29,2026-08-31,155,15.0,control
+1760,Occasional,Washington DC,2026-06-15,2026-08-31,77,15.0,treatment
+1761,Office Worker,Philadelphia,2024-11-23,2025-03-24,646,12.0,treatment
+1762,Daily Commuter,Boston,2026-04-08,2026-08-31,145,12.0,control
+1763,Daily Commuter,Denver,2025-03-24,2026-08-31,525,12.0,treatment
+1764,Daily Commuter,Atlanta,2025-07-21,2026-08-31,406,12.0,treatment
+1765,Daily Commuter,Seattle,2024-11-15,2026-08-31,654,12.0,treatment
+1766,Daily Commuter,New York,2026-07-13,2026-08-31,49,12.0,treatment
+1767,One-Time,Seattle,2026-03-07,2026-04-06,177,18.0,treatment
+1768,Daily Commuter,Austin,2025-11-23,2026-08-31,281,12.0,treatment
+1769,Daily Commuter,Chicago,2026-01-21,2026-08-31,222,12.0,control
+1770,Occasional,Portland,2026-05-04,2026-07-03,119,15.0,treatment
+1771,Weekend Social,Boston,2024-12-09,2025-07-10,630,15.0,control
+1772,Occasional,Dallas,2025-02-19,2025-03-21,558,15.0,treatment
+1773,Weekend Social,New York,2024-09-26,2024-12-26,704,15.0,control
+1774,Occasional,San Francisco,2025-08-08,2026-08-31,388,15.0,treatment
+1775,Weekend Social,Los Angeles,2025-08-11,2026-07-11,385,15.0,control
+1776,Weekend Social,Denver,2024-09-20,2026-08-31,710,15.0,control
+1777,Weekend Social,Atlanta,2025-12-07,2026-08-31,267,15.0,control
+1778,Office Worker,Los Angeles,2024-09-06,2026-08-31,724,12.0,treatment
+1779,Office Worker,Portland,2026-03-09,2026-07-08,175,12.0,treatment
+1780,Office Worker,Philadelphia,2026-01-06,2026-08-31,237,12.0,treatment
+1781,Daily Commuter,Seattle,2026-03-24,2026-08-31,160,12.0,treatment
+1782,Occasional,New York,2024-11-21,2025-05-22,648,15.0,treatment
+1783,Daily Commuter,Philadelphia,2026-05-02,2026-08-31,121,12.0,control
+1784,Daily Commuter,Portland,2025-09-18,2026-08-31,347,12.0,treatment
+1785,Daily Commuter,Washington DC,2026-04-27,2026-07-27,126,12.0,control
+1786,Occasional,Portland,2025-12-31,2026-05-01,243,15.0,treatment
+1787,Office Worker,Austin,2025-12-03,2026-08-31,271,12.0,control
+1788,Weekend Social,Los Angeles,2024-09-22,2026-08-31,708,15.0,control
+1789,Occasional,Atlanta,2025-12-28,2026-06-28,246,15.0,treatment
+1790,Daily Commuter,Boston,2025-07-11,2026-08-31,416,12.0,treatment
+1791,Weekend Social,Dallas,2026-04-17,2026-08-31,136,15.0,treatment
+1792,Office Worker,Seattle,2025-12-22,2026-05-23,252,12.0,control
+1793,Daily Commuter,Seattle,2024-10-22,2025-05-23,678,12.0,control
+1794,Weekend Social,Atlanta,2026-05-15,2026-08-31,108,15.0,treatment
+1795,Occasional,Philadelphia,2024-10-14,2024-12-13,686,15.0,treatment
+1796,Daily Commuter,Philadelphia,2025-03-28,2026-08-31,521,12.0,treatment
+1797,Weekend Social,Miami,2025-01-29,2026-08-31,579,15.0,treatment
+1798,Daily Commuter,Denver,2026-07-13,2026-08-31,49,12.0,control
+1799,Weekend Social,Chicago,2024-12-16,2025-12-16,623,15.0,treatment
+1800,Weekend Social,Philadelphia,2026-04-14,2026-08-31,139,15.0,control
+1801,Weekend Social,Los Angeles,2025-02-02,2026-08-31,575,15.0,control
+1802,Weekend Social,New York,2025-11-29,2026-08-31,275,15.0,control
+1803,Daily Commuter,Atlanta,2024-11-02,2025-05-03,667,12.0,treatment
+1804,Weekend Social,Boston,2025-06-01,2026-01-30,456,15.0,treatment
+1805,Weekend Social,Denver,2025-11-10,2026-02-09,294,15.0,control
+1806,Weekend Social,Washington DC,2026-01-10,2026-08-31,233,15.0,treatment
+1807,Daily Commuter,Chicago,2026-05-03,2026-08-31,120,12.0,control
+1808,Office Worker,Washington DC,2026-03-25,2026-08-31,159,12.0,treatment
+1809,Office Worker,Los Angeles,2025-08-29,2026-03-30,367,12.0,treatment
+1810,Daily Commuter,San Francisco,2025-03-31,2026-08-31,518,12.0,control
+1811,Daily Commuter,Seattle,2025-03-01,2026-08-30,548,12.0,control
+1812,Office Worker,Portland,2026-07-26,2026-08-31,36,12.0,treatment
+1813,Weekend Social,Washington DC,2025-10-30,2026-04-30,305,15.0,treatment
+1814,Daily Commuter,Washington DC,2026-05-29,2026-08-31,94,12.0,treatment
+1815,Occasional,Los Angeles,2025-06-30,2025-08-29,427,15.0,treatment
+1816,Weekend Social,Austin,2025-08-05,2025-09-04,391,15.0,treatment
+1817,Weekend Social,New York,2026-04-01,2026-08-31,152,15.0,treatment
+1818,Office Worker,Miami,2026-01-18,2026-06-19,225,12.0,treatment
+1819,Office Worker,Portland,2025-01-18,2026-02-17,590,12.0,treatment
+1820,Weekend Social,Los Angeles,2025-09-01,2026-01-31,364,15.0,treatment
+1821,Occasional,New York,2025-01-27,2025-03-28,581,15.0,treatment
+1822,Office Worker,New York,2026-02-14,2026-08-31,198,12.0,treatment
+1823,Weekend Social,Portland,2024-09-20,2026-08-31,710,15.0,treatment
+1824,Weekend Social,Miami,2026-04-01,2026-07-01,152,15.0,treatment
+1825,Weekend Social,New York,2026-06-12,2026-08-31,80,15.0,treatment
+1826,Daily Commuter,Atlanta,2024-09-16,2026-03-17,714,12.0,treatment
+1827,Office Worker,Dallas,2025-11-15,2026-08-31,289,12.0,treatment
+1828,Office Worker,Chicago,2024-10-25,2025-11-24,675,12.0,control
+1829,Occasional,Miami,2025-05-10,2025-06-09,478,15.0,control
+1830,Office Worker,San Francisco,2025-04-23,2026-08-31,495,12.0,control
+1831,Office Worker,Chicago,2025-08-29,2026-08-31,367,12.0,control
+1832,One-Time,Boston,2026-06-04,2026-08-03,88,18.0,treatment
+1833,Office Worker,San Francisco,2025-07-20,2025-10-19,407,12.0,control
+1834,Daily Commuter,Denver,2025-06-05,2026-08-31,452,12.0,treatment
+1835,Daily Commuter,Los Angeles,2024-11-03,2026-01-03,666,12.0,treatment
+1836,Daily Commuter,Boston,2026-05-14,2026-08-31,109,12.0,control
+1837,Daily Commuter,Miami,2025-04-08,2026-08-31,510,12.0,treatment
+1838,Office Worker,Boston,2025-07-20,2026-08-31,407,12.0,treatment
+1839,Weekend Social,Portland,2024-11-03,2026-04-04,666,15.0,treatment
+1840,Weekend Social,New York,2025-03-21,2026-07-21,528,15.0,treatment
+1841,Daily Commuter,New York,2025-09-22,2026-01-21,343,12.0,treatment
+1842,Weekend Social,Washington DC,2026-05-23,2026-08-31,100,15.0,control
+1843,Daily Commuter,Denver,2025-04-18,2026-08-31,500,12.0,treatment
+1844,Occasional,Miami,2025-09-27,2026-01-26,338,15.0,treatment
+1845,Daily Commuter,Austin,2026-05-05,2026-08-31,118,12.0,treatment
+1846,Weekend Social,Los Angeles,2025-05-10,2025-06-09,478,15.0,treatment
+1847,Office Worker,Philadelphia,2025-03-25,2025-05-24,524,12.0,treatment
+1848,Weekend Social,Boston,2024-10-01,2025-08-31,699,15.0,treatment
+1849,Office Worker,Washington DC,2026-05-28,2026-08-31,95,12.0,treatment
+1850,Weekend Social,Boston,2024-11-16,2025-12-16,653,15.0,treatment
+1851,Daily Commuter,Boston,2025-01-28,2026-08-31,580,12.0,treatment
+1852,Occasional,Miami,2024-12-06,2025-02-04,633,15.0,treatment
+1853,Office Worker,Los Angeles,2026-01-08,2026-08-31,235,12.0,treatment
+1854,Weekend Social,Miami,2025-05-13,2025-06-12,475,15.0,treatment
+1855,Occasional,Philadelphia,2026-01-06,2026-08-31,237,15.0,treatment
+1856,One-Time,Portland,2025-10-30,2025-11-29,305,18.0,treatment
+1857,Daily Commuter,Seattle,2024-09-10,2025-11-10,720,12.0,treatment
+1858,Daily Commuter,Portland,2025-04-03,2026-08-31,515,12.0,treatment
+1859,Daily Commuter,Seattle,2024-09-02,2025-10-02,728,12.0,control
+1860,Daily Commuter,New York,2024-10-15,2026-08-31,685,12.0,treatment
+1861,Weekend Social,Chicago,2025-07-28,2026-02-26,399,15.0,control
+1862,One-Time,San Francisco,2025-03-04,2025-06-03,545,18.0,treatment
+1863,One-Time,Seattle,2024-11-01,2024-12-01,668,18.0,treatment
+1864,Weekend Social,Seattle,2025-06-13,2025-10-12,444,15.0,control
+1865,Weekend Social,Dallas,2025-07-13,2026-05-13,414,15.0,treatment
+1866,Occasional,Denver,2026-07-26,2026-08-31,36,15.0,control
+1867,Occasional,Los Angeles,2025-12-07,2026-08-31,267,15.0,control
+1868,Daily Commuter,Denver,2025-06-02,2026-04-02,455,12.0,treatment
+1869,Weekend Social,Portland,2025-07-28,2026-08-31,399,15.0,control
+1870,Occasional,Austin,2024-11-01,2025-01-31,668,15.0,control
+1871,Office Worker,San Francisco,2025-05-28,2026-08-31,460,12.0,treatment
+1872,Office Worker,Los Angeles,2025-10-11,2026-08-31,324,12.0,treatment
+1873,One-Time,Philadelphia,2024-09-14,2024-12-14,716,18.0,treatment
+1874,One-Time,Miami,2026-06-05,2026-07-05,87,18.0,control
+1875,Occasional,Philadelphia,2025-08-26,2025-11-25,370,15.0,control
+1876,Occasional,San Francisco,2026-03-04,2026-04-03,180,15.0,control
+1877,Daily Commuter,New York,2025-03-11,2026-01-09,538,12.0,treatment
+1878,Office Worker,Boston,2026-04-08,2026-07-08,145,12.0,treatment
+1879,Weekend Social,San Francisco,2025-05-14,2026-08-31,474,15.0,treatment
+1880,Weekend Social,Austin,2026-06-11,2026-08-31,81,15.0,treatment
+1881,Office Worker,Austin,2025-08-31,2026-04-01,365,12.0,treatment
+1882,Weekend Social,New York,2025-11-19,2026-08-31,285,15.0,treatment
+1883,Office Worker,Miami,2025-01-20,2025-05-21,588,12.0,treatment
+1884,Weekend Social,San Francisco,2026-07-28,2026-08-31,34,15.0,treatment
+1885,Office Worker,Miami,2025-01-12,2026-08-31,596,12.0,treatment
+1886,Office Worker,Boston,2024-09-23,2024-11-22,707,12.0,treatment
+1887,Daily Commuter,Atlanta,2025-07-04,2026-08-31,423,12.0,treatment
+1888,Daily Commuter,Austin,2026-04-07,2026-08-31,146,12.0,treatment
+1889,Occasional,San Francisco,2026-06-06,2026-08-05,86,15.0,control
+1890,Office Worker,Los Angeles,2026-04-22,2026-08-31,131,12.0,treatment
+1891,Daily Commuter,Portland,2025-09-22,2026-05-23,343,12.0,treatment
+1892,Weekend Social,Philadelphia,2026-06-03,2026-08-31,89,15.0,treatment
+1893,Weekend Social,Denver,2025-08-10,2026-05-10,386,15.0,treatment
+1894,Daily Commuter,Philadelphia,2025-07-31,2026-06-30,396,12.0,treatment
+1895,Office Worker,Los Angeles,2025-01-04,2026-08-31,604,12.0,treatment
+1896,Daily Commuter,Dallas,2026-03-05,2026-08-31,179,12.0,treatment
+1897,Weekend Social,Philadelphia,2025-04-09,2025-10-08,509,15.0,treatment
+1898,Daily Commuter,San Francisco,2025-01-14,2025-03-15,594,12.0,treatment
+1899,Daily Commuter,Los Angeles,2025-05-16,2026-08-31,472,12.0,treatment
+1900,Daily Commuter,Portland,2025-10-27,2026-08-31,308,12.0,treatment
+1901,Weekend Social,Washington DC,2025-03-08,2026-05-08,541,15.0,treatment
+1902,Daily Commuter,New York,2025-05-09,2025-09-07,479,12.0,treatment
+1903,Occasional,Miami,2025-04-19,2025-05-19,499,15.0,treatment
+1904,Daily Commuter,Washington DC,2025-10-22,2026-08-31,313,12.0,treatment
+1905,Weekend Social,Seattle,2026-01-12,2026-06-13,231,15.0,treatment
+1906,Office Worker,Atlanta,2025-12-16,2026-08-31,258,12.0,treatment
+1907,Office Worker,New York,2024-12-07,2026-07-08,632,12.0,treatment
+1908,Daily Commuter,Los Angeles,2025-04-30,2025-08-29,488,12.0,treatment
+1909,Occasional,Denver,2025-11-27,2025-12-27,277,15.0,treatment
+1910,Occasional,San Francisco,2025-01-29,2025-07-30,579,15.0,treatment
+1911,Daily Commuter,New York,2024-10-18,2026-08-31,682,12.0,treatment
+1912,Daily Commuter,Dallas,2025-04-13,2026-08-31,505,12.0,treatment
+1913,Occasional,Los Angeles,2025-12-19,2026-06-19,255,15.0,treatment
+1914,Weekend Social,Washington DC,2025-12-08,2026-08-31,266,15.0,treatment
+1915,Daily Commuter,Los Angeles,2024-11-29,2026-08-31,640,12.0,control
+1916,Daily Commuter,Atlanta,2025-12-17,2026-08-31,257,12.0,treatment
+1917,Weekend Social,Austin,2025-01-14,2026-03-16,594,15.0,treatment
+1918,Weekend Social,Denver,2026-01-31,2026-08-31,212,15.0,treatment
+1919,Weekend Social,Boston,2025-10-01,2025-11-30,334,15.0,treatment
+1920,One-Time,Austin,2024-11-27,2025-01-26,642,18.0,treatment
+1921,Office Worker,Seattle,2025-05-03,2025-08-02,485,12.0,control
+1922,Office Worker,Dallas,2026-03-26,2026-08-31,158,12.0,treatment
+1923,Office Worker,Portland,2025-06-29,2025-08-28,428,12.0,treatment
+1924,Office Worker,Austin,2025-12-25,2026-04-25,249,12.0,treatment
+1925,Daily Commuter,Boston,2026-02-05,2026-08-31,207,12.0,control
+1926,Daily Commuter,Boston,2024-09-21,2025-07-22,709,12.0,control
+1927,Office Worker,Miami,2026-06-14,2026-08-31,78,12.0,control
+1928,Weekend Social,Miami,2025-04-22,2026-01-20,496,15.0,treatment
+1929,Daily Commuter,Washington DC,2026-03-09,2026-08-31,175,12.0,treatment
+1930,Office Worker,Washington DC,2025-07-23,2025-10-22,404,12.0,treatment
+1931,Weekend Social,Seattle,2025-10-08,2026-01-07,327,15.0,treatment
+1932,Weekend Social,Los Angeles,2025-05-10,2026-01-08,478,15.0,treatment
+1933,Occasional,Philadelphia,2026-04-20,2026-06-19,133,15.0,control
+1934,Occasional,Boston,2024-11-21,2025-01-20,648,15.0,treatment
+1935,Weekend Social,Miami,2026-05-20,2026-06-19,103,15.0,treatment
+1936,Daily Commuter,Seattle,2025-01-23,2025-06-24,585,12.0,treatment
+1937,Office Worker,New York,2026-05-11,2026-08-31,112,12.0,treatment
+1938,Weekend Social,Boston,2024-09-17,2025-10-17,713,15.0,treatment
+1939,Daily Commuter,Austin,2024-09-09,2025-09-09,721,12.0,control
+1940,Daily Commuter,Austin,2024-11-04,2025-12-04,665,12.0,treatment
+1941,Daily Commuter,Washington DC,2025-09-18,2025-11-17,347,12.0,treatment
+1942,Office Worker,Los Angeles,2025-03-05,2026-08-31,544,12.0,treatment
+1943,Office Worker,Los Angeles,2025-10-23,2026-08-31,312,12.0,treatment
+1944,Daily Commuter,Atlanta,2026-03-27,2026-08-31,157,12.0,treatment
+1945,Occasional,Atlanta,2024-09-19,2025-04-20,711,15.0,treatment
+1946,Occasional,Seattle,2025-09-03,2025-10-03,362,15.0,treatment
+1947,Daily Commuter,Denver,2026-01-30,2026-08-31,213,12.0,treatment
+1948,Occasional,Washington DC,2025-06-24,2025-11-23,433,15.0,control
+1949,Daily Commuter,Los Angeles,2026-06-09,2026-08-31,83,12.0,treatment
+1950,Occasional,Dallas,2025-12-07,2026-03-08,267,15.0,treatment
+1951,One-Time,Denver,2024-09-24,2024-10-24,706,18.0,control
+1952,Daily Commuter,Atlanta,2025-09-14,2026-08-31,351,12.0,treatment
+1953,Weekend Social,Miami,2025-05-26,2026-03-26,462,15.0,control
+1954,One-Time,Portland,2024-12-01,2024-12-31,638,18.0,control
+1955,Occasional,Miami,2026-06-27,2026-08-31,65,15.0,control
+1956,One-Time,New York,2025-02-02,2025-06-03,575,18.0,treatment
+1957,Weekend Social,San Francisco,2024-10-28,2026-08-31,672,15.0,treatment
+1958,Daily Commuter,Dallas,2025-02-02,2026-06-04,575,12.0,treatment
+1959,Occasional,Seattle,2026-03-30,2026-08-31,154,15.0,treatment
+1960,Weekend Social,Austin,2025-10-24,2026-08-24,311,15.0,control
+1961,Weekend Social,Atlanta,2026-03-27,2026-08-31,157,15.0,treatment
+1962,Office Worker,New York,2025-07-20,2025-11-18,407,12.0,treatment
+1963,Weekend Social,New York,2024-11-20,2025-06-21,649,15.0,treatment
+1964,Daily Commuter,Philadelphia,2025-05-29,2026-02-26,459,12.0,treatment
+1965,Weekend Social,Seattle,2025-01-17,2025-06-18,591,15.0,treatment
+1966,Daily Commuter,Seattle,2025-09-24,2025-11-23,341,12.0,treatment
+1967,Weekend Social,Seattle,2025-03-07,2025-10-06,542,15.0,treatment
+1968,Occasional,Miami,2026-07-11,2026-08-31,51,15.0,control
+1969,Office Worker,Washington DC,2025-05-22,2026-02-19,466,12.0,treatment
+1970,Office Worker,Los Angeles,2025-04-07,2025-08-06,511,12.0,control
+1971,Office Worker,Dallas,2026-07-21,2026-08-20,41,12.0,treatment
+1972,One-Time,Austin,2025-08-30,2025-10-29,366,18.0,control
+1973,Weekend Social,Chicago,2024-12-28,2025-01-27,611,15.0,treatment
+1974,Office Worker,Seattle,2025-08-02,2025-11-01,394,12.0,treatment
+1975,Daily Commuter,Denver,2025-02-25,2026-02-25,552,12.0,control
+1976,Daily Commuter,New York,2026-01-14,2026-08-31,229,12.0,treatment
+1977,Office Worker,New York,2025-10-06,2026-02-04,329,12.0,treatment
+1978,Occasional,Denver,2026-01-24,2026-02-23,219,15.0,treatment
+1979,Weekend Social,Dallas,2026-06-20,2026-08-31,72,15.0,treatment
+1980,Daily Commuter,Philadelphia,2026-01-23,2026-08-31,220,12.0,control
+1981,Occasional,Miami,2025-04-26,2025-08-25,492,15.0,treatment
+1982,Office Worker,Chicago,2025-01-19,2025-10-19,589,12.0,control
+1983,Occasional,San Francisco,2025-09-05,2025-10-05,360,15.0,treatment
+1984,Daily Commuter,Miami,2025-07-11,2026-08-31,416,12.0,treatment
+1985,Weekend Social,Los Angeles,2025-04-07,2025-05-07,511,15.0,control
+1986,Occasional,Atlanta,2026-03-21,2026-08-31,163,15.0,treatment
+1987,Daily Commuter,Austin,2026-05-29,2026-08-31,94,12.0,treatment
+1988,Weekend Social,Dallas,2025-05-25,2026-08-31,463,15.0,treatment
+1989,One-Time,Seattle,2025-12-20,2026-01-19,254,18.0,treatment
+1990,Daily Commuter,San Francisco,2026-07-20,2026-08-31,42,12.0,treatment
+1991,Daily Commuter,Chicago,2024-09-08,2026-08-31,722,12.0,treatment
+1992,Weekend Social,Atlanta,2025-05-13,2026-08-31,475,15.0,treatment
+1993,Office Worker,Los Angeles,2026-01-29,2026-02-28,214,12.0,control
+1994,Daily Commuter,Philadelphia,2025-08-14,2026-08-31,382,12.0,treatment
+1995,Office Worker,Washington DC,2026-03-08,2026-08-31,176,12.0,treatment
+1996,Weekend Social,San Francisco,2025-07-29,2026-06-28,398,15.0,treatment
+1997,Daily Commuter,Boston,2024-10-15,2026-08-31,685,12.0,treatment
+1998,Office Worker,Denver,2025-06-30,2026-08-31,427,12.0,treatment
+1999,Occasional,Seattle,2025-06-10,2026-01-09,447,15.0,treatment
+2000,Weekend Social,Washington DC,2026-04-14,2026-08-31,139,15.0,control
