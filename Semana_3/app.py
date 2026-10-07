@@ -16,12 +16,10 @@ GREEN, GOLD, CREAM, MUTED, RULE = "#00704A", "#C6A15B", "#F7F4ED", "#6E7C74", "#
 st.markdown(
     f"""<style>
     @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;600&display=swap');
-    .stApp {{ background: {CREAM}; }}
     html, body, [class*="css"] {{ font-family: Inter, sans-serif; font-size: 15px; }}
-    h1 {{ font-family: Fraunces, serif; color: #1E3932; font-size: 1.8rem !important; line-height: 1.15; }}
-    h2, h3 {{ font-family: Fraunces, serif; color: #1E3932; font-size: 1.15rem !important; }}
-    [data-testid="stMetricValue"] {{ font-family: Fraunces, serif; color: #1E3932; font-size: 1.6rem; }}
-    [data-testid="stSidebar"] {{ background: #EFEAE0; }}
+    h1 {{ font-family: Fraunces, serif; font-size: 1.8rem !important; line-height: 1.15; }}
+    h2, h3 {{ font-family: Fraunces, serif; font-size: 1.15rem !important; }}
+    [data-testid="stMetricValue"] {{ font-family: Fraunces, serif; font-size: 1.6rem; }}
     #MainMenu, footer, header {{ visibility: hidden; }}
     .callout {{ border-left: 3px solid {GREEN}; padding: .5rem 1rem; }}
     </style>""",
