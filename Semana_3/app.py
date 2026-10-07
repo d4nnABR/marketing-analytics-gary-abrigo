@@ -22,7 +22,6 @@ st.markdown(
     h2, h3 {{ font-family: Fraunces, serif; font-size: 1.1rem !important; margin: .4rem 0 .2rem 0; }}
     [data-testid="stMetricValue"] {{ font-family: Fraunces, serif; font-size: 1.5rem; }}
     #MainMenu, footer, header {{ visibility: hidden; }}
-    .callout {{ border-left: 3px solid {GREEN}; padding: .4rem .9rem; }}
     </style>""",
     unsafe_allow_html=True,
 )
@@ -151,8 +150,19 @@ with right:
     best_total = table.loc[table["total"].idxmax()]
     best_per = table.loc[table["per_customer"].idxmax()]
     st.markdown(
-        f'<div class="callout">Total value peaks at <b>{int(best_total["pct"])}%</b> of the base '
-        f'(${best_total["total"]:,.2f}). Value per customer peaks at <b>{int(best_per["pct"])}%</b> '
-        f'(${best_per["per_customer"]:.2f}).</div>',
+        f"""
+        <div style="display:flex; gap:2rem; margin-top:.7rem;">
+          <div>
+            <div style="color:{MUTED}; font-size:.78rem;">Peak total value</div>
+            <div style="font-family:Fraunces,serif; font-size:1.45rem; line-height:1.1;">{int(best_total['pct'])}% of base</div>
+            <div style="color:{MUTED}; font-size:.78rem;">${best_total['total']:,.2f} net</div>
+          </div>
+          <div>
+            <div style="color:{MUTED}; font-size:.78rem;">Peak value per customer</div>
+            <div style="font-family:Fraunces,serif; font-size:1.45rem; line-height:1.1;">{int(best_per['pct'])}% of base</div>
+            <div style="color:{MUTED}; font-size:.78rem;">${best_per['per_customer']:.2f} each</div>
+          </div>
+        </div>
+        """,
         unsafe_allow_html=True,
     )
