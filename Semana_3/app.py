@@ -1,171 +1,160 @@
-"""
-Laboratorio Final — Starbucks Rewards (app de Streamlit)
-
-Permite a alguien de negocio (que no programa) explorar los resultados del laboratorio:
-el Qini del T-learner y la tabla de políticas, con un control interactivo (% a contactar).
-
-Correr local:  streamlit run app.py
-"""
-
 from pathlib import Path
 
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import streamlit as st
-import matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 
-st.set_page_config(page_title="Laboratorio Final — Starbucks Rewards", page_icon="☕", layout="wide")
+st.set_page_config(page_title="Starbucks Rewards — Uplift Targeting", page_icon="☕", layout="wide")
 
-GREEN = "#00704A"
-ORANGE = "#C4512F"
-GRAY = "#9A988E"
 FEATURES = ["recency_days", "frequency", "monetary", "email_open_rate", "tenure_days"]
+DATA = Path(__file__).resolve().parent / "data" / "uplift_campaign.csv"
+GREEN, GOLD, CREAM, MUTED, RULE = "#00704A", "#C6A15B", "#F7F4ED", "#6E7C74", "#DAD3C4"
 
-# Ruta relativa al archivo -> funciona en local y en Streamlit Cloud
-DATA_PATH = Path(__file__).resolve().parent / "data" / "uplift_campaign.csv"
+st.markdown(
+    f"""<style>
+    @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;600&display=swap');
+    .stApp {{ background: {CREAM}; }}
+    html, body, [class*="css"] {{ font-family: Inter, sans-serif; }}
+    h1, h2, h3 {{ font-family: Fraunces, serif; color: #1E3932; }}
+    [data-testid="stMetricValue"] {{ font-family: Fraunces, serif; color: #1E3932; }}
+    [data-testid="stSidebar"] {{ background: #EFEAE0; }}
+    #MainMenu, footer, header {{ visibility: hidden; }}
+    .callout {{ border-left: 3px solid {GREEN}; padding: .5rem 1rem; }}
+    </style>""",
+    unsafe_allow_html=True,
+)
 
 
 @st.cache_data
 def load_data():
-    return pd.read_csv(DATA_PATH)
+    return pd.read_csv(DATA)
 
 
 @st.cache_data
-def entrenar_t_learner(df: pd.DataFrame, test_size: float = 0.30, seed: int = 42):
-    train, test = train_test_split(
-        df, test_size=test_size, random_state=seed, stratify=df["treatment_group"]
-    )
-
-    # T-learner: un modelo por grupo (dos regresiones logísticas)
-    train_t = train[train["treatment_group"] == "treatment"]
-    train_c = train[train["treatment_group"] == "control"]
-
-    modelo_tratado = LogisticRegression(max_iter=1000)
-    modelo_control = LogisticRegression(max_iter=1000)
-    modelo_tratado.fit(train_t[FEATURES], train_t["responded_60d"])
-    modelo_control.fit(train_c[FEATURES], train_c["responded_60d"])
-
+def train_t_learner(df, test_size=0.3, seed=42):
+    train, test = train_test_split(df, test_size=test_size, random_state=seed, stratify=df["treatment_group"])
+    treated = train[train["treatment_group"] == "treatment"]
+    control = train[train["treatment_group"] == "control"]
+    m_treated = LogisticRegression(max_iter=1000).fit(treated[FEATURES], treated["responded_60d"])
+    m_control = LogisticRegression(max_iter=1000).fit(control[FEATURES], control["responded_60d"])
     test = test.copy()
-    X_test = test[FEATURES]
-    test["p_tratado"] = modelo_tratado.predict_proba(X_test)[:, 1]
-    test["p_control"] = modelo_control.predict_proba(X_test)[:, 1]
-    test["uplift_estimado"] = test["p_tratado"] - test["p_control"]
+    X = test[FEATURES]
+    test["p_treated"] = m_treated.predict_proba(X)[:, 1]
+    test["p_control"] = m_control.predict_proba(X)[:, 1]
+    test["uplift"] = test["p_treated"] - test["p_control"]
     return test
 
 
-def valor_de_la_politica(test_df, seleccionados):
-    # Valor NETO: utilidad_neta_60d (tratados) menos margin_60d (control del mismo grupo)
-    sel = test_df.loc[seleccionados]
-    valor_tratado = sel.loc[sel["treatment_group"] == "treatment", "utilidad_neta_60d"].mean()
-    valor_control = sel.loc[sel["treatment_group"] == "control", "margin_60d"].mean()
-    return valor_tratado - valor_control, len(sel)
+def policy_value(test_df, idx):
+    sel = test_df.loc[idx]
+    treated = sel.loc[sel["treatment_group"] == "treatment", "utilidad_neta_60d"].mean()
+    control = sel.loc[sel["treatment_group"] == "control", "margin_60d"].mean()
+    return treated - control, len(sel)
 
 
-def curva_qini(test_df, score_col, steps=40):
-    orden = test_df.sort_values(score_col, ascending=False).reset_index(drop=True)
-    es_tratado = (orden["treatment_group"] == "treatment").values
-    respondio = orden["responded_60d"].values
-
-    acum_t = np.cumsum(np.where(es_tratado, respondio, 0))
-    acum_c = np.cumsum(np.where(~es_tratado, respondio, 0))
-    n_t = np.cumsum(es_tratado)
-    n_c = np.cumsum(~es_tratado)
-
-    n = len(orden)
+def qini_curve(test_df, score_col, steps=40):
+    d = test_df.sort_values(score_col, ascending=False).reset_index(drop=True)
+    treated = (d["treatment_group"] == "treatment").values
+    responded = d["responded_60d"].values
+    cum_t = np.cumsum(np.where(treated, responded, 0))
+    cum_c = np.cumsum(np.where(~treated, responded, 0))
+    n_t = np.cumsum(treated)
+    n_c = np.cumsum(~treated)
+    n = len(d)
     xs, ys = [0.0], [0.0]
     for i in np.linspace(1, n, steps).astype(int):
-        tasa_t = acum_t[i - 1] / n_t[i - 1] if n_t[i - 1] > 0 else 0
-        tasa_c = acum_c[i - 1] / n_c[i - 1] if n_c[i - 1] > 0 else 0
+        rt = cum_t[i - 1] / n_t[i - 1] if n_t[i - 1] else 0
+        rc = cum_c[i - 1] / n_c[i - 1] if n_c[i - 1] else 0
         xs.append(i / n)
-        ys.append((tasa_t - tasa_c) * n)
+        ys.append((rt - rc) * n)
     return np.array(xs), np.array(ys)
 
 
-def coeficiente_qini(xs, ys, n):
-    try:
-        trap = np.trapezoid
-    except AttributeError:
-        trap = np.trapz
-    area_modelo = trap(ys, xs)
-    area_azar = trap(np.linspace(0, ys[-1], len(xs)), xs)
-    return (area_modelo - area_azar) / n
+def qini_coefficient(xs, ys, n):
+    trap = np.trapezoid if hasattr(np, "trapezoid") else np.trapz
+    return (trap(ys, xs) - trap(np.linspace(0, ys[-1], len(xs)), xs)) / n
 
 
-# --- Título ---
-st.title("Laboratorio Final — Starbucks Rewards ☕")
-st.caption(
-    "¿A qué porcentaje de la base conviene enviarle el cupón de $5? "
-    "Esta app muestra el Qini del T-learner y el valor neto por cada nivel de contacto."
+st.markdown("##### Starbucks Rewards · 60-day retention campaign")
+st.markdown("# Who should get the $5 coupon?")
+st.markdown(
+    "This tool estimates each customer's uplift from the experiment and shows what share "
+    "of the base is worth contacting to leave the most money on the table."
 )
 
 df = load_data()
 
 with st.sidebar:
-    st.header("Parámetros")
-    pct_contactar = st.slider("% de la base a contactar", min_value=5, max_value=100, value=20, step=5)
-    st.caption(f"{len(df):,} clientes · campaña a 60 días")
+    st.markdown("## Parameters")
+    pct = st.slider("Share of the base to contact", 5, 100, 20, 5)
+    st.caption(f"{len(df):,} customers · $5 coupon · 60-day window")
 
-test = entrenar_t_learner(df)
+test = train_t_learner(df)
+xs, ys = qini_curve(test, "uplift")
+qini = qini_coefficient(xs, ys, len(test))
 
-xs_uplift, ys_uplift = curva_qini(test, "uplift_estimado")
-qini = coeficiente_qini(xs_uplift, ys_uplift, len(test))
+n_contact = int(len(test) * pct / 100)
+idx = test.sort_values("uplift", ascending=False).head(n_contact).index
+value, n_sel = policy_value(test, idx)
 
-col1, col2 = st.columns([3, 2])
+c1, c2, c3 = st.columns(3)
+c1.metric("Qini coefficient", f"{qini:+.3f}")
+c2.metric("Net value per customer", f"${value:+.2f}")
+c3.metric("Total net value", f"${value * n_sel:+,.2f}")
 
-with col1:
-    fig, ax = plt.subplots(figsize=(8, 5))
-    ax.plot(xs_uplift, ys_uplift, color=GREEN, linewidth=3, label=f"T-learner (Qini={qini:+.3f})")
-    ax.plot([0, 1], [0, ys_uplift[-1]], color=GRAY, linestyle="--", label="Al azar")
-    ax.axvline(pct_contactar / 100, color=ORANGE, linestyle=":", linewidth=2, label=f"{pct_contactar}% elegido")
-    ax.set_xlabel("% de la base contactada")
-    ax.set_ylabel("Respuestas incrementales acumuladas")
-    ax.set_title("Curva Qini del T-learner")
-    ax.legend()
-    plt.tight_layout()
-    st.pyplot(fig)
+st.markdown("## Qini curve")
+st.caption("How much better than random the model ranks customers, from highest to lowest predicted uplift.")
 
-with col2:
-    n_c = int(len(test) * pct_contactar / 100)
-    idx = test.sort_values("uplift_estimado", ascending=False).head(n_c).index
-    valor_cliente, n = valor_de_la_politica(test, idx)
+fig, ax = plt.subplots(figsize=(10, 4.6))
+fig.patch.set_facecolor(CREAM)
+ax.set_facecolor(CREAM)
+ax.plot(xs, ys, color=GREEN, linewidth=2.6, label=f"T-learner · Qini {qini:+.3f}")
+ax.plot([0, 1], [0, ys[-1]], color=MUTED, linewidth=1.4, linestyle="--", label="Random")
+ax.axvline(pct / 100, color=GOLD, linewidth=2, linestyle=":", label=f"Contact {pct}%")
+ax.set_xlabel("Share of the base contacted")
+ax.set_ylabel("Cumulative incremental responses")
+ax.grid(axis="y", color=RULE, linewidth=0.8)
+ax.set_axisbelow(True)
+for spine in ("top", "right"):
+    ax.spines[spine].set_visible(False)
+for spine in ("left", "bottom"):
+    ax.spines[spine].set_color(RULE)
+ax.tick_params(colors=MUTED)
+ax.legend(frameon=False, loc="upper left")
+plt.tight_layout()
+st.pyplot(fig, use_container_width=True)
 
-    st.metric("Coeficiente Qini", f"{qini:+.3f}")
-    st.metric("Valor neto por cliente", f"${valor_cliente:+.2f}")
-    st.metric("Valor neto total", f"${valor_cliente * n:+,.2f}")
-    st.caption(f"Contactando {n:,} clientes ({pct_contactar}% del set de prueba)")
+st.markdown("## Policy table")
+st.caption("Net value per customer and total, by share of the base contacted.")
 
-# --- Tabla de políticas ---
-st.subheader("Tabla de políticas")
-filas = []
-for pct in range(10, 101, 10):
-    nc = int(len(test) * pct / 100)
-    ix = test.sort_values("uplift_estimado", ascending=False).head(nc).index
-    vc, nn = valor_de_la_politica(test, ix)
-    filas.append({
-        "pct_contactado": pct,
-        "n_contactados": nn,
-        "valor_por_cliente": round(vc, 2),
-        "valor_total": round(vc * nn, 2),
-    })
-tabla = pd.DataFrame(filas)
+rows = []
+for p in range(10, 101, 10):
+    k = int(len(test) * p / 100)
+    ix = test.sort_values("uplift", ascending=False).head(k).index
+    v, m = policy_value(test, ix)
+    rows.append({"pct": p, "customers": m, "per_customer": v, "total": v * m})
+table = pd.DataFrame(rows)
 
 st.dataframe(
-    tabla.style.apply(
-        lambda r: ["background-color: #E8F5E9" if r["pct_contactado"] == pct_contactar else "" for _ in r],
-        axis=1,
-    ),
+    table,
+    hide_index=True,
     use_container_width=True,
+    column_config={
+        "pct": st.column_config.NumberColumn("Contacted", format="%d%%"),
+        "customers": st.column_config.NumberColumn("Customers", format="%d"),
+        "per_customer": st.column_config.NumberColumn("Value per customer", format="$%.2f"),
+        "total": st.column_config.NumberColumn("Total value", format="$%.2f"),
+    },
 )
 
-mejor_total = tabla.loc[tabla["valor_total"].idxmax()]
-st.success(
-    f"El valor TOTAL se maximiza contactando al {mejor_total['pct_contactado']}% "
-    f"(≈ ${mejor_total['valor_total']:,.2f} netos). El valor POR CLIENTE es máximo en el 10%."
-)
-
-st.info(
-    "Regla de decisión: contactar primero a los de mayor **uplift** (Persuadable). "
-    "Evitar Sleeping Dog y Lost Cause. Comparación de modelos y deciles en el notebook."
+best_total = table.loc[table["total"].idxmax()]
+best_per = table.loc[table["per_customer"].idxmax()]
+st.markdown(
+    f'<div class="callout">Total value peaks at <b>{int(best_total["pct"])}%</b> of the base '
+    f'(${best_total["total"]:,.2f}). Value per customer peaks at <b>{int(best_per["pct"])}%</b> '
+    f'(${best_per["per_customer"]:.2f}).</div>',
+    unsafe_allow_html=True,
 )
