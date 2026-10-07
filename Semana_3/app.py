@@ -17,11 +17,12 @@ st.markdown(
     f"""<style>
     @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;600&display=swap');
     html, body, [class*="css"] {{ font-family: Inter, sans-serif; font-size: 15px; }}
-    h1 {{ font-family: Fraunces, serif; font-size: 1.8rem !important; line-height: 1.15; }}
-    h2, h3 {{ font-family: Fraunces, serif; font-size: 1.15rem !important; }}
-    [data-testid="stMetricValue"] {{ font-family: Fraunces, serif; font-size: 1.6rem; }}
+    .block-container {{ padding-top: 1.2rem; padding-bottom: 1rem; }}
+    h1 {{ font-family: Fraunces, serif; font-size: 1.7rem !important; line-height: 1.15; margin-bottom: .1rem; }}
+    h2, h3 {{ font-family: Fraunces, serif; font-size: 1.1rem !important; margin: .4rem 0 .2rem 0; }}
+    [data-testid="stMetricValue"] {{ font-family: Fraunces, serif; font-size: 1.5rem; }}
     #MainMenu, footer, header {{ visibility: hidden; }}
-    .callout {{ border-left: 3px solid {GREEN}; padding: .5rem 1rem; }}
+    .callout {{ border-left: 3px solid {GREEN}; padding: .4rem .9rem; }}
     </style>""",
     unsafe_allow_html=True,
 )
@@ -79,10 +80,7 @@ def qini_coefficient(xs, ys, n):
 
 st.markdown("##### Starbucks Rewards · 60-day retention campaign")
 st.markdown("# Who should get the $5 coupon?")
-st.markdown(
-    "This tool estimates each customer's uplift from the experiment and shows what share "
-    "of the base is worth contacting to leave the most money on the table."
-)
+st.markdown("This tool estimates each customer's uplift and shows what share of the base is worth contacting.")
 
 df = load_data()
 
@@ -104,56 +102,57 @@ c1.metric("Qini coefficient", f"{qini:+.3f}")
 c2.metric("Net value per customer", f"${value:+.2f}")
 c3.metric("Total net value", f"${value * n_sel:+,.2f}")
 
-st.markdown("## Qini curve")
-st.caption("How much better than random the model ranks customers, from highest to lowest predicted uplift.")
+left, right = st.columns([3, 2], gap="large")
 
-fig, ax = plt.subplots(figsize=(10, 4.6))
-fig.patch.set_facecolor(CREAM)
-ax.set_facecolor(CREAM)
-ax.plot(xs, ys, color=GREEN, linewidth=2.6, label=f"T-learner · Qini {qini:+.3f}")
-ax.plot([0, 1], [0, ys[-1]], color=MUTED, linewidth=1.4, linestyle="--", label="Random")
-ax.axvline(pct / 100, color=GOLD, linewidth=2, linestyle=":", label=f"Contact {pct}%")
-ax.set_xlabel("Share of the base contacted")
-ax.set_ylabel("Cumulative incremental responses")
-ax.grid(axis="y", color=RULE, linewidth=0.8)
-ax.set_axisbelow(True)
-for spine in ("top", "right"):
-    ax.spines[spine].set_visible(False)
-for spine in ("left", "bottom"):
-    ax.spines[spine].set_color(RULE)
-ax.tick_params(colors=MUTED)
-ax.legend(frameon=False, loc="upper left")
-plt.tight_layout()
-st.pyplot(fig, width="stretch")
+with left:
+    st.markdown("## Qini curve")
+    fig, ax = plt.subplots(figsize=(7, 4))
+    fig.patch.set_facecolor(CREAM)
+    ax.set_facecolor(CREAM)
+    ax.plot(xs, ys, color=GREEN, linewidth=2.4, label=f"T-learner · Qini {qini:+.3f}")
+    ax.plot([0, 1], [0, ys[-1]], color=MUTED, linewidth=1.3, linestyle="--", label="Random")
+    ax.axvline(pct / 100, color=GOLD, linewidth=2, linestyle=":", label=f"Contact {pct}%")
+    ax.set_xlabel("Share of the base contacted")
+    ax.set_ylabel("Cumulative incremental responses")
+    ax.grid(axis="y", color=RULE, linewidth=0.8)
+    ax.set_axisbelow(True)
+    for spine in ("top", "right"):
+        ax.spines[spine].set_visible(False)
+    for spine in ("left", "bottom"):
+        ax.spines[spine].set_color(RULE)
+    ax.tick_params(colors=MUTED)
+    ax.legend(frameon=False, loc="upper right")
+    plt.tight_layout()
+    st.pyplot(fig, width="stretch")
 
-st.markdown("## Policy table")
-st.caption("Net value per customer and total, by share of the base contacted.")
+with right:
+    st.markdown("## Policy table")
+    rows = []
+    for p in range(10, 101, 10):
+        k = int(len(test) * p / 100)
+        ix = test.sort_values("uplift", ascending=False).head(k).index
+        v, m = policy_value(test, ix)
+        rows.append({"pct": p, "customers": m, "per_customer": v, "total": v * m})
+    table = pd.DataFrame(rows)
 
-rows = []
-for p in range(10, 101, 10):
-    k = int(len(test) * p / 100)
-    ix = test.sort_values("uplift", ascending=False).head(k).index
-    v, m = policy_value(test, ix)
-    rows.append({"pct": p, "customers": m, "per_customer": v, "total": v * m})
-table = pd.DataFrame(rows)
+    st.dataframe(
+        table,
+        hide_index=True,
+        width="stretch",
+        height=380,
+        column_config={
+            "pct": st.column_config.NumberColumn("Contacted", format="%d%%"),
+            "customers": st.column_config.NumberColumn("Customers", format="%d"),
+            "per_customer": st.column_config.NumberColumn("Value per customer", format="$%.2f"),
+            "total": st.column_config.NumberColumn("Total value", format="$%.2f"),
+        },
+    )
 
-st.dataframe(
-    table,
-    hide_index=True,
-    width="stretch",
-    column_config={
-        "pct": st.column_config.NumberColumn("Contacted", format="%d%%"),
-        "customers": st.column_config.NumberColumn("Customers", format="%d"),
-        "per_customer": st.column_config.NumberColumn("Value per customer", format="$%.2f"),
-        "total": st.column_config.NumberColumn("Total value", format="$%.2f"),
-    },
-)
-
-best_total = table.loc[table["total"].idxmax()]
-best_per = table.loc[table["per_customer"].idxmax()]
-st.markdown(
-    f'<div class="callout">Total value peaks at <b>{int(best_total["pct"])}%</b> of the base '
-    f'(${best_total["total"]:,.2f}). Value per customer peaks at <b>{int(best_per["pct"])}%</b> '
-    f'(${best_per["per_customer"]:.2f}).</div>',
-    unsafe_allow_html=True,
-)
+    best_total = table.loc[table["total"].idxmax()]
+    best_per = table.loc[table["per_customer"].idxmax()]
+    st.markdown(
+        f'<div class="callout">Total value peaks at <b>{int(best_total["pct"])}%</b> of the base '
+        f'(${best_total["total"]:,.2f}). Value per customer peaks at <b>{int(best_per["pct"])}%</b> '
+        f'(${best_per["per_customer"]:.2f}).</div>',
+        unsafe_allow_html=True,
+    )
