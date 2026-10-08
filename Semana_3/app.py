@@ -13,6 +13,63 @@ FEATURES = ["recency_days", "frequency", "monetary", "email_open_rate", "tenure_
 DATA = Path(__file__).resolve().parent / "data" / "uplift_campaign.csv"
 GREEN, GOLD, CREAM, MUTED, RULE = "#00704A", "#C6A15B", "#F7F4ED", "#6E7C74", "#DAD3C4"
 
+TEXTS = {
+    "es": {
+        "kicker": "Starbucks Rewards · Campaña de retención a 60 días",
+        "title": "¿A quién darle el cupón de $5?",
+        "subtitle": "Esta herramienta estima el uplift de cada cliente y muestra qué porcentaje de la base vale la pena contactar.",
+        "params": "Parámetros",
+        "lang": "Idioma",
+        "slider": "Porcentaje de la base a contactar",
+        "caption": "{n} clientes · cupón de $5 · ventana de 60 días",
+        "qini": "Coeficiente Qini",
+        "value_per": "Valor neto por cliente",
+        "value_total": "Valor neto total",
+        "curve": "Curva Qini",
+        "random": "Al azar",
+        "contact": "Contactar {pct}%",
+        "xlabel": "Porcentaje de la base contactada",
+        "ylabel": "Respuestas incrementales acumuladas",
+        "policy": "Tabla de políticas",
+        "col_contacted": "Contactado",
+        "col_customers": "Clientes",
+        "col_value_per": "Valor por cliente",
+        "col_total": "Valor total",
+        "peak_total": "Valor total máximo",
+        "peak_per": "Valor por cliente máximo",
+        "of_base": "% de la base",
+        "net": "${v:,.2f} neto",
+        "each": "${v:.2f} cada uno",
+    },
+    "en": {
+        "kicker": "Starbucks Rewards · 60-day retention campaign",
+        "title": "Who should get the $5 coupon?",
+        "subtitle": "This tool estimates each customer's uplift and shows what share of the base is worth contacting.",
+        "params": "Parameters",
+        "lang": "Language",
+        "slider": "Share of the base to contact",
+        "caption": "{n} customers · $5 coupon · 60-day window",
+        "qini": "Qini coefficient",
+        "value_per": "Net value per customer",
+        "value_total": "Total net value",
+        "curve": "Qini curve",
+        "random": "Random",
+        "contact": "Contact {pct}%",
+        "xlabel": "Share of the base contacted",
+        "ylabel": "Cumulative incremental responses",
+        "policy": "Policy table",
+        "col_contacted": "Contacted",
+        "col_customers": "Customers",
+        "col_value_per": "Value per customer",
+        "col_total": "Total value",
+        "peak_total": "Peak total value",
+        "peak_per": "Peak value per customer",
+        "of_base": "% of base",
+        "net": "${v:,.2f} net",
+        "each": "${v:.2f} each",
+    },
+}
+
 st.markdown(
     f"""<style>
     @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;600&display=swap');
@@ -77,16 +134,21 @@ def qini_coefficient(xs, ys, n):
     return (trap(ys, xs) - trap(np.linspace(0, ys[-1], len(xs)), xs)) / n
 
 
-st.markdown("##### Starbucks Rewards · 60-day retention campaign")
-st.markdown("# Who should get the $5 coupon?")
-st.markdown("This tool estimates each customer's uplift and shows what share of the base is worth contacting.")
-
 df = load_data()
 
 with st.sidebar:
-    st.markdown("## Parameters")
-    pct = st.slider("Share of the base to contact", 5, 100, 20, 5)
-    st.caption(f"{len(df):,} customers · $5 coupon · 60-day window")
+    options = {"Español": "es", "English": "en"}
+    if hasattr(st, "segmented_control"):
+        pick = st.segmented_control("Idioma / Language", list(options), default="Español", label_visibility="collapsed")
+    else:
+        pick = st.radio("Idioma / Language", list(options), horizontal=True, label_visibility="collapsed")
+    pick = pick or "Español"
+    lang = options[pick]
+    t = TEXTS[lang]
+
+    st.markdown(f"## {t['params']}")
+    pct = st.slider(t["slider"], 5, 100, 20, 5)
+    st.caption(t["caption"].format(n=f"{len(df):,}"))
 
 test = train_t_learner(df)
 xs, ys = qini_curve(test, "uplift")
@@ -96,23 +158,27 @@ n_contact = int(len(test) * pct / 100)
 idx = test.sort_values("uplift", ascending=False).head(n_contact).index
 value, n_sel = policy_value(test, idx)
 
+st.markdown(f"##### {t['kicker']}")
+st.markdown(f"# {t['title']}")
+st.markdown(t["subtitle"])
+
 c1, c2, c3 = st.columns(3)
-c1.metric("Qini coefficient", f"{qini:+.3f}")
-c2.metric("Net value per customer", f"${value:+.2f}")
-c3.metric("Total net value", f"${value * n_sel:+,.2f}")
+c1.metric(t["qini"], f"{qini:+.3f}")
+c2.metric(t["value_per"], f"${value:+.2f}")
+c3.metric(t["value_total"], f"${value * n_sel:+,.2f}")
 
 left, right = st.columns([3, 2], gap="large")
 
 with left:
-    st.markdown("## Qini curve")
+    st.markdown(f"## {t['curve']}")
     fig, ax = plt.subplots(figsize=(7, 4))
     fig.patch.set_facecolor(CREAM)
     ax.set_facecolor(CREAM)
     ax.plot(xs, ys, color=GREEN, linewidth=2.4, label=f"T-learner · Qini {qini:+.3f}")
-    ax.plot([0, 1], [0, ys[-1]], color=MUTED, linewidth=1.3, linestyle="--", label="Random")
-    ax.axvline(pct / 100, color=GOLD, linewidth=2, linestyle=":", label=f"Contact {pct}%")
-    ax.set_xlabel("Share of the base contacted")
-    ax.set_ylabel("Cumulative incremental responses")
+    ax.plot([0, 1], [0, ys[-1]], color=MUTED, linewidth=1.3, linestyle="--", label=t["random"])
+    ax.axvline(pct / 100, color=GOLD, linewidth=2, linestyle=":", label=t["contact"].format(pct=pct))
+    ax.set_xlabel(t["xlabel"])
+    ax.set_ylabel(t["ylabel"])
     ax.grid(axis="y", color=RULE, linewidth=0.8)
     ax.set_axisbelow(True)
     for spine in ("top", "right"):
@@ -125,7 +191,7 @@ with left:
     st.pyplot(fig, width="stretch")
 
 with right:
-    st.markdown("## Policy table")
+    st.markdown(f"## {t['policy']}")
     rows = []
     for p in range(10, 101, 10):
         k = int(len(test) * p / 100)
@@ -140,10 +206,10 @@ with right:
         width="stretch",
         height=380,
         column_config={
-            "pct": st.column_config.NumberColumn("Contacted", format="%d%%"),
-            "customers": st.column_config.NumberColumn("Customers", format="%d"),
-            "per_customer": st.column_config.NumberColumn("Value per customer", format="$%.2f"),
-            "total": st.column_config.NumberColumn("Total value", format="$%.2f"),
+            "pct": st.column_config.NumberColumn(t["col_contacted"], format="%d%%"),
+            "customers": st.column_config.NumberColumn(t["col_customers"], format="%d"),
+            "per_customer": st.column_config.NumberColumn(t["col_value_per"], format="$%.2f"),
+            "total": st.column_config.NumberColumn(t["col_total"], format="$%.2f"),
         },
     )
 
@@ -153,14 +219,14 @@ with right:
         f"""
         <div style="display:flex; gap:2rem; margin-top:.7rem;">
           <div>
-            <div style="color:{MUTED}; font-size:.78rem;">Peak total value</div>
-            <div style="font-family:Fraunces,serif; font-size:1.45rem; line-height:1.1;">{int(best_total['pct'])}% of base</div>
-            <div style="color:{MUTED}; font-size:.78rem;">${best_total['total']:,.2f} net</div>
+            <div style="color:{MUTED}; font-size:.78rem;">{t['peak_total']}</div>
+            <div style="font-family:Fraunces,serif; font-size:1.45rem; line-height:1.1;">{int(best_total['pct'])}% {t['of_base']}</div>
+            <div style="color:{MUTED}; font-size:.78rem;">{t['net'].format(v=best_total['total'])}</div>
           </div>
           <div>
-            <div style="color:{MUTED}; font-size:.78rem;">Peak value per customer</div>
-            <div style="font-family:Fraunces,serif; font-size:1.45rem; line-height:1.1;">{int(best_per['pct'])}% of base</div>
-            <div style="color:{MUTED}; font-size:.78rem;">${best_per['per_customer']:.2f} each</div>
+            <div style="color:{MUTED}; font-size:.78rem;">{t['peak_per']}</div>
+            <div style="font-family:Fraunces,serif; font-size:1.45rem; line-height:1.1;">{int(best_per['pct'])}% {t['of_base']}</div>
+            <div style="color:{MUTED}; font-size:.78rem;">{t['each'].format(v=best_per['per_customer'])}</div>
           </div>
         </div>
         """,

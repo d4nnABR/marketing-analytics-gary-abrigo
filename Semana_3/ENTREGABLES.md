@@ -16,7 +16,7 @@ Campaña **Starbucks Rewards** · cupón de $5 · ventana de 60 días · Churn +
 2. **Branch** `Tarea_Actividad_2_Grupo_5` — creada a partir de `main` con estos entregables.
 3. **App de Streamlit** (`Semana_3/app.py`) — construida sobre `streamlit_starter.py`. Muestra la
    **curva Qini del T-learner** y la **tabla de políticas del Paso 3**, con un **slider
-   interactivo** para elegir el % de la base a contactar.
+   interactivo** para elegir el % de la base a contactar y un **selector Español/English**.
 4. **Tabla de comparación de modelos** (Qini y correlación con el uplift real):
 
    | Modelo dentro del T-learner | Correlación con el uplift real | Qini |
