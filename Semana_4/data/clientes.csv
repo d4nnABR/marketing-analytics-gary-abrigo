@@ -1,0 +1,3001 @@
+customer_id,ciudad
+1,Puerto San José
+2,Ciudad de Guatemala
+3,Puerto San José
+4,Puerto San José
+5,Cobán
+6,Puerto San José
+7,Ciudad de Guatemala
+8,Ciudad de Guatemala
+9,Puerto San José
+10,Antigua Guatemala
+11,Puerto San José
+12,Antigua Guatemala
+13,Antigua Guatemala
+14,Puerto San José
+15,Antigua Guatemala
+16,Ciudad de Guatemala
+17,Antigua Guatemala
+18,Ciudad de Guatemala
+19,Puerto San José
+20,Puerto San José
+21,Ciudad de Guatemala
+22,Ciudad de Guatemala
+23,Puerto San José
+24,Ciudad de Guatemala
+25,Ciudad de Guatemala
+26,Ciudad de Guatemala
+27,Puerto San José
+28,Antigua Guatemala
+29,Ciudad de Guatemala
+30,Ciudad de Guatemala
+31,Ciudad de Guatemala
+32,Antigua Guatemala
+33,Ciudad de Guatemala
+34,Cobán
+35,Puerto San José
+36,Cobán
+37,Ciudad de Guatemala
+38,Ciudad de Guatemala
+39,Ciudad de Guatemala
+40,Antigua Guatemala
+41,Ciudad de Guatemala
+42,Ciudad de Guatemala
+43,Puerto San José
+44,Antigua Guatemala
+45,Cobán
+46,Ciudad de Guatemala
+47,Ciudad de Guatemala
+48,Cobán
+49,Antigua Guatemala
+50,Ciudad de Guatemala
+51,Puerto San José
+52,Puerto San José
+53,Puerto San José
+54,Puerto San José
+55,Antigua Guatemala
+56,Ciudad de Guatemala
+57,Puerto San José
+58,Cobán
+59,Ciudad de Guatemala
+60,Puerto San José
+61,Puerto San José
+62,Ciudad de Guatemala
+63,Antigua Guatemala
+64,Antigua Guatemala
+65,Antigua Guatemala
+66,Ciudad de Guatemala
+67,Ciudad de Guatemala
+68,Puerto San José
+69,Cobán
+70,Puerto San José
+71,Cobán
+72,Ciudad de Guatemala
+73,Puerto San José
+74,Ciudad de Guatemala
+75,Puerto San José
+76,Ciudad de Guatemala
+77,Antigua Guatemala
+78,Cobán
+79,Ciudad de Guatemala
+80,Antigua Guatemala
+81,Ciudad de Guatemala
+82,Ciudad de Guatemala
+83,Antigua Guatemala
+84,Antigua Guatemala
+85,Ciudad de Guatemala
+86,Ciudad de Guatemala
+87,Ciudad de Guatemala
+88,Ciudad de Guatemala
+89,Cobán
+90,Antigua Guatemala
+91,Ciudad de Guatemala
+92,Ciudad de Guatemala
+93,Antigua Guatemala
+94,Antigua Guatemala
+95,Antigua Guatemala
+96,Antigua Guatemala
+97,Ciudad de Guatemala
+98,Ciudad de Guatemala
+99,Ciudad de Guatemala
+100,Cobán
+101,Ciudad de Guatemala
+102,Cobán
+103,Puerto San José
+104,Ciudad de Guatemala
+105,Ciudad de Guatemala
+106,Cobán
+107,Cobán
+108,Puerto San José
+109,Ciudad de Guatemala
+110,Antigua Guatemala
+111,Ciudad de Guatemala
+112,Ciudad de Guatemala
+113,Cobán
+114,Antigua Guatemala
+115,Puerto San José
+116,Ciudad de Guatemala
+117,Antigua Guatemala
+118,Ciudad de Guatemala
+119,Antigua Guatemala
+120,Antigua Guatemala
+121,Ciudad de Guatemala
+122,Puerto San José
+123,Puerto San José
+124,Puerto San José
+125,Antigua Guatemala
+126,Ciudad de Guatemala
+127,Cobán
+128,Puerto San José
+129,Puerto San José
+130,Ciudad de Guatemala
+131,Puerto San José
+132,Antigua Guatemala
+133,Ciudad de Guatemala
+134,Ciudad de Guatemala
+135,Puerto San José
+136,Antigua Guatemala
+137,Cobán
+138,Antigua Guatemala
+139,Ciudad de Guatemala
+140,Cobán
+141,Ciudad de Guatemala
+142,Ciudad de Guatemala
+143,Cobán
+144,Cobán
+145,Ciudad de Guatemala
+146,Ciudad de Guatemala
+147,Puerto San José
+148,Cobán
+149,Ciudad de Guatemala
+150,Puerto San José
+151,Ciudad de Guatemala
+152,Puerto San José
+153,Puerto San José
+154,Ciudad de Guatemala
+155,Antigua Guatemala
+156,Puerto San José
+157,Puerto San José
+158,Cobán
+159,Cobán
+160,Puerto San José
+161,Ciudad de Guatemala
+162,Cobán
+163,Cobán
+164,Ciudad de Guatemala
+165,Antigua Guatemala
+166,Antigua Guatemala
+167,Ciudad de Guatemala
+168,Ciudad de Guatemala
+169,Ciudad de Guatemala
+170,Cobán
+171,Puerto San José
+172,Ciudad de Guatemala
+173,Puerto San José
+174,Ciudad de Guatemala
+175,Ciudad de Guatemala
+176,Ciudad de Guatemala
+177,Antigua Guatemala
+178,Puerto San José
+179,Antigua Guatemala
+180,Ciudad de Guatemala
+181,Ciudad de Guatemala
+182,Cobán
+183,Antigua Guatemala
+184,Cobán
+185,Ciudad de Guatemala
+186,Antigua Guatemala
+187,Ciudad de Guatemala
+188,Ciudad de Guatemala
+189,Ciudad de Guatemala
+190,Antigua Guatemala
+191,Antigua Guatemala
+192,Ciudad de Guatemala
+193,Antigua Guatemala
+194,Ciudad de Guatemala
+195,Antigua Guatemala
+196,Puerto San José
+197,Cobán
+198,Antigua Guatemala
+199,Ciudad de Guatemala
+200,Ciudad de Guatemala
+201,Puerto San José
+202,Ciudad de Guatemala
+203,Cobán
+204,Ciudad de Guatemala
+205,Ciudad de Guatemala
+206,Puerto San José
+207,Cobán
+208,Ciudad de Guatemala
+209,Puerto San José
+210,Puerto San José
+211,Antigua Guatemala
+212,Ciudad de Guatemala
+213,Ciudad de Guatemala
+214,Ciudad de Guatemala
+215,Cobán
+216,Ciudad de Guatemala
+217,Puerto San José
+218,Puerto San José
+219,Cobán
+220,Ciudad de Guatemala
+221,Ciudad de Guatemala
+222,Ciudad de Guatemala
+223,Antigua Guatemala
+224,Ciudad de Guatemala
+225,Ciudad de Guatemala
+226,Ciudad de Guatemala
+227,Cobán
+228,Cobán
+229,Antigua Guatemala
+230,Ciudad de Guatemala
+231,Cobán
+232,Puerto San José
+233,Puerto San José
+234,Puerto San José
+235,Puerto San José
+236,Cobán
+237,Ciudad de Guatemala
+238,Puerto San José
+239,Ciudad de Guatemala
+240,Ciudad de Guatemala
+241,Puerto San José
+242,Puerto San José
+243,Ciudad de Guatemala
+244,Puerto San José
+245,Ciudad de Guatemala
+246,Ciudad de Guatemala
+247,Ciudad de Guatemala
+248,Cobán
+249,Ciudad de Guatemala
+250,Antigua Guatemala
+251,Antigua Guatemala
+252,Ciudad de Guatemala
+253,Cobán
+254,Cobán
+255,Ciudad de Guatemala
+256,Ciudad de Guatemala
+257,Puerto San José
+258,Cobán
+259,Puerto San José
+260,Ciudad de Guatemala
+261,Puerto San José
+262,Puerto San José
+263,Puerto San José
+264,Antigua Guatemala
+265,Puerto San José
+266,Antigua Guatemala
+267,Puerto San José
+268,Ciudad de Guatemala
+269,Puerto San José
+270,Ciudad de Guatemala
+271,Ciudad de Guatemala
+272,Antigua Guatemala
+273,Ciudad de Guatemala
+274,Ciudad de Guatemala
+275,Cobán
+276,Cobán
+277,Puerto San José
+278,Puerto San José
+279,Ciudad de Guatemala
+280,Cobán
+281,Ciudad de Guatemala
+282,Cobán
+283,Ciudad de Guatemala
+284,Ciudad de Guatemala
+285,Puerto San José
+286,Cobán
+287,Ciudad de Guatemala
+288,Cobán
+289,Ciudad de Guatemala
+290,Antigua Guatemala
+291,Puerto San José
+292,Ciudad de Guatemala
+293,Ciudad de Guatemala
+294,Ciudad de Guatemala
+295,Cobán
+296,Ciudad de Guatemala
+297,Cobán
+298,Puerto San José
+299,Ciudad de Guatemala
+300,Ciudad de Guatemala
+301,Ciudad de Guatemala
+302,Antigua Guatemala
+303,Antigua Guatemala
+304,Cobán
+305,Antigua Guatemala
+306,Puerto San José
+307,Puerto San José
+308,Ciudad de Guatemala
+309,Antigua Guatemala
+310,Cobán
+311,Antigua Guatemala
+312,Ciudad de Guatemala
+313,Ciudad de Guatemala
+314,Puerto San José
+315,Ciudad de Guatemala
+316,Antigua Guatemala
+317,Puerto San José
+318,Cobán
+319,Ciudad de Guatemala
+320,Puerto San José
+321,Cobán
+322,Puerto San José
+323,Ciudad de Guatemala
+324,Puerto San José
+325,Cobán
+326,Ciudad de Guatemala
+327,Ciudad de Guatemala
+328,Ciudad de Guatemala
+329,Ciudad de Guatemala
+330,Ciudad de Guatemala
+331,Ciudad de Guatemala
+332,Puerto San José
+333,Cobán
+334,Antigua Guatemala
+335,Antigua Guatemala
+336,Puerto San José
+337,Ciudad de Guatemala
+338,Antigua Guatemala
+339,Ciudad de Guatemala
+340,Ciudad de Guatemala
+341,Ciudad de Guatemala
+342,Antigua Guatemala
+343,Antigua Guatemala
+344,Antigua Guatemala
+345,Cobán
+346,Ciudad de Guatemala
+347,Antigua Guatemala
+348,Puerto San José
+349,Cobán
+350,Puerto San José
+351,Antigua Guatemala
+352,Ciudad de Guatemala
+353,Puerto San José
+354,Ciudad de Guatemala
+355,Ciudad de Guatemala
+356,Antigua Guatemala
+357,Ciudad de Guatemala
+358,Ciudad de Guatemala
+359,Antigua Guatemala
+360,Ciudad de Guatemala
+361,Puerto San José
+362,Ciudad de Guatemala
+363,Antigua Guatemala
+364,Cobán
+365,Antigua Guatemala
+366,Puerto San José
+367,Puerto San José
+368,Cobán
+369,Antigua Guatemala
+370,Puerto San José
+371,Ciudad de Guatemala
+372,Puerto San José
+373,Ciudad de Guatemala
+374,Ciudad de Guatemala
+375,Ciudad de Guatemala
+376,Ciudad de Guatemala
+377,Puerto San José
+378,Ciudad de Guatemala
+379,Ciudad de Guatemala
+380,Puerto San José
+381,Puerto San José
+382,Antigua Guatemala
+383,Puerto San José
+384,Ciudad de Guatemala
+385,Cobán
+386,Ciudad de Guatemala
+387,Ciudad de Guatemala
+388,Puerto San José
+389,Puerto San José
+390,Cobán
+391,Antigua Guatemala
+392,Puerto San José
+393,Antigua Guatemala
+394,Antigua Guatemala
+395,Ciudad de Guatemala
+396,Antigua Guatemala
+397,Ciudad de Guatemala
+398,Ciudad de Guatemala
+399,Ciudad de Guatemala
+400,Cobán
+401,Cobán
+402,Puerto San José
+403,Puerto San José
+404,Ciudad de Guatemala
+405,Puerto San José
+406,Puerto San José
+407,Ciudad de Guatemala
+408,Antigua Guatemala
+409,Ciudad de Guatemala
+410,Ciudad de Guatemala
+411,Ciudad de Guatemala
+412,Antigua Guatemala
+413,Ciudad de Guatemala
+414,Puerto San José
+415,Puerto San José
+416,Ciudad de Guatemala
+417,Puerto San José
+418,Antigua Guatemala
+419,Ciudad de Guatemala
+420,Antigua Guatemala
+421,Ciudad de Guatemala
+422,Cobán
+423,Puerto San José
+424,Ciudad de Guatemala
+425,Ciudad de Guatemala
+426,Ciudad de Guatemala
+427,Ciudad de Guatemala
+428,Ciudad de Guatemala
+429,Puerto San José
+430,Ciudad de Guatemala
+431,Cobán
+432,Ciudad de Guatemala
+433,Antigua Guatemala
+434,Cobán
+435,Puerto San José
+436,Antigua Guatemala
+437,Ciudad de Guatemala
+438,Cobán
+439,Ciudad de Guatemala
+440,Ciudad de Guatemala
+441,Ciudad de Guatemala
+442,Ciudad de Guatemala
+443,Antigua Guatemala
+444,Cobán
+445,Puerto San José
+446,Ciudad de Guatemala
+447,Cobán
+448,Cobán
+449,Puerto San José
+450,Puerto San José
+451,Antigua Guatemala
+452,Antigua Guatemala
+453,Puerto San José
+454,Ciudad de Guatemala
+455,Cobán
+456,Puerto San José
+457,Puerto San José
+458,Ciudad de Guatemala
+459,Cobán
+460,Antigua Guatemala
+461,Ciudad de Guatemala
+462,Puerto San José
+463,Antigua Guatemala
+464,Antigua Guatemala
+465,Ciudad de Guatemala
+466,Ciudad de Guatemala
+467,Puerto San José
+468,Puerto San José
+469,Ciudad de Guatemala
+470,Antigua Guatemala
+471,Ciudad de Guatemala
+472,Ciudad de Guatemala
+473,Ciudad de Guatemala
+474,Puerto San José
+475,Puerto San José
+476,Antigua Guatemala
+477,Ciudad de Guatemala
+478,Ciudad de Guatemala
+479,Ciudad de Guatemala
+480,Puerto San José
+481,Ciudad de Guatemala
+482,Ciudad de Guatemala
+483,Puerto San José
+484,Puerto San José
+485,Antigua Guatemala
+486,Ciudad de Guatemala
+487,Ciudad de Guatemala
+488,Antigua Guatemala
+489,Ciudad de Guatemala
+490,Ciudad de Guatemala
+491,Puerto San José
+492,Ciudad de Guatemala
+493,Ciudad de Guatemala
+494,Ciudad de Guatemala
+495,Ciudad de Guatemala
+496,Ciudad de Guatemala
+497,Puerto San José
+498,Puerto San José
+499,Puerto San José
+500,Ciudad de Guatemala
+501,Puerto San José
+502,Puerto San José
+503,Ciudad de Guatemala
+504,Antigua Guatemala
+505,Cobán
+506,Ciudad de Guatemala
+507,Puerto San José
+508,Cobán
+509,Ciudad de Guatemala
+510,Cobán
+511,Antigua Guatemala
+512,Ciudad de Guatemala
+513,Antigua Guatemala
+514,Ciudad de Guatemala
+515,Antigua Guatemala
+516,Ciudad de Guatemala
+517,Ciudad de Guatemala
+518,Ciudad de Guatemala
+519,Ciudad de Guatemala
+520,Cobán
+521,Puerto San José
+522,Ciudad de Guatemala
+523,Antigua Guatemala
+524,Puerto San José
+525,Ciudad de Guatemala
+526,Cobán
+527,Cobán
+528,Antigua Guatemala
+529,Puerto San José
+530,Ciudad de Guatemala
+531,Ciudad de Guatemala
+532,Puerto San José
+533,Antigua Guatemala
+534,Ciudad de Guatemala
+535,Puerto San José
+536,Puerto San José
+537,Puerto San José
+538,Ciudad de Guatemala
+539,Antigua Guatemala
+540,Puerto San José
+541,Antigua Guatemala
+542,Cobán
+543,Puerto San José
+544,Cobán
+545,Ciudad de Guatemala
+546,Cobán
+547,Puerto San José
+548,Antigua Guatemala
+549,Ciudad de Guatemala
+550,Cobán
+551,Ciudad de Guatemala
+552,Ciudad de Guatemala
+553,Ciudad de Guatemala
+554,Puerto San José
+555,Cobán
+556,Puerto San José
+557,Ciudad de Guatemala
+558,Ciudad de Guatemala
+559,Puerto San José
+560,Antigua Guatemala
+561,Puerto San José
+562,Ciudad de Guatemala
+563,Ciudad de Guatemala
+564,Cobán
+565,Ciudad de Guatemala
+566,Ciudad de Guatemala
+567,Antigua Guatemala
+568,Puerto San José
+569,Antigua Guatemala
+570,Antigua Guatemala
+571,Antigua Guatemala
+572,Puerto San José
+573,Puerto San José
+574,Antigua Guatemala
+575,Antigua Guatemala
+576,Ciudad de Guatemala
+577,Puerto San José
+578,Cobán
+579,Ciudad de Guatemala
+580,Ciudad de Guatemala
+581,Ciudad de Guatemala
+582,Antigua Guatemala
+583,Antigua Guatemala
+584,Ciudad de Guatemala
+585,Puerto San José
+586,Ciudad de Guatemala
+587,Ciudad de Guatemala
+588,Puerto San José
+589,Cobán
+590,Puerto San José
+591,Puerto San José
+592,Puerto San José
+593,Cobán
+594,Antigua Guatemala
+595,Ciudad de Guatemala
+596,Antigua Guatemala
+597,Ciudad de Guatemala
+598,Ciudad de Guatemala
+599,Cobán
+600,Ciudad de Guatemala
+601,Cobán
+602,Puerto San José
+603,Antigua Guatemala
+604,Cobán
+605,Ciudad de Guatemala
+606,Ciudad de Guatemala
+607,Ciudad de Guatemala
+608,Ciudad de Guatemala
+609,Ciudad de Guatemala
+610,Antigua Guatemala
+611,Puerto San José
+612,Cobán
+613,Puerto San José
+614,Puerto San José
+615,Cobán
+616,Puerto San José
+617,Antigua Guatemala
+618,Ciudad de Guatemala
+619,Puerto San José
+620,Cobán
+621,Puerto San José
+622,Ciudad de Guatemala
+623,Puerto San José
+624,Ciudad de Guatemala
+625,Ciudad de Guatemala
+626,Cobán
+627,Ciudad de Guatemala
+628,Antigua Guatemala
+629,Ciudad de Guatemala
+630,Ciudad de Guatemala
+631,Puerto San José
+632,Puerto San José
+633,Ciudad de Guatemala
+634,Ciudad de Guatemala
+635,Puerto San José
+636,Antigua Guatemala
+637,Cobán
+638,Puerto San José
+639,Puerto San José
+640,Antigua Guatemala
+641,Puerto San José
+642,Ciudad de Guatemala
+643,Puerto San José
+644,Ciudad de Guatemala
+645,Antigua Guatemala
+646,Cobán
+647,Ciudad de Guatemala
+648,Puerto San José
+649,Antigua Guatemala
+650,Puerto San José
+651,Ciudad de Guatemala
+652,Cobán
+653,Ciudad de Guatemala
+654,Ciudad de Guatemala
+655,Antigua Guatemala
+656,Puerto San José
+657,Antigua Guatemala
+658,Antigua Guatemala
+659,Puerto San José
+660,Ciudad de Guatemala
+661,Puerto San José
+662,Puerto San José
+663,Cobán
+664,Ciudad de Guatemala
+665,Puerto San José
+666,Puerto San José
+667,Ciudad de Guatemala
+668,Antigua Guatemala
+669,Cobán
+670,Antigua Guatemala
+671,Ciudad de Guatemala
+672,Puerto San José
+673,Cobán
+674,Antigua Guatemala
+675,Antigua Guatemala
+676,Cobán
+677,Ciudad de Guatemala
+678,Cobán
+679,Ciudad de Guatemala
+680,Ciudad de Guatemala
+681,Puerto San José
+682,Ciudad de Guatemala
+683,Cobán
+684,Cobán
+685,Cobán
+686,Ciudad de Guatemala
+687,Puerto San José
+688,Ciudad de Guatemala
+689,Ciudad de Guatemala
+690,Ciudad de Guatemala
+691,Antigua Guatemala
+692,Cobán
+693,Cobán
+694,Puerto San José
+695,Ciudad de Guatemala
+696,Ciudad de Guatemala
+697,Ciudad de Guatemala
+698,Ciudad de Guatemala
+699,Cobán
+700,Puerto San José
+701,Antigua Guatemala
+702,Ciudad de Guatemala
+703,Antigua Guatemala
+704,Cobán
+705,Ciudad de Guatemala
+706,Antigua Guatemala
+707,Ciudad de Guatemala
+708,Puerto San José
+709,Antigua Guatemala
+710,Antigua Guatemala
+711,Antigua Guatemala
+712,Ciudad de Guatemala
+713,Puerto San José
+714,Ciudad de Guatemala
+715,Ciudad de Guatemala
+716,Ciudad de Guatemala
+717,Ciudad de Guatemala
+718,Cobán
+719,Ciudad de Guatemala
+720,Cobán
+721,Cobán
+722,Ciudad de Guatemala
+723,Ciudad de Guatemala
+724,Antigua Guatemala
+725,Ciudad de Guatemala
+726,Ciudad de Guatemala
+727,Cobán
+728,Ciudad de Guatemala
+729,Cobán
+730,Ciudad de Guatemala
+731,Puerto San José
+732,Puerto San José
+733,Cobán
+734,Ciudad de Guatemala
+735,Cobán
+736,Puerto San José
+737,Ciudad de Guatemala
+738,Antigua Guatemala
+739,Ciudad de Guatemala
+740,Antigua Guatemala
+741,Antigua Guatemala
+742,Ciudad de Guatemala
+743,Ciudad de Guatemala
+744,Ciudad de Guatemala
+745,Ciudad de Guatemala
+746,Ciudad de Guatemala
+747,Ciudad de Guatemala
+748,Puerto San José
+749,Ciudad de Guatemala
+750,Ciudad de Guatemala
+751,Puerto San José
+752,Antigua Guatemala
+753,Puerto San José
+754,Ciudad de Guatemala
+755,Puerto San José
+756,Antigua Guatemala
+757,Cobán
+758,Ciudad de Guatemala
+759,Ciudad de Guatemala
+760,Ciudad de Guatemala
+761,Ciudad de Guatemala
+762,Antigua Guatemala
+763,Antigua Guatemala
+764,Cobán
+765,Ciudad de Guatemala
+766,Ciudad de Guatemala
+767,Cobán
+768,Ciudad de Guatemala
+769,Puerto San José
+770,Puerto San José
+771,Antigua Guatemala
+772,Ciudad de Guatemala
+773,Antigua Guatemala
+774,Ciudad de Guatemala
+775,Puerto San José
+776,Antigua Guatemala
+777,Cobán
+778,Ciudad de Guatemala
+779,Antigua Guatemala
+780,Ciudad de Guatemala
+781,Antigua Guatemala
+782,Puerto San José
+783,Antigua Guatemala
+784,Cobán
+785,Ciudad de Guatemala
+786,Ciudad de Guatemala
+787,Ciudad de Guatemala
+788,Ciudad de Guatemala
+789,Ciudad de Guatemala
+790,Cobán
+791,Antigua Guatemala
+792,Antigua Guatemala
+793,Cobán
+794,Ciudad de Guatemala
+795,Puerto San José
+796,Antigua Guatemala
+797,Puerto San José
+798,Puerto San José
+799,Cobán
+800,Antigua Guatemala
+801,Puerto San José
+802,Cobán
+803,Cobán
+804,Ciudad de Guatemala
+805,Ciudad de Guatemala
+806,Cobán
+807,Ciudad de Guatemala
+808,Antigua Guatemala
+809,Antigua Guatemala
+810,Ciudad de Guatemala
+811,Ciudad de Guatemala
+812,Cobán
+813,Ciudad de Guatemala
+814,Ciudad de Guatemala
+815,Puerto San José
+816,Cobán
+817,Antigua Guatemala
+818,Puerto San José
+819,Ciudad de Guatemala
+820,Cobán
+821,Antigua Guatemala
+822,Ciudad de Guatemala
+823,Ciudad de Guatemala
+824,Antigua Guatemala
+825,Ciudad de Guatemala
+826,Cobán
+827,Puerto San José
+828,Puerto San José
+829,Antigua Guatemala
+830,Ciudad de Guatemala
+831,Ciudad de Guatemala
+832,Antigua Guatemala
+833,Ciudad de Guatemala
+834,Ciudad de Guatemala
+835,Cobán
+836,Ciudad de Guatemala
+837,Cobán
+838,Cobán
+839,Ciudad de Guatemala
+840,Antigua Guatemala
+841,Cobán
+842,Antigua Guatemala
+843,Ciudad de Guatemala
+844,Ciudad de Guatemala
+845,Puerto San José
+846,Antigua Guatemala
+847,Ciudad de Guatemala
+848,Ciudad de Guatemala
+849,Ciudad de Guatemala
+850,Puerto San José
+851,Ciudad de Guatemala
+852,Cobán
+853,Puerto San José
+854,Ciudad de Guatemala
+855,Antigua Guatemala
+856,Ciudad de Guatemala
+857,Ciudad de Guatemala
+858,Ciudad de Guatemala
+859,Cobán
+860,Antigua Guatemala
+861,Puerto San José
+862,Cobán
+863,Antigua Guatemala
+864,Antigua Guatemala
+865,Antigua Guatemala
+866,Antigua Guatemala
+867,Antigua Guatemala
+868,Ciudad de Guatemala
+869,Ciudad de Guatemala
+870,Puerto San José
+871,Ciudad de Guatemala
+872,Ciudad de Guatemala
+873,Ciudad de Guatemala
+874,Ciudad de Guatemala
+875,Antigua Guatemala
+876,Ciudad de Guatemala
+877,Cobán
+878,Ciudad de Guatemala
+879,Ciudad de Guatemala
+880,Antigua Guatemala
+881,Antigua Guatemala
+882,Antigua Guatemala
+883,Ciudad de Guatemala
+884,Antigua Guatemala
+885,Ciudad de Guatemala
+886,Ciudad de Guatemala
+887,Ciudad de Guatemala
+888,Cobán
+889,Puerto San José
+890,Antigua Guatemala
+891,Antigua Guatemala
+892,Ciudad de Guatemala
+893,Antigua Guatemala
+894,Puerto San José
+895,Ciudad de Guatemala
+896,Antigua Guatemala
+897,Puerto San José
+898,Cobán
+899,Cobán
+900,Antigua Guatemala
+901,Ciudad de Guatemala
+902,Antigua Guatemala
+903,Ciudad de Guatemala
+904,Ciudad de Guatemala
+905,Antigua Guatemala
+906,Antigua Guatemala
+907,Cobán
+908,Cobán
+909,Ciudad de Guatemala
+910,Cobán
+911,Antigua Guatemala
+912,Antigua Guatemala
+913,Cobán
+914,Antigua Guatemala
+915,Cobán
+916,Puerto San José
+917,Antigua Guatemala
+918,Cobán
+919,Ciudad de Guatemala
+920,Ciudad de Guatemala
+921,Ciudad de Guatemala
+922,Cobán
+923,Ciudad de Guatemala
+924,Ciudad de Guatemala
+925,Puerto San José
+926,Ciudad de Guatemala
+927,Ciudad de Guatemala
+928,Ciudad de Guatemala
+929,Cobán
+930,Antigua Guatemala
+931,Antigua Guatemala
+932,Ciudad de Guatemala
+933,Puerto San José
+934,Ciudad de Guatemala
+935,Ciudad de Guatemala
+936,Antigua Guatemala
+937,Puerto San José
+938,Ciudad de Guatemala
+939,Ciudad de Guatemala
+940,Ciudad de Guatemala
+941,Puerto San José
+942,Antigua Guatemala
+943,Puerto San José
+944,Puerto San José
+945,Puerto San José
+946,Cobán
+947,Ciudad de Guatemala
+948,Ciudad de Guatemala
+949,Ciudad de Guatemala
+950,Ciudad de Guatemala
+951,Puerto San José
+952,Puerto San José
+953,Cobán
+954,Antigua Guatemala
+955,Cobán
+956,Antigua Guatemala
+957,Ciudad de Guatemala
+958,Puerto San José
+959,Ciudad de Guatemala
+960,Ciudad de Guatemala
+961,Antigua Guatemala
+962,Ciudad de Guatemala
+963,Ciudad de Guatemala
+964,Puerto San José
+965,Antigua Guatemala
+966,Ciudad de Guatemala
+967,Antigua Guatemala
+968,Ciudad de Guatemala
+969,Ciudad de Guatemala
+970,Puerto San José
+971,Ciudad de Guatemala
+972,Puerto San José
+973,Puerto San José
+974,Puerto San José
+975,Ciudad de Guatemala
+976,Ciudad de Guatemala
+977,Ciudad de Guatemala
+978,Antigua Guatemala
+979,Antigua Guatemala
+980,Puerto San José
+981,Ciudad de Guatemala
+982,Antigua Guatemala
+983,Puerto San José
+984,Cobán
+985,Ciudad de Guatemala
+986,Ciudad de Guatemala
+987,Antigua Guatemala
+988,Ciudad de Guatemala
+989,Ciudad de Guatemala
+990,Puerto San José
+991,Ciudad de Guatemala
+992,Puerto San José
+993,Ciudad de Guatemala
+994,Ciudad de Guatemala
+995,Ciudad de Guatemala
+996,Ciudad de Guatemala
+997,Antigua Guatemala
+998,Antigua Guatemala
+999,Puerto San José
+1000,Cobán
+1001,Ciudad de Guatemala
+1002,Antigua Guatemala
+1003,Ciudad de Guatemala
+1004,Cobán
+1005,Antigua Guatemala
+1006,Cobán
+1007,Ciudad de Guatemala
+1008,Puerto San José
+1009,Puerto San José
+1010,Cobán
+1011,Ciudad de Guatemala
+1012,Ciudad de Guatemala
+1013,Ciudad de Guatemala
+1014,Antigua Guatemala
+1015,Ciudad de Guatemala
+1016,Ciudad de Guatemala
+1017,Antigua Guatemala
+1018,Puerto San José
+1019,Puerto San José
+1020,Cobán
+1021,Ciudad de Guatemala
+1022,Antigua Guatemala
+1023,Puerto San José
+1024,Ciudad de Guatemala
+1025,Ciudad de Guatemala
+1026,Ciudad de Guatemala
+1027,Antigua Guatemala
+1028,Puerto San José
+1029,Puerto San José
+1030,Ciudad de Guatemala
+1031,Cobán
+1032,Ciudad de Guatemala
+1033,Cobán
+1034,Puerto San José
+1035,Puerto San José
+1036,Antigua Guatemala
+1037,Ciudad de Guatemala
+1038,Puerto San José
+1039,Puerto San José
+1040,Cobán
+1041,Puerto San José
+1042,Ciudad de Guatemala
+1043,Ciudad de Guatemala
+1044,Puerto San José
+1045,Ciudad de Guatemala
+1046,Antigua Guatemala
+1047,Ciudad de Guatemala
+1048,Ciudad de Guatemala
+1049,Antigua Guatemala
+1050,Puerto San José
+1051,Cobán
+1052,Ciudad de Guatemala
+1053,Ciudad de Guatemala
+1054,Puerto San José
+1055,Puerto San José
+1056,Ciudad de Guatemala
+1057,Puerto San José
+1058,Cobán
+1059,Ciudad de Guatemala
+1060,Antigua Guatemala
+1061,Ciudad de Guatemala
+1062,Ciudad de Guatemala
+1063,Ciudad de Guatemala
+1064,Antigua Guatemala
+1065,Puerto San José
+1066,Puerto San José
+1067,Puerto San José
+1068,Ciudad de Guatemala
+1069,Puerto San José
+1070,Ciudad de Guatemala
+1071,Ciudad de Guatemala
+1072,Ciudad de Guatemala
+1073,Ciudad de Guatemala
+1074,Puerto San José
+1075,Ciudad de Guatemala
+1076,Ciudad de Guatemala
+1077,Antigua Guatemala
+1078,Puerto San José
+1079,Ciudad de Guatemala
+1080,Puerto San José
+1081,Cobán
+1082,Antigua Guatemala
+1083,Cobán
+1084,Antigua Guatemala
+1085,Cobán
+1086,Ciudad de Guatemala
+1087,Antigua Guatemala
+1088,Ciudad de Guatemala
+1089,Ciudad de Guatemala
+1090,Puerto San José
+1091,Antigua Guatemala
+1092,Cobán
+1093,Ciudad de Guatemala
+1094,Cobán
+1095,Ciudad de Guatemala
+1096,Ciudad de Guatemala
+1097,Puerto San José
+1098,Puerto San José
+1099,Antigua Guatemala
+1100,Antigua Guatemala
+1101,Ciudad de Guatemala
+1102,Cobán
+1103,Ciudad de Guatemala
+1104,Puerto San José
+1105,Puerto San José
+1106,Cobán
+1107,Ciudad de Guatemala
+1108,Antigua Guatemala
+1109,Ciudad de Guatemala
+1110,Ciudad de Guatemala
+1111,Ciudad de Guatemala
+1112,Cobán
+1113,Ciudad de Guatemala
+1114,Ciudad de Guatemala
+1115,Puerto San José
+1116,Ciudad de Guatemala
+1117,Puerto San José
+1118,Ciudad de Guatemala
+1119,Antigua Guatemala
+1120,Antigua Guatemala
+1121,Cobán
+1122,Puerto San José
+1123,Ciudad de Guatemala
+1124,Cobán
+1125,Ciudad de Guatemala
+1126,Ciudad de Guatemala
+1127,Ciudad de Guatemala
+1128,Ciudad de Guatemala
+1129,Ciudad de Guatemala
+1130,Antigua Guatemala
+1131,Cobán
+1132,Ciudad de Guatemala
+1133,Ciudad de Guatemala
+1134,Ciudad de Guatemala
+1135,Puerto San José
+1136,Ciudad de Guatemala
+1137,Ciudad de Guatemala
+1138,Ciudad de Guatemala
+1139,Cobán
+1140,Ciudad de Guatemala
+1141,Antigua Guatemala
+1142,Cobán
+1143,Ciudad de Guatemala
+1144,Puerto San José
+1145,Puerto San José
+1146,Ciudad de Guatemala
+1147,Ciudad de Guatemala
+1148,Antigua Guatemala
+1149,Ciudad de Guatemala
+1150,Puerto San José
+1151,Puerto San José
+1152,Antigua Guatemala
+1153,Cobán
+1154,Ciudad de Guatemala
+1155,Cobán
+1156,Ciudad de Guatemala
+1157,Antigua Guatemala
+1158,Puerto San José
+1159,Ciudad de Guatemala
+1160,Puerto San José
+1161,Ciudad de Guatemala
+1162,Puerto San José
+1163,Ciudad de Guatemala
+1164,Ciudad de Guatemala
+1165,Ciudad de Guatemala
+1166,Cobán
+1167,Ciudad de Guatemala
+1168,Ciudad de Guatemala
+1169,Cobán
+1170,Cobán
+1171,Ciudad de Guatemala
+1172,Antigua Guatemala
+1173,Antigua Guatemala
+1174,Puerto San José
+1175,Puerto San José
+1176,Antigua Guatemala
+1177,Antigua Guatemala
+1178,Antigua Guatemala
+1179,Ciudad de Guatemala
+1180,Cobán
+1181,Cobán
+1182,Ciudad de Guatemala
+1183,Puerto San José
+1184,Puerto San José
+1185,Antigua Guatemala
+1186,Ciudad de Guatemala
+1187,Ciudad de Guatemala
+1188,Puerto San José
+1189,Ciudad de Guatemala
+1190,Puerto San José
+1191,Ciudad de Guatemala
+1192,Ciudad de Guatemala
+1193,Puerto San José
+1194,Puerto San José
+1195,Ciudad de Guatemala
+1196,Ciudad de Guatemala
+1197,Cobán
+1198,Cobán
+1199,Puerto San José
+1200,Cobán
+1201,Antigua Guatemala
+1202,Antigua Guatemala
+1203,Ciudad de Guatemala
+1204,Ciudad de Guatemala
+1205,Ciudad de Guatemala
+1206,Cobán
+1207,Puerto San José
+1208,Puerto San José
+1209,Ciudad de Guatemala
+1210,Puerto San José
+1211,Ciudad de Guatemala
+1212,Puerto San José
+1213,Ciudad de Guatemala
+1214,Antigua Guatemala
+1215,Ciudad de Guatemala
+1216,Antigua Guatemala
+1217,Puerto San José
+1218,Puerto San José
+1219,Ciudad de Guatemala
+1220,Ciudad de Guatemala
+1221,Cobán
+1222,Cobán
+1223,Puerto San José
+1224,Puerto San José
+1225,Puerto San José
+1226,Cobán
+1227,Ciudad de Guatemala
+1228,Puerto San José
+1229,Ciudad de Guatemala
+1230,Antigua Guatemala
+1231,Cobán
+1232,Cobán
+1233,Cobán
+1234,Antigua Guatemala
+1235,Ciudad de Guatemala
+1236,Puerto San José
+1237,Cobán
+1238,Ciudad de Guatemala
+1239,Cobán
+1240,Ciudad de Guatemala
+1241,Antigua Guatemala
+1242,Antigua Guatemala
+1243,Ciudad de Guatemala
+1244,Antigua Guatemala
+1245,Ciudad de Guatemala
+1246,Cobán
+1247,Ciudad de Guatemala
+1248,Ciudad de Guatemala
+1249,Ciudad de Guatemala
+1250,Cobán
+1251,Puerto San José
+1252,Antigua Guatemala
+1253,Puerto San José
+1254,Cobán
+1255,Puerto San José
+1256,Antigua Guatemala
+1257,Puerto San José
+1258,Ciudad de Guatemala
+1259,Antigua Guatemala
+1260,Ciudad de Guatemala
+1261,Ciudad de Guatemala
+1262,Antigua Guatemala
+1263,Ciudad de Guatemala
+1264,Puerto San José
+1265,Ciudad de Guatemala
+1266,Ciudad de Guatemala
+1267,Ciudad de Guatemala
+1268,Ciudad de Guatemala
+1269,Antigua Guatemala
+1270,Ciudad de Guatemala
+1271,Ciudad de Guatemala
+1272,Antigua Guatemala
+1273,Ciudad de Guatemala
+1274,Ciudad de Guatemala
+1275,Cobán
+1276,Cobán
+1277,Antigua Guatemala
+1278,Antigua Guatemala
+1279,Antigua Guatemala
+1280,Ciudad de Guatemala
+1281,Puerto San José
+1282,Ciudad de Guatemala
+1283,Puerto San José
+1284,Ciudad de Guatemala
+1285,Puerto San José
+1286,Puerto San José
+1287,Cobán
+1288,Puerto San José
+1289,Puerto San José
+1290,Ciudad de Guatemala
+1291,Ciudad de Guatemala
+1292,Puerto San José
+1293,Cobán
+1294,Puerto San José
+1295,Ciudad de Guatemala
+1296,Puerto San José
+1297,Puerto San José
+1298,Cobán
+1299,Puerto San José
+1300,Puerto San José
+1301,Puerto San José
+1302,Ciudad de Guatemala
+1303,Ciudad de Guatemala
+1304,Antigua Guatemala
+1305,Ciudad de Guatemala
+1306,Cobán
+1307,Ciudad de Guatemala
+1308,Ciudad de Guatemala
+1309,Puerto San José
+1310,Antigua Guatemala
+1311,Puerto San José
+1312,Antigua Guatemala
+1313,Ciudad de Guatemala
+1314,Ciudad de Guatemala
+1315,Cobán
+1316,Ciudad de Guatemala
+1317,Puerto San José
+1318,Puerto San José
+1319,Antigua Guatemala
+1320,Cobán
+1321,Ciudad de Guatemala
+1322,Antigua Guatemala
+1323,Cobán
+1324,Ciudad de Guatemala
+1325,Ciudad de Guatemala
+1326,Puerto San José
+1327,Antigua Guatemala
+1328,Ciudad de Guatemala
+1329,Ciudad de Guatemala
+1330,Ciudad de Guatemala
+1331,Ciudad de Guatemala
+1332,Puerto San José
+1333,Antigua Guatemala
+1334,Antigua Guatemala
+1335,Ciudad de Guatemala
+1336,Ciudad de Guatemala
+1337,Ciudad de Guatemala
+1338,Ciudad de Guatemala
+1339,Antigua Guatemala
+1340,Puerto San José
+1341,Ciudad de Guatemala
+1342,Antigua Guatemala
+1343,Antigua Guatemala
+1344,Cobán
+1345,Puerto San José
+1346,Ciudad de Guatemala
+1347,Cobán
+1348,Puerto San José
+1349,Antigua Guatemala
+1350,Ciudad de Guatemala
+1351,Ciudad de Guatemala
+1352,Antigua Guatemala
+1353,Antigua Guatemala
+1354,Ciudad de Guatemala
+1355,Ciudad de Guatemala
+1356,Ciudad de Guatemala
+1357,Ciudad de Guatemala
+1358,Antigua Guatemala
+1359,Puerto San José
+1360,Puerto San José
+1361,Ciudad de Guatemala
+1362,Puerto San José
+1363,Antigua Guatemala
+1364,Ciudad de Guatemala
+1365,Antigua Guatemala
+1366,Ciudad de Guatemala
+1367,Ciudad de Guatemala
+1368,Puerto San José
+1369,Antigua Guatemala
+1370,Puerto San José
+1371,Cobán
+1372,Puerto San José
+1373,Antigua Guatemala
+1374,Antigua Guatemala
+1375,Puerto San José
+1376,Puerto San José
+1377,Ciudad de Guatemala
+1378,Ciudad de Guatemala
+1379,Puerto San José
+1380,Antigua Guatemala
+1381,Ciudad de Guatemala
+1382,Puerto San José
+1383,Antigua Guatemala
+1384,Ciudad de Guatemala
+1385,Cobán
+1386,Puerto San José
+1387,Ciudad de Guatemala
+1388,Cobán
+1389,Ciudad de Guatemala
+1390,Puerto San José
+1391,Antigua Guatemala
+1392,Ciudad de Guatemala
+1393,Ciudad de Guatemala
+1394,Ciudad de Guatemala
+1395,Ciudad de Guatemala
+1396,Ciudad de Guatemala
+1397,Antigua Guatemala
+1398,Cobán
+1399,Ciudad de Guatemala
+1400,Antigua Guatemala
+1401,Antigua Guatemala
+1402,Puerto San José
+1403,Antigua Guatemala
+1404,Antigua Guatemala
+1405,Cobán
+1406,Ciudad de Guatemala
+1407,Puerto San José
+1408,Puerto San José
+1409,Ciudad de Guatemala
+1410,Cobán
+1411,Ciudad de Guatemala
+1412,Cobán
+1413,Puerto San José
+1414,Cobán
+1415,Antigua Guatemala
+1416,Ciudad de Guatemala
+1417,Puerto San José
+1418,Ciudad de Guatemala
+1419,Ciudad de Guatemala
+1420,Antigua Guatemala
+1421,Puerto San José
+1422,Ciudad de Guatemala
+1423,Ciudad de Guatemala
+1424,Antigua Guatemala
+1425,Ciudad de Guatemala
+1426,Antigua Guatemala
+1427,Cobán
+1428,Ciudad de Guatemala
+1429,Ciudad de Guatemala
+1430,Cobán
+1431,Antigua Guatemala
+1432,Ciudad de Guatemala
+1433,Puerto San José
+1434,Cobán
+1435,Ciudad de Guatemala
+1436,Ciudad de Guatemala
+1437,Antigua Guatemala
+1438,Antigua Guatemala
+1439,Ciudad de Guatemala
+1440,Ciudad de Guatemala
+1441,Ciudad de Guatemala
+1442,Puerto San José
+1443,Puerto San José
+1444,Puerto San José
+1445,Cobán
+1446,Puerto San José
+1447,Puerto San José
+1448,Puerto San José
+1449,Ciudad de Guatemala
+1450,Ciudad de Guatemala
+1451,Puerto San José
+1452,Puerto San José
+1453,Ciudad de Guatemala
+1454,Cobán
+1455,Ciudad de Guatemala
+1456,Cobán
+1457,Ciudad de Guatemala
+1458,Ciudad de Guatemala
+1459,Puerto San José
+1460,Cobán
+1461,Cobán
+1462,Ciudad de Guatemala
+1463,Puerto San José
+1464,Ciudad de Guatemala
+1465,Ciudad de Guatemala
+1466,Ciudad de Guatemala
+1467,Ciudad de Guatemala
+1468,Cobán
+1469,Puerto San José
+1470,Antigua Guatemala
+1471,Ciudad de Guatemala
+1472,Ciudad de Guatemala
+1473,Puerto San José
+1474,Ciudad de Guatemala
+1475,Cobán
+1476,Ciudad de Guatemala
+1477,Puerto San José
+1478,Cobán
+1479,Antigua Guatemala
+1480,Ciudad de Guatemala
+1481,Antigua Guatemala
+1482,Cobán
+1483,Ciudad de Guatemala
+1484,Ciudad de Guatemala
+1485,Puerto San José
+1486,Ciudad de Guatemala
+1487,Cobán
+1488,Antigua Guatemala
+1489,Cobán
+1490,Puerto San José
+1491,Ciudad de Guatemala
+1492,Puerto San José
+1493,Puerto San José
+1494,Antigua Guatemala
+1495,Ciudad de Guatemala
+1496,Puerto San José
+1497,Antigua Guatemala
+1498,Ciudad de Guatemala
+1499,Ciudad de Guatemala
+1500,Ciudad de Guatemala
+1501,Ciudad de Guatemala
+1502,Antigua Guatemala
+1503,Ciudad de Guatemala
+1504,Cobán
+1505,Cobán
+1506,Ciudad de Guatemala
+1507,Cobán
+1508,Ciudad de Guatemala
+1509,Ciudad de Guatemala
+1510,Ciudad de Guatemala
+1511,Ciudad de Guatemala
+1512,Antigua Guatemala
+1513,Antigua Guatemala
+1514,Antigua Guatemala
+1515,Antigua Guatemala
+1516,Puerto San José
+1517,Puerto San José
+1518,Ciudad de Guatemala
+1519,Cobán
+1520,Ciudad de Guatemala
+1521,Antigua Guatemala
+1522,Antigua Guatemala
+1523,Ciudad de Guatemala
+1524,Puerto San José
+1525,Ciudad de Guatemala
+1526,Antigua Guatemala
+1527,Puerto San José
+1528,Antigua Guatemala
+1529,Puerto San José
+1530,Ciudad de Guatemala
+1531,Ciudad de Guatemala
+1532,Ciudad de Guatemala
+1533,Cobán
+1534,Cobán
+1535,Ciudad de Guatemala
+1536,Ciudad de Guatemala
+1537,Antigua Guatemala
+1538,Puerto San José
+1539,Ciudad de Guatemala
+1540,Antigua Guatemala
+1541,Puerto San José
+1542,Puerto San José
+1543,Cobán
+1544,Cobán
+1545,Antigua Guatemala
+1546,Cobán
+1547,Ciudad de Guatemala
+1548,Ciudad de Guatemala
+1549,Antigua Guatemala
+1550,Puerto San José
+1551,Puerto San José
+1552,Antigua Guatemala
+1553,Antigua Guatemala
+1554,Puerto San José
+1555,Puerto San José
+1556,Antigua Guatemala
+1557,Ciudad de Guatemala
+1558,Ciudad de Guatemala
+1559,Ciudad de Guatemala
+1560,Ciudad de Guatemala
+1561,Ciudad de Guatemala
+1562,Antigua Guatemala
+1563,Antigua Guatemala
+1564,Ciudad de Guatemala
+1565,Antigua Guatemala
+1566,Ciudad de Guatemala
+1567,Puerto San José
+1568,Ciudad de Guatemala
+1569,Ciudad de Guatemala
+1570,Puerto San José
+1571,Antigua Guatemala
+1572,Ciudad de Guatemala
+1573,Puerto San José
+1574,Puerto San José
+1575,Ciudad de Guatemala
+1576,Puerto San José
+1577,Ciudad de Guatemala
+1578,Puerto San José
+1579,Puerto San José
+1580,Ciudad de Guatemala
+1581,Antigua Guatemala
+1582,Ciudad de Guatemala
+1583,Antigua Guatemala
+1584,Ciudad de Guatemala
+1585,Ciudad de Guatemala
+1586,Ciudad de Guatemala
+1587,Ciudad de Guatemala
+1588,Puerto San José
+1589,Antigua Guatemala
+1590,Ciudad de Guatemala
+1591,Ciudad de Guatemala
+1592,Antigua Guatemala
+1593,Cobán
+1594,Ciudad de Guatemala
+1595,Ciudad de Guatemala
+1596,Antigua Guatemala
+1597,Cobán
+1598,Ciudad de Guatemala
+1599,Antigua Guatemala
+1600,Antigua Guatemala
+1601,Antigua Guatemala
+1602,Cobán
+1603,Cobán
+1604,Antigua Guatemala
+1605,Antigua Guatemala
+1606,Puerto San José
+1607,Ciudad de Guatemala
+1608,Puerto San José
+1609,Antigua Guatemala
+1610,Ciudad de Guatemala
+1611,Cobán
+1612,Puerto San José
+1613,Antigua Guatemala
+1614,Puerto San José
+1615,Ciudad de Guatemala
+1616,Ciudad de Guatemala
+1617,Antigua Guatemala
+1618,Antigua Guatemala
+1619,Ciudad de Guatemala
+1620,Puerto San José
+1621,Puerto San José
+1622,Antigua Guatemala
+1623,Ciudad de Guatemala
+1624,Ciudad de Guatemala
+1625,Puerto San José
+1626,Puerto San José
+1627,Cobán
+1628,Ciudad de Guatemala
+1629,Ciudad de Guatemala
+1630,Ciudad de Guatemala
+1631,Ciudad de Guatemala
+1632,Puerto San José
+1633,Ciudad de Guatemala
+1634,Ciudad de Guatemala
+1635,Ciudad de Guatemala
+1636,Antigua Guatemala
+1637,Antigua Guatemala
+1638,Ciudad de Guatemala
+1639,Ciudad de Guatemala
+1640,Ciudad de Guatemala
+1641,Antigua Guatemala
+1642,Ciudad de Guatemala
+1643,Puerto San José
+1644,Puerto San José
+1645,Ciudad de Guatemala
+1646,Cobán
+1647,Ciudad de Guatemala
+1648,Ciudad de Guatemala
+1649,Ciudad de Guatemala
+1650,Antigua Guatemala
+1651,Ciudad de Guatemala
+1652,Puerto San José
+1653,Puerto San José
+1654,Puerto San José
+1655,Puerto San José
+1656,Antigua Guatemala
+1657,Puerto San José
+1658,Cobán
+1659,Ciudad de Guatemala
+1660,Antigua Guatemala
+1661,Ciudad de Guatemala
+1662,Ciudad de Guatemala
+1663,Puerto San José
+1664,Cobán
+1665,Ciudad de Guatemala
+1666,Cobán
+1667,Ciudad de Guatemala
+1668,Antigua Guatemala
+1669,Ciudad de Guatemala
+1670,Ciudad de Guatemala
+1671,Puerto San José
+1672,Puerto San José
+1673,Ciudad de Guatemala
+1674,Ciudad de Guatemala
+1675,Ciudad de Guatemala
+1676,Antigua Guatemala
+1677,Cobán
+1678,Ciudad de Guatemala
+1679,Puerto San José
+1680,Cobán
+1681,Puerto San José
+1682,Puerto San José
+1683,Cobán
+1684,Ciudad de Guatemala
+1685,Cobán
+1686,Ciudad de Guatemala
+1687,Antigua Guatemala
+1688,Ciudad de Guatemala
+1689,Ciudad de Guatemala
+1690,Ciudad de Guatemala
+1691,Ciudad de Guatemala
+1692,Puerto San José
+1693,Ciudad de Guatemala
+1694,Ciudad de Guatemala
+1695,Antigua Guatemala
+1696,Cobán
+1697,Puerto San José
+1698,Antigua Guatemala
+1699,Ciudad de Guatemala
+1700,Ciudad de Guatemala
+1701,Puerto San José
+1702,Ciudad de Guatemala
+1703,Ciudad de Guatemala
+1704,Ciudad de Guatemala
+1705,Cobán
+1706,Ciudad de Guatemala
+1707,Puerto San José
+1708,Puerto San José
+1709,Puerto San José
+1710,Ciudad de Guatemala
+1711,Cobán
+1712,Puerto San José
+1713,Puerto San José
+1714,Ciudad de Guatemala
+1715,Ciudad de Guatemala
+1716,Antigua Guatemala
+1717,Ciudad de Guatemala
+1718,Ciudad de Guatemala
+1719,Ciudad de Guatemala
+1720,Ciudad de Guatemala
+1721,Cobán
+1722,Ciudad de Guatemala
+1723,Ciudad de Guatemala
+1724,Ciudad de Guatemala
+1725,Puerto San José
+1726,Ciudad de Guatemala
+1727,Ciudad de Guatemala
+1728,Puerto San José
+1729,Cobán
+1730,Ciudad de Guatemala
+1731,Ciudad de Guatemala
+1732,Puerto San José
+1733,Ciudad de Guatemala
+1734,Puerto San José
+1735,Antigua Guatemala
+1736,Puerto San José
+1737,Ciudad de Guatemala
+1738,Ciudad de Guatemala
+1739,Ciudad de Guatemala
+1740,Cobán
+1741,Puerto San José
+1742,Ciudad de Guatemala
+1743,Ciudad de Guatemala
+1744,Cobán
+1745,Cobán
+1746,Puerto San José
+1747,Ciudad de Guatemala
+1748,Puerto San José
+1749,Puerto San José
+1750,Cobán
+1751,Ciudad de Guatemala
+1752,Antigua Guatemala
+1753,Antigua Guatemala
+1754,Puerto San José
+1755,Antigua Guatemala
+1756,Antigua Guatemala
+1757,Antigua Guatemala
+1758,Ciudad de Guatemala
+1759,Puerto San José
+1760,Cobán
+1761,Cobán
+1762,Cobán
+1763,Ciudad de Guatemala
+1764,Cobán
+1765,Ciudad de Guatemala
+1766,Ciudad de Guatemala
+1767,Antigua Guatemala
+1768,Antigua Guatemala
+1769,Antigua Guatemala
+1770,Puerto San José
+1771,Ciudad de Guatemala
+1772,Cobán
+1773,Ciudad de Guatemala
+1774,Puerto San José
+1775,Cobán
+1776,Antigua Guatemala
+1777,Antigua Guatemala
+1778,Antigua Guatemala
+1779,Antigua Guatemala
+1780,Puerto San José
+1781,Ciudad de Guatemala
+1782,Ciudad de Guatemala
+1783,Cobán
+1784,Ciudad de Guatemala
+1785,Cobán
+1786,Puerto San José
+1787,Antigua Guatemala
+1788,Puerto San José
+1789,Ciudad de Guatemala
+1790,Cobán
+1791,Cobán
+1792,Antigua Guatemala
+1793,Ciudad de Guatemala
+1794,Ciudad de Guatemala
+1795,Antigua Guatemala
+1796,Ciudad de Guatemala
+1797,Antigua Guatemala
+1798,Antigua Guatemala
+1799,Puerto San José
+1800,Puerto San José
+1801,Antigua Guatemala
+1802,Puerto San José
+1803,Cobán
+1804,Antigua Guatemala
+1805,Ciudad de Guatemala
+1806,Puerto San José
+1807,Ciudad de Guatemala
+1808,Ciudad de Guatemala
+1809,Cobán
+1810,Cobán
+1811,Ciudad de Guatemala
+1812,Puerto San José
+1813,Puerto San José
+1814,Ciudad de Guatemala
+1815,Puerto San José
+1816,Ciudad de Guatemala
+1817,Puerto San José
+1818,Ciudad de Guatemala
+1819,Ciudad de Guatemala
+1820,Ciudad de Guatemala
+1821,Antigua Guatemala
+1822,Antigua Guatemala
+1823,Ciudad de Guatemala
+1824,Cobán
+1825,Antigua Guatemala
+1826,Antigua Guatemala
+1827,Cobán
+1828,Cobán
+1829,Puerto San José
+1830,Ciudad de Guatemala
+1831,Puerto San José
+1832,Ciudad de Guatemala
+1833,Ciudad de Guatemala
+1834,Cobán
+1835,Ciudad de Guatemala
+1836,Cobán
+1837,Antigua Guatemala
+1838,Puerto San José
+1839,Puerto San José
+1840,Antigua Guatemala
+1841,Cobán
+1842,Ciudad de Guatemala
+1843,Antigua Guatemala
+1844,Puerto San José
+1845,Antigua Guatemala
+1846,Antigua Guatemala
+1847,Ciudad de Guatemala
+1848,Antigua Guatemala
+1849,Puerto San José
+1850,Cobán
+1851,Ciudad de Guatemala
+1852,Ciudad de Guatemala
+1853,Ciudad de Guatemala
+1854,Antigua Guatemala
+1855,Puerto San José
+1856,Puerto San José
+1857,Ciudad de Guatemala
+1858,Cobán
+1859,Ciudad de Guatemala
+1860,Antigua Guatemala
+1861,Antigua Guatemala
+1862,Antigua Guatemala
+1863,Antigua Guatemala
+1864,Antigua Guatemala
+1865,Ciudad de Guatemala
+1866,Ciudad de Guatemala
+1867,Antigua Guatemala
+1868,Cobán
+1869,Puerto San José
+1870,Ciudad de Guatemala
+1871,Puerto San José
+1872,Ciudad de Guatemala
+1873,Cobán
+1874,Antigua Guatemala
+1875,Puerto San José
+1876,Ciudad de Guatemala
+1877,Ciudad de Guatemala
+1878,Antigua Guatemala
+1879,Puerto San José
+1880,Puerto San José
+1881,Puerto San José
+1882,Cobán
+1883,Puerto San José
+1884,Ciudad de Guatemala
+1885,Ciudad de Guatemala
+1886,Ciudad de Guatemala
+1887,Cobán
+1888,Antigua Guatemala
+1889,Antigua Guatemala
+1890,Ciudad de Guatemala
+1891,Puerto San José
+1892,Antigua Guatemala
+1893,Ciudad de Guatemala
+1894,Ciudad de Guatemala
+1895,Cobán
+1896,Cobán
+1897,Puerto San José
+1898,Ciudad de Guatemala
+1899,Ciudad de Guatemala
+1900,Antigua Guatemala
+1901,Ciudad de Guatemala
+1902,Cobán
+1903,Puerto San José
+1904,Antigua Guatemala
+1905,Ciudad de Guatemala
+1906,Puerto San José
+1907,Puerto San José
+1908,Ciudad de Guatemala
+1909,Cobán
+1910,Ciudad de Guatemala
+1911,Puerto San José
+1912,Ciudad de Guatemala
+1913,Cobán
+1914,Ciudad de Guatemala
+1915,Antigua Guatemala
+1916,Cobán
+1917,Puerto San José
+1918,Antigua Guatemala
+1919,Antigua Guatemala
+1920,Ciudad de Guatemala
+1921,Ciudad de Guatemala
+1922,Antigua Guatemala
+1923,Antigua Guatemala
+1924,Antigua Guatemala
+1925,Puerto San José
+1926,Ciudad de Guatemala
+1927,Antigua Guatemala
+1928,Ciudad de Guatemala
+1929,Ciudad de Guatemala
+1930,Ciudad de Guatemala
+1931,Puerto San José
+1932,Puerto San José
+1933,Ciudad de Guatemala
+1934,Cobán
+1935,Ciudad de Guatemala
+1936,Antigua Guatemala
+1937,Ciudad de Guatemala
+1938,Puerto San José
+1939,Antigua Guatemala
+1940,Cobán
+1941,Cobán
+1942,Puerto San José
+1943,Cobán
+1944,Cobán
+1945,Ciudad de Guatemala
+1946,Antigua Guatemala
+1947,Ciudad de Guatemala
+1948,Puerto San José
+1949,Ciudad de Guatemala
+1950,Ciudad de Guatemala
+1951,Antigua Guatemala
+1952,Antigua Guatemala
+1953,Puerto San José
+1954,Cobán
+1955,Antigua Guatemala
+1956,Puerto San José
+1957,Puerto San José
+1958,Antigua Guatemala
+1959,Ciudad de Guatemala
+1960,Antigua Guatemala
+1961,Puerto San José
+1962,Cobán
+1963,Ciudad de Guatemala
+1964,Antigua Guatemala
+1965,Cobán
+1966,Antigua Guatemala
+1967,Antigua Guatemala
+1968,Puerto San José
+1969,Ciudad de Guatemala
+1970,Cobán
+1971,Puerto San José
+1972,Antigua Guatemala
+1973,Antigua Guatemala
+1974,Ciudad de Guatemala
+1975,Antigua Guatemala
+1976,Puerto San José
+1977,Puerto San José
+1978,Cobán
+1979,Cobán
+1980,Puerto San José
+1981,Ciudad de Guatemala
+1982,Antigua Guatemala
+1983,Puerto San José
+1984,Ciudad de Guatemala
+1985,Puerto San José
+1986,Antigua Guatemala
+1987,Ciudad de Guatemala
+1988,Ciudad de Guatemala
+1989,Puerto San José
+1990,Cobán
+1991,Cobán
+1992,Ciudad de Guatemala
+1993,Ciudad de Guatemala
+1994,Ciudad de Guatemala
+1995,Puerto San José
+1996,Ciudad de Guatemala
+1997,Puerto San José
+1998,Ciudad de Guatemala
+1999,Antigua Guatemala
+2000,Puerto San José
+2001,Ciudad de Guatemala
+2002,Antigua Guatemala
+2003,Ciudad de Guatemala
+2004,Puerto San José
+2005,Puerto San José
+2006,Antigua Guatemala
+2007,Ciudad de Guatemala
+2008,Cobán
+2009,Puerto San José
+2010,Cobán
+2011,Puerto San José
+2012,Puerto San José
+2013,Ciudad de Guatemala
+2014,Antigua Guatemala
+2015,Ciudad de Guatemala
+2016,Ciudad de Guatemala
+2017,Ciudad de Guatemala
+2018,Puerto San José
+2019,Puerto San José
+2020,Puerto San José
+2021,Ciudad de Guatemala
+2022,Ciudad de Guatemala
+2023,Ciudad de Guatemala
+2024,Antigua Guatemala
+2025,Puerto San José
+2026,Antigua Guatemala
+2027,Antigua Guatemala
+2028,Puerto San José
+2029,Ciudad de Guatemala
+2030,Puerto San José
+2031,Puerto San José
+2032,Antigua Guatemala
+2033,Cobán
+2034,Puerto San José
+2035,Ciudad de Guatemala
+2036,Ciudad de Guatemala
+2037,Ciudad de Guatemala
+2038,Puerto San José
+2039,Antigua Guatemala
+2040,Antigua Guatemala
+2041,Ciudad de Guatemala
+2042,Puerto San José
+2043,Ciudad de Guatemala
+2044,Ciudad de Guatemala
+2045,Antigua Guatemala
+2046,Antigua Guatemala
+2047,Cobán
+2048,Antigua Guatemala
+2049,Ciudad de Guatemala
+2050,Ciudad de Guatemala
+2051,Ciudad de Guatemala
+2052,Antigua Guatemala
+2053,Cobán
+2054,Ciudad de Guatemala
+2055,Antigua Guatemala
+2056,Puerto San José
+2057,Ciudad de Guatemala
+2058,Puerto San José
+2059,Ciudad de Guatemala
+2060,Puerto San José
+2061,Cobán
+2062,Cobán
+2063,Ciudad de Guatemala
+2064,Puerto San José
+2065,Ciudad de Guatemala
+2066,Ciudad de Guatemala
+2067,Puerto San José
+2068,Ciudad de Guatemala
+2069,Puerto San José
+2070,Ciudad de Guatemala
+2071,Puerto San José
+2072,Ciudad de Guatemala
+2073,Puerto San José
+2074,Ciudad de Guatemala
+2075,Antigua Guatemala
+2076,Puerto San José
+2077,Ciudad de Guatemala
+2078,Ciudad de Guatemala
+2079,Ciudad de Guatemala
+2080,Antigua Guatemala
+2081,Ciudad de Guatemala
+2082,Ciudad de Guatemala
+2083,Antigua Guatemala
+2084,Antigua Guatemala
+2085,Cobán
+2086,Ciudad de Guatemala
+2087,Antigua Guatemala
+2088,Cobán
+2089,Cobán
+2090,Cobán
+2091,Ciudad de Guatemala
+2092,Cobán
+2093,Ciudad de Guatemala
+2094,Ciudad de Guatemala
+2095,Antigua Guatemala
+2096,Ciudad de Guatemala
+2097,Ciudad de Guatemala
+2098,Ciudad de Guatemala
+2099,Ciudad de Guatemala
+2100,Cobán
+2101,Ciudad de Guatemala
+2102,Antigua Guatemala
+2103,Puerto San José
+2104,Ciudad de Guatemala
+2105,Ciudad de Guatemala
+2106,Antigua Guatemala
+2107,Ciudad de Guatemala
+2108,Cobán
+2109,Ciudad de Guatemala
+2110,Puerto San José
+2111,Puerto San José
+2112,Ciudad de Guatemala
+2113,Antigua Guatemala
+2114,Cobán
+2115,Antigua Guatemala
+2116,Puerto San José
+2117,Puerto San José
+2118,Puerto San José
+2119,Antigua Guatemala
+2120,Antigua Guatemala
+2121,Ciudad de Guatemala
+2122,Puerto San José
+2123,Antigua Guatemala
+2124,Cobán
+2125,Ciudad de Guatemala
+2126,Puerto San José
+2127,Antigua Guatemala
+2128,Antigua Guatemala
+2129,Antigua Guatemala
+2130,Ciudad de Guatemala
+2131,Cobán
+2132,Ciudad de Guatemala
+2133,Antigua Guatemala
+2134,Puerto San José
+2135,Ciudad de Guatemala
+2136,Ciudad de Guatemala
+2137,Antigua Guatemala
+2138,Antigua Guatemala
+2139,Ciudad de Guatemala
+2140,Cobán
+2141,Puerto San José
+2142,Cobán
+2143,Puerto San José
+2144,Antigua Guatemala
+2145,Puerto San José
+2146,Puerto San José
+2147,Antigua Guatemala
+2148,Cobán
+2149,Ciudad de Guatemala
+2150,Cobán
+2151,Cobán
+2152,Puerto San José
+2153,Puerto San José
+2154,Puerto San José
+2155,Ciudad de Guatemala
+2156,Antigua Guatemala
+2157,Antigua Guatemala
+2158,Ciudad de Guatemala
+2159,Puerto San José
+2160,Puerto San José
+2161,Ciudad de Guatemala
+2162,Ciudad de Guatemala
+2163,Puerto San José
+2164,Antigua Guatemala
+2165,Ciudad de Guatemala
+2166,Ciudad de Guatemala
+2167,Puerto San José
+2168,Ciudad de Guatemala
+2169,Cobán
+2170,Ciudad de Guatemala
+2171,Ciudad de Guatemala
+2172,Cobán
+2173,Puerto San José
+2174,Ciudad de Guatemala
+2175,Ciudad de Guatemala
+2176,Ciudad de Guatemala
+2177,Antigua Guatemala
+2178,Antigua Guatemala
+2179,Cobán
+2180,Ciudad de Guatemala
+2181,Cobán
+2182,Ciudad de Guatemala
+2183,Ciudad de Guatemala
+2184,Ciudad de Guatemala
+2185,Ciudad de Guatemala
+2186,Antigua Guatemala
+2187,Antigua Guatemala
+2188,Ciudad de Guatemala
+2189,Puerto San José
+2190,Puerto San José
+2191,Cobán
+2192,Ciudad de Guatemala
+2193,Ciudad de Guatemala
+2194,Antigua Guatemala
+2195,Ciudad de Guatemala
+2196,Ciudad de Guatemala
+2197,Ciudad de Guatemala
+2198,Ciudad de Guatemala
+2199,Antigua Guatemala
+2200,Puerto San José
+2201,Ciudad de Guatemala
+2202,Puerto San José
+2203,Cobán
+2204,Antigua Guatemala
+2205,Antigua Guatemala
+2206,Ciudad de Guatemala
+2207,Puerto San José
+2208,Ciudad de Guatemala
+2209,Ciudad de Guatemala
+2210,Cobán
+2211,Puerto San José
+2212,Cobán
+2213,Antigua Guatemala
+2214,Puerto San José
+2215,Puerto San José
+2216,Antigua Guatemala
+2217,Ciudad de Guatemala
+2218,Ciudad de Guatemala
+2219,Cobán
+2220,Ciudad de Guatemala
+2221,Ciudad de Guatemala
+2222,Cobán
+2223,Cobán
+2224,Puerto San José
+2225,Ciudad de Guatemala
+2226,Cobán
+2227,Cobán
+2228,Antigua Guatemala
+2229,Antigua Guatemala
+2230,Cobán
+2231,Puerto San José
+2232,Antigua Guatemala
+2233,Ciudad de Guatemala
+2234,Ciudad de Guatemala
+2235,Ciudad de Guatemala
+2236,Puerto San José
+2237,Ciudad de Guatemala
+2238,Antigua Guatemala
+2239,Cobán
+2240,Ciudad de Guatemala
+2241,Antigua Guatemala
+2242,Antigua Guatemala
+2243,Ciudad de Guatemala
+2244,Ciudad de Guatemala
+2245,Puerto San José
+2246,Antigua Guatemala
+2247,Antigua Guatemala
+2248,Ciudad de Guatemala
+2249,Ciudad de Guatemala
+2250,Ciudad de Guatemala
+2251,Cobán
+2252,Ciudad de Guatemala
+2253,Cobán
+2254,Ciudad de Guatemala
+2255,Antigua Guatemala
+2256,Ciudad de Guatemala
+2257,Ciudad de Guatemala
+2258,Puerto San José
+2259,Ciudad de Guatemala
+2260,Puerto San José
+2261,Ciudad de Guatemala
+2262,Puerto San José
+2263,Puerto San José
+2264,Antigua Guatemala
+2265,Antigua Guatemala
+2266,Cobán
+2267,Ciudad de Guatemala
+2268,Cobán
+2269,Puerto San José
+2270,Puerto San José
+2271,Cobán
+2272,Ciudad de Guatemala
+2273,Ciudad de Guatemala
+2274,Ciudad de Guatemala
+2275,Cobán
+2276,Ciudad de Guatemala
+2277,Cobán
+2278,Antigua Guatemala
+2279,Antigua Guatemala
+2280,Cobán
+2281,Puerto San José
+2282,Puerto San José
+2283,Ciudad de Guatemala
+2284,Puerto San José
+2285,Puerto San José
+2286,Ciudad de Guatemala
+2287,Ciudad de Guatemala
+2288,Ciudad de Guatemala
+2289,Ciudad de Guatemala
+2290,Cobán
+2291,Antigua Guatemala
+2292,Ciudad de Guatemala
+2293,Ciudad de Guatemala
+2294,Ciudad de Guatemala
+2295,Cobán
+2296,Antigua Guatemala
+2297,Ciudad de Guatemala
+2298,Antigua Guatemala
+2299,Ciudad de Guatemala
+2300,Cobán
+2301,Ciudad de Guatemala
+2302,Antigua Guatemala
+2303,Ciudad de Guatemala
+2304,Puerto San José
+2305,Puerto San José
+2306,Antigua Guatemala
+2307,Cobán
+2308,Ciudad de Guatemala
+2309,Ciudad de Guatemala
+2310,Ciudad de Guatemala
+2311,Cobán
+2312,Puerto San José
+2313,Ciudad de Guatemala
+2314,Antigua Guatemala
+2315,Antigua Guatemala
+2316,Ciudad de Guatemala
+2317,Puerto San José
+2318,Cobán
+2319,Puerto San José
+2320,Antigua Guatemala
+2321,Antigua Guatemala
+2322,Cobán
+2323,Puerto San José
+2324,Puerto San José
+2325,Cobán
+2326,Puerto San José
+2327,Antigua Guatemala
+2328,Puerto San José
+2329,Ciudad de Guatemala
+2330,Antigua Guatemala
+2331,Puerto San José
+2332,Ciudad de Guatemala
+2333,Ciudad de Guatemala
+2334,Antigua Guatemala
+2335,Puerto San José
+2336,Ciudad de Guatemala
+2337,Antigua Guatemala
+2338,Ciudad de Guatemala
+2339,Puerto San José
+2340,Puerto San José
+2341,Cobán
+2342,Cobán
+2343,Cobán
+2344,Puerto San José
+2345,Antigua Guatemala
+2346,Puerto San José
+2347,Ciudad de Guatemala
+2348,Ciudad de Guatemala
+2349,Puerto San José
+2350,Ciudad de Guatemala
+2351,Ciudad de Guatemala
+2352,Ciudad de Guatemala
+2353,Puerto San José
+2354,Puerto San José
+2355,Cobán
+2356,Puerto San José
+2357,Puerto San José
+2358,Ciudad de Guatemala
+2359,Antigua Guatemala
+2360,Puerto San José
+2361,Puerto San José
+2362,Cobán
+2363,Ciudad de Guatemala
+2364,Cobán
+2365,Cobán
+2366,Ciudad de Guatemala
+2367,Ciudad de Guatemala
+2368,Antigua Guatemala
+2369,Puerto San José
+2370,Ciudad de Guatemala
+2371,Antigua Guatemala
+2372,Cobán
+2373,Cobán
+2374,Ciudad de Guatemala
+2375,Ciudad de Guatemala
+2376,Puerto San José
+2377,Ciudad de Guatemala
+2378,Puerto San José
+2379,Ciudad de Guatemala
+2380,Ciudad de Guatemala
+2381,Ciudad de Guatemala
+2382,Ciudad de Guatemala
+2383,Cobán
+2384,Cobán
+2385,Ciudad de Guatemala
+2386,Ciudad de Guatemala
+2387,Cobán
+2388,Puerto San José
+2389,Ciudad de Guatemala
+2390,Puerto San José
+2391,Antigua Guatemala
+2392,Ciudad de Guatemala
+2393,Ciudad de Guatemala
+2394,Puerto San José
+2395,Puerto San José
+2396,Antigua Guatemala
+2397,Antigua Guatemala
+2398,Antigua Guatemala
+2399,Ciudad de Guatemala
+2400,Cobán
+2401,Ciudad de Guatemala
+2402,Ciudad de Guatemala
+2403,Ciudad de Guatemala
+2404,Cobán
+2405,Ciudad de Guatemala
+2406,Puerto San José
+2407,Antigua Guatemala
+2408,Antigua Guatemala
+2409,Antigua Guatemala
+2410,Ciudad de Guatemala
+2411,Antigua Guatemala
+2412,Ciudad de Guatemala
+2413,Ciudad de Guatemala
+2414,Cobán
+2415,Cobán
+2416,Antigua Guatemala
+2417,Puerto San José
+2418,Antigua Guatemala
+2419,Puerto San José
+2420,Antigua Guatemala
+2421,Antigua Guatemala
+2422,Puerto San José
+2423,Antigua Guatemala
+2424,Puerto San José
+2425,Cobán
+2426,Puerto San José
+2427,Cobán
+2428,Cobán
+2429,Ciudad de Guatemala
+2430,Puerto San José
+2431,Puerto San José
+2432,Ciudad de Guatemala
+2433,Ciudad de Guatemala
+2434,Ciudad de Guatemala
+2435,Ciudad de Guatemala
+2436,Ciudad de Guatemala
+2437,Ciudad de Guatemala
+2438,Ciudad de Guatemala
+2439,Cobán
+2440,Ciudad de Guatemala
+2441,Antigua Guatemala
+2442,Puerto San José
+2443,Ciudad de Guatemala
+2444,Ciudad de Guatemala
+2445,Cobán
+2446,Ciudad de Guatemala
+2447,Cobán
+2448,Cobán
+2449,Ciudad de Guatemala
+2450,Cobán
+2451,Cobán
+2452,Antigua Guatemala
+2453,Puerto San José
+2454,Ciudad de Guatemala
+2455,Puerto San José
+2456,Cobán
+2457,Ciudad de Guatemala
+2458,Puerto San José
+2459,Antigua Guatemala
+2460,Ciudad de Guatemala
+2461,Puerto San José
+2462,Cobán
+2463,Antigua Guatemala
+2464,Puerto San José
+2465,Antigua Guatemala
+2466,Cobán
+2467,Puerto San José
+2468,Puerto San José
+2469,Ciudad de Guatemala
+2470,Antigua Guatemala
+2471,Ciudad de Guatemala
+2472,Antigua Guatemala
+2473,Ciudad de Guatemala
+2474,Ciudad de Guatemala
+2475,Puerto San José
+2476,Puerto San José
+2477,Ciudad de Guatemala
+2478,Cobán
+2479,Antigua Guatemala
+2480,Puerto San José
+2481,Ciudad de Guatemala
+2482,Ciudad de Guatemala
+2483,Ciudad de Guatemala
+2484,Ciudad de Guatemala
+2485,Ciudad de Guatemala
+2486,Antigua Guatemala
+2487,Ciudad de Guatemala
+2488,Antigua Guatemala
+2489,Ciudad de Guatemala
+2490,Antigua Guatemala
+2491,Cobán
+2492,Ciudad de Guatemala
+2493,Ciudad de Guatemala
+2494,Cobán
+2495,Puerto San José
+2496,Ciudad de Guatemala
+2497,Cobán
+2498,Puerto San José
+2499,Cobán
+2500,Puerto San José
+2501,Puerto San José
+2502,Antigua Guatemala
+2503,Puerto San José
+2504,Ciudad de Guatemala
+2505,Antigua Guatemala
+2506,Antigua Guatemala
+2507,Antigua Guatemala
+2508,Ciudad de Guatemala
+2509,Puerto San José
+2510,Ciudad de Guatemala
+2511,Ciudad de Guatemala
+2512,Puerto San José
+2513,Puerto San José
+2514,Ciudad de Guatemala
+2515,Antigua Guatemala
+2516,Puerto San José
+2517,Puerto San José
+2518,Ciudad de Guatemala
+2519,Cobán
+2520,Antigua Guatemala
+2521,Puerto San José
+2522,Antigua Guatemala
+2523,Ciudad de Guatemala
+2524,Puerto San José
+2525,Puerto San José
+2526,Ciudad de Guatemala
+2527,Ciudad de Guatemala
+2528,Ciudad de Guatemala
+2529,Antigua Guatemala
+2530,Ciudad de Guatemala
+2531,Puerto San José
+2532,Ciudad de Guatemala
+2533,Cobán
+2534,Antigua Guatemala
+2535,Puerto San José
+2536,Puerto San José
+2537,Puerto San José
+2538,Ciudad de Guatemala
+2539,Antigua Guatemala
+2540,Cobán
+2541,Antigua Guatemala
+2542,Ciudad de Guatemala
+2543,Ciudad de Guatemala
+2544,Cobán
+2545,Ciudad de Guatemala
+2546,Antigua Guatemala
+2547,Ciudad de Guatemala
+2548,Ciudad de Guatemala
+2549,Puerto San José
+2550,Cobán
+2551,Puerto San José
+2552,Cobán
+2553,Puerto San José
+2554,Puerto San José
+2555,Ciudad de Guatemala
+2556,Cobán
+2557,Puerto San José
+2558,Cobán
+2559,Ciudad de Guatemala
+2560,Cobán
+2561,Puerto San José
+2562,Antigua Guatemala
+2563,Cobán
+2564,Ciudad de Guatemala
+2565,Ciudad de Guatemala
+2566,Puerto San José
+2567,Ciudad de Guatemala
+2568,Antigua Guatemala
+2569,Ciudad de Guatemala
+2570,Antigua Guatemala
+2571,Antigua Guatemala
+2572,Cobán
+2573,Ciudad de Guatemala
+2574,Antigua Guatemala
+2575,Ciudad de Guatemala
+2576,Puerto San José
+2577,Antigua Guatemala
+2578,Ciudad de Guatemala
+2579,Cobán
+2580,Puerto San José
+2581,Antigua Guatemala
+2582,Puerto San José
+2583,Ciudad de Guatemala
+2584,Puerto San José
+2585,Ciudad de Guatemala
+2586,Antigua Guatemala
+2587,Cobán
+2588,Antigua Guatemala
+2589,Antigua Guatemala
+2590,Puerto San José
+2591,Ciudad de Guatemala
+2592,Cobán
+2593,Ciudad de Guatemala
+2594,Ciudad de Guatemala
+2595,Ciudad de Guatemala
+2596,Cobán
+2597,Ciudad de Guatemala
+2598,Antigua Guatemala
+2599,Cobán
+2600,Antigua Guatemala
+2601,Ciudad de Guatemala
+2602,Ciudad de Guatemala
+2603,Ciudad de Guatemala
+2604,Puerto San José
+2605,Ciudad de Guatemala
+2606,Cobán
+2607,Ciudad de Guatemala
+2608,Ciudad de Guatemala
+2609,Antigua Guatemala
+2610,Cobán
+2611,Ciudad de Guatemala
+2612,Puerto San José
+2613,Puerto San José
+2614,Ciudad de Guatemala
+2615,Puerto San José
+2616,Ciudad de Guatemala
+2617,Ciudad de Guatemala
+2618,Cobán
+2619,Ciudad de Guatemala
+2620,Cobán
+2621,Antigua Guatemala
+2622,Puerto San José
+2623,Ciudad de Guatemala
+2624,Puerto San José
+2625,Puerto San José
+2626,Cobán
+2627,Puerto San José
+2628,Cobán
+2629,Ciudad de Guatemala
+2630,Ciudad de Guatemala
+2631,Antigua Guatemala
+2632,Ciudad de Guatemala
+2633,Ciudad de Guatemala
+2634,Ciudad de Guatemala
+2635,Antigua Guatemala
+2636,Antigua Guatemala
+2637,Cobán
+2638,Ciudad de Guatemala
+2639,Ciudad de Guatemala
+2640,Ciudad de Guatemala
+2641,Puerto San José
+2642,Cobán
+2643,Puerto San José
+2644,Ciudad de Guatemala
+2645,Ciudad de Guatemala
+2646,Cobán
+2647,Ciudad de Guatemala
+2648,Ciudad de Guatemala
+2649,Antigua Guatemala
+2650,Antigua Guatemala
+2651,Ciudad de Guatemala
+2652,Puerto San José
+2653,Cobán
+2654,Puerto San José
+2655,Cobán
+2656,Ciudad de Guatemala
+2657,Puerto San José
+2658,Cobán
+2659,Puerto San José
+2660,Cobán
+2661,Ciudad de Guatemala
+2662,Puerto San José
+2663,Ciudad de Guatemala
+2664,Ciudad de Guatemala
+2665,Ciudad de Guatemala
+2666,Ciudad de Guatemala
+2667,Antigua Guatemala
+2668,Cobán
+2669,Puerto San José
+2670,Puerto San José
+2671,Puerto San José
+2672,Puerto San José
+2673,Puerto San José
+2674,Cobán
+2675,Ciudad de Guatemala
+2676,Ciudad de Guatemala
+2677,Ciudad de Guatemala
+2678,Cobán
+2679,Puerto San José
+2680,Cobán
+2681,Antigua Guatemala
+2682,Puerto San José
+2683,Cobán
+2684,Antigua Guatemala
+2685,Puerto San José
+2686,Puerto San José
+2687,Puerto San José
+2688,Puerto San José
+2689,Ciudad de Guatemala
+2690,Puerto San José
+2691,Antigua Guatemala
+2692,Ciudad de Guatemala
+2693,Cobán
+2694,Antigua Guatemala
+2695,Antigua Guatemala
+2696,Puerto San José
+2697,Antigua Guatemala
+2698,Ciudad de Guatemala
+2699,Ciudad de Guatemala
+2700,Cobán
+2701,Antigua Guatemala
+2702,Ciudad de Guatemala
+2703,Ciudad de Guatemala
+2704,Puerto San José
+2705,Puerto San José
+2706,Cobán
+2707,Puerto San José
+2708,Antigua Guatemala
+2709,Ciudad de Guatemala
+2710,Ciudad de Guatemala
+2711,Ciudad de Guatemala
+2712,Cobán
+2713,Antigua Guatemala
+2714,Cobán
+2715,Puerto San José
+2716,Antigua Guatemala
+2717,Ciudad de Guatemala
+2718,Puerto San José
+2719,Puerto San José
+2720,Ciudad de Guatemala
+2721,Antigua Guatemala
+2722,Antigua Guatemala
+2723,Ciudad de Guatemala
+2724,Ciudad de Guatemala
+2725,Puerto San José
+2726,Antigua Guatemala
+2727,Cobán
+2728,Ciudad de Guatemala
+2729,Puerto San José
+2730,Puerto San José
+2731,Antigua Guatemala
+2732,Puerto San José
+2733,Puerto San José
+2734,Cobán
+2735,Puerto San José
+2736,Puerto San José
+2737,Puerto San José
+2738,Puerto San José
+2739,Antigua Guatemala
+2740,Cobán
+2741,Antigua Guatemala
+2742,Antigua Guatemala
+2743,Antigua Guatemala
+2744,Ciudad de Guatemala
+2745,Ciudad de Guatemala
+2746,Antigua Guatemala
+2747,Cobán
+2748,Puerto San José
+2749,Cobán
+2750,Ciudad de Guatemala
+2751,Antigua Guatemala
+2752,Ciudad de Guatemala
+2753,Ciudad de Guatemala
+2754,Antigua Guatemala
+2755,Puerto San José
+2756,Antigua Guatemala
+2757,Ciudad de Guatemala
+2758,Puerto San José
+2759,Ciudad de Guatemala
+2760,Ciudad de Guatemala
+2761,Puerto San José
+2762,Cobán
+2763,Ciudad de Guatemala
+2764,Cobán
+2765,Cobán
+2766,Puerto San José
+2767,Antigua Guatemala
+2768,Ciudad de Guatemala
+2769,Ciudad de Guatemala
+2770,Ciudad de Guatemala
+2771,Ciudad de Guatemala
+2772,Ciudad de Guatemala
+2773,Ciudad de Guatemala
+2774,Cobán
+2775,Puerto San José
+2776,Puerto San José
+2777,Ciudad de Guatemala
+2778,Antigua Guatemala
+2779,Ciudad de Guatemala
+2780,Puerto San José
+2781,Cobán
+2782,Puerto San José
+2783,Puerto San José
+2784,Antigua Guatemala
+2785,Antigua Guatemala
+2786,Antigua Guatemala
+2787,Puerto San José
+2788,Cobán
+2789,Ciudad de Guatemala
+2790,Cobán
+2791,Ciudad de Guatemala
+2792,Ciudad de Guatemala
+2793,Puerto San José
+2794,Cobán
+2795,Puerto San José
+2796,Ciudad de Guatemala
+2797,Puerto San José
+2798,Antigua Guatemala
+2799,Ciudad de Guatemala
+2800,Puerto San José
+2801,Ciudad de Guatemala
+2802,Ciudad de Guatemala
+2803,Ciudad de Guatemala
+2804,Puerto San José
+2805,Cobán
+2806,Puerto San José
+2807,Cobán
+2808,Puerto San José
+2809,Puerto San José
+2810,Antigua Guatemala
+2811,Puerto San José
+2812,Puerto San José
+2813,Ciudad de Guatemala
+2814,Cobán
+2815,Antigua Guatemala
+2816,Ciudad de Guatemala
+2817,Antigua Guatemala
+2818,Ciudad de Guatemala
+2819,Antigua Guatemala
+2820,Ciudad de Guatemala
+2821,Puerto San José
+2822,Ciudad de Guatemala
+2823,Ciudad de Guatemala
+2824,Puerto San José
+2825,Antigua Guatemala
+2826,Ciudad de Guatemala
+2827,Ciudad de Guatemala
+2828,Cobán
+2829,Puerto San José
+2830,Ciudad de Guatemala
+2831,Puerto San José
+2832,Ciudad de Guatemala
+2833,Antigua Guatemala
+2834,Ciudad de Guatemala
+2835,Cobán
+2836,Puerto San José
+2837,Ciudad de Guatemala
+2838,Cobán
+2839,Cobán
+2840,Puerto San José
+2841,Antigua Guatemala
+2842,Antigua Guatemala
+2843,Ciudad de Guatemala
+2844,Ciudad de Guatemala
+2845,Ciudad de Guatemala
+2846,Ciudad de Guatemala
+2847,Antigua Guatemala
+2848,Puerto San José
+2849,Puerto San José
+2850,Ciudad de Guatemala
+2851,Antigua Guatemala
+2852,Puerto San José
+2853,Ciudad de Guatemala
+2854,Antigua Guatemala
+2855,Antigua Guatemala
+2856,Puerto San José
+2857,Cobán
+2858,Puerto San José
+2859,Puerto San José
+2860,Ciudad de Guatemala
+2861,Ciudad de Guatemala
+2862,Puerto San José
+2863,Cobán
+2864,Cobán
+2865,Ciudad de Guatemala
+2866,Puerto San José
+2867,Puerto San José
+2868,Cobán
+2869,Antigua Guatemala
+2870,Ciudad de Guatemala
+2871,Puerto San José
+2872,Ciudad de Guatemala
+2873,Antigua Guatemala
+2874,Antigua Guatemala
+2875,Ciudad de Guatemala
+2876,Ciudad de Guatemala
+2877,Cobán
+2878,Puerto San José
+2879,Antigua Guatemala
+2880,Puerto San José
+2881,Ciudad de Guatemala
+2882,Ciudad de Guatemala
+2883,Ciudad de Guatemala
+2884,Ciudad de Guatemala
+2885,Antigua Guatemala
+2886,Ciudad de Guatemala
+2887,Puerto San José
+2888,Ciudad de Guatemala
+2889,Ciudad de Guatemala
+2890,Puerto San José
+2891,Ciudad de Guatemala
+2892,Ciudad de Guatemala
+2893,Ciudad de Guatemala
+2894,Puerto San José
+2895,Ciudad de Guatemala
+2896,Ciudad de Guatemala
+2897,Cobán
+2898,Cobán
+2899,Ciudad de Guatemala
+2900,Ciudad de Guatemala
+2901,Ciudad de Guatemala
+2902,Cobán
+2903,Cobán
+2904,Cobán
+2905,Ciudad de Guatemala
+2906,Ciudad de Guatemala
+2907,Cobán
+2908,Puerto San José
+2909,Puerto San José
+2910,Antigua Guatemala
+2911,Puerto San José
+2912,Puerto San José
+2913,Puerto San José
+2914,Ciudad de Guatemala
+2915,Ciudad de Guatemala
+2916,Cobán
+2917,Cobán
+2918,Antigua Guatemala
+2919,Ciudad de Guatemala
+2920,Puerto San José
+2921,Ciudad de Guatemala
+2922,Ciudad de Guatemala
+2923,Ciudad de Guatemala
+2924,Cobán
+2925,Ciudad de Guatemala
+2926,Cobán
+2927,Ciudad de Guatemala
+2928,Ciudad de Guatemala
+2929,Ciudad de Guatemala
+2930,Ciudad de Guatemala
+2931,Antigua Guatemala
+2932,Antigua Guatemala
+2933,Cobán
+2934,Ciudad de Guatemala
+2935,Ciudad de Guatemala
+2936,Puerto San José
+2937,Cobán
+2938,Ciudad de Guatemala
+2939,Antigua Guatemala
+2940,Ciudad de Guatemala
+2941,Puerto San José
+2942,Ciudad de Guatemala
+2943,Puerto San José
+2944,Ciudad de Guatemala
+2945,Ciudad de Guatemala
+2946,Antigua Guatemala
+2947,Cobán
+2948,Antigua Guatemala
+2949,Ciudad de Guatemala
+2950,Puerto San José
+2951,Cobán
+2952,Antigua Guatemala
+2953,Cobán
+2954,Puerto San José
+2955,Cobán
+2956,Ciudad de Guatemala
+2957,Puerto San José
+2958,Cobán
+2959,Ciudad de Guatemala
+2960,Cobán
+2961,Cobán
+2962,Puerto San José
+2963,Ciudad de Guatemala
+2964,Ciudad de Guatemala
+2965,Cobán
+2966,Antigua Guatemala
+2967,Antigua Guatemala
+2968,Puerto San José
+2969,Antigua Guatemala
+2970,Ciudad de Guatemala
+2971,Ciudad de Guatemala
+2972,Puerto San José
+2973,Ciudad de Guatemala
+2974,Puerto San José
+2975,Ciudad de Guatemala
+2976,Puerto San José
+2977,Antigua Guatemala
+2978,Antigua Guatemala
+2979,Ciudad de Guatemala
+2980,Cobán
+2981,Cobán
+2982,Ciudad de Guatemala
+2983,Ciudad de Guatemala
+2984,Cobán
+2985,Ciudad de Guatemala
+2986,Cobán
+2987,Antigua Guatemala
+2988,Antigua Guatemala
+2989,Ciudad de Guatemala
+2990,Antigua Guatemala
+2991,Ciudad de Guatemala
+2992,Ciudad de Guatemala
+2993,Antigua Guatemala
+2994,Ciudad de Guatemala
+2995,Ciudad de Guatemala
+2996,Ciudad de Guatemala
+2997,Cobán
+2998,Ciudad de Guatemala
+2999,Puerto San José
+3000,Antigua Guatemala

@@ -1,0 +1,30 @@
+item,categoria,precio,margen
+Latte,Bebida,5.25,0.7
+Cappuccino,Bebida,4.95,0.7
+Americano,Bebida,3.75,0.75
+Cold Brew,Bebida,4.95,0.72
+Té Chai,Bebida,4.75,0.68
+Frappuccino,Bebida,6.25,0.66
+Matcha Latte,Bebida,5.75,0.68
+Espresso,Bebida,3.25,0.78
+Chocolate Caliente,Bebida,4.65,0.66
+Té Verde,Bebida,3.45,0.74
+Refresher,Bebida,5.45,0.64
+Flat White,Bebida,5.15,0.7
+Agua,Bebida,2.25,0.6
+Croissant,Comida,3.95,0.55
+Muffin,Comida,3.75,0.55
+Banana Bread,Comida,3.65,0.55
+Sándwich,Comida,7.25,0.45
+Ensalada,Comida,8.25,0.45
+Galleta,Comida,2.95,0.6
+Pastel de Queso,Comida,4.95,0.5
+Granola,Comida,4.25,0.5
+Copa de Fruta,Comida,4.45,0.5
+Bagel,Comida,3.45,0.58
+Wrap,Comida,6.95,0.46
+Brownie,Comida,3.55,0.58
+Yogur,Comida,3.95,0.52
+Panini,Comida,7.45,0.45
+Scone,Comida,3.65,0.56
+Dona,Comida,2.75,0.62

@@ -1,0 +1,2001 @@
+customer_id,segment,city,signup_date
+1,Occasional,Los Angeles,2025-02-04
+2,Office Worker,Washington DC,2025-10-12
+3,Occasional,Dallas,2026-03-12
+4,Weekend Social,Miami,2025-04-21
+5,Daily Commuter,Los Angeles,2025-02-13
+6,One-Time,Chicago,2025-06-04
+7,Weekend Social,Dallas,2025-04-22
+8,Occasional,Seattle,2026-01-20
+9,Daily Commuter,Denver,2025-05-17
+10,Office Worker,Miami,2025-05-21
+11,Office Worker,Chicago,2026-06-23
+12,Occasional,Washington DC,2025-10-10
+13,Weekend Social,Atlanta,2026-06-12
+14,Occasional,Seattle,2026-01-10
+15,Office Worker,San Francisco,2026-05-12
+16,Daily Commuter,Boston,2025-01-14
+17,Weekend Social,Chicago,2026-06-18
+18,Daily Commuter,Philadelphia,2026-06-22
+19,Occasional,Boston,2024-09-28
+20,Weekend Social,Atlanta,2025-05-07
+21,Weekend Social,Atlanta,2025-06-16
+22,Office Worker,Chicago,2025-06-20
+23,One-Time,Atlanta,2026-02-26
+24,Occasional,San Francisco,2026-01-01
+25,Occasional,Seattle,2025-01-27
+26,Daily Commuter,Boston,2025-10-31
+27,Office Worker,Miami,2026-07-14
+28,Daily Commuter,New York,2025-07-05
+29,Daily Commuter,Austin,2026-06-11
+30,Weekend Social,Portland,2025-11-28
+31,Weekend Social,San Francisco,2026-06-09
+32,One-Time,Miami,2026-05-24
+33,Office Worker,San Francisco,2024-09-11
+34,Office Worker,Portland,2026-03-14
+35,Office Worker,Los Angeles,2025-01-10
+36,Daily Commuter,Miami,2026-03-30
+37,Daily Commuter,Seattle,2026-03-19
+38,Office Worker,Seattle,2025-02-27
+39,Daily Commuter,Chicago,2024-10-16
+40,Weekend Social,Los Angeles,2025-06-20
+41,Office Worker,Denver,2025-03-31
+42,Occasional,Los Angeles,2025-09-22
+43,Weekend Social,Chicago,2024-10-27
+44,Office Worker,New York,2024-09-30
+45,Occasional,Washington DC,2025-07-02
+46,Occasional,Austin,2026-02-20
+47,Office Worker,Chicago,2025-04-08
+48,Daily Commuter,New York,2025-04-14
+49,Weekend Social,Dallas,2024-12-23
+50,Daily Commuter,Portland,2025-03-16
+51,Daily Commuter,Washington DC,2025-03-28
+52,Daily Commuter,Los Angeles,2025-02-28
+53,Occasional,Boston,2025-04-28
+54,Weekend Social,New York,2025-03-17
+55,Weekend Social,Boston,2025-12-20
+56,Occasional,Los Angeles,2025-04-24
+57,Office Worker,Seattle,2026-02-10
+58,Weekend Social,Atlanta,2025-10-28
+59,Daily Commuter,Philadelphia,2025-11-22
+60,Daily Commuter,Portland,2025-10-13
+61,Weekend Social,Austin,2026-06-08
+62,Office Worker,Dallas,2025-02-25
+63,Weekend Social,Philadelphia,2026-07-19
+64,Weekend Social,New York,2025-01-22
+65,Weekend Social,Chicago,2024-12-05
+66,Weekend Social,Miami,2026-04-01
+67,Weekend Social,Dallas,2026-05-20
+68,Office Worker,Austin,2024-11-03
+69,Daily Commuter,Austin,2025-10-24
+70,Office Worker,San Francisco,2025-08-24
+71,Daily Commuter,Boston,2025-02-01
+72,Office Worker,New York,2025-08-30
+73,Occasional,San Francisco,2025-12-24
+74,Daily Commuter,Los Angeles,2025-10-06
+75,Daily Commuter,Philadelphia,2025-08-29
+76,Daily Commuter,New York,2026-05-12
+77,Daily Commuter,Boston,2025-02-04
+78,Weekend Social,Washington DC,2025-11-10
+79,Weekend Social,Philadelphia,2025-04-09
+80,Occasional,Boston,2026-07-13
+81,Weekend Social,Denver,2025-02-23
+82,Office Worker,Atlanta,2026-05-02
+83,Occasional,Dallas,2025-11-16
+84,Daily Commuter,Austin,2025-01-28
+85,Daily Commuter,Atlanta,2026-02-13
+86,Daily Commuter,Boston,2025-02-15
+87,Weekend Social,Boston,2025-03-02
+88,Office Worker,Portland,2025-04-29
+89,Daily Commuter,Dallas,2025-12-21
+90,Office Worker,New York,2025-06-01
+91,Daily Commuter,Austin,2025-10-03
+92,Weekend Social,Denver,2025-09-22
+93,Office Worker,Los Angeles,2025-01-15
+94,Office Worker,New York,2025-02-09
+95,Office Worker,San Francisco,2025-04-02
+96,Weekend Social,Chicago,2025-02-02
+97,Office Worker,New York,2026-06-05
+98,Daily Commuter,San Francisco,2025-05-24
+99,Daily Commuter,Dallas,2025-06-10
+100,One-Time,Austin,2025-12-14
+101,Occasional,Los Angeles,2026-03-05
+102,Weekend Social,Portland,2025-12-25
+103,Daily Commuter,Denver,2025-09-20
+104,One-Time,Austin,2026-07-15
+105,Occasional,Chicago,2026-05-22
+106,Weekend Social,Seattle,2025-01-19
+107,Office Worker,San Francisco,2024-12-21
+108,Daily Commuter,Philadelphia,2025-06-02
+109,Daily Commuter,Atlanta,2026-04-07
+110,Occasional,Seattle,2026-07-07
+111,Office Worker,Philadelphia,2026-01-04
+112,Daily Commuter,Dallas,2025-12-27
+113,Office Worker,Atlanta,2025-02-10
+114,Weekend Social,Austin,2025-10-19
+115,Daily Commuter,Los Angeles,2025-01-07
+116,Occasional,Miami,2025-09-12
+117,Weekend Social,Washington DC,2025-01-13
+118,Weekend Social,Denver,2024-10-22
+119,Office Worker,Seattle,2026-07-09
+120,Weekend Social,Austin,2026-05-18
+121,Weekend Social,Austin,2025-12-23
+122,Weekend Social,Austin,2025-11-11
+123,Daily Commuter,Portland,2025-02-14
+124,Office Worker,New York,2025-10-05
+125,Daily Commuter,New York,2026-02-05
+126,Office Worker,Dallas,2025-09-12
+127,Office Worker,Dallas,2025-03-16
+128,Daily Commuter,New York,2025-06-01
+129,Daily Commuter,Miami,2026-04-11
+130,Weekend Social,Atlanta,2025-02-25
+131,Daily Commuter,San Francisco,2026-07-04
+132,Occasional,Portland,2026-02-10
+133,Weekend Social,Washington DC,2026-05-16
+134,Office Worker,Dallas,2025-08-22
+135,Weekend Social,Los Angeles,2025-02-03
+136,Daily Commuter,Denver,2024-09-23
+137,One-Time,Philadelphia,2025-09-09
+138,Office Worker,Chicago,2025-06-06
+139,Occasional,Dallas,2024-11-18
+140,Daily Commuter,Denver,2026-06-12
+141,Office Worker,Atlanta,2026-07-11
+142,Office Worker,Chicago,2025-05-19
+143,Occasional,Washington DC,2025-12-11
+144,Weekend Social,Atlanta,2025-06-16
+145,Office Worker,Miami,2025-08-13
+146,Daily Commuter,Denver,2025-11-10
+147,Office Worker,New York,2025-06-18
+148,Weekend Social,Austin,2026-03-15
+149,Office Worker,San Francisco,2025-01-10
+150,Daily Commuter,Chicago,2025-12-11
+151,Occasional,Austin,2026-07-20
+152,Occasional,Los Angeles,2026-04-18
+153,Daily Commuter,Portland,2024-10-02
+154,Weekend Social,Denver,2024-11-18
+155,Daily Commuter,Dallas,2025-11-14
+156,Weekend Social,Seattle,2026-06-09
+157,Daily Commuter,Austin,2026-04-13
+158,Weekend Social,Chicago,2026-05-25
+159,Weekend Social,Washington DC,2024-12-13
+160,Weekend Social,San Francisco,2025-08-29
+161,Daily Commuter,Seattle,2026-01-21
+162,Occasional,Denver,2025-11-11
+163,Daily Commuter,Seattle,2026-02-25
+164,Daily Commuter,Chicago,2025-01-26
+165,Weekend Social,Austin,2025-07-16
+166,Office Worker,Atlanta,2025-07-10
+167,Occasional,Portland,2026-06-19
+168,Occasional,Washington DC,2025-01-19
+169,Office Worker,Denver,2025-04-16
+170,One-Time,Atlanta,2024-09-15
+171,Daily Commuter,Seattle,2024-12-15
+172,Office Worker,San Francisco,2026-07-18
+173,Daily Commuter,Austin,2026-04-16
+174,Occasional,Seattle,2025-02-28
+175,Daily Commuter,Boston,2026-01-04
+176,Daily Commuter,New York,2025-10-20
+177,Office Worker,Washington DC,2026-05-27
+178,One-Time,Atlanta,2025-03-29
+179,Occasional,Portland,2026-07-28
+180,Weekend Social,Portland,2025-05-17
+181,Occasional,Chicago,2026-01-14
+182,Occasional,Seattle,2025-06-05
+183,Office Worker,Boston,2025-12-14
+184,Office Worker,Los Angeles,2025-04-22
+185,Occasional,San Francisco,2026-04-13
+186,Weekend Social,San Francisco,2025-11-20
+187,Office Worker,Austin,2025-03-21
+188,Daily Commuter,San Francisco,2026-07-04
+189,Weekend Social,Los Angeles,2026-01-09
+190,Daily Commuter,Philadelphia,2025-06-27
+191,Occasional,Seattle,2024-12-04
+192,Daily Commuter,Los Angeles,2026-07-13
+193,Daily Commuter,San Francisco,2026-02-10
+194,Occasional,Seattle,2025-12-11
+195,Daily Commuter,Washington DC,2026-04-06
+196,Daily Commuter,San Francisco,2025-10-29
+197,Weekend Social,Austin,2025-02-09
+198,Occasional,New York,2025-02-12
+199,Daily Commuter,Atlanta,2024-10-25
+200,Office Worker,New York,2024-10-14
+201,Occasional,Chicago,2026-01-23
+202,One-Time,Boston,2026-04-19
+203,Office Worker,Washington DC,2024-12-23
+204,Daily Commuter,San Francisco,2025-10-06
+205,Daily Commuter,Austin,2024-11-25
+206,Daily Commuter,New York,2025-06-17
+207,Daily Commuter,Chicago,2026-03-07
+208,Weekend Social,Miami,2026-03-22
+209,Daily Commuter,Denver,2026-06-26
+210,Office Worker,Atlanta,2025-04-05
+211,Weekend Social,Portland,2026-06-26
+212,Weekend Social,New York,2026-03-02
+213,Daily Commuter,Portland,2025-04-25
+214,Occasional,Washington DC,2025-04-17
+215,Weekend Social,Austin,2024-11-14
+216,Weekend Social,Chicago,2026-06-06
+217,Daily Commuter,San Francisco,2025-01-20
+218,Daily Commuter,Philadelphia,2025-03-06
+219,Occasional,Dallas,2025-06-16
+220,Office Worker,Philadelphia,2024-12-05
+221,Office Worker,Washington DC,2026-03-18
+222,Office Worker,Denver,2026-01-01
+223,Weekend Social,New York,2024-12-18
+224,One-Time,Chicago,2024-12-22
+225,Daily Commuter,San Francisco,2024-09-15
+226,Occasional,Dallas,2026-06-26
+227,Daily Commuter,Chicago,2025-07-02
+228,Weekend Social,Boston,2025-12-02
+229,Weekend Social,Dallas,2024-12-13
+230,Daily Commuter,Los Angeles,2025-02-08
+231,Daily Commuter,Portland,2025-09-14
+232,Office Worker,Atlanta,2025-01-24
+233,One-Time,Philadelphia,2025-11-03
+234,Weekend Social,Denver,2026-06-08
+235,Occasional,Atlanta,2025-04-01
+236,Occasional,Dallas,2025-10-30
+237,Office Worker,Philadelphia,2026-06-02
+238,Occasional,Austin,2026-05-18
+239,Daily Commuter,Portland,2024-09-05
+240,Daily Commuter,Washington DC,2024-11-16
+241,Occasional,Philadelphia,2026-07-22
+242,Occasional,Austin,2026-06-09
+243,Daily Commuter,San Francisco,2025-04-13
+244,Weekend Social,Miami,2025-08-30
+245,Weekend Social,Chicago,2025-10-05
+246,Occasional,Atlanta,2025-12-11
+247,Weekend Social,Denver,2026-02-07
+248,Office Worker,Philadelphia,2025-05-19
+249,Office Worker,Atlanta,2026-05-15
+250,Office Worker,Philadelphia,2024-10-11
+251,Weekend Social,Dallas,2024-09-22
+252,Occasional,Dallas,2026-07-02
+253,Office Worker,Los Angeles,2025-01-02
+254,Daily Commuter,Austin,2026-07-28
+255,Daily Commuter,Chicago,2025-03-19
+256,Weekend Social,Miami,2025-05-13
+257,Occasional,Denver,2024-09-19
+258,Daily Commuter,Chicago,2026-06-22
+259,Daily Commuter,Philadelphia,2025-05-09
+260,Weekend Social,Washington DC,2024-12-26
+261,Daily Commuter,Miami,2025-08-04
+262,Occasional,Seattle,2024-12-17
+263,Office Worker,Los Angeles,2026-03-06
+264,Daily Commuter,Chicago,2024-10-21
+265,Occasional,Philadelphia,2025-08-15
+266,Daily Commuter,Boston,2025-05-31
+267,Daily Commuter,Seattle,2024-09-26
+268,Daily Commuter,Miami,2024-10-06
+269,Daily Commuter,Philadelphia,2025-08-29
+270,Daily Commuter,Atlanta,2025-06-03
+271,Daily Commuter,Denver,2024-11-29
+272,Daily Commuter,Los Angeles,2024-12-05
+273,Daily Commuter,Washington DC,2026-03-17
+274,Weekend Social,New York,2026-01-24
+275,Weekend Social,Philadelphia,2025-10-30
+276,Office Worker,Chicago,2026-04-06
+277,Office Worker,New York,2024-10-18
+278,Office Worker,San Francisco,2025-12-25
+279,Occasional,Seattle,2026-02-08
+280,Occasional,Seattle,2025-01-18
+281,Daily Commuter,Los Angeles,2025-09-10
+282,Daily Commuter,Portland,2026-02-18
+283,Daily Commuter,Dallas,2025-10-27
+284,Daily Commuter,Chicago,2025-02-21
+285,Weekend Social,Portland,2025-12-09
+286,Office Worker,San Francisco,2026-02-13
+287,Daily Commuter,Denver,2024-09-06
+288,Office Worker,San Francisco,2025-10-02
+289,Weekend Social,Washington DC,2025-08-19
+290,Daily Commuter,Atlanta,2025-05-14
+291,Occasional,Atlanta,2024-09-30
+292,Daily Commuter,Washington DC,2024-10-28
+293,Occasional,Portland,2026-02-07
+294,Daily Commuter,Los Angeles,2026-04-02
+295,Occasional,Los Angeles,2025-06-20
+296,Occasional,San Francisco,2026-06-19
+297,One-Time,New York,2026-06-11
+298,Occasional,Portland,2025-12-10
+299,Occasional,Denver,2025-10-11
+300,Weekend Social,Seattle,2026-07-07
+301,Occasional,Boston,2025-10-31
+302,Daily Commuter,Dallas,2026-06-15
+303,Weekend Social,Washington DC,2026-07-17
+304,Office Worker,Philadelphia,2025-01-14
+305,Occasional,Washington DC,2025-12-06
+306,Office Worker,Miami,2026-01-24
+307,Office Worker,Washington DC,2026-03-28
+308,Weekend Social,Philadelphia,2025-05-02
+309,Daily Commuter,Miami,2026-04-26
+310,Daily Commuter,Boston,2025-08-07
+311,Office Worker,Philadelphia,2025-05-28
+312,Office Worker,Boston,2024-12-18
+313,Daily Commuter,Los Angeles,2025-04-12
+314,Office Worker,New York,2026-07-14
+315,Office Worker,Atlanta,2026-01-14
+316,Office Worker,Seattle,2026-01-21
+317,Office Worker,New York,2026-05-19
+318,Weekend Social,Chicago,2025-03-05
+319,Daily Commuter,Atlanta,2025-12-07
+320,Occasional,Denver,2025-05-18
+321,Occasional,Atlanta,2026-04-16
+322,Office Worker,Atlanta,2025-06-22
+323,Office Worker,Philadelphia,2026-04-21
+324,Weekend Social,Chicago,2026-02-05
+325,Occasional,Denver,2026-02-22
+326,Weekend Social,Miami,2026-06-09
+327,Occasional,Chicago,2026-03-07
+328,Weekend Social,Los Angeles,2025-04-13
+329,Weekend Social,Seattle,2025-08-31
+330,Daily Commuter,San Francisco,2025-07-27
+331,Weekend Social,Chicago,2024-10-15
+332,Daily Commuter,Los Angeles,2025-10-20
+333,Weekend Social,Chicago,2025-07-03
+334,Occasional,Portland,2025-06-02
+335,Daily Commuter,Dallas,2024-11-15
+336,Weekend Social,Atlanta,2025-08-18
+337,Daily Commuter,Seattle,2025-10-10
+338,Weekend Social,Austin,2024-11-12
+339,Daily Commuter,Los Angeles,2025-11-18
+340,Occasional,Seattle,2024-12-26
+341,Daily Commuter,Atlanta,2024-12-10
+342,One-Time,Boston,2025-06-07
+343,Occasional,San Francisco,2025-05-30
+344,Weekend Social,Philadelphia,2026-06-02
+345,Occasional,New York,2024-10-17
+346,Occasional,Seattle,2025-05-02
+347,Occasional,Miami,2026-01-27
+348,Daily Commuter,Boston,2025-02-21
+349,Weekend Social,Dallas,2026-07-19
+350,Daily Commuter,Seattle,2026-02-02
+351,Weekend Social,Boston,2026-06-24
+352,Daily Commuter,Los Angeles,2026-06-26
+353,Weekend Social,Seattle,2024-11-15
+354,Weekend Social,Denver,2025-07-18
+355,Office Worker,Austin,2026-02-03
+356,Weekend Social,Los Angeles,2024-09-06
+357,Weekend Social,Dallas,2025-07-13
+358,Occasional,Atlanta,2025-12-25
+359,Office Worker,Denver,2026-03-09
+360,Weekend Social,Washington DC,2025-06-17
+361,Occasional,San Francisco,2026-04-27
+362,Daily Commuter,Los Angeles,2025-12-15
+363,Daily Commuter,Dallas,2024-10-01
+364,Daily Commuter,New York,2025-03-13
+365,Weekend Social,Washington DC,2026-06-18
+366,Office Worker,Dallas,2024-09-01
+367,Occasional,Philadelphia,2024-11-14
+368,Weekend Social,Denver,2025-04-29
+369,Office Worker,Miami,2026-07-27
+370,Occasional,Washington DC,2026-01-06
+371,Weekend Social,New York,2024-12-12
+372,Daily Commuter,San Francisco,2025-06-02
+373,Office Worker,Denver,2026-06-19
+374,Office Worker,Miami,2025-01-31
+375,Daily Commuter,Portland,2025-10-07
+376,Daily Commuter,Washington DC,2025-07-21
+377,Occasional,Denver,2026-02-14
+378,Office Worker,Los Angeles,2026-02-08
+379,Office Worker,Los Angeles,2026-04-06
+380,Weekend Social,Dallas,2024-11-22
+381,Weekend Social,Denver,2025-07-14
+382,Occasional,Miami,2025-12-28
+383,Occasional,Atlanta,2025-06-20
+384,Office Worker,Dallas,2025-12-11
+385,Office Worker,Chicago,2025-11-19
+386,One-Time,Los Angeles,2025-05-17
+387,Weekend Social,Austin,2024-11-09
+388,One-Time,Denver,2026-07-11
+389,Daily Commuter,Dallas,2026-04-01
+390,Occasional,New York,2026-05-19
+391,Weekend Social,Chicago,2025-03-28
+392,Daily Commuter,Philadelphia,2025-04-09
+393,Weekend Social,Dallas,2025-04-14
+394,Weekend Social,Seattle,2024-09-21
+395,Daily Commuter,Dallas,2024-12-27
+396,Office Worker,Seattle,2025-04-03
+397,Occasional,New York,2026-07-23
+398,Daily Commuter,Washington DC,2025-01-21
+399,Office Worker,New York,2025-08-21
+400,Office Worker,San Francisco,2025-09-18
+401,Office Worker,New York,2025-05-09
+402,Occasional,Miami,2026-06-05
+403,Occasional,Seattle,2024-11-04
+404,Daily Commuter,San Francisco,2026-05-02
+405,One-Time,San Francisco,2026-02-02
+406,Occasional,Portland,2025-04-02
+407,Daily Commuter,Denver,2026-02-19
+408,Occasional,Los Angeles,2025-06-27
+409,Daily Commuter,Denver,2026-07-11
+410,One-Time,Denver,2024-09-25
+411,Weekend Social,San Francisco,2024-09-20
+412,Weekend Social,Atlanta,2025-09-15
+413,Daily Commuter,San Francisco,2026-06-14
+414,Occasional,San Francisco,2024-10-14
+415,Daily Commuter,Austin,2026-02-26
+416,Daily Commuter,Chicago,2026-06-19
+417,Daily Commuter,San Francisco,2025-08-06
+418,Occasional,New York,2026-04-29
+419,Daily Commuter,Portland,2026-02-11
+420,Occasional,Portland,2025-01-27
+421,Weekend Social,Portland,2026-04-20
+422,Daily Commuter,Los Angeles,2026-01-02
+423,Daily Commuter,Denver,2024-09-08
+424,Daily Commuter,San Francisco,2025-10-02
+425,Weekend Social,Austin,2025-12-02
+426,Occasional,San Francisco,2026-03-14
+427,Daily Commuter,Boston,2026-02-21
+428,Occasional,Denver,2025-07-29
+429,Daily Commuter,Austin,2025-03-28
+430,Occasional,Portland,2025-01-12
+431,Occasional,Dallas,2024-11-01
+432,Occasional,Boston,2025-11-21
+433,Weekend Social,Dallas,2026-07-03
+434,Occasional,Washington DC,2024-10-26
+435,Daily Commuter,Atlanta,2026-01-04
+436,Daily Commuter,Portland,2025-10-14
+437,Daily Commuter,Washington DC,2024-12-29
+438,Office Worker,Dallas,2025-01-26
+439,Weekend Social,Chicago,2025-03-18
+440,Weekend Social,Austin,2025-12-23
+441,Occasional,Denver,2025-03-28
+442,Daily Commuter,Los Angeles,2026-04-02
+443,Weekend Social,Boston,2025-05-16
+444,Daily Commuter,Philadelphia,2024-11-15
+445,Daily Commuter,Philadelphia,2024-11-05
+446,Weekend Social,Dallas,2025-06-07
+447,One-Time,Philadelphia,2025-06-12
+448,Weekend Social,Miami,2026-01-26
+449,Daily Commuter,Austin,2025-08-01
+450,Weekend Social,Los Angeles,2024-12-23
+451,Daily Commuter,San Francisco,2025-01-27
+452,Occasional,Los Angeles,2025-10-01
+453,Weekend Social,Philadelphia,2025-04-21
+454,Daily Commuter,Miami,2025-12-14
+455,Daily Commuter,Philadelphia,2026-06-08
+456,Daily Commuter,Boston,2025-05-06
+457,One-Time,Boston,2025-09-21
+458,Office Worker,Portland,2026-04-05
+459,Occasional,Atlanta,2025-01-25
+460,Weekend Social,Boston,2025-08-23
+461,Weekend Social,San Francisco,2025-04-01
+462,Daily Commuter,Atlanta,2025-11-12
+463,Occasional,New York,2026-02-02
+464,Office Worker,Los Angeles,2024-12-07
+465,Weekend Social,Seattle,2025-01-09
+466,Weekend Social,Los Angeles,2024-09-16
+467,Weekend Social,Los Angeles,2024-09-08
+468,Occasional,New York,2024-10-05
+469,Daily Commuter,Seattle,2026-01-07
+470,Office Worker,Dallas,2026-05-25
+471,Office Worker,Los Angeles,2025-06-13
+472,Office Worker,Atlanta,2026-05-10
+473,Daily Commuter,New York,2026-01-23
+474,Daily Commuter,Philadelphia,2026-03-19
+475,Daily Commuter,Chicago,2026-01-30
+476,Office Worker,Austin,2025-01-17
+477,Office Worker,Miami,2025-09-01
+478,Weekend Social,Austin,2025-09-02
+479,Weekend Social,Miami,2025-11-23
+480,Office Worker,Atlanta,2026-03-11
+481,Office Worker,Austin,2024-11-17
+482,Daily Commuter,Dallas,2025-12-16
+483,Weekend Social,Boston,2026-04-06
+484,Office Worker,Philadelphia,2024-11-19
+485,Daily Commuter,Philadelphia,2025-06-17
+486,Office Worker,Austin,2026-05-19
+487,Office Worker,Philadelphia,2024-09-17
+488,Daily Commuter,New York,2024-12-21
+489,Weekend Social,Atlanta,2026-03-16
+490,Weekend Social,Portland,2024-12-29
+491,Weekend Social,Washington DC,2026-01-04
+492,Weekend Social,New York,2026-05-23
+493,Weekend Social,Dallas,2025-08-14
+494,Office Worker,New York,2025-08-05
+495,Occasional,Boston,2025-06-27
+496,Weekend Social,Portland,2025-05-19
+497,Office Worker,San Francisco,2025-05-24
+498,Weekend Social,Dallas,2025-09-22
+499,Office Worker,Philadelphia,2026-05-19
+500,Office Worker,Los Angeles,2026-07-18
+501,Weekend Social,Chicago,2026-04-29
+502,Occasional,New York,2024-11-22
+503,Occasional,Portland,2025-04-02
+504,Office Worker,Washington DC,2026-02-11
+505,Weekend Social,Miami,2025-09-16
+506,Occasional,New York,2025-04-22
+507,Office Worker,Los Angeles,2025-04-05
+508,Occasional,Seattle,2024-11-20
+509,Office Worker,Denver,2025-04-20
+510,Daily Commuter,Austin,2025-06-22
+511,Daily Commuter,Los Angeles,2025-06-18
+512,Occasional,Dallas,2025-09-19
+513,Daily Commuter,Chicago,2025-03-10
+514,Daily Commuter,Atlanta,2025-01-22
+515,Office Worker,Portland,2026-05-14
+516,Daily Commuter,Atlanta,2025-06-10
+517,Office Worker,Denver,2025-02-25
+518,Weekend Social,San Francisco,2025-11-18
+519,Daily Commuter,Denver,2025-09-14
+520,Occasional,Chicago,2025-10-08
+521,Occasional,San Francisco,2025-02-02
+522,Office Worker,Austin,2026-01-19
+523,Daily Commuter,Washington DC,2025-01-12
+524,Weekend Social,Dallas,2026-04-08
+525,Daily Commuter,San Francisco,2025-06-23
+526,Office Worker,San Francisco,2025-06-13
+527,One-Time,Seattle,2025-05-29
+528,One-Time,Chicago,2025-06-23
+529,Occasional,Miami,2025-12-09
+530,Office Worker,Chicago,2025-08-13
+531,Weekend Social,Austin,2024-11-27
+532,Weekend Social,Seattle,2025-10-01
+533,Office Worker,Boston,2025-03-05
+534,Weekend Social,Chicago,2024-11-14
+535,Daily Commuter,Denver,2026-04-10
+536,Daily Commuter,Seattle,2025-04-06
+537,Weekend Social,Boston,2025-10-21
+538,Daily Commuter,Dallas,2024-12-29
+539,Daily Commuter,Dallas,2025-04-25
+540,Occasional,Chicago,2025-05-28
+541,One-Time,Denver,2024-12-02
+542,Weekend Social,Portland,2026-07-13
+543,Occasional,Denver,2025-04-06
+544,One-Time,Atlanta,2025-10-12
+545,Daily Commuter,San Francisco,2025-09-30
+546,Office Worker,Dallas,2025-06-27
+547,Office Worker,Miami,2025-10-14
+548,Daily Commuter,Philadelphia,2025-10-01
+549,Weekend Social,Austin,2024-10-26
+550,Office Worker,Boston,2025-12-12
+551,Office Worker,San Francisco,2024-11-18
+552,Daily Commuter,New York,2025-07-01
+553,Daily Commuter,Miami,2025-05-13
+554,Occasional,Austin,2025-07-10
+555,Daily Commuter,San Francisco,2024-10-20
+556,Daily Commuter,Seattle,2026-01-03
+557,Daily Commuter,Dallas,2025-06-19
+558,Office Worker,Chicago,2024-10-12
+559,Weekend Social,Miami,2024-09-02
+560,Office Worker,Seattle,2025-09-13
+561,Daily Commuter,Seattle,2025-12-10
+562,Daily Commuter,Washington DC,2025-09-18
+563,Occasional,Portland,2026-01-17
+564,Weekend Social,Seattle,2026-02-11
+565,Weekend Social,New York,2026-05-03
+566,Weekend Social,Denver,2026-07-19
+567,Weekend Social,Portland,2026-05-12
+568,Daily Commuter,Boston,2026-03-11
+569,Office Worker,Washington DC,2025-06-28
+570,Weekend Social,Portland,2025-08-18
+571,Office Worker,Miami,2025-11-05
+572,Occasional,San Francisco,2024-12-27
+573,Office Worker,Portland,2025-12-18
+574,Weekend Social,Washington DC,2025-10-16
+575,Occasional,Seattle,2025-08-30
+576,Office Worker,Austin,2026-04-07
+577,Occasional,Washington DC,2025-12-25
+578,Weekend Social,Denver,2026-06-14
+579,Occasional,Austin,2026-07-15
+580,Office Worker,Boston,2026-03-31
+581,Office Worker,Los Angeles,2025-03-27
+582,Weekend Social,Dallas,2025-01-10
+583,Daily Commuter,San Francisco,2025-03-28
+584,Office Worker,Austin,2026-01-11
+585,Occasional,San Francisco,2026-04-28
+586,Weekend Social,Boston,2026-05-09
+587,Daily Commuter,Portland,2025-12-22
+588,Office Worker,San Francisco,2025-12-20
+589,Daily Commuter,Dallas,2026-06-28
+590,Daily Commuter,Seattle,2025-12-24
+591,Occasional,Seattle,2024-12-07
+592,Office Worker,New York,2025-08-16
+593,Office Worker,Chicago,2025-05-09
+594,Weekend Social,Seattle,2025-11-19
+595,Daily Commuter,Boston,2025-11-19
+596,Daily Commuter,Seattle,2025-03-25
+597,Weekend Social,Austin,2025-03-28
+598,Weekend Social,Los Angeles,2024-11-01
+599,One-Time,Philadelphia,2025-03-24
+600,Weekend Social,Dallas,2026-04-02
+601,Office Worker,Portland,2025-12-02
+602,Weekend Social,Dallas,2026-06-22
+603,Occasional,Austin,2026-06-10
+604,Weekend Social,Dallas,2026-04-22
+605,One-Time,Atlanta,2025-01-03
+606,Occasional,Miami,2025-04-21
+607,Occasional,Denver,2024-10-10
+608,Daily Commuter,Miami,2024-11-04
+609,Weekend Social,Boston,2025-02-08
+610,Office Worker,New York,2025-03-15
+611,Weekend Social,Philadelphia,2024-09-10
+612,Weekend Social,Portland,2026-04-12
+613,One-Time,Portland,2025-09-03
+614,One-Time,Chicago,2025-12-03
+615,Daily Commuter,Austin,2025-12-01
+616,Weekend Social,Atlanta,2026-07-08
+617,Weekend Social,New York,2024-12-12
+618,Office Worker,Philadelphia,2025-04-27
+619,Daily Commuter,Philadelphia,2025-04-03
+620,Daily Commuter,Washington DC,2025-09-21
+621,Occasional,Denver,2025-09-03
+622,Office Worker,Chicago,2026-03-07
+623,One-Time,Seattle,2025-09-27
+624,Office Worker,Austin,2025-02-10
+625,One-Time,Washington DC,2025-09-30
+626,Office Worker,New York,2026-07-06
+627,Occasional,Portland,2025-10-10
+628,Daily Commuter,Seattle,2025-10-19
+629,Weekend Social,Austin,2025-01-01
+630,Occasional,Seattle,2024-09-05
+631,Occasional,Philadelphia,2025-01-24
+632,Occasional,Los Angeles,2024-09-17
+633,Daily Commuter,Boston,2025-07-13
+634,Office Worker,Portland,2026-05-10
+635,Daily Commuter,Dallas,2025-07-09
+636,Daily Commuter,Boston,2025-11-25
+637,Weekend Social,Philadelphia,2026-04-21
+638,Weekend Social,Seattle,2026-02-16
+639,Occasional,Denver,2025-11-29
+640,Occasional,Philadelphia,2026-03-02
+641,Weekend Social,Chicago,2025-03-15
+642,Occasional,Atlanta,2025-06-21
+643,Daily Commuter,Denver,2025-06-06
+644,Daily Commuter,Boston,2026-03-13
+645,Weekend Social,Austin,2025-06-13
+646,Occasional,Atlanta,2026-06-18
+647,Daily Commuter,Portland,2025-01-08
+648,Office Worker,Atlanta,2024-12-29
+649,Weekend Social,Philadelphia,2026-01-14
+650,Daily Commuter,Denver,2026-02-16
+651,Office Worker,Dallas,2025-12-19
+652,Occasional,Miami,2025-04-03
+653,Weekend Social,Dallas,2024-09-06
+654,Daily Commuter,Washington DC,2025-04-13
+655,Occasional,Chicago,2025-07-23
+656,Office Worker,San Francisco,2025-06-15
+657,Occasional,San Francisco,2026-06-07
+658,Daily Commuter,Denver,2026-04-27
+659,Weekend Social,Denver,2026-02-24
+660,Office Worker,Seattle,2024-09-15
+661,Daily Commuter,Washington DC,2024-11-28
+662,Occasional,Washington DC,2025-06-30
+663,Daily Commuter,Miami,2025-11-09
+664,Daily Commuter,San Francisco,2025-12-20
+665,Office Worker,Dallas,2025-03-26
+666,Weekend Social,Chicago,2024-11-16
+667,Occasional,San Francisco,2025-04-17
+668,One-Time,Philadelphia,2026-03-08
+669,Daily Commuter,Washington DC,2026-07-22
+670,Office Worker,Miami,2026-06-21
+671,Daily Commuter,Los Angeles,2025-10-20
+672,Weekend Social,New York,2024-11-02
+673,One-Time,Philadelphia,2026-07-09
+674,Weekend Social,Chicago,2024-12-16
+675,Weekend Social,Portland,2025-03-06
+676,Office Worker,San Francisco,2026-07-13
+677,Occasional,Denver,2025-08-18
+678,Office Worker,Philadelphia,2025-01-16
+679,Daily Commuter,Miami,2025-08-17
+680,Office Worker,Denver,2024-10-25
+681,Daily Commuter,Boston,2025-04-08
+682,Daily Commuter,Chicago,2026-06-28
+683,Daily Commuter,Atlanta,2025-03-27
+684,Office Worker,Atlanta,2026-05-17
+685,Weekend Social,New York,2025-09-15
+686,Office Worker,Boston,2025-12-03
+687,Office Worker,Portland,2026-01-05
+688,One-Time,Seattle,2025-09-21
+689,Weekend Social,Philadelphia,2024-09-24
+690,Weekend Social,Washington DC,2026-06-05
+691,Daily Commuter,Miami,2025-07-29
+692,Occasional,Seattle,2025-12-02
+693,Daily Commuter,Atlanta,2025-09-22
+694,Office Worker,Washington DC,2025-12-04
+695,Occasional,Seattle,2025-05-06
+696,Weekend Social,Dallas,2026-04-13
+697,Weekend Social,Dallas,2025-02-04
+698,Weekend Social,New York,2025-12-01
+699,Weekend Social,Chicago,2025-10-09
+700,Daily Commuter,Austin,2025-08-18
+701,Daily Commuter,Washington DC,2024-09-15
+702,Office Worker,Austin,2025-05-30
+703,Daily Commuter,Atlanta,2024-10-03
+704,Occasional,Miami,2025-08-18
+705,Daily Commuter,Atlanta,2025-12-25
+706,Weekend Social,Miami,2025-08-31
+707,Occasional,Austin,2026-02-11
+708,Occasional,Seattle,2025-05-10
+709,Office Worker,Los Angeles,2025-04-02
+710,Office Worker,Seattle,2025-07-10
+711,One-Time,Dallas,2025-02-07
+712,Weekend Social,Austin,2026-03-15
+713,Occasional,Seattle,2026-03-20
+714,Occasional,New York,2025-06-18
+715,Occasional,Chicago,2026-03-08
+716,Daily Commuter,Chicago,2024-09-17
+717,Weekend Social,Atlanta,2024-12-17
+718,Daily Commuter,Denver,2025-03-17
+719,Weekend Social,Boston,2025-05-29
+720,One-Time,Los Angeles,2025-02-09
+721,Office Worker,Portland,2025-08-24
+722,Office Worker,Dallas,2026-03-09
+723,Daily Commuter,Miami,2025-07-16
+724,One-Time,Dallas,2025-07-11
+725,Daily Commuter,Washington DC,2024-10-11
+726,Daily Commuter,Dallas,2025-03-15
+727,Daily Commuter,Portland,2026-03-19
+728,Daily Commuter,Seattle,2026-03-21
+729,Office Worker,San Francisco,2024-11-11
+730,Office Worker,Boston,2024-09-13
+731,Office Worker,Portland,2026-04-04
+732,Daily Commuter,Dallas,2024-12-30
+733,Daily Commuter,Miami,2025-10-07
+734,Office Worker,Boston,2026-04-01
+735,Daily Commuter,Dallas,2026-03-05
+736,Weekend Social,Portland,2025-09-20
+737,Daily Commuter,Dallas,2025-05-21
+738,Office Worker,Miami,2026-02-23
+739,Office Worker,Portland,2025-12-30
+740,Office Worker,San Francisco,2026-04-09
+741,Daily Commuter,Boston,2025-08-25
+742,Daily Commuter,Chicago,2026-06-21
+743,Occasional,Chicago,2026-02-20
+744,Daily Commuter,Portland,2024-10-14
+745,Office Worker,Boston,2025-03-24
+746,Office Worker,New York,2026-03-13
+747,Office Worker,Seattle,2024-11-20
+748,Office Worker,Washington DC,2026-01-09
+749,Occasional,Denver,2025-04-26
+750,Occasional,Miami,2025-01-22
+751,Daily Commuter,Washington DC,2025-09-12
+752,Office Worker,New York,2026-06-14
+753,Daily Commuter,Philadelphia,2026-05-21
+754,Office Worker,Portland,2025-06-09
+755,Weekend Social,Miami,2024-09-02
+756,Daily Commuter,Denver,2026-05-14
+757,Office Worker,Portland,2026-05-21
+758,Occasional,Los Angeles,2025-10-28
+759,Daily Commuter,San Francisco,2025-11-13
+760,Office Worker,Philadelphia,2025-09-03
+761,Weekend Social,Chicago,2024-09-08
+762,Daily Commuter,Austin,2024-12-20
+763,Daily Commuter,Philadelphia,2024-12-09
+764,Daily Commuter,Miami,2026-06-02
+765,Occasional,San Francisco,2024-10-04
+766,Daily Commuter,Dallas,2025-09-24
+767,Daily Commuter,Dallas,2025-05-11
+768,Daily Commuter,Atlanta,2024-09-04
+769,Daily Commuter,New York,2026-06-05
+770,Weekend Social,Denver,2024-09-12
+771,Daily Commuter,Denver,2026-04-22
+772,Weekend Social,Los Angeles,2026-02-26
+773,Weekend Social,Boston,2026-03-09
+774,Occasional,Los Angeles,2024-12-22
+775,Daily Commuter,Portland,2026-05-09
+776,Occasional,Denver,2025-10-24
+777,Weekend Social,Austin,2025-06-08
+778,Daily Commuter,Denver,2025-12-20
+779,Occasional,Portland,2025-04-27
+780,Occasional,Austin,2025-03-14
+781,Daily Commuter,Los Angeles,2025-03-20
+782,Occasional,Denver,2025-10-03
+783,Office Worker,Austin,2025-10-25
+784,Weekend Social,Miami,2025-02-15
+785,One-Time,Chicago,2025-02-18
+786,Office Worker,Dallas,2026-06-24
+787,Occasional,Los Angeles,2025-08-26
+788,Office Worker,Philadelphia,2026-04-25
+789,Occasional,Portland,2025-04-19
+790,Weekend Social,San Francisco,2025-03-20
+791,Daily Commuter,Los Angeles,2025-03-16
+792,Office Worker,Washington DC,2025-09-05
+793,Office Worker,Atlanta,2026-02-27
+794,Daily Commuter,Dallas,2025-08-16
+795,Daily Commuter,Dallas,2025-03-25
+796,Office Worker,Seattle,2026-07-04
+797,Daily Commuter,Portland,2025-10-05
+798,Daily Commuter,San Francisco,2025-06-02
+799,Weekend Social,Washington DC,2024-09-06
+800,Weekend Social,Chicago,2025-09-28
+801,Weekend Social,Seattle,2025-11-08
+802,Office Worker,Portland,2026-06-12
+803,Occasional,Atlanta,2025-02-08
+804,Weekend Social,Atlanta,2024-12-22
+805,Daily Commuter,Chicago,2026-07-31
+806,Daily Commuter,Denver,2025-09-20
+807,Weekend Social,Philadelphia,2024-09-18
+808,Daily Commuter,Austin,2024-11-12
+809,Office Worker,Philadelphia,2025-07-29
+810,One-Time,San Francisco,2025-11-06
+811,Daily Commuter,Washington DC,2025-02-17
+812,Daily Commuter,Boston,2025-05-13
+813,One-Time,Philadelphia,2026-01-28
+814,Weekend Social,Washington DC,2026-07-09
+815,Daily Commuter,Los Angeles,2025-08-09
+816,Occasional,Philadelphia,2025-06-17
+817,Occasional,Miami,2025-05-10
+818,Weekend Social,Austin,2024-12-04
+819,Weekend Social,Miami,2024-10-06
+820,Daily Commuter,Chicago,2026-04-06
+821,Daily Commuter,Philadelphia,2024-09-25
+822,Weekend Social,New York,2026-03-28
+823,Daily Commuter,Dallas,2025-02-20
+824,Weekend Social,Los Angeles,2025-12-30
+825,Occasional,Austin,2026-06-28
+826,Daily Commuter,Boston,2026-02-06
+827,Weekend Social,Chicago,2026-01-23
+828,Daily Commuter,Chicago,2025-03-04
+829,Occasional,San Francisco,2025-10-23
+830,Daily Commuter,Washington DC,2025-11-23
+831,Weekend Social,Austin,2025-06-24
+832,Weekend Social,Portland,2024-09-26
+833,Office Worker,Miami,2026-05-31
+834,Weekend Social,Boston,2025-01-15
+835,Weekend Social,Washington DC,2026-07-13
+836,Weekend Social,Chicago,2026-06-14
+837,Weekend Social,Philadelphia,2024-09-13
+838,One-Time,Boston,2026-01-30
+839,Office Worker,San Francisco,2025-11-17
+840,Office Worker,Denver,2025-02-08
+841,Daily Commuter,Austin,2026-03-22
+842,Occasional,Portland,2024-11-16
+843,Weekend Social,Austin,2025-02-21
+844,Office Worker,New York,2026-06-26
+845,Daily Commuter,Los Angeles,2026-02-01
+846,Occasional,Dallas,2024-11-17
+847,Office Worker,Philadelphia,2024-12-09
+848,Weekend Social,New York,2025-02-26
+849,Daily Commuter,Washington DC,2024-10-19
+850,One-Time,Chicago,2025-01-05
+851,Daily Commuter,Philadelphia,2025-10-05
+852,Daily Commuter,Philadelphia,2024-09-05
+853,Occasional,Miami,2025-03-20
+854,Occasional,Los Angeles,2025-04-07
+855,Daily Commuter,Dallas,2026-07-11
+856,Office Worker,New York,2026-07-13
+857,Weekend Social,San Francisco,2026-04-14
+858,Occasional,Miami,2025-04-27
+859,Office Worker,Seattle,2025-09-04
+860,Office Worker,Boston,2025-08-19
+861,Weekend Social,Dallas,2026-04-25
+862,Weekend Social,New York,2026-02-04
+863,Occasional,Boston,2026-05-27
+864,Weekend Social,Seattle,2025-09-20
+865,Daily Commuter,Portland,2026-06-05
+866,Occasional,New York,2026-02-02
+867,Occasional,Chicago,2026-01-30
+868,Occasional,Atlanta,2025-12-07
+869,Daily Commuter,Chicago,2025-04-22
+870,Daily Commuter,Chicago,2025-10-30
+871,Weekend Social,Dallas,2025-05-07
+872,Daily Commuter,Austin,2025-11-28
+873,One-Time,New York,2025-02-25
+874,Office Worker,Washington DC,2026-03-13
+875,Weekend Social,Denver,2025-10-04
+876,Occasional,Los Angeles,2026-01-10
+877,Office Worker,Washington DC,2025-02-02
+878,Office Worker,San Francisco,2026-03-08
+879,Weekend Social,San Francisco,2026-03-15
+880,Weekend Social,Los Angeles,2024-12-10
+881,Office Worker,Washington DC,2025-05-03
+882,Weekend Social,San Francisco,2025-12-18
+883,Occasional,Miami,2026-05-04
+884,Office Worker,Chicago,2026-01-28
+885,Daily Commuter,Washington DC,2025-07-27
+886,Office Worker,Dallas,2025-03-28
+887,Office Worker,Atlanta,2026-05-29
+888,Daily Commuter,San Francisco,2026-05-05
+889,Daily Commuter,Portland,2026-05-20
+890,Weekend Social,Denver,2025-04-01
+891,Office Worker,Philadelphia,2025-07-02
+892,One-Time,Portland,2025-02-17
+893,Daily Commuter,Seattle,2026-06-30
+894,Daily Commuter,Dallas,2026-04-29
+895,Weekend Social,Los Angeles,2024-12-30
+896,Occasional,San Francisco,2025-02-19
+897,Daily Commuter,Denver,2025-09-21
+898,Daily Commuter,Los Angeles,2025-06-17
+899,Daily Commuter,Philadelphia,2025-07-18
+900,Weekend Social,Philadelphia,2025-05-15
+901,Office Worker,Los Angeles,2025-12-15
+902,Daily Commuter,San Francisco,2026-05-21
+903,Daily Commuter,Boston,2026-06-04
+904,Office Worker,Portland,2025-07-15
+905,One-Time,Miami,2026-04-02
+906,Weekend Social,Portland,2025-12-30
+907,Office Worker,Seattle,2025-01-15
+908,Daily Commuter,Atlanta,2026-03-09
+909,Daily Commuter,Los Angeles,2025-05-03
+910,Daily Commuter,Chicago,2025-11-13
+911,Weekend Social,Austin,2026-01-17
+912,Occasional,New York,2026-06-22
+913,Occasional,Seattle,2026-06-25
+914,One-Time,Denver,2026-03-15
+915,One-Time,Austin,2025-08-20
+916,One-Time,Atlanta,2025-06-07
+917,Daily Commuter,Los Angeles,2025-07-05
+918,Daily Commuter,Austin,2026-06-27
+919,Office Worker,Boston,2025-01-21
+920,Weekend Social,Portland,2025-09-02
+921,Daily Commuter,Los Angeles,2025-12-19
+922,Occasional,Washington DC,2024-09-15
+923,Weekend Social,Chicago,2025-11-18
+924,Weekend Social,Philadelphia,2025-03-01
+925,Daily Commuter,Boston,2025-03-15
+926,Daily Commuter,Austin,2025-11-09
+927,Daily Commuter,Atlanta,2024-09-06
+928,Occasional,New York,2024-12-18
+929,Weekend Social,New York,2025-07-15
+930,Weekend Social,Boston,2025-10-13
+931,Daily Commuter,Los Angeles,2024-11-15
+932,Office Worker,Miami,2025-05-11
+933,Office Worker,New York,2025-04-03
+934,Weekend Social,Miami,2025-09-09
+935,Occasional,Los Angeles,2025-03-29
+936,Daily Commuter,Los Angeles,2024-09-01
+937,Occasional,Boston,2025-09-06
+938,Daily Commuter,Miami,2026-04-16
+939,Occasional,Boston,2025-10-14
+940,Daily Commuter,San Francisco,2025-05-11
+941,Daily Commuter,San Francisco,2025-08-03
+942,Occasional,San Francisco,2024-12-07
+943,Daily Commuter,Boston,2025-02-12
+944,Office Worker,Dallas,2025-07-03
+945,Office Worker,Miami,2025-10-19
+946,Daily Commuter,Boston,2025-08-06
+947,Weekend Social,Austin,2026-07-06
+948,Occasional,Atlanta,2025-11-20
+949,Occasional,Philadelphia,2024-09-16
+950,Office Worker,Atlanta,2025-09-02
+951,Weekend Social,Chicago,2025-10-12
+952,Daily Commuter,Atlanta,2024-09-30
+953,Daily Commuter,Austin,2025-05-27
+954,Daily Commuter,Los Angeles,2026-05-03
+955,Occasional,Los Angeles,2025-05-07
+956,Occasional,Miami,2025-07-16
+957,Occasional,Washington DC,2025-02-01
+958,Office Worker,San Francisco,2024-10-23
+959,Office Worker,Atlanta,2025-04-10
+960,Weekend Social,Portland,2026-02-22
+961,Weekend Social,Portland,2026-07-20
+962,Office Worker,Los Angeles,2025-12-06
+963,Daily Commuter,Boston,2026-04-04
+964,Daily Commuter,Philadelphia,2025-11-28
+965,One-Time,Washington DC,2025-12-05
+966,Office Worker,Austin,2025-06-25
+967,One-Time,Seattle,2024-10-12
+968,Daily Commuter,Boston,2025-06-14
+969,Weekend Social,Seattle,2026-04-28
+970,Daily Commuter,San Francisco,2025-09-10
+971,Daily Commuter,Washington DC,2026-02-15
+972,Daily Commuter,Boston,2024-10-05
+973,Daily Commuter,Los Angeles,2025-01-18
+974,Occasional,Austin,2025-03-28
+975,Office Worker,Austin,2025-05-09
+976,Weekend Social,Portland,2026-07-23
+977,Office Worker,Dallas,2025-07-20
+978,Office Worker,Portland,2025-12-07
+979,Weekend Social,Miami,2025-11-25
+980,Daily Commuter,Washington DC,2025-06-20
+981,One-Time,San Francisco,2026-07-08
+982,Occasional,Denver,2025-02-02
+983,Weekend Social,Atlanta,2024-09-24
+984,Office Worker,Portland,2026-02-03
+985,Daily Commuter,Denver,2025-12-01
+986,Occasional,Denver,2025-03-01
+987,Office Worker,Los Angeles,2026-04-30
+988,Daily Commuter,Miami,2024-12-22
+989,Office Worker,New York,2025-02-22
+990,Occasional,Denver,2024-12-17
+991,Weekend Social,Boston,2025-01-08
+992,Weekend Social,Austin,2026-01-23
+993,Occasional,Denver,2026-01-05
+994,Daily Commuter,Seattle,2025-11-23
+995,Occasional,Atlanta,2026-04-25
+996,Office Worker,Chicago,2024-10-18
+997,Weekend Social,Boston,2025-11-08
+998,Daily Commuter,San Francisco,2024-11-19
+999,One-Time,Los Angeles,2026-06-30
+1000,Daily Commuter,Philadelphia,2025-11-17
+1001,Daily Commuter,Chicago,2026-02-13
+1002,Office Worker,Atlanta,2025-10-04
+1003,Daily Commuter,Dallas,2025-05-26
+1004,Daily Commuter,Boston,2025-12-24
+1005,Weekend Social,Philadelphia,2026-04-08
+1006,Office Worker,Boston,2025-01-02
+1007,Occasional,Philadelphia,2026-05-03
+1008,Office Worker,Denver,2026-01-21
+1009,Weekend Social,Seattle,2024-10-30
+1010,Office Worker,Washington DC,2026-06-17
+1011,Weekend Social,Washington DC,2025-01-04
+1012,Weekend Social,Philadelphia,2025-10-25
+1013,Office Worker,New York,2024-11-29
+1014,One-Time,Dallas,2025-01-15
+1015,Office Worker,San Francisco,2025-11-24
+1016,Daily Commuter,Dallas,2025-12-19
+1017,Weekend Social,Philadelphia,2025-12-24
+1018,Occasional,Los Angeles,2025-04-28
+1019,Daily Commuter,Boston,2026-03-28
+1020,Office Worker,Chicago,2024-10-04
+1021,Occasional,San Francisco,2026-04-21
+1022,Weekend Social,Miami,2025-03-30
+1023,One-Time,Boston,2025-11-08
+1024,Weekend Social,Portland,2026-05-26
+1025,Weekend Social,Portland,2025-02-25
+1026,Office Worker,Los Angeles,2025-06-14
+1027,Occasional,Seattle,2026-04-02
+1028,Office Worker,Austin,2026-04-28
+1029,Weekend Social,Los Angeles,2025-02-11
+1030,Office Worker,Los Angeles,2025-08-22
+1031,Weekend Social,Miami,2025-04-21
+1032,Weekend Social,Chicago,2025-08-27
+1033,Office Worker,Los Angeles,2025-05-23
+1034,Occasional,San Francisco,2024-09-03
+1035,Office Worker,Atlanta,2026-06-09
+1036,Weekend Social,Dallas,2025-11-19
+1037,Office Worker,Philadelphia,2025-07-20
+1038,Office Worker,Austin,2024-11-14
+1039,Office Worker,Washington DC,2024-10-19
+1040,Daily Commuter,Atlanta,2025-08-01
+1041,Daily Commuter,Boston,2025-11-28
+1042,Weekend Social,Dallas,2025-03-01
+1043,Weekend Social,San Francisco,2026-02-03
+1044,Weekend Social,Dallas,2025-06-01
+1045,Daily Commuter,Philadelphia,2024-09-07
+1046,Office Worker,Boston,2025-09-10
+1047,Daily Commuter,Miami,2025-01-04
+1048,Occasional,Austin,2024-09-10
+1049,Occasional,Austin,2024-11-30
+1050,Daily Commuter,Los Angeles,2025-03-18
+1051,Weekend Social,Philadelphia,2025-08-26
+1052,Daily Commuter,Atlanta,2026-07-24
+1053,Daily Commuter,Seattle,2025-01-30
+1054,Daily Commuter,New York,2024-10-10
+1055,Daily Commuter,Austin,2025-01-11
+1056,Weekend Social,Boston,2025-04-11
+1057,Occasional,New York,2025-01-21
+1058,Daily Commuter,Atlanta,2025-04-12
+1059,Weekend Social,Miami,2026-07-10
+1060,Weekend Social,New York,2025-05-23
+1061,One-Time,San Francisco,2025-11-18
+1062,Weekend Social,Denver,2025-12-23
+1063,Daily Commuter,Austin,2024-11-30
+1064,Weekend Social,Portland,2025-02-20
+1065,Office Worker,New York,2025-06-18
+1066,One-Time,Miami,2025-07-19
+1067,Office Worker,Washington DC,2024-09-09
+1068,Weekend Social,Seattle,2025-11-25
+1069,Daily Commuter,Philadelphia,2025-03-29
+1070,Office Worker,New York,2025-04-13
+1071,Occasional,Miami,2025-10-27
+1072,Weekend Social,San Francisco,2026-06-26
+1073,Office Worker,Austin,2026-04-28
+1074,Occasional,Dallas,2026-07-17
+1075,Occasional,Dallas,2025-06-16
+1076,Office Worker,Washington DC,2024-11-22
+1077,Weekend Social,Dallas,2025-01-29
+1078,Office Worker,San Francisco,2025-04-28
+1079,Weekend Social,Denver,2025-03-29
+1080,Office Worker,Austin,2025-01-23
+1081,Daily Commuter,Los Angeles,2024-12-14
+1082,Occasional,Miami,2025-01-08
+1083,Occasional,Atlanta,2025-12-04
+1084,Occasional,Philadelphia,2025-08-09
+1085,One-Time,Seattle,2024-09-26
+1086,Weekend Social,New York,2025-09-29
+1087,Weekend Social,Seattle,2026-04-12
+1088,Weekend Social,Atlanta,2025-06-24
+1089,Office Worker,Atlanta,2025-04-11
+1090,Office Worker,Miami,2025-03-09
+1091,Daily Commuter,Chicago,2025-05-23
+1092,Weekend Social,San Francisco,2025-03-14
+1093,Daily Commuter,Boston,2026-06-08
+1094,Daily Commuter,Seattle,2026-07-26
+1095,Weekend Social,Austin,2025-04-28
+1096,Office Worker,Seattle,2026-06-08
+1097,Daily Commuter,Portland,2026-04-20
+1098,Occasional,Denver,2024-10-23
+1099,Occasional,Philadelphia,2025-08-09
+1100,Daily Commuter,Portland,2025-12-03
+1101,Daily Commuter,Denver,2025-06-22
+1102,Office Worker,Portland,2025-07-16
+1103,Occasional,New York,2025-08-11
+1104,Occasional,Los Angeles,2025-12-26
+1105,Daily Commuter,Denver,2025-03-24
+1106,Occasional,Washington DC,2025-10-22
+1107,Daily Commuter,Dallas,2025-02-17
+1108,Office Worker,Boston,2026-05-15
+1109,One-Time,Chicago,2024-10-29
+1110,Daily Commuter,Philadelphia,2024-10-16
+1111,Daily Commuter,Atlanta,2024-09-26
+1112,Office Worker,New York,2025-05-02
+1113,Weekend Social,Chicago,2025-10-29
+1114,Occasional,Dallas,2026-07-21
+1115,One-Time,Washington DC,2025-07-15
+1116,Daily Commuter,Washington DC,2025-01-05
+1117,Daily Commuter,Seattle,2025-05-15
+1118,Occasional,Dallas,2024-11-28
+1119,Daily Commuter,New York,2025-07-27
+1120,Occasional,Dallas,2026-01-23
+1121,Weekend Social,Washington DC,2024-09-24
+1122,Daily Commuter,Boston,2026-02-26
+1123,Occasional,Los Angeles,2025-02-06
+1124,Daily Commuter,Portland,2025-12-14
+1125,Office Worker,Seattle,2026-03-24
+1126,Weekend Social,Miami,2026-02-25
+1127,Office Worker,San Francisco,2025-12-12
+1128,Weekend Social,Boston,2025-12-29
+1129,Weekend Social,Dallas,2025-01-09
+1130,One-Time,Philadelphia,2024-12-04
+1131,One-Time,Boston,2025-05-24
+1132,Office Worker,San Francisco,2025-10-30
+1133,Daily Commuter,Dallas,2025-11-06
+1134,Weekend Social,Boston,2026-02-25
+1135,One-Time,Los Angeles,2025-04-03
+1136,Office Worker,Washington DC,2026-04-28
+1137,Office Worker,Philadelphia,2025-07-11
+1138,Office Worker,San Francisco,2025-02-19
+1139,Daily Commuter,Los Angeles,2026-01-27
+1140,Weekend Social,Los Angeles,2024-11-28
+1141,Office Worker,Miami,2025-06-10
+1142,Occasional,San Francisco,2026-02-28
+1143,Occasional,Miami,2026-02-21
+1144,Occasional,Austin,2025-02-26
+1145,Office Worker,Seattle,2024-12-25
+1146,Office Worker,Washington DC,2024-09-22
+1147,Weekend Social,Seattle,2024-11-01
+1148,Occasional,New York,2026-03-31
+1149,Office Worker,Austin,2026-03-02
+1150,Occasional,Miami,2025-08-20
+1151,Daily Commuter,Philadelphia,2025-10-04
+1152,Occasional,Atlanta,2025-04-16
+1153,Daily Commuter,Boston,2025-01-12
+1154,Daily Commuter,Portland,2024-09-08
+1155,Weekend Social,Austin,2025-12-14
+1156,Daily Commuter,Portland,2024-09-24
+1157,Daily Commuter,Boston,2024-11-12
+1158,Daily Commuter,Philadelphia,2026-03-08
+1159,Office Worker,San Francisco,2025-10-12
+1160,Occasional,San Francisco,2025-08-08
+1161,Daily Commuter,Chicago,2025-01-30
+1162,Weekend Social,San Francisco,2024-12-13
+1163,Occasional,Los Angeles,2025-07-23
+1164,Daily Commuter,Miami,2025-05-08
+1165,Daily Commuter,Austin,2025-09-08
+1166,Occasional,Denver,2024-12-24
+1167,Occasional,Washington DC,2025-02-09
+1168,Weekend Social,Denver,2024-11-18
+1169,Occasional,Denver,2025-06-24
+1170,Daily Commuter,Seattle,2025-03-12
+1171,Office Worker,Washington DC,2025-02-03
+1172,Weekend Social,Los Angeles,2025-09-19
+1173,Daily Commuter,Los Angeles,2025-08-14
+1174,Weekend Social,Philadelphia,2025-01-25
+1175,Office Worker,Atlanta,2026-01-02
+1176,Weekend Social,Seattle,2025-04-28
+1177,Office Worker,Denver,2025-04-26
+1178,Office Worker,Miami,2025-07-31
+1179,Daily Commuter,Seattle,2024-12-06
+1180,Daily Commuter,Austin,2025-06-21
+1181,Weekend Social,Portland,2025-10-12
+1182,Daily Commuter,Seattle,2024-11-29
+1183,Daily Commuter,Miami,2025-09-30
+1184,Daily Commuter,Chicago,2024-09-27
+1185,Daily Commuter,Austin,2025-10-27
+1186,Occasional,Boston,2024-09-24
+1187,Office Worker,Los Angeles,2024-12-31
+1188,One-Time,Atlanta,2025-05-03
+1189,Daily Commuter,Denver,2025-11-04
+1190,Weekend Social,San Francisco,2026-01-16
+1191,Office Worker,Washington DC,2025-07-25
+1192,Office Worker,Portland,2024-11-30
+1193,Occasional,Denver,2025-05-29
+1194,One-Time,Chicago,2026-03-04
+1195,Occasional,Atlanta,2024-11-02
+1196,Daily Commuter,Seattle,2026-01-13
+1197,Daily Commuter,Washington DC,2025-05-28
+1198,Weekend Social,Seattle,2024-09-02
+1199,Daily Commuter,Portland,2025-12-30
+1200,Weekend Social,San Francisco,2024-09-18
+1201,Weekend Social,Austin,2025-05-16
+1202,Weekend Social,Boston,2025-01-14
+1203,Occasional,Seattle,2025-10-13
+1204,Weekend Social,Philadelphia,2024-10-09
+1205,Daily Commuter,Austin,2024-11-02
+1206,Daily Commuter,Seattle,2025-09-06
+1207,Weekend Social,Seattle,2026-07-27
+1208,Office Worker,Atlanta,2024-09-27
+1209,Daily Commuter,Philadelphia,2025-07-19
+1210,Office Worker,Miami,2026-03-15
+1211,Weekend Social,Seattle,2025-03-22
+1212,Occasional,Portland,2025-08-11
+1213,Weekend Social,Boston,2026-04-10
+1214,Office Worker,Miami,2026-01-22
+1215,Daily Commuter,San Francisco,2025-03-24
+1216,Weekend Social,Seattle,2026-02-07
+1217,Office Worker,Seattle,2025-12-17
+1218,Weekend Social,Miami,2025-08-20
+1219,Weekend Social,Miami,2025-07-05
+1220,Daily Commuter,San Francisco,2026-06-09
+1221,Daily Commuter,New York,2026-05-04
+1222,Daily Commuter,Austin,2026-07-25
+1223,Occasional,Los Angeles,2025-12-16
+1224,Weekend Social,Los Angeles,2025-05-09
+1225,Daily Commuter,Denver,2024-11-15
+1226,Occasional,Austin,2024-11-27
+1227,Office Worker,Philadelphia,2026-06-27
+1228,Office Worker,Miami,2025-05-12
+1229,Occasional,Philadelphia,2024-11-16
+1230,Daily Commuter,Portland,2025-02-03
+1231,Daily Commuter,Dallas,2024-09-14
+1232,Weekend Social,Los Angeles,2025-09-06
+1233,Daily Commuter,Seattle,2025-10-18
+1234,Weekend Social,Portland,2025-05-22
+1235,Daily Commuter,Philadelphia,2026-02-02
+1236,Daily Commuter,Austin,2025-08-02
+1237,Daily Commuter,San Francisco,2026-07-03
+1238,Office Worker,Denver,2026-02-16
+1239,Daily Commuter,New York,2024-10-22
+1240,Daily Commuter,San Francisco,2025-03-10
+1241,Occasional,Portland,2026-02-09
+1242,Office Worker,Los Angeles,2025-09-11
+1243,Office Worker,Denver,2026-02-09
+1244,Daily Commuter,San Francisco,2025-04-22
+1245,Office Worker,Denver,2024-09-26
+1246,Daily Commuter,Austin,2026-03-03
+1247,Weekend Social,Washington DC,2026-03-03
+1248,Daily Commuter,Boston,2025-11-21
+1249,Occasional,Dallas,2025-06-10
+1250,Occasional,Portland,2024-09-05
+1251,Daily Commuter,Washington DC,2026-01-22
+1252,Daily Commuter,Austin,2025-12-06
+1253,Daily Commuter,Atlanta,2025-12-11
+1254,Weekend Social,Portland,2024-12-28
+1255,Daily Commuter,San Francisco,2026-01-24
+1256,Occasional,Portland,2026-01-20
+1257,Weekend Social,Portland,2026-04-23
+1258,Occasional,Miami,2025-10-02
+1259,Weekend Social,New York,2026-01-25
+1260,One-Time,Atlanta,2025-06-08
+1261,Daily Commuter,Portland,2025-12-31
+1262,Office Worker,Los Angeles,2025-12-29
+1263,Office Worker,Dallas,2026-02-27
+1264,Occasional,Dallas,2026-04-22
+1265,Weekend Social,Atlanta,2024-09-02
+1266,Occasional,Philadelphia,2026-02-27
+1267,Daily Commuter,Washington DC,2026-03-08
+1268,One-Time,Denver,2025-09-16
+1269,Office Worker,Washington DC,2025-08-29
+1270,Office Worker,Philadelphia,2026-01-18
+1271,One-Time,New York,2025-07-15
+1272,Office Worker,Philadelphia,2025-06-16
+1273,Office Worker,Seattle,2026-03-16
+1274,Weekend Social,Denver,2026-03-06
+1275,Daily Commuter,Philadelphia,2025-01-22
+1276,Office Worker,Austin,2026-04-03
+1277,Daily Commuter,Chicago,2025-04-16
+1278,Daily Commuter,Portland,2024-12-05
+1279,Occasional,Chicago,2026-05-07
+1280,Weekend Social,Chicago,2025-02-13
+1281,Office Worker,Washington DC,2025-01-20
+1282,Office Worker,Seattle,2025-03-07
+1283,Office Worker,Philadelphia,2025-08-10
+1284,Weekend Social,Denver,2024-12-25
+1285,Occasional,Seattle,2024-12-20
+1286,Occasional,Dallas,2025-06-01
+1287,Office Worker,Seattle,2025-01-30
+1288,Office Worker,San Francisco,2025-01-13
+1289,Office Worker,Chicago,2026-05-31
+1290,Weekend Social,Austin,2025-10-21
+1291,Office Worker,Boston,2024-09-09
+1292,Weekend Social,Portland,2024-11-10
+1293,Weekend Social,New York,2026-03-23
+1294,Office Worker,Portland,2025-03-07
+1295,Office Worker,Portland,2024-12-15
+1296,Office Worker,San Francisco,2025-12-09
+1297,Daily Commuter,Washington DC,2026-04-09
+1298,Daily Commuter,Denver,2025-06-05
+1299,Weekend Social,Portland,2026-02-02
+1300,Office Worker,Los Angeles,2025-06-22
+1301,Daily Commuter,Philadelphia,2024-11-15
+1302,Weekend Social,Chicago,2026-03-12
+1303,Weekend Social,Miami,2026-06-05
+1304,Daily Commuter,New York,2026-07-21
+1305,Occasional,Seattle,2024-11-09
+1306,Occasional,New York,2025-09-30
+1307,Weekend Social,Philadelphia,2025-11-10
+1308,Weekend Social,Los Angeles,2024-10-25
+1309,Daily Commuter,Washington DC,2026-06-28
+1310,Occasional,Miami,2024-11-11
+1311,Office Worker,New York,2025-03-07
+1312,Occasional,Denver,2026-07-09
+1313,Weekend Social,Denver,2025-09-24
+1314,Daily Commuter,Chicago,2025-12-19
+1315,Daily Commuter,Miami,2025-08-11
+1316,Weekend Social,Washington DC,2026-02-08
+1317,Weekend Social,Washington DC,2024-10-27
+1318,Daily Commuter,Atlanta,2025-12-17
+1319,Weekend Social,Washington DC,2024-10-16
+1320,Occasional,Washington DC,2025-01-03
+1321,Office Worker,New York,2025-08-20
+1322,Office Worker,Miami,2025-07-10
+1323,Daily Commuter,Austin,2024-12-15
+1324,Occasional,Seattle,2026-03-12
+1325,Office Worker,Miami,2025-03-30
+1326,Occasional,Washington DC,2026-04-29
+1327,Office Worker,Chicago,2024-09-10
+1328,Weekend Social,Washington DC,2025-02-13
+1329,Daily Commuter,Philadelphia,2025-03-26
+1330,Daily Commuter,Miami,2025-10-22
+1331,Occasional,Miami,2025-06-07
+1332,Office Worker,Atlanta,2024-12-18
+1333,Weekend Social,Boston,2025-10-04
+1334,One-Time,Denver,2026-07-02
+1335,One-Time,Atlanta,2024-12-02
+1336,Occasional,Denver,2025-02-23
+1337,Daily Commuter,Dallas,2025-07-31
+1338,Weekend Social,Austin,2026-01-21
+1339,Occasional,San Francisco,2024-12-04
+1340,Office Worker,Atlanta,2025-02-08
+1341,Daily Commuter,Chicago,2025-02-11
+1342,Occasional,Los Angeles,2025-11-05
+1343,Office Worker,Boston,2024-10-27
+1344,Weekend Social,Seattle,2025-12-05
+1345,One-Time,Dallas,2025-06-24
+1346,Weekend Social,New York,2025-04-17
+1347,Office Worker,San Francisco,2026-04-26
+1348,Office Worker,Chicago,2026-03-27
+1349,Office Worker,Los Angeles,2026-03-16
+1350,Daily Commuter,Boston,2026-05-12
+1351,Occasional,Austin,2025-02-10
+1352,Occasional,Washington DC,2026-04-21
+1353,Daily Commuter,Los Angeles,2025-01-01
+1354,Office Worker,Chicago,2025-04-19
+1355,Occasional,Denver,2025-09-23
+1356,Daily Commuter,San Francisco,2026-02-03
+1357,Weekend Social,Dallas,2025-10-09
+1358,Office Worker,Chicago,2025-09-26
+1359,Weekend Social,Boston,2025-05-21
+1360,Daily Commuter,Atlanta,2025-10-19
+1361,Weekend Social,Boston,2025-07-29
+1362,Office Worker,Miami,2025-07-31
+1363,Weekend Social,Dallas,2025-10-15
+1364,Daily Commuter,Atlanta,2025-10-25
+1365,Office Worker,Denver,2025-04-18
+1366,Weekend Social,Philadelphia,2024-12-03
+1367,Daily Commuter,Philadelphia,2025-03-28
+1368,Daily Commuter,Philadelphia,2025-06-13
+1369,Daily Commuter,Seattle,2024-12-21
+1370,Office Worker,Dallas,2025-01-02
+1371,Daily Commuter,Washington DC,2026-06-27
+1372,Occasional,Dallas,2025-03-15
+1373,Office Worker,Austin,2026-01-30
+1374,Occasional,Boston,2024-11-28
+1375,One-Time,Austin,2026-07-12
+1376,Daily Commuter,Miami,2025-01-26
+1377,Weekend Social,Dallas,2025-06-02
+1378,Occasional,San Francisco,2026-03-01
+1379,Weekend Social,Austin,2025-01-19
+1380,Office Worker,Austin,2025-09-19
+1381,Office Worker,Dallas,2026-03-03
+1382,Daily Commuter,Los Angeles,2024-09-16
+1383,Weekend Social,Washington DC,2024-09-17
+1384,One-Time,Chicago,2026-03-05
+1385,One-Time,Philadelphia,2025-03-02
+1386,Daily Commuter,Seattle,2026-05-29
+1387,Weekend Social,Chicago,2026-06-11
+1388,Office Worker,Miami,2026-05-09
+1389,Occasional,Atlanta,2026-07-29
+1390,Daily Commuter,Portland,2026-03-30
+1391,Occasional,Boston,2025-05-26
+1392,Occasional,Seattle,2026-07-26
+1393,Daily Commuter,Miami,2025-04-30
+1394,Daily Commuter,Atlanta,2025-10-15
+1395,Occasional,Atlanta,2024-09-03
+1396,Daily Commuter,Boston,2026-07-05
+1397,Weekend Social,Washington DC,2025-10-19
+1398,Occasional,Dallas,2026-06-26
+1399,Weekend Social,Los Angeles,2025-05-04
+1400,Office Worker,Seattle,2025-04-07
+1401,Office Worker,Los Angeles,2025-08-31
+1402,Daily Commuter,Seattle,2026-04-27
+1403,One-Time,Portland,2025-09-19
+1404,Office Worker,Miami,2026-03-08
+1405,Daily Commuter,Denver,2025-01-28
+1406,Daily Commuter,Miami,2026-02-25
+1407,One-Time,Dallas,2026-01-25
+1408,Daily Commuter,Dallas,2026-05-20
+1409,Occasional,Denver,2024-10-10
+1410,Weekend Social,Miami,2025-05-26
+1411,Occasional,Miami,2024-11-01
+1412,One-Time,Philadelphia,2025-06-07
+1413,Occasional,Austin,2026-02-13
+1414,Occasional,San Francisco,2025-11-22
+1415,Daily Commuter,Washington DC,2026-02-09
+1416,Occasional,Boston,2026-01-29
+1417,Weekend Social,Austin,2026-07-26
+1418,Weekend Social,Philadelphia,2026-05-08
+1419,Occasional,Dallas,2025-10-15
+1420,One-Time,New York,2026-05-06
+1421,Weekend Social,Los Angeles,2024-10-03
+1422,Office Worker,Dallas,2026-01-17
+1423,Office Worker,New York,2025-08-31
+1424,Office Worker,Seattle,2026-07-01
+1425,Office Worker,Chicago,2025-08-18
+1426,Office Worker,Denver,2025-01-03
+1427,Daily Commuter,New York,2026-01-19
+1428,Daily Commuter,Los Angeles,2026-06-27
+1429,Occasional,San Francisco,2024-09-11
+1430,Office Worker,Miami,2024-10-14
+1431,Occasional,Atlanta,2025-12-06
+1432,Weekend Social,Dallas,2025-09-23
+1433,Daily Commuter,Philadelphia,2025-09-19
+1434,Daily Commuter,Seattle,2024-11-02
+1435,Daily Commuter,Portland,2025-10-05
+1436,One-Time,Los Angeles,2025-10-02
+1437,Daily Commuter,Boston,2026-04-17
+1438,Office Worker,San Francisco,2025-05-31
+1439,Occasional,Portland,2025-05-01
+1440,One-Time,Chicago,2024-10-27
+1441,Daily Commuter,Washington DC,2025-10-01
+1442,Daily Commuter,Boston,2025-11-27
+1443,Daily Commuter,Dallas,2025-03-15
+1444,Daily Commuter,Philadelphia,2026-01-24
+1445,Daily Commuter,Atlanta,2026-06-18
+1446,Weekend Social,New York,2024-12-30
+1447,Occasional,Portland,2025-10-05
+1448,Weekend Social,Boston,2025-12-30
+1449,Weekend Social,San Francisco,2024-09-12
+1450,Daily Commuter,Denver,2025-01-03
+1451,Occasional,San Francisco,2025-06-03
+1452,Weekend Social,Chicago,2024-12-05
+1453,Occasional,Philadelphia,2025-05-06
+1454,Occasional,Chicago,2024-12-12
+1455,Office Worker,Denver,2026-05-20
+1456,Daily Commuter,Austin,2025-10-24
+1457,Daily Commuter,Chicago,2025-04-18
+1458,Office Worker,Miami,2026-02-27
+1459,Occasional,Washington DC,2024-09-12
+1460,Office Worker,Dallas,2025-10-22
+1461,Occasional,Seattle,2025-12-22
+1462,Weekend Social,Boston,2026-03-20
+1463,Daily Commuter,Seattle,2025-02-02
+1464,Office Worker,Miami,2025-10-19
+1465,Weekend Social,San Francisco,2026-02-19
+1466,Weekend Social,Washington DC,2026-03-12
+1467,Office Worker,Los Angeles,2024-12-31
+1468,Daily Commuter,Dallas,2026-07-15
+1469,Weekend Social,San Francisco,2025-03-10
+1470,Daily Commuter,Washington DC,2025-05-31
+1471,Occasional,Los Angeles,2025-01-12
+1472,Daily Commuter,Chicago,2024-12-13
+1473,Daily Commuter,San Francisco,2025-02-25
+1474,Office Worker,Philadelphia,2024-12-03
+1475,Office Worker,Austin,2026-01-25
+1476,Office Worker,Dallas,2025-10-23
+1477,Office Worker,Atlanta,2025-05-31
+1478,One-Time,Dallas,2025-09-17
+1479,Office Worker,Miami,2025-10-27
+1480,Office Worker,Portland,2025-01-06
+1481,Office Worker,Dallas,2025-03-26
+1482,Daily Commuter,Philadelphia,2026-05-10
+1483,Weekend Social,Miami,2024-09-08
+1484,Daily Commuter,Denver,2026-07-01
+1485,Weekend Social,Portland,2026-07-07
+1486,Daily Commuter,Austin,2025-02-24
+1487,One-Time,Philadelphia,2025-04-12
+1488,Office Worker,Portland,2025-01-22
+1489,Occasional,Philadelphia,2025-09-27
+1490,Office Worker,Austin,2025-01-27
+1491,Daily Commuter,Philadelphia,2026-03-07
+1492,Occasional,Austin,2025-05-29
+1493,Weekend Social,Washington DC,2026-07-09
+1494,Occasional,Los Angeles,2026-04-20
+1495,Office Worker,Philadelphia,2025-06-07
+1496,Weekend Social,San Francisco,2025-10-22
+1497,Occasional,Dallas,2024-09-17
+1498,Weekend Social,Boston,2024-10-17
+1499,Office Worker,Denver,2025-08-20
+1500,Weekend Social,Austin,2025-07-28
+1501,Weekend Social,Atlanta,2025-06-05
+1502,One-Time,Austin,2024-11-02
+1503,Office Worker,New York,2026-04-10
+1504,Office Worker,Dallas,2025-06-11
+1505,Occasional,Boston,2025-07-26
+1506,Office Worker,Dallas,2025-06-09
+1507,Weekend Social,Chicago,2025-08-14
+1508,Office Worker,Miami,2025-11-27
+1509,Daily Commuter,Miami,2026-02-16
+1510,Weekend Social,New York,2025-09-19
+1511,Daily Commuter,Denver,2024-12-25
+1512,Daily Commuter,Miami,2026-05-05
+1513,Weekend Social,Dallas,2025-03-18
+1514,Weekend Social,Washington DC,2024-09-11
+1515,Occasional,Boston,2024-09-27
+1516,Daily Commuter,Portland,2026-02-23
+1517,Daily Commuter,Los Angeles,2025-05-28
+1518,One-Time,Washington DC,2024-09-15
+1519,Daily Commuter,Washington DC,2026-03-22
+1520,Daily Commuter,Philadelphia,2025-04-01
+1521,Daily Commuter,Denver,2026-07-16
+1522,Weekend Social,Boston,2026-05-08
+1523,Occasional,Austin,2024-10-03
+1524,Weekend Social,Austin,2025-12-27
+1525,Weekend Social,Los Angeles,2025-10-27
+1526,Daily Commuter,Atlanta,2024-12-29
+1527,Office Worker,Portland,2025-04-28
+1528,Office Worker,Denver,2025-08-09
+1529,Daily Commuter,Boston,2024-12-11
+1530,Daily Commuter,Chicago,2026-01-18
+1531,Office Worker,Boston,2025-03-13
+1532,Daily Commuter,Chicago,2026-06-18
+1533,Weekend Social,San Francisco,2026-03-15
+1534,Weekend Social,Los Angeles,2025-11-18
+1535,Daily Commuter,Boston,2024-11-22
+1536,Office Worker,Miami,2024-09-17
+1537,Occasional,Boston,2024-12-11
+1538,Weekend Social,New York,2025-08-15
+1539,Occasional,Dallas,2026-02-28
+1540,Office Worker,Denver,2024-12-16
+1541,Occasional,Miami,2026-01-08
+1542,Daily Commuter,Atlanta,2024-10-03
+1543,Office Worker,Atlanta,2025-03-04
+1544,Daily Commuter,Denver,2025-10-23
+1545,Office Worker,Austin,2026-04-02
+1546,Office Worker,Dallas,2026-02-25
+1547,Daily Commuter,Washington DC,2025-09-07
+1548,Weekend Social,Denver,2024-09-25
+1549,Office Worker,San Francisco,2025-03-24
+1550,Daily Commuter,New York,2026-03-02
+1551,Daily Commuter,Denver,2024-10-26
+1552,Office Worker,Philadelphia,2026-01-07
+1553,Office Worker,Chicago,2026-01-05
+1554,Office Worker,Dallas,2026-02-08
+1555,Daily Commuter,Austin,2025-01-30
+1556,Weekend Social,Portland,2025-02-18
+1557,Occasional,Atlanta,2025-01-16
+1558,Office Worker,Austin,2025-06-02
+1559,Weekend Social,New York,2025-09-01
+1560,Occasional,New York,2024-11-22
+1561,One-Time,Los Angeles,2025-10-02
+1562,Weekend Social,Austin,2025-02-14
+1563,Occasional,Denver,2025-09-28
+1564,Occasional,Los Angeles,2025-03-30
+1565,Occasional,Seattle,2026-06-30
+1566,Office Worker,Denver,2025-04-11
+1567,Daily Commuter,Boston,2026-05-02
+1568,Daily Commuter,Los Angeles,2024-12-31
+1569,Office Worker,Seattle,2024-10-29
+1570,Office Worker,Austin,2025-01-10
+1571,Office Worker,Austin,2025-06-20
+1572,Weekend Social,Chicago,2026-05-24
+1573,Weekend Social,Denver,2025-01-01
+1574,Occasional,Chicago,2026-03-02
+1575,Daily Commuter,Boston,2025-12-31
+1576,Daily Commuter,New York,2025-04-29
+1577,Occasional,Philadelphia,2025-04-23
+1578,Occasional,Austin,2026-06-25
+1579,One-Time,Washington DC,2026-01-13
+1580,Occasional,San Francisco,2025-02-14
+1581,Occasional,Washington DC,2026-05-31
+1582,Office Worker,Atlanta,2025-06-11
+1583,Office Worker,Los Angeles,2024-10-25
+1584,Daily Commuter,San Francisco,2026-03-23
+1585,Weekend Social,Dallas,2026-05-01
+1586,Occasional,Austin,2025-07-07
+1587,Office Worker,Austin,2026-01-05
+1588,Weekend Social,Chicago,2025-02-11
+1589,Daily Commuter,Portland,2026-04-18
+1590,Daily Commuter,Philadelphia,2025-05-15
+1591,Daily Commuter,Seattle,2025-03-06
+1592,Daily Commuter,San Francisco,2025-08-16
+1593,Occasional,New York,2025-03-06
+1594,Office Worker,New York,2025-11-08
+1595,Occasional,Philadelphia,2026-02-05
+1596,Weekend Social,Chicago,2025-06-10
+1597,Daily Commuter,Los Angeles,2026-03-02
+1598,Daily Commuter,New York,2025-06-28
+1599,Occasional,Philadelphia,2026-07-11
+1600,Daily Commuter,Denver,2025-03-03
+1601,Occasional,Dallas,2026-01-06
+1602,Daily Commuter,Chicago,2025-09-09
+1603,Weekend Social,Miami,2026-06-22
+1604,Occasional,Washington DC,2025-01-31
+1605,Daily Commuter,Portland,2025-01-15
+1606,Daily Commuter,Atlanta,2026-04-30
+1607,One-Time,Los Angeles,2026-05-23
+1608,Daily Commuter,Chicago,2026-02-05
+1609,Office Worker,Miami,2025-07-29
+1610,Office Worker,Denver,2025-06-14
+1611,Daily Commuter,Seattle,2025-12-10
+1612,Occasional,Los Angeles,2026-02-05
+1613,Occasional,Denver,2025-03-12
+1614,Office Worker,Los Angeles,2024-09-04
+1615,Occasional,Atlanta,2024-10-21
+1616,Daily Commuter,San Francisco,2025-04-29
+1617,Daily Commuter,San Francisco,2025-12-21
+1618,Weekend Social,New York,2025-07-05
+1619,One-Time,Atlanta,2025-11-06
+1620,Daily Commuter,Los Angeles,2025-07-25
+1621,Daily Commuter,Miami,2025-02-23
+1622,Office Worker,Philadelphia,2026-02-06
+1623,Occasional,Washington DC,2026-01-19
+1624,Daily Commuter,Portland,2026-07-05
+1625,Office Worker,Dallas,2026-03-31
+1626,Weekend Social,Washington DC,2025-05-23
+1627,Office Worker,Portland,2026-01-06
+1628,Daily Commuter,Chicago,2025-05-03
+1629,Daily Commuter,Atlanta,2026-05-03
+1630,Office Worker,Dallas,2025-11-01
+1631,Office Worker,Portland,2026-04-07
+1632,Occasional,Boston,2025-03-15
+1633,Weekend Social,Los Angeles,2024-09-10
+1634,Weekend Social,Los Angeles,2024-12-07
+1635,One-Time,Boston,2025-09-06
+1636,Office Worker,Dallas,2026-07-05
+1637,Office Worker,Atlanta,2025-11-12
+1638,Occasional,Seattle,2026-03-20
+1639,Daily Commuter,Washington DC,2025-07-25
+1640,Weekend Social,Boston,2026-07-02
+1641,Weekend Social,Boston,2026-06-20
+1642,Daily Commuter,Dallas,2025-01-30
+1643,Office Worker,Boston,2026-04-26
+1644,Daily Commuter,Miami,2024-09-12
+1645,Daily Commuter,Washington DC,2025-10-19
+1646,Office Worker,Atlanta,2025-07-03
+1647,Daily Commuter,Miami,2025-03-29
+1648,Occasional,San Francisco,2026-06-15
+1649,Occasional,Washington DC,2025-12-07
+1650,Occasional,New York,2024-12-05
+1651,Daily Commuter,Chicago,2024-12-06
+1652,Daily Commuter,Philadelphia,2024-11-21
+1653,Daily Commuter,Denver,2025-03-31
+1654,Daily Commuter,Los Angeles,2024-10-18
+1655,Occasional,Boston,2025-03-03
+1656,Office Worker,Chicago,2026-02-17
+1657,Daily Commuter,Atlanta,2026-05-04
+1658,Occasional,Chicago,2026-03-04
+1659,Office Worker,Boston,2025-08-13
+1660,Daily Commuter,Washington DC,2025-12-30
+1661,Daily Commuter,New York,2026-06-22
+1662,Weekend Social,Austin,2024-10-07
+1663,Occasional,New York,2026-05-26
+1664,Daily Commuter,Denver,2026-01-19
+1665,Occasional,Portland,2025-05-28
+1666,Occasional,Philadelphia,2025-07-11
+1667,Occasional,Chicago,2025-07-03
+1668,Daily Commuter,Seattle,2024-12-19
+1669,Daily Commuter,Austin,2025-02-08
+1670,Occasional,Washington DC,2025-03-25
+1671,Office Worker,Atlanta,2024-09-04
+1672,Weekend Social,Seattle,2025-08-16
+1673,Weekend Social,Atlanta,2025-07-30
+1674,Daily Commuter,Boston,2025-04-18
+1675,Occasional,Denver,2025-01-01
+1676,Occasional,Seattle,2026-07-10
+1677,Weekend Social,San Francisco,2025-12-18
+1678,Office Worker,Philadelphia,2025-07-29
+1679,Occasional,Seattle,2026-01-18
+1680,Weekend Social,Washington DC,2025-05-18
+1681,Weekend Social,Atlanta,2025-01-28
+1682,Occasional,Miami,2025-12-15
+1683,Weekend Social,Philadelphia,2026-02-21
+1684,Daily Commuter,Chicago,2025-11-29
+1685,Daily Commuter,Philadelphia,2025-10-01
+1686,Daily Commuter,Chicago,2024-09-01
+1687,Office Worker,San Francisco,2025-11-20
+1688,Office Worker,Denver,2025-11-06
+1689,Weekend Social,Miami,2025-06-15
+1690,Office Worker,San Francisco,2025-02-17
+1691,Occasional,Dallas,2026-07-17
+1692,Occasional,Seattle,2025-05-20
+1693,Daily Commuter,Portland,2025-03-09
+1694,Weekend Social,Portland,2026-01-07
+1695,Weekend Social,Atlanta,2025-08-03
+1696,Weekend Social,Miami,2025-09-25
+1697,Daily Commuter,Austin,2025-11-27
+1698,Occasional,Washington DC,2025-05-16
+1699,One-Time,Chicago,2024-12-15
+1700,Weekend Social,Denver,2024-12-26
+1701,Occasional,Atlanta,2026-06-19
+1702,One-Time,San Francisco,2025-08-19
+1703,Office Worker,Philadelphia,2025-06-18
+1704,Weekend Social,Atlanta,2025-04-11
+1705,Office Worker,Miami,2026-01-18
+1706,One-Time,Los Angeles,2026-06-01
+1707,Daily Commuter,Boston,2026-02-20
+1708,Office Worker,Miami,2025-09-09
+1709,Occasional,Boston,2025-07-29
+1710,Daily Commuter,Austin,2026-04-29
+1711,Occasional,New York,2026-04-22
+1712,Office Worker,Los Angeles,2025-05-31
+1713,One-Time,San Francisco,2026-07-07
+1714,Occasional,San Francisco,2026-04-02
+1715,Office Worker,Dallas,2026-04-15
+1716,Occasional,Washington DC,2024-10-09
+1717,Office Worker,Denver,2024-11-30
+1718,Weekend Social,Atlanta,2025-03-27
+1719,Weekend Social,San Francisco,2026-02-14
+1720,Occasional,Atlanta,2024-10-24
+1721,Daily Commuter,Portland,2024-10-28
+1722,Daily Commuter,Austin,2024-09-22
+1723,Weekend Social,Philadelphia,2025-01-12
+1724,Weekend Social,Miami,2026-06-05
+1725,Office Worker,San Francisco,2026-01-17
+1726,Daily Commuter,Seattle,2026-01-14
+1727,Office Worker,Portland,2025-03-23
+1728,Occasional,Dallas,2025-11-11
+1729,Daily Commuter,Atlanta,2026-02-27
+1730,Office Worker,Washington DC,2025-09-07
+1731,Occasional,San Francisco,2026-04-22
+1732,Daily Commuter,Seattle,2025-10-03
+1733,Weekend Social,Miami,2025-04-15
+1734,Daily Commuter,New York,2025-11-21
+1735,Occasional,New York,2026-06-22
+1736,Weekend Social,Portland,2026-04-01
+1737,Occasional,Denver,2025-08-14
+1738,Daily Commuter,Miami,2025-10-22
+1739,Weekend Social,Austin,2026-07-15
+1740,Occasional,Boston,2026-02-06
+1741,Daily Commuter,Miami,2025-08-17
+1742,Daily Commuter,Atlanta,2025-03-15
+1743,Daily Commuter,Miami,2026-05-27
+1744,One-Time,Portland,2026-07-15
+1745,Weekend Social,Boston,2024-10-19
+1746,Weekend Social,Atlanta,2024-09-22
+1747,Weekend Social,Miami,2024-11-19
+1748,Weekend Social,New York,2025-05-28
+1749,Office Worker,Los Angeles,2024-12-20
+1750,Office Worker,New York,2026-05-10
+1751,Weekend Social,Los Angeles,2026-06-01
+1752,Daily Commuter,Denver,2025-01-04
+1753,Occasional,Philadelphia,2026-04-03
+1754,Occasional,Washington DC,2024-12-07
+1755,Office Worker,Austin,2026-03-05
+1756,Weekend Social,Atlanta,2025-05-13
+1757,Daily Commuter,Los Angeles,2024-09-28
+1758,One-Time,Boston,2025-06-26
+1759,Occasional,Austin,2026-03-29
+1760,Occasional,Washington DC,2026-06-15
+1761,Office Worker,Philadelphia,2024-11-23
+1762,Daily Commuter,Boston,2026-04-08
+1763,Daily Commuter,Denver,2025-03-24
+1764,Daily Commuter,Atlanta,2025-07-21
+1765,Daily Commuter,Seattle,2024-11-15
+1766,Daily Commuter,New York,2026-07-13
+1767,One-Time,Seattle,2026-03-07
+1768,Daily Commuter,Austin,2025-11-23
+1769,Daily Commuter,Chicago,2026-01-21
+1770,Occasional,Portland,2026-05-04
+1771,Weekend Social,Boston,2024-12-09
+1772,Occasional,Dallas,2025-02-19
+1773,Weekend Social,New York,2024-09-26
+1774,Occasional,San Francisco,2025-08-08
+1775,Weekend Social,Los Angeles,2025-08-11
+1776,Weekend Social,Denver,2024-09-20
+1777,Weekend Social,Atlanta,2025-12-07
+1778,Office Worker,Los Angeles,2024-09-06
+1779,Office Worker,Portland,2026-03-09
+1780,Office Worker,Philadelphia,2026-01-06
+1781,Daily Commuter,Seattle,2026-03-24
+1782,Occasional,New York,2024-11-21
+1783,Daily Commuter,Philadelphia,2026-05-02
+1784,Daily Commuter,Portland,2025-09-18
+1785,Daily Commuter,Washington DC,2026-04-27
+1786,Occasional,Portland,2025-12-31
+1787,Office Worker,Austin,2025-12-03
+1788,Weekend Social,Los Angeles,2024-09-22
+1789,Occasional,Atlanta,2025-12-28
+1790,Daily Commuter,Boston,2025-07-11
+1791,Weekend Social,Dallas,2026-04-17
+1792,Office Worker,Seattle,2025-12-22
+1793,Daily Commuter,Seattle,2024-10-22
+1794,Weekend Social,Atlanta,2026-05-15
+1795,Occasional,Philadelphia,2024-10-14
+1796,Daily Commuter,Philadelphia,2025-03-28
+1797,Weekend Social,Miami,2025-01-29
+1798,Daily Commuter,Denver,2026-07-13
+1799,Weekend Social,Chicago,2024-12-16
+1800,Weekend Social,Philadelphia,2026-04-14
+1801,Weekend Social,Los Angeles,2025-02-02
+1802,Weekend Social,New York,2025-11-29
+1803,Daily Commuter,Atlanta,2024-11-02
+1804,Weekend Social,Boston,2025-06-01
+1805,Weekend Social,Denver,2025-11-10
+1806,Weekend Social,Washington DC,2026-01-10
+1807,Daily Commuter,Chicago,2026-05-03
+1808,Office Worker,Washington DC,2026-03-25
+1809,Office Worker,Los Angeles,2025-08-29
+1810,Daily Commuter,San Francisco,2025-03-31
+1811,Daily Commuter,Seattle,2025-03-01
+1812,Office Worker,Portland,2026-07-26
+1813,Weekend Social,Washington DC,2025-10-30
+1814,Daily Commuter,Washington DC,2026-05-29
+1815,Occasional,Los Angeles,2025-06-30
+1816,Weekend Social,Austin,2025-08-05
+1817,Weekend Social,New York,2026-04-01
+1818,Office Worker,Miami,2026-01-18
+1819,Office Worker,Portland,2025-01-18
+1820,Weekend Social,Los Angeles,2025-09-01
+1821,Occasional,New York,2025-01-27
+1822,Office Worker,New York,2026-02-14
+1823,Weekend Social,Portland,2024-09-20
+1824,Weekend Social,Miami,2026-04-01
+1825,Weekend Social,New York,2026-06-12
+1826,Daily Commuter,Atlanta,2024-09-16
+1827,Office Worker,Dallas,2025-11-15
+1828,Office Worker,Chicago,2024-10-25
+1829,Occasional,Miami,2025-05-10
+1830,Office Worker,San Francisco,2025-04-23
+1831,Office Worker,Chicago,2025-08-29
+1832,One-Time,Boston,2026-06-04
+1833,Office Worker,San Francisco,2025-07-20
+1834,Daily Commuter,Denver,2025-06-05
+1835,Daily Commuter,Los Angeles,2024-11-03
+1836,Daily Commuter,Boston,2026-05-14
+1837,Daily Commuter,Miami,2025-04-08
+1838,Office Worker,Boston,2025-07-20
+1839,Weekend Social,Portland,2024-11-03
+1840,Weekend Social,New York,2025-03-21
+1841,Daily Commuter,New York,2025-09-22
+1842,Weekend Social,Washington DC,2026-05-23
+1843,Daily Commuter,Denver,2025-04-18
+1844,Occasional,Miami,2025-09-27
+1845,Daily Commuter,Austin,2026-05-05
+1846,Weekend Social,Los Angeles,2025-05-10
+1847,Office Worker,Philadelphia,2025-03-25
+1848,Weekend Social,Boston,2024-10-01
+1849,Office Worker,Washington DC,2026-05-28
+1850,Weekend Social,Boston,2024-11-16
+1851,Daily Commuter,Boston,2025-01-28
+1852,Occasional,Miami,2024-12-06
+1853,Office Worker,Los Angeles,2026-01-08
+1854,Weekend Social,Miami,2025-05-13
+1855,Occasional,Philadelphia,2026-01-06
+1856,One-Time,Portland,2025-10-30
+1857,Daily Commuter,Seattle,2024-09-10
+1858,Daily Commuter,Portland,2025-04-03
+1859,Daily Commuter,Seattle,2024-09-02
+1860,Daily Commuter,New York,2024-10-15
+1861,Weekend Social,Chicago,2025-07-28
+1862,One-Time,San Francisco,2025-03-04
+1863,One-Time,Seattle,2024-11-01
+1864,Weekend Social,Seattle,2025-06-13
+1865,Weekend Social,Dallas,2025-07-13
+1866,Occasional,Denver,2026-07-26
+1867,Occasional,Los Angeles,2025-12-07
+1868,Daily Commuter,Denver,2025-06-02
+1869,Weekend Social,Portland,2025-07-28
+1870,Occasional,Austin,2024-11-01
+1871,Office Worker,San Francisco,2025-05-28
+1872,Office Worker,Los Angeles,2025-10-11
+1873,One-Time,Philadelphia,2024-09-14
+1874,One-Time,Miami,2026-06-05
+1875,Occasional,Philadelphia,2025-08-26
+1876,Occasional,San Francisco,2026-03-04
+1877,Daily Commuter,New York,2025-03-11
+1878,Office Worker,Boston,2026-04-08
+1879,Weekend Social,San Francisco,2025-05-14
+1880,Weekend Social,Austin,2026-06-11
+1881,Office Worker,Austin,2025-08-31
+1882,Weekend Social,New York,2025-11-19
+1883,Office Worker,Miami,2025-01-20
+1884,Weekend Social,San Francisco,2026-07-28
+1885,Office Worker,Miami,2025-01-12
+1886,Office Worker,Boston,2024-09-23
+1887,Daily Commuter,Atlanta,2025-07-04
+1888,Daily Commuter,Austin,2026-04-07
+1889,Occasional,San Francisco,2026-06-06
+1890,Office Worker,Los Angeles,2026-04-22
+1891,Daily Commuter,Portland,2025-09-22
+1892,Weekend Social,Philadelphia,2026-06-03
+1893,Weekend Social,Denver,2025-08-10
+1894,Daily Commuter,Philadelphia,2025-07-31
+1895,Office Worker,Los Angeles,2025-01-04
+1896,Daily Commuter,Dallas,2026-03-05
+1897,Weekend Social,Philadelphia,2025-04-09
+1898,Daily Commuter,San Francisco,2025-01-14
+1899,Daily Commuter,Los Angeles,2025-05-16
+1900,Daily Commuter,Portland,2025-10-27
+1901,Weekend Social,Washington DC,2025-03-08
+1902,Daily Commuter,New York,2025-05-09
+1903,Occasional,Miami,2025-04-19
+1904,Daily Commuter,Washington DC,2025-10-22
+1905,Weekend Social,Seattle,2026-01-12
+1906,Office Worker,Atlanta,2025-12-16
+1907,Office Worker,New York,2024-12-07
+1908,Daily Commuter,Los Angeles,2025-04-30
+1909,Occasional,Denver,2025-11-27
+1910,Occasional,San Francisco,2025-01-29
+1911,Daily Commuter,New York,2024-10-18
+1912,Daily Commuter,Dallas,2025-04-13
+1913,Occasional,Los Angeles,2025-12-19
+1914,Weekend Social,Washington DC,2025-12-08
+1915,Daily Commuter,Los Angeles,2024-11-29
+1916,Daily Commuter,Atlanta,2025-12-17
+1917,Weekend Social,Austin,2025-01-14
+1918,Weekend Social,Denver,2026-01-31
+1919,Weekend Social,Boston,2025-10-01
+1920,One-Time,Austin,2024-11-27
+1921,Office Worker,Seattle,2025-05-03
+1922,Office Worker,Dallas,2026-03-26
+1923,Office Worker,Portland,2025-06-29
+1924,Office Worker,Austin,2025-12-25
+1925,Daily Commuter,Boston,2026-02-05
+1926,Daily Commuter,Boston,2024-09-21
+1927,Office Worker,Miami,2026-06-14
+1928,Weekend Social,Miami,2025-04-22
+1929,Daily Commuter,Washington DC,2026-03-09
+1930,Office Worker,Washington DC,2025-07-23
+1931,Weekend Social,Seattle,2025-10-08
+1932,Weekend Social,Los Angeles,2025-05-10
+1933,Occasional,Philadelphia,2026-04-20
+1934,Occasional,Boston,2024-11-21
+1935,Weekend Social,Miami,2026-05-20
+1936,Daily Commuter,Seattle,2025-01-23
+1937,Office Worker,New York,2026-05-11
+1938,Weekend Social,Boston,2024-09-17
+1939,Daily Commuter,Austin,2024-09-09
+1940,Daily Commuter,Austin,2024-11-04
+1941,Daily Commuter,Washington DC,2025-09-18
+1942,Office Worker,Los Angeles,2025-03-05
+1943,Office Worker,Los Angeles,2025-10-23
+1944,Daily Commuter,Atlanta,2026-03-27
+1945,Occasional,Atlanta,2024-09-19
+1946,Occasional,Seattle,2025-09-03
+1947,Daily Commuter,Denver,2026-01-30
+1948,Occasional,Washington DC,2025-06-24
+1949,Daily Commuter,Los Angeles,2026-06-09
+1950,Occasional,Dallas,2025-12-07
+1951,One-Time,Denver,2024-09-24
+1952,Daily Commuter,Atlanta,2025-09-14
+1953,Weekend Social,Miami,2025-05-26
+1954,One-Time,Portland,2024-12-01
+1955,Occasional,Miami,2026-06-27
+1956,One-Time,New York,2025-02-02
+1957,Weekend Social,San Francisco,2024-10-28
+1958,Daily Commuter,Dallas,2025-02-02
+1959,Occasional,Seattle,2026-03-30
+1960,Weekend Social,Austin,2025-10-24
+1961,Weekend Social,Atlanta,2026-03-27
+1962,Office Worker,New York,2025-07-20
+1963,Weekend Social,New York,2024-11-20
+1964,Daily Commuter,Philadelphia,2025-05-29
+1965,Weekend Social,Seattle,2025-01-17
+1966,Daily Commuter,Seattle,2025-09-24
+1967,Weekend Social,Seattle,2025-03-07
+1968,Occasional,Miami,2026-07-11
+1969,Office Worker,Washington DC,2025-05-22
+1970,Office Worker,Los Angeles,2025-04-07
+1971,Office Worker,Dallas,2026-07-21
+1972,One-Time,Austin,2025-08-30
+1973,Weekend Social,Chicago,2024-12-28
+1974,Office Worker,Seattle,2025-08-02
+1975,Daily Commuter,Denver,2025-02-25
+1976,Daily Commuter,New York,2026-01-14
+1977,Office Worker,New York,2025-10-06
+1978,Occasional,Denver,2026-01-24
+1979,Weekend Social,Dallas,2026-06-20
+1980,Daily Commuter,Philadelphia,2026-01-23
+1981,Occasional,Miami,2025-04-26
+1982,Office Worker,Chicago,2025-01-19
+1983,Occasional,San Francisco,2025-09-05
+1984,Daily Commuter,Miami,2025-07-11
+1985,Weekend Social,Los Angeles,2025-04-07
+1986,Occasional,Atlanta,2026-03-21
+1987,Daily Commuter,Austin,2026-05-29
+1988,Weekend Social,Dallas,2025-05-25
+1989,One-Time,Seattle,2025-12-20
+1990,Daily Commuter,San Francisco,2026-07-20
+1991,Daily Commuter,Chicago,2024-09-08
+1992,Weekend Social,Atlanta,2025-05-13
+1993,Office Worker,Los Angeles,2026-01-29
+1994,Daily Commuter,Philadelphia,2025-08-14
+1995,Office Worker,Washington DC,2026-03-08
+1996,Weekend Social,San Francisco,2025-07-29
+1997,Daily Commuter,Boston,2024-10-15
+1998,Office Worker,Denver,2025-06-30
+1999,Occasional,Seattle,2025-06-10
+2000,Weekend Social,Washington DC,2026-04-14
