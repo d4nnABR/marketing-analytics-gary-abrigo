@@ -1,0 +1,642 @@
+<title>Simulador de manzanitas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Rubik:wght@500;600&display=swap">
+<style>
+/* Concepto: un cuaderno de la frutería. Verde #00704A como base, rojo manzana como único acento; cada fruta lleva su punto de color y su nombre escrito. */
+:root {
+  --bg: #F3F6F3; --surface: #FFFFFF; --fg: #16241D; --muted: #53625A; --line: #D3DCD5;
+  --green: #00704A; --green-soft: #D9EEE2; --on-green: #FFFFFF;
+  --apple: #B8431F; --apple-soft: #F8E1D8; --blue: #2F63C2; --blue-soft: #DCE7FA;
+  --warn: #8A5200; --warn-soft: #FCEBCB; --bad: #A12B2B;
+  --p0:#C4512F; --p1:#8A5A33; --p2:#E8C21A; --p3:#D6335B; --p4:#E8DCC0; --p5:#7A4FB5; --p6:#E9A93B; --p7:#F26A1B; --p8:#7DB84A; --p9:#B5D334;
+  --font-display: 'Rubik', 'Arial', sans-serif;
+  --font-body: 'IBM Plex Sans', 'Verdana', sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0F1A15; --surface: #17261F; --fg: #E8F0EA; --muted: #9DB0A5; --line: #2B3C33;
+    --green: #3DBE8B; --green-soft: #1D3D2E; --on-green: #07130E;
+    --apple: #EE7A55; --apple-soft: #3A2119; --blue: #7FA8FF; --blue-soft: #1D2B47;
+    --warn: #F0B45A; --warn-soft: #3A2D12; --bad: #F08A8A;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0F1A15; --surface: #17261F; --fg: #E8F0EA; --muted: #9DB0A5; --line: #2B3C33;
+  --green: #3DBE8B; --green-soft: #1D3D2E; --on-green: #07130E;
+  --apple: #EE7A55; --apple-soft: #3A2119; --blue: #7FA8FF; --blue-soft: #1D2B47;
+  --warn: #F0B45A; --warn-soft: #3A2D12; --bad: #F08A8A;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 17px; line-height: 1.55; padding-inline: 16px; padding-block: 28px 64px; }
+main { max-width: 1040px; margin-inline: auto; display: flex; flex-direction: column; gap: 24px; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; line-height: 1.15; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(32px, 6vw, 48px); }
+h2 { font-size: clamp(22px, 3.4vw, 28px); }
+h3 { font-size: 19px; }
+p { margin: 0; max-width: 68ch; }
+.lead { font-size: 19px; color: var(--muted); }
+.muted { color: var(--muted); }
+.small { font-size: 15px; }
+header { display: flex; flex-direction: column; gap: 10px; }
+.kicker { font-size: 14px; letter-spacing: .08em; text-transform: uppercase; color: var(--green); font-weight: 600; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* pestañas */
+.tabs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.tab { font: inherit; font-weight: 600; font-size: 16px; text-align: left; color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; cursor: pointer; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.tab small { font-weight: 400; font-size: 13px; color: var(--muted); }
+.tab:hover { border-color: var(--green); }
+.tab[aria-selected="true"] { background: var(--green); border-color: var(--green); color: var(--on-green); }
+.tab[aria-selected="true"] small { color: var(--on-green); opacity: .9; }
+@media (max-width: 720px) { .tabs { grid-template-columns: 1fr 1fr; } }
+
+section.tabpanel { display: flex; flex-direction: column; gap: 18px; }
+section.tabpanel[hidden] { display: none; }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px; display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.two { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 18px; align-items: start; }
+@media (max-width: 860px) { .two { grid-template-columns: minmax(0, 1fr); } }
+.scroll { overflow-x: auto; max-width: 100%; position: relative; }
+.scroll:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
+
+button, select { font: inherit; }
+button.btn { font-weight: 500; font-size: 16px; color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 8px 14px; cursor: pointer; }
+button.btn:hover { border-color: var(--green); }
+button.btn[aria-pressed="true"], button.btn.primary { background: var(--green); border-color: var(--green); color: var(--on-green); }
+button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
+.controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+select { color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 8px 10px; font-size: 16px; }
+.sliders { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.slider { display: flex; flex-direction: column; gap: 4px; }
+.slider label { font-weight: 500; display: flex; justify-content: space-between; gap: 8px; }
+.slider output { font-variant-numeric: tabular-nums; color: var(--green); font-weight: 600; }
+input[type=range] { width: 100%; accent-color: var(--green); }
+
+/* frutas */
+.pill { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; line-height: 1.2; padding: 3px 9px 3px 7px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); white-space: nowrap; }
+.pill i { width: 12px; height: 12px; border-radius: 50%; background: var(--c); box-shadow: 0 0 0 1px rgba(0,0,0,.35); flex: none; }
+.pill.ha { border-color: var(--green); background: var(--green-soft); font-weight: 600; }
+.pill.hb { border-color: var(--apple); background: var(--apple-soft); font-weight: 600; }
+.pill.ghost { color: var(--muted); border-style: dashed; }
+.apple { color: var(--apple); }
+svg.ap { width: 22px; height: 22px; display: block; }
+
+/* canastas */
+.baskets { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px 14px; max-height: 340px; overflow-y: auto; padding: 4px; }
+@media (max-width: 860px) { .baskets { grid-template-columns: minmax(0, 1fr); } }
+.basket { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; padding: 6px 8px; border: 1px solid var(--line); border-radius: 10px; }
+.basket.both { border-color: var(--green); box-shadow: inset 4px 0 0 var(--green); }
+.basket .n { font-size: 13px; color: var(--muted); min-width: 4.4em; font-variant-numeric: tabular-nums; }
+.basket .tag { margin-left: auto; font-size: 12px; font-weight: 600; color: var(--green); }
+
+/* tablas */
+table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+th, td { padding: 6px 8px; text-align: right; border-bottom: 1px solid var(--line); font-size: 15px; }
+th:first-child, td:first-child { text-align: left; }
+thead th { font-weight: 600; color: var(--muted); font-size: 14px; position: sticky; top: 0; background: var(--surface); }
+tr.sel td { background: var(--green-soft); }
+.rulebtn { font: inherit; font-weight: 500; color: var(--fg); background: none; border: 0; padding: 2px 0; cursor: pointer; text-align: left; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
+.rulebtn:hover { text-decoration-color: var(--green); }
+.flag { display: inline-block; font-size: 13px; font-weight: 600; border-radius: 6px; padding: 1px 8px; white-space: nowrap; }
+.flag.trap { background: var(--warn-soft); color: var(--warn); }
+.flag.real { background: var(--green-soft); color: var(--green); }
+.flag.weak { background: var(--blue-soft); color: var(--blue); }
+.tablebox { max-height: 380px; overflow: auto; }
+.alert { border: 1px solid var(--warn); background: var(--warn-soft); color: var(--fg); border-radius: 10px; padding: 12px 14px; max-width: none; }
+.alert b { color: var(--warn); }
+.alert.ok { border-color: var(--green); background: var(--green-soft); }
+.alert.ok b { color: var(--green); }
+
+/* calcula a mano */
+.calc { display: flex; flex-direction: column; gap: 10px; }
+.step { border-left: 4px solid var(--line); padding: 2px 0 2px 12px; display: flex; flex-direction: column; gap: 2px; }
+.step.final { border-left-color: var(--green); }
+.step .t { font-size: 14px; color: var(--muted); }
+.step .f { font-variant-numeric: tabular-nums; font-size: 17px; overflow-wrap: anywhere; }
+.step .f b { font-family: var(--font-display); font-size: 21px; }
+.cmp { display: flex; flex-direction: column; gap: 8px; }
+.cmp .row { display: grid; grid-template-columns: minmax(0, 11em) minmax(0, 1fr) 4.5em; gap: 8px; align-items: center; font-size: 14px; }
+.cmp .row span:last-child { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+.bar { height: 12px; border-radius: 6px; background: var(--green-soft); overflow: hidden; }
+.bar > i { display: block; height: 100%; background: var(--green); }
+.bar.b > i { background: var(--apple); }
+.bar.g > i { background: var(--muted); }
+.takeaway { border-left: 4px solid var(--green); padding: 4px 0 4px 14px; font-size: 18px; max-width: 68ch; }
+
+/* matriz */
+.matrix th, .matrix td { text-align: center; padding: 3px 4px; }
+.matrix th[scope=row] { text-align: left; white-space: nowrap; }
+.matrix td { height: 34px; min-width: 34px; border-left: 1px solid var(--line); }
+.hdr { font: inherit; font-size: 14px; font-weight: 500; color: var(--fg); background: none; border: 1px solid transparent; border-radius: 8px; padding: 3px 6px; cursor: pointer; display: inline-flex; align-items: center; gap: 5px; }
+.hdr:hover { border-color: var(--green); }
+.hdr[aria-pressed="true"] { background: var(--green); color: var(--on-green); }
+.matrix.cols thead .hdr { writing-mode: vertical-rl; transform: rotate(180deg); padding: 6px 3px; }
+.matrix td.in-sel { background: var(--green-soft); }
+.matrix td.both { background: var(--green); }
+.matrix td.both svg { color: #fff; }
+.matrix tr.in-sel th { background: var(--green-soft); }
+.matrix th.in-sel { background: var(--green-soft); }
+.gusto { font-size: 12px; color: var(--muted); margin-left: 4px; }
+.mini { display: flex; flex-direction: column; gap: 6px; }
+.mini .r { display: grid; grid-template-columns: 6em minmax(0, 1fr) 3.4em; gap: 8px; align-items: center; font-size: 15px; }
+.mini .r span:last-child { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+
+/* recomendar */
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 14px; }
+.rec { border: 1px solid var(--line); border-radius: 12px; padding: 14px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.rec h3 { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.rank { background: var(--green); color: var(--on-green); border-radius: 999px; width: 28px; height: 28px; display: inline-flex; align-items: center; justify-content: center; font-size: 15px; flex: none; }
+.rec .why { font-size: 15px; display: flex; flex-direction: column; gap: 6px; }
+.rec .line { display: grid; grid-template-columns: minmax(0, 1fr) 3.4em; gap: 8px; align-items: center; }
+.rec .line > span:last-child { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+.rec .sum { border-top: 1px solid var(--line); padding-top: 6px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.fallback { background: var(--warn-soft); color: var(--fg); border-radius: 8px; padding: 8px 10px; font-size: 15px; }
+.neigh { display: flex; flex-direction: column; gap: 8px; }
+.neigh .nb { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; border: 1px solid var(--line); border-radius: 10px; padding: 8px 10px; }
+.neigh .nm { font-weight: 600; min-width: 5em; }
+.row-pills { display: flex; flex-wrap: wrap; gap: 6px; }
+.cold th, .cold td { text-align: left; vertical-align: top; }
+
+/* medir */
+.bars { display: flex; flex-direction: column; gap: 12px; }
+.bars .row { display: grid; grid-template-columns: 9.5em minmax(0, 1fr) 7.5em; gap: 10px; align-items: center; }
+@media (max-width: 560px) { .bars .row { grid-template-columns: minmax(0, 1fr) 6em; } .bars .row .bar { grid-column: 1 / -1; grid-row: 2; } }
+.bars .bar { height: 22px; border-radius: 6px; background: var(--line); }
+.bars .bar > i { transition: width .3s; }
+.bars .val { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+.m-pop > i { background: var(--muted); } .m-apr > i { background: var(--blue); } .m-itm > i { background: var(--green); } .m-usr > i { background: var(--apple); }
+.ok { color: var(--green); font-weight: 600; } .no { color: var(--bad); font-weight: 600; }
+.res td, .res th { vertical-align: top; }
+.res .tops { display: block; font-size: 12px; color: var(--muted); font-weight: 400; }
+.honest { border: 1px solid var(--line); border-left: 4px solid var(--apple); border-radius: 10px; padding: 12px 14px; display: flex; flex-direction: column; gap: 8px; max-width: none; }
+@media (prefers-reduced-motion: reduce) { .bars .bar > i { transition: none; } }
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="apple" viewBox="0 0 24 24">
+      <path d="M12 8c-2.2-2.1-6-1.4-7.4 1.9-1.5 3.6-.1 9.6 3.3 11 1.5.6 2.6-.2 4.1-.2s2.6.8 4.1.2c3.4-1.4 4.8-7.4 3.3-11C17.9 6.6 14.200 5.900 12 8z" fill="currentColor"/>
+      <path d="M12 8c0-1.800.7-3.200 2.300-4" stroke="#6B4A2B" stroke-width="1.600" stroke-linecap="round" fill="none"/>
+      <path d="M14.300 4.800c1.500-1.200 3.200-.9 4-.4-.6 1.600-2.400 2.200-4 .4z" fill="#3A9D5D"/>
+    </symbol>
+  </defs>
+</svg>
+
+<main>
+  <header>
+    <p class="kicker">Venta cruzada y recomendaciones</p>
+    <h1>Simulador de manzanitas</h1>
+    <p class="lead">Una frutería pequeña, 15 clientes y 24 canastas. Juega con los números para ver cómo se decide qué fruta ofrecerle a cada persona.</p>
+  </header>
+
+  <div class="tabs" role="tablist" aria-label="Bloques de la clase">
+    <button class="tab" role="tab" id="t1" aria-controls="p1" aria-selected="true" type="button">Canastas (Apriori)<small>¿Qué se compra junto?</small></button>
+    <button class="tab" role="tab" id="t2" aria-controls="p2" aria-selected="false" tabindex="-1" type="button">Matriz y similitud<small>¿Quién se parece a quién?</small></button>
+    <button class="tab" role="tab" id="t3" aria-controls="p3" aria-selected="false" tabindex="-1" type="button">Recomendar<small>¿Qué le ofrezco?</small></button>
+    <button class="tab" role="tab" id="t4" aria-controls="p4" aria-selected="false" tabindex="-1" type="button">Medir<small>¿Funciona de verdad?</small></button>
+  </div>
+
+  <!-- 1 -->
+  <section class="tabpanel" id="p1" role="tabpanel" aria-labelledby="t1">
+    <h2>Canastas: lo que se lleva junto</h2>
+    <p>Una canasta es lo que alguien lleva en una compra. Una regla <b>A → B</b> dice: quien lleva A, muchas veces lleva también B. Mueve los controles y mira qué reglas sobreviven.</p>
+    <div class="panel">
+      <h3>Las 24 canastas</h3>
+      <div class="baskets scroll" id="baskets" tabindex="0" role="region" aria-label="Lista de las 24 canastas"></div>
+      <p class="small muted" id="basketLegend"></p>
+    </div>
+    <div class="panel">
+      <div class="sliders">
+        <div class="slider"><label for="minS">Soporte mínimo <output id="minSo" for="minS"></output></label>
+          <input type="range" id="minS" min="4" max="40" step="1" value="8"><span class="small muted">Qué tan seguido aparece la pareja en todas las canastas.</span></div>
+        <div class="slider"><label for="minC">Confianza mínima <output id="minCo" for="minC"></output></label>
+          <input type="range" id="minC" min="10" max="100" step="5" value="50"><span class="small muted">De los que llevan A, cuántos llevan también B.</span></div>
+      </div>
+      <p class="alert" id="alert" role="status" aria-live="polite"></p>
+    </div>
+    <div class="two">
+      <div class="panel">
+        <div class="controls"><h3 style="margin-right:auto" id="rulesTitle">Reglas</h3>
+          <span class="small muted" id="sortLbl">Ordenar por</span>
+          <button class="btn" type="button" id="sortConf" aria-pressed="true">Confianza</button>
+          <button class="btn" type="button" id="sortLift" aria-pressed="false">Lift</button></div>
+        <div class="tablebox scroll" tabindex="0" role="region" aria-label="Tabla de reglas">
+          <table id="rulesTable"><thead><tr><th scope="col">Regla</th><th scope="col">Soporte</th><th scope="col">Confianza</th><th scope="col">Lift</th><th scope="col">Lectura</th></tr></thead><tbody></tbody></table>
+        </div>
+        <p class="small muted">Toca una regla para calcularla a mano. Lift cerca de 1 significa "da igual mirar A". Más de 1,5 significa pareja de verdad.</p>
+      </div>
+      <div class="panel" aria-live="polite">
+        <div class="controls"><h3 style="margin-right:auto">Calcula a mano</h3><button class="btn" type="button" id="seeTrap">Ver una trampa</button><button class="btn" type="button" id="seeReal">Ver una real</button></div>
+        <div id="calc" class="calc"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2 -->
+  <section class="tabpanel" id="p2" role="tabpanel" aria-labelledby="t2" hidden>
+    <h2>Matriz: quién compró qué</h2>
+    <p>Cada fila es un cliente y cada columna una fruta. La manzana marca "sí compró". Dos filas (o dos columnas) se parecen si tienen manzanas en los mismos lugares. A eso se le llama similitud coseno.</p>
+    <div class="panel">
+      <div class="controls">
+        <span class="muted" id="modeLbl">Comparar</span>
+        <button class="btn" type="button" id="mRows" aria-pressed="true">Clientes (filas)</button>
+        <button class="btn" type="button" id="mCols" aria-pressed="false">Productos (columnas)</button>
+        <label class="controls" style="gap:6px"><input type="checkbox" id="taste"> Mostrar el gusto escondido</label>
+      </div>
+      <p class="small muted" id="pickHint"></p>
+      <div class="scroll" tabindex="0" role="region" aria-label="Matriz de clientes por productos"><table class="matrix" id="matrix"></table></div>
+      <p id="sparse"></p>
+    </div>
+    <div class="panel" aria-live="polite" id="cosPanel"></div>
+  </section>
+
+  <!-- 3 -->
+  <section class="tabpanel" id="p3" role="tabpanel" aria-labelledby="t3" hidden>
+    <h2>Recomendar: qué fruta ofrecerle</h2>
+    <p>Elige a un cliente y un método. Abajo se ve el porqué de cada sugerencia, paso a paso.</p>
+    <div class="panel">
+      <div class="controls">
+        <label for="who" class="muted">Cliente</label>
+        <select id="who"></select>
+        <button class="btn" type="button" id="byItem" aria-pressed="true">Por ítem</button>
+        <button class="btn" type="button" id="byUser" aria-pressed="false">Por cliente</button>
+        <button class="btn" type="button" id="goNew">Ver al cliente nuevo</button>
+      </div>
+      <p class="small muted" id="methodNote"></p>
+      <div><h3>Lo que ya compró</h3><div class="row-pills" id="hist" style="margin-top:8px"></div></div>
+      <div id="neighbors"></div>
+      <h3>Sus 3 sugerencias</h3>
+      <div class="cards" id="recs" aria-live="polite"></div>
+    </div>
+    <div class="panel">
+      <h3 id="coldTitle">Cliente nuevo: no hay historia</h3>
+      <p>Olga entra por primera vez. Su fila de la matriz está vacía, así que ningún método tiene en qué apoyarse. Mira qué hace cada uno.</p>
+      <div class="scroll"><table class="cold" id="cold"><thead><tr><th scope="col">Método</th><th scope="col">Lo que sugiere a Olga</th><th scope="col">Qué le pasó</th></tr></thead><tbody></tbody></table></div>
+      <p class="takeaway">Sin historia, lo único que queda es lo que compra todo el mundo. Es un buen respaldo, pero no es personalizar.</p>
+    </div>
+  </section>
+
+  <!-- 4 -->
+  <section class="tabpanel" id="p4" role="tabpanel" aria-labelledby="t4" hidden>
+    <h2>Medir: tapar una compra y adivinar</h2>
+    <p>A cada cliente se le tapa una compra que sí hizo. Cada método intenta adivinarla con lo demás. Si la compra tapada está entre las primeras <b>k</b> sugerencias, es un acierto (hit@k).</p>
+    <div class="panel">
+      <div class="controls" role="group" aria-label="Elegir k">
+        <span class="muted">k =</span>
+        <button class="btn" type="button" data-k="1" aria-pressed="false">1</button>
+        <button class="btn" type="button" data-k="2" aria-pressed="true">2</button>
+        <button class="btn" type="button" data-k="3" aria-pressed="false">3</button>
+        <span class="small muted">sugerencias que se le muestran a cada cliente</span>
+      </div>
+      <div class="bars" id="bars" aria-live="polite"></div>
+      <p class="small muted" id="noise"></p>
+    </div>
+    <div class="panel">
+      <div class="controls"><h3 style="margin-right:auto">Cliente por cliente</h3>
+        <button class="btn primary" type="button" id="reveal" aria-expanded="false">Destapar</button></div>
+      <div class="scroll" tabindex="0" role="region" aria-label="Aciertos y fallos por cliente"><table class="res" id="res"></table></div>
+    </div>
+    <div class="honest">
+      <h3>Con honestidad</h3>
+      <p><b>Son pocos datos.</b> Solo hay 14 clientes evaluados: un cliente más o menos mueve cada barra unos 7 puntos. Si dos métodos quedan cerca, no se puede decir cuál es mejor. Con otro reparto de las compras tapadas el orden podría cambiar.</p>
+      <p><b>Acertar no prueba que la recomendación cause la compra.</b> Un cliente que ya iba a comprar Crema con su Fresa también cuenta como acierto, aunque no hubiera hecho falta sugerírsela. Para saber si recomendar vende más, hay que hacer un test A/B: a unos clientes se les muestra la sugerencia y a otros no, y se comparan las compras.</p>
+    </div>
+  </section>
+</main>
+
+<script>
+const DATA = {"P": ["Manzana", "Canela", "Plátano", "Fresa", "Crema", "Uva", "Queso", "Naranja", "Mango", "Limón"], "C": [["Ana", "dulce"], ["Beto", "dulce"], ["Carla", "dulce"], ["Diego", "dulce"], ["Elena", "dulce"], ["Fabi", "fresco"], ["Gus", "fresco"], ["Hugo", "fresco"], ["Inés", "fresco"], ["Jorge", "fresco"], ["Karla", "picnic"], ["Luis", "picnic"], ["Marta", "picnic"], ["Nico", "picnic"], ["Olga", "nueva"]], "B": [[0, "Manzana Canela"], [0, "Manzana Canela Mango"], [1, "Manzana Canela Plátano"], [2, "Manzana Canela"], [2, "Mango Plátano"], [3, "Manzana Canela Mango Plátano"], [4, "Manzana Mango"], [5, "Fresa Crema Plátano"], [5, "Naranja Limón"], [6, "Fresa Crema Plátano"], [7, "Fresa Crema Naranja"], [7, "Limón Plátano"], [8, "Naranja Limón"], [9, "Fresa Plátano"], [9, "Naranja Limón"], [10, "Uva Queso Plátano"], [10, "Manzana Uva Plátano"], [11, "Uva Queso Plátano"], [11, "Queso Plátano"], [12, "Uva Queso"], [12, "Manzana Plátano"], [13, "Uva Queso Plátano"], [13, "Plátano Naranja"], [1, "Mango Plátano"]], "H": {"Ana": "Mango", "Beto": "Canela", "Carla": "Mango", "Diego": "Canela", "Elena": "Manzana", "Fabi": "Crema", "Gus": "Plátano", "Hugo": "Naranja", "Inés": "Limón", "Jorge": "Limón", "Karla": "Queso", "Luis": "Plátano", "Marta": "Manzana", "Nico": "Naranja"}};
+const P = DATA.P, C = DATA.C, H = DATA.H;
+const NP = P.length, NC = C.length;
+const PI = Object.fromEntries(P.map((p, i) => [p, i]));
+const BK = DATA.B.map(([c, x]) => ({ c, its: x.split(' ').map(p => PI[p]) }));
+const N = BK.length;
+const CFG = { minCnt: 2, minConf: 0.3, minLift: 1.3, K: 3 };
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const nf = (x, d = 2) => x.toFixed(d).replace('.', ',');
+const pc = (x, d = 1) => nf(x * 100, d) + ' %';
+
+/* ---------- núcleo ---------- */
+function build(hold) {
+  const M = Array.from({ length: NC }, () => Array(NP).fill(0));
+  const bks = BK.map(b => {
+    const its = b.its.filter(j => !(hold && H[C[b.c][0]] === P[j]));
+    its.forEach(j => { M[b.c][j] = 1; });
+    return { c: b.c, its };
+  });
+  return { M, bks };
+}
+function cosine(a, b) {
+  const na = a.reduce((s, x) => s + x, 0), nb = b.reduce((s, x) => s + x, 0);
+  if (!na || !nb) return 0;
+  return a.reduce((s, x, i) => s + x * b[i], 0) / Math.sqrt(na * nb);
+}
+function rulesFrom(bks) {
+  const cnt = (...ps) => bks.filter(b => ps.every(p => b.its.includes(p))).length;
+  const out = [];
+  for (let a = 0; a < NP; a++) for (let b = 0; b < NP; b++) {
+    if (a === b) continue;
+    const ab = cnt(a, b); if (!ab) continue;
+    const na = cnt(a), nb = cnt(b);
+    out.push({ a, b, n: ab, na, nb, sup: ab / N, conf: ab / na, pb: nb / N, lift: (ab / na) / (nb / N) });
+  }
+  return out;
+}
+const col = (M, j) => M.map(r => r[j]);
+function popOf(M) { return P.map((_, j) => M.reduce((s, r) => s + r[j], 0)); }
+function neighborsOf(M, u) {
+  return M.map((r, v) => ({ v, s: cosine(M[u], r) })).filter(t => t.v !== u)
+    .sort((x, y) => y.s - x.s || x.v - y.v).filter(t => t.s > 0).slice(0, CFG.K);
+}
+function recs(M, bks, u, method) {
+  const pop = popOf(M);
+  const cands = P.map((_, j) => j).filter(j => !M[u][j]);
+  const mine = P.map((_, j) => j).filter(j => M[u][j]);
+  const sc = Array(NP).fill(0);
+  if (method === 'apriori') {
+    rulesFrom(bks).forEach(r => {
+      if (mine.includes(r.a) && r.n >= CFG.minCnt && r.conf >= CFG.minConf && r.lift > CFG.minLift) sc[r.b] = Math.max(sc[r.b], r.lift);
+    });
+  } else if (method === 'item') {
+    cands.forEach(b => { sc[b] = mine.reduce((s, a) => s + cosine(col(M, a), col(M, b)), 0); });
+  } else if (method === 'user') {
+    neighborsOf(M, u).forEach(({ v, s }) => cands.forEach(b => { sc[b] += s * M[v][b]; }));
+  }
+  const rank = cands.slice().sort((x, y) => sc[y] - sc[x] || pop[y] - pop[x] || x - y);
+  return { rank, sc, pop, mine };
+}
+const FULL = build(false), HOLD = build(true);
+const METHODS = [['pop', 'Popularidad', 'm-pop'], ['apriori', 'Apriori', 'm-apr'], ['item', 'CF por ítem', 'm-itm'], ['user', 'CF por cliente', 'm-usr']];
+function holdout() {
+  const res = {}, det = [];
+  METHODS.forEach(([m]) => { res[m] = { 1: 0, 2: 0, 3: 0 }; });
+  C.forEach(([name], c) => {
+    if (!(name in H)) return;
+    const t = PI[H[name]], row = { c, name, t, m: {} };
+    METHODS.forEach(([m]) => {
+      const r = recs(HOLD.M, HOLD.bks, c, m).rank;
+      row.m[m] = r.slice(0, 3);
+      [1, 2, 3].forEach(k => { if (r.slice(0, k).includes(t)) res[m][k]++; });
+    });
+    det.push(row);
+  });
+  return { res, det };
+}
+
+/* ---------- ayudas de pantalla ---------- */
+const pill = (j, cls = '') => `<span class="pill ${cls}"><i style="--c:var(--p${j})"></i>${P[j]}</span>`;
+const appleIcon = '<svg class="ap apple" aria-hidden="true"><use href="#apple"/></svg>';
+const names = idx => idx.map(i => C[i][0]).join(', ');
+
+/* ---------- pestañas ---------- */
+const tabs = $$('.tab');
+function showTab(i, focus) {
+  tabs.forEach((t, k) => {
+    t.setAttribute('aria-selected', k === i); t.tabIndex = k === i ? 0 : -1;
+    $('#p' + (k + 1)).hidden = k !== i;
+  });
+  if (focus) tabs[i].focus();
+  try { sessionStorage.setItem('tab', i); } catch (e) {}
+}
+tabs.forEach((t, i) => {
+  t.addEventListener('click', () => showTab(i));
+  t.addEventListener('keydown', e => {
+    const k = { ArrowRight: i + 1, ArrowLeft: i - 1, Home: 0, End: 3 }[e.key];
+    if (k !== undefined) { e.preventDefault(); showTab((k + 4) % 4, true); }
+  });
+});
+
+/* ---------- 1. canastas ---------- */
+const RULES = rulesFrom(FULL.bks);
+const S1 = { minS: 8, minC: 50, sort: 'conf', a: PI['Fresa'], b: PI['Crema'] };
+const kind = r => r.lift >= 1.5 ? 'real' : (Math.abs(r.lift - 1) <= 0.3 ? 'trap' : (r.lift > 1 ? 'weak' : 'under'));
+const kindTxt = { real: 'Pareja real', trap: 'Trampa: lift ≈ 1', weak: 'Débil', under: 'Se evitan' };
+function visibleRules() {
+  const rs = RULES.filter(r => r.sup >= S1.minS / 100 - 1e-9 && r.conf >= S1.minC / 100 - 1e-9);
+  return rs.sort((x, y) => (S1.sort === 'conf' ? y.conf - x.conf || y.lift - x.lift : y.lift - x.lift || y.conf - x.conf) || x.a - y.a || x.b - y.b);
+}
+function render1() {
+  $('#minSo').textContent = S1.minS + ' %'; $('#minCo').textContent = S1.minC + ' %';
+  $('#minS').setAttribute('aria-valuetext', S1.minS + ' por ciento'); 
+  const rs = visibleRules();
+  $('#rulesTitle').textContent = `Reglas (${rs.length})`;
+  $('#rulesTable tbody').innerHTML = rs.length ? rs.map(r => {
+    const k = kind(r), on = r.a === S1.a && r.b === S1.b;
+    return `<tr class="${on ? 'sel' : ''}"><td><button class="rulebtn" type="button" data-a="${r.a}" data-b="${r.b}" aria-pressed="${on}">${P[r.a]} → ${P[r.b]}</button></td><td>${pc(r.sup)}</td><td>${pc(r.conf)}</td><td>${nf(r.lift)}</td><td><span class="flag ${k}">${kindTxt[k]}</span></td></tr>`;
+  }).join('') : '<tr><td colspan="5" class="muted">Ninguna regla pasa los dos mínimos. Baja el soporte o la confianza.</td></tr>';
+  const traps = rs.filter(r => kind(r) === 'trap');
+  const al = $('#alert');
+  if (traps.length) {
+    const ends = [...new Set(traps.map(r => P[r.b]))];
+    const share = ends.length === 1 ? ` ${ends[0]} va en ${pc(RULES.find(r => r.b === traps[0].b).pb, 0)} de las canastas.` : '';
+    al.className = 'alert';
+    al.innerHTML = `<b>Cuidado, trampa de popularidad.</b> ${traps.length} de ${rs.length} reglas tienen confianza alta pero lift cerca de 1 (terminan en ${ends.join(', ')}).${share} Parecen buenas porque ese producto lo lleva casi todo el mundo, no porque A empuje a B.`;
+  } else {
+    al.className = 'alert ok';
+    al.innerHTML = '<b>Sin trampas a la vista.</b> Con estos mínimos no hay reglas con confianza alta y lift cerca de 1. Baja la confianza mínima para que aparezcan.';
+  }
+  // canastas
+  $('#baskets').innerHTML = FULL.bks.map((b, i) => {
+    const hasA = b.its.includes(S1.a), hasB = b.its.includes(S1.b);
+    return `<div class="basket ${hasA && hasB ? 'both' : ''}"><span class="n">#${i + 1} ${C[b.c][0]}</span>${b.its.map(j => pill(j, j === S1.a ? 'ha' : j === S1.b ? 'hb' : '')).join('')}${hasA && hasB ? '<span class="tag">A y B</span>' : ''}</div>`;
+  }).join('');
+  $('#basketLegend').innerHTML = `Regla elegida: ${pill(S1.a, 'ha')} → ${pill(S1.b, 'hb')}. Las canastas con borde verde llevan las dos frutas.`;
+  renderCalc();
+}
+function renderCalc() {
+  const r = RULES.find(x => x.a === S1.a && x.b === S1.b);
+  const A = P[S1.a], B = P[S1.b];
+  if (!r) { $('#calc').innerHTML = `<p>${A} y ${B} nunca van juntas. Soporte 0, lift 0.</p>`; return; }
+  const k = kind(r);
+  const verdict = {
+    real: `Entre quienes llevan ${A}, ${B} aparece ${nf(r.lift, 1)} veces más que normal. Aquí sí hay pareja.`,
+    trap: `El lift es casi 1: llevar ${A} casi no cambia la chance de llevar ${B}. La confianza es alta solo porque ${B} ya está en casi todas partes.`,
+    weak: `Hay algo de pareja (${nf(r.lift)}), pero es poco. Con tan pocas canastas puede ser casualidad.`,
+    under: `Lift menor que 1: quien lleva ${A} lleva ${B} menos que el promedio.`
+  }[k];
+  $('#calc').innerHTML = `
+    <p class="small muted">Regla elegida: ${pill(S1.a, 'ha')} → ${pill(S1.b, 'hb')}</p>
+    <div class="step"><span class="t">Soporte: ¿qué tan común es la pareja?</span><span class="f">canastas con ${A} y ${B} ÷ todas = ${r.n} ÷ ${N} = <b>${pc(r.sup)}</b></span></div>
+    <div class="step"><span class="t">Confianza: de los que llevan ${A}, ¿cuántos llevan ${B}?</span><span class="f">${r.n} ÷ ${r.na} = <b>${pc(r.conf)}</b></span></div>
+    <div class="step"><span class="t">¿Qué tan común es ${B} sin mirar ${A}?</span><span class="f">canastas con ${B} ÷ todas = ${r.nb} ÷ ${N} = <b>${pc(r.pb)}</b></span></div>
+    <div class="step final"><span class="t">Lift = confianza ÷ lo común que ya era ${B}</span><span class="f">${pc(r.conf)} ÷ ${pc(r.pb)} = <b>${nf(r.lift)}</b></span></div>
+    <div class="cmp">
+      <div class="row"><span>Con ${A}</span><div class="bar b"><i style="width:${r.conf * 100}%"></i></div><span>${pc(r.conf, 0)}</span></div>
+      <div class="row"><span>Cualquier canasta</span><div class="bar g"><i style="width:${r.pb * 100}%"></i></div><span>${pc(r.pb, 0)}</span></div>
+    </div>
+    <p class="takeaway" style="font-size:16px"><span class="flag ${k}">${kindTxt[k]}</span> ${verdict}</p>`;
+}
+$('#minS').addEventListener('input', e => { S1.minS = +e.target.value; render1(); });
+$('#minC').addEventListener('input', e => { S1.minC = +e.target.value; render1(); });
+$('#rulesTable').addEventListener('click', e => {
+  const b = e.target.closest('.rulebtn'); if (!b) return;
+  S1.a = +b.dataset.a; S1.b = +b.dataset.b; render1();
+  const nb = $(`.rulebtn[data-a="${S1.a}"][data-b="${S1.b}"]`); if (nb) nb.focus();
+});
+function sortBtn(k) { S1.sort = k; $('#sortConf').setAttribute('aria-pressed', k === 'conf'); $('#sortLift').setAttribute('aria-pressed', k === 'lift'); render1(); }
+$('#sortConf').onclick = () => sortBtn('conf'); $('#sortLift').onclick = () => sortBtn('lift');
+function pickRule(wantTrap) {
+  const pool = RULES.filter(r => r.n >= 2 && (wantTrap ? kind(r) === 'trap' && r.conf >= 0.5 : kind(r) === 'real'))
+    .sort((x, y) => wantTrap ? y.conf - x.conf || x.a - y.a : y.lift - x.lift || y.conf - x.conf);
+  if (pool[0]) { S1.a = pool[0].a; S1.b = pool[0].b; }
+  const need = pool[0];
+  if (need && (need.sup < S1.minS / 100 || need.conf < S1.minC / 100)) {
+    S1.minS = Math.min(S1.minS, Math.floor(need.sup * 100)); S1.minC = Math.min(S1.minC, Math.floor(need.conf * 20) * 5);
+    $('#minS').value = S1.minS; $('#minC').value = S1.minC;
+  }
+  render1();
+}
+$('#seeTrap').onclick = () => pickRule(true); $('#seeReal').onclick = () => pickRule(false);
+
+/* ---------- 2. matriz ---------- */
+const S2 = { mode: 'rows', sel: [PI['Fresa'] * 0 + 0, 1], taste: false };
+S2.sel = [0, 1];
+function render2() {
+  const rows = S2.mode === 'rows', M = FULL.M;
+  const filled = M.reduce((s, r) => s + r.reduce((a, b) => a + b, 0), 0), total = NC * NP;
+  const empty = total - filled;
+  $('#sparse').innerHTML = `<b>${empty} de ${total} celdas vacías (${pc(empty / total, 0)}).</b> Esa es la dispersión: casi nadie ha probado casi todo, y las recomendaciones consisten en adivinar los huecos.`;
+  $('#pickHint').textContent = rows ? 'Toca los nombres de dos clientes para compararlos.' : 'Toca los nombres de dos frutas para compararlas.';
+  const selSet = new Set(S2.sel);
+  const tag = c => S2.taste ? `<span class="gusto">${C[c][1]}</span>` : '';
+  let h = '<thead><tr><th scope="col" class="sr-h"><span class="sr">Cliente</span></th>' + P.map((p, j) => {
+    const on = !rows && selSet.has(j);
+    return `<th scope="col" class="${on ? 'in-sel' : ''}">${rows ? `<span class="small">${p}</span>` : `<button class="hdr" type="button" data-i="${j}" aria-pressed="${on}"><i class="pill" style="padding:0;border:0"><i style="--c:var(--p${j});display:inline-block;width:10px;height:10px;border-radius:50%;box-shadow:0 0 0 1px rgba(0,0,0,.35)"></i></i>${p}</button>`}</th>`;
+  }).join('') + '</tr></thead><tbody>';
+  h += M.map((r, c) => {
+    const on = rows && selSet.has(c);
+    const head = rows ? `<button class="hdr" type="button" data-i="${c}" aria-pressed="${on}">${C[c][0]}</button>${tag(c)}` : `<span class="small">${C[c][0]}</span>${tag(c)}`;
+    return `<tr class="${on ? 'in-sel' : ''}"><th scope="row">${head}</th>` + r.map((v, j) => {
+      let cls = '';
+      if (rows) { if (on) cls = 'in-sel'; if (on && S2.sel.length === 2 && S2.sel.every(s => M[s][j])) cls = 'both'; }
+      else { if (selSet.has(j)) cls = 'in-sel'; if (selSet.has(j) && S2.sel.length === 2 && S2.sel.every(s => M[c][s])) cls = 'both'; }
+      return `<td class="${cls}">${v ? appleIcon + '<span class="sr">compró</span>' : '<span class="sr">no compró</span>'}</td>`;
+    }).join('') + '</tr>';
+  }).join('') + '</tbody>';
+  $('#matrix').innerHTML = h;
+  $('#matrix').className = 'matrix ' + (rows ? 'rows' : 'cols');
+  renderCos();
+}
+function vecOf(i) { return S2.mode === 'rows' ? FULL.M[i].slice() : col(FULL.M, i); }
+function setOf(i) { const v = vecOf(i); return v.map((x, k) => x ? k : -1).filter(k => k >= 0); }
+const nameOf = (i) => S2.mode === 'rows' ? C[i][0] : P[i];
+const itemName = (k) => S2.mode === 'rows' ? P[k] : C[k][0];
+function renderCos() {
+  const el = $('#cosPanel'), rows = S2.mode === 'rows', sel = S2.sel;
+  const unit = rows ? 'frutas' : 'clientes';
+  if (sel.length < 2) { el.innerHTML = `<h3>Similitud coseno</h3><p class="muted">Elige ${sel.length ? 'uno más' : 'dos'} en la matriz.</p>`; return; }
+  const [i, j] = sel, sa = setOf(i), sb = setOf(j), common = sa.filter(k => sb.includes(k));
+  const cos = cosine(vecOf(i), vecOf(j));
+  const list = s => s.length ? s.map(k => itemName(k)).join(', ') : 'nada';
+  const den = Math.sqrt(sa.length) * Math.sqrt(sb.length);
+  const others = (rows ? C.map((_, k) => k) : P.map((_, k) => k)).filter(k => k !== i)
+    .map(k => ({ k, s: cosine(vecOf(i), vecOf(k)) })).sort((x, y) => y.s - x.s || x.k - y.k).slice(0, 3);
+  el.innerHTML = `<h3>Similitud coseno entre ${nameOf(i)} y ${nameOf(j)}</h3>
+  <div class="two"><div class="calc">
+    <div class="step"><span class="t">${nameOf(i)} tiene ${sa.length} ${unit}</span><span class="f">${list(sa)}</span></div>
+    <div class="step"><span class="t">${nameOf(j)} tiene ${sb.length} ${unit}</span><span class="f">${list(sb)}</span></div>
+    <div class="step"><span class="t">En común (el producto punto: 1×1 donde coinciden)</span><span class="f"><b>${common.length}</b> · ${list(common)}</span></div>
+    <div class="step final"><span class="t">coseno = en común ÷ (√${sa.length} × √${sb.length})</span><span class="f">${den ? `${common.length} ÷ (${nf(Math.sqrt(sa.length))} × ${nf(Math.sqrt(sb.length))}) = ${common.length} ÷ ${nf(den)} = ` : 'Uno de los dos no tiene nada: '}<b>${nf(cos)}</b></span></div>
+    <p class="small muted">0 = no comparten nada, 1 = idénticos.</p>
+  </div>
+  <div class="mini"><h3 style="font-size:16px">Los más parecidos a ${nameOf(i)}</h3>${others.map(o => `<div class="r"><span>${nameOf(o.k)}</span><div class="bar"><i style="width:${o.s * 100}%"></i></div><span>${nf(o.s)}</span></div>`).join('')}</div></div>`;
+}
+$('#matrix').addEventListener('click', e => {
+  const b = e.target.closest('.hdr'); if (!b) return;
+  const i = +b.dataset.i, at = S2.sel.indexOf(i);
+  if (at >= 0) S2.sel.splice(at, 1); else { S2.sel.push(i); if (S2.sel.length > 2) S2.sel.shift(); }
+  render2();
+  const nb = $(`.hdr[data-i="${i}"]`); if (nb) nb.focus();
+});
+function setMode(m) {
+  S2.mode = m; S2.sel = m === 'rows' ? [0, 1] : [PI['Fresa'], PI['Crema']];
+  $('#mRows').setAttribute('aria-pressed', m === 'rows'); $('#mCols').setAttribute('aria-pressed', m === 'cols'); render2();
+}
+$('#mRows').onclick = () => setMode('rows'); $('#mCols').onclick = () => setMode('cols');
+$('#taste').addEventListener('change', e => { S2.taste = e.target.checked; render2(); });
+
+/* ---------- 3. recomendar ---------- */
+const S3 = { u: 0, mode: 'item' };
+$('#who').innerHTML = C.map((c, i) => `<option value="${i}">${c[0]}${c[1] === 'nueva' ? ' (cliente nuevo)' : ''}</option>`).join('');
+function renderRec() {
+  const u = S3.u, M = FULL.M, mine = P.map((_, j) => j).filter(j => M[u][j]);
+  $('#who').value = u;
+  $('#byItem').setAttribute('aria-pressed', S3.mode === 'item'); $('#byUser').setAttribute('aria-pressed', S3.mode === 'user');
+  $('#methodNote').textContent = S3.mode === 'item'
+    ? 'Por ítem: se mira qué tanto se parece cada fruta nueva a las frutas que él ya compró.'
+    : 'Por cliente: se buscan los clientes más parecidos a él y se le ofrece lo que ellos compraron y él no.';
+  $('#hist').innerHTML = mine.length ? mine.map(j => pill(j)).join('') : '<span class="muted">Nada todavía. Es un cliente nuevo.</span>';
+  const r = recs(M, FULL.bks, u, S3.mode), top = r.rank.slice(0, 3);
+  const nb = neighborsOf(M, u);
+  $('#neighbors').innerHTML = S3.mode === 'user' ? `<h3>Sus vecinos más parecidos</h3><div class="neigh" style="margin-top:8px">` + (nb.length ? nb.map(t => {
+    const extra = P.map((_, j) => j).filter(j => M[t.v][j] && !M[u][j]);
+    return `<div class="neigh"><div class="nb"><span class="nm">${C[t.v][0]}</span><span>similitud ${nf(t.s)}</span><span class="muted small">compró y él no:</span>${extra.length ? extra.map(j => pill(j)).join('') : '<span class="muted small">nada</span>'}</div></div>`;
+  }).join('') : '<p class="muted">No tiene vecinos: no comparte ninguna fruta con nadie.</p>') + '</div>' : '';
+  $('#recs').innerHTML = top.map((j, n) => {
+    const s = r.sc[j]; let why;
+    if (s <= 0) {
+      why = `<div class="fallback"><b>Respaldo: popularidad.</b> Este método no encontró ninguna pista para ${P[j]}. Aparece porque lo compran ${r.pop[j]} de ${NC - 1} clientes.</div>`;
+    } else if (S3.mode === 'item') {
+      const lines = mine.map(a => ({ a, s: cosine(col(M, a), col(M, j)) })).filter(t => t.s > 0).sort((x, y) => y.s - x.s);
+      why = `<p class="small muted">Ya compró estas frutas, y esto se parecen a ${P[j]}:</p><div class="why">` + lines.map(t => `<div class="line"><span>${pill(t.a)} ≈ ${pill(j)}<div class="bar" style="margin-top:4px"><i style="width:${t.s * 100}%"></i></div></span><span>${nf(t.s)}</span></div>`).join('') + `<div class="sum">Suma: ${lines.map(t => nf(t.s)).join(' + ')} = ${nf(s)}</div></div>`;
+      if (j === PI['Plátano']) why += `<div class="fallback">Ojo: Plátano sale alto en casi cualquier cliente porque casi todos lo compran. Es popularidad disfrazada.</div>`;
+    } else {
+      const who = nb.filter(t => M[t.v][j]);
+      why = `<p class="small muted">Los vecinos que compraron ${P[j]}:</p><div class="why">` + who.map(t => `<div class="line"><span>${C[t.v][0]} (similitud ${nf(t.s)})</span><span>+${nf(t.s)}</span></div>`).join('') + `<div class="sum">Suma: ${who.map(t => nf(t.s)).join(' + ')} = ${nf(s)}</div></div>`;
+    }
+    return `<article class="rec"><h3><span class="rank" aria-hidden="true">${n + 1}</span>${pill(j)}<span class="sr">sugerencia ${n + 1}</span></h3>${why}</article>`;
+  }).join('');
+  // cliente nuevo
+  const o = NC - 1, NM = {
+    pop: 'Cuenta cuántos clientes compran cada fruta. No necesita historia.',
+    apriori: 'Una regla A → B necesita que el cliente tenga una A. Olga no tiene ninguna, así que no se activa ninguna regla.',
+    item: 'Suma parecidos con lo que ya compró. Con nada comprado la suma es 0 para todas las frutas.',
+    user: 'Busca vecinos con el mismo gusto. Una fila vacía no se parece a nadie (coseno 0 con todos).'
+  };
+  $('#cold tbody').innerHTML = METHODS.map(([m, nm]) => {
+    const rr = recs(M, FULL.bks, o, m), allZero = m !== 'pop' && rr.rank.every(j => rr.sc[j] === 0);
+    return `<tr><th scope="row">${nm}</th><td><div class="row-pills">${rr.rank.slice(0, 3).map(j => pill(j)).join('')}</div></td><td>${NM[m]} ${allZero ? '<b>Cae a popularidad.</b>' : '<b>Es el método de respaldo.</b>'}</td></tr>`;
+  }).join('');
+}
+$('#who').addEventListener('change', e => { S3.u = +e.target.value; renderRec(); });
+$('#byItem').onclick = () => { S3.mode = 'item'; renderRec(); };
+$('#byUser').onclick = () => { S3.mode = 'user'; renderRec(); };
+$('#goNew').onclick = () => { S3.u = NC - 1; renderRec(); $('#recs').scrollIntoView({ block: 'nearest' }); };
+
+/* ---------- 4. medir ---------- */
+const S4 = { k: 2, open: false };
+function render4() {
+  const { res, det } = holdout(), n = det.length;
+  $$('[data-k]').forEach(b => b.setAttribute('aria-pressed', +b.dataset.k === S4.k));
+  $('#bars').innerHTML = METHODS.map(([m, nm, cl]) => {
+    const h = res[m][S4.k];
+    return `<div class="row"><span>${nm}</span><div class="bar ${cl}" role="img" aria-label="${nm}: ${h} de ${n}"><i style="width:${h / n * 100}%"></i></div><span class="val">${h} de ${n} · ${pc(h / n, 0)}</span></div>`;
+  }).join('');
+  $('#noise').textContent = `Hit@${S4.k} = aciertos ÷ ${n} clientes. Un cliente de diferencia son ${nf(100 / n, 1)} puntos de la barra.`;
+  const hd = '<thead><tr><th scope="col">Cliente</th><th scope="col">Compra tapada</th>' + METHODS.map(m => `<th scope="col">${m[1]}</th>`).join('') + '</tr></thead>';
+  $('#res').innerHTML = hd + '<tbody>' + det.map(d => {
+    const cells = METHODS.map(([m]) => {
+      const top = d.m[m].slice(0, S4.k), hit = top.includes(d.t);
+      return S4.open ? `<td>${hit ? '<span class="ok">✓ Acierto</span>' : '<span class="no">✗ Fallo</span>'}<span class="tops">${top.map(j => P[j]).join(', ')}</span></td>` : '<td class="muted">?</td>';
+    }).join('');
+    return `<tr><th scope="row">${d.name}</th><td style="text-align:left">${S4.open ? pill(d.t) : '<span class="muted">tapada</span>'}</td>${cells}</tr>`;
+  }).join('') + '</tbody>';
+  const rv = $('#reveal'); rv.textContent = S4.open ? 'Volver a tapar' : 'Destapar'; rv.setAttribute('aria-expanded', S4.open);
+}
+$$('[data-k]').forEach(b => b.onclick = () => { S4.k = +b.dataset.k; render4(); });
+$('#reveal').onclick = () => { S4.open = !S4.open; render4(); };
+
+/* ---------- arranque ---------- */
+render1(); render2(); renderRec(); render4();
+try { const t = +sessionStorage.getItem('tab'); if (t > 0 && t < 4) showTab(t); } catch (e) {}
+window.__sim = {
+  P, C, N, rules: RULES, holdout,
+  cosItems: P.map((_, a) => P.map((_, b) => cosine(col(FULL.M, a), col(FULL.M, b)))),
+  cosUsers: FULL.M.map(a => FULL.M.map(b => cosine(a, b))),
+  recsFull: m => C.map((_, u) => recs(FULL.M, FULL.bks, u, m).rank.map(j => P[j])),
+  setS1: (s, c) => { S1.minS = s; S1.minC = c; $('#minS').value = s; $('#minC').value = c; render1(); }
+};
+</script>

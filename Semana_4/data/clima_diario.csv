@@ -1,0 +1,857 @@
+fecha,ciudad,temp_c,lluvia
+2026-04-01,Ciudad de Guatemala,20.4,1
+2026-04-02,Ciudad de Guatemala,24.8,0
+2026-04-03,Ciudad de Guatemala,19.3,1
+2026-04-04,Ciudad de Guatemala,22.2,0
+2026-04-05,Ciudad de Guatemala,21.0,0
+2026-04-06,Ciudad de Guatemala,22.8,0
+2026-04-07,Ciudad de Guatemala,21.5,0
+2026-04-08,Ciudad de Guatemala,20.2,0
+2026-04-09,Ciudad de Guatemala,21.6,1
+2026-04-10,Ciudad de Guatemala,17.0,1
+2026-04-11,Ciudad de Guatemala,23.5,0
+2026-04-12,Ciudad de Guatemala,21.6,0
+2026-04-13,Ciudad de Guatemala,24.9,1
+2026-04-14,Ciudad de Guatemala,23.8,1
+2026-04-15,Ciudad de Guatemala,21.1,1
+2026-04-16,Ciudad de Guatemala,23.9,1
+2026-04-17,Ciudad de Guatemala,23.5,1
+2026-04-18,Ciudad de Guatemala,24.0,0
+2026-04-19,Ciudad de Guatemala,21.3,0
+2026-04-20,Ciudad de Guatemala,24.5,0
+2026-04-21,Ciudad de Guatemala,19.5,1
+2026-04-22,Ciudad de Guatemala,24.5,1
+2026-04-23,Ciudad de Guatemala,24.4,0
+2026-04-24,Ciudad de Guatemala,20.7,0
+2026-04-25,Ciudad de Guatemala,30.3,0
+2026-04-26,Ciudad de Guatemala,24.8,0
+2026-04-27,Ciudad de Guatemala,25.3,0
+2026-04-28,Ciudad de Guatemala,21.4,1
+2026-04-29,Ciudad de Guatemala,23.7,0
+2026-04-30,Ciudad de Guatemala,20.2,1
+2026-05-01,Ciudad de Guatemala,20.7,0
+2026-05-02,Ciudad de Guatemala,18.2,1
+2026-05-03,Ciudad de Guatemala,24.8,1
+2026-05-04,Ciudad de Guatemala,22.4,1
+2026-05-05,Ciudad de Guatemala,23.7,0
+2026-05-06,Ciudad de Guatemala,21.7,0
+2026-05-07,Ciudad de Guatemala,22.0,0
+2026-05-08,Ciudad de Guatemala,23.1,1
+2026-05-09,Ciudad de Guatemala,22.0,0
+2026-05-10,Ciudad de Guatemala,21.7,1
+2026-05-11,Ciudad de Guatemala,21.9,0
+2026-05-12,Ciudad de Guatemala,22.2,0
+2026-05-13,Ciudad de Guatemala,24.9,0
+2026-05-14,Ciudad de Guatemala,19.3,1
+2026-05-15,Ciudad de Guatemala,23.4,0
+2026-05-16,Ciudad de Guatemala,25.5,0
+2026-05-17,Ciudad de Guatemala,19.2,0
+2026-05-18,Ciudad de Guatemala,20.9,0
+2026-05-19,Ciudad de Guatemala,27.4,1
+2026-05-20,Ciudad de Guatemala,23.1,1
+2026-05-21,Ciudad de Guatemala,20.0,1
+2026-05-22,Ciudad de Guatemala,24.0,0
+2026-05-23,Ciudad de Guatemala,21.7,1
+2026-05-24,Ciudad de Guatemala,23.1,1
+2026-05-25,Ciudad de Guatemala,23.9,1
+2026-05-26,Ciudad de Guatemala,25.4,1
+2026-05-27,Ciudad de Guatemala,18.7,0
+2026-05-28,Ciudad de Guatemala,22.8,0
+2026-05-29,Ciudad de Guatemala,28.2,0
+2026-05-30,Ciudad de Guatemala,24.6,1
+2026-05-31,Ciudad de Guatemala,23.9,1
+2026-06-01,Ciudad de Guatemala,23.2,0
+2026-06-02,Ciudad de Guatemala,26.8,0
+2026-06-03,Ciudad de Guatemala,27.6,0
+2026-06-04,Ciudad de Guatemala,28.2,0
+2026-06-05,Ciudad de Guatemala,21.8,0
+2026-06-06,Ciudad de Guatemala,21.7,0
+2026-06-07,Ciudad de Guatemala,20.8,0
+2026-06-08,Ciudad de Guatemala,27.8,1
+2026-06-09,Ciudad de Guatemala,27.1,1
+2026-06-10,Ciudad de Guatemala,16.9,1
+2026-06-11,Ciudad de Guatemala,19.4,1
+2026-06-12,Ciudad de Guatemala,23.3,1
+2026-06-13,Ciudad de Guatemala,26.5,1
+2026-06-14,Ciudad de Guatemala,24.0,1
+2026-06-15,Ciudad de Guatemala,23.2,1
+2026-06-16,Ciudad de Guatemala,22.1,1
+2026-06-17,Ciudad de Guatemala,22.1,0
+2026-06-18,Ciudad de Guatemala,19.2,1
+2026-06-19,Ciudad de Guatemala,18.7,0
+2026-06-20,Ciudad de Guatemala,24.4,1
+2026-06-21,Ciudad de Guatemala,29.6,1
+2026-06-22,Ciudad de Guatemala,21.8,0
+2026-06-23,Ciudad de Guatemala,20.3,1
+2026-06-24,Ciudad de Guatemala,25.7,0
+2026-06-25,Ciudad de Guatemala,25.8,1
+2026-06-26,Ciudad de Guatemala,23.7,1
+2026-06-27,Ciudad de Guatemala,25.5,1
+2026-06-28,Ciudad de Guatemala,19.5,0
+2026-06-29,Ciudad de Guatemala,22.7,0
+2026-06-30,Ciudad de Guatemala,28.3,0
+2026-07-01,Ciudad de Guatemala,23.7,1
+2026-07-02,Ciudad de Guatemala,20.4,1
+2026-07-03,Ciudad de Guatemala,26.2,0
+2026-07-04,Ciudad de Guatemala,23.0,0
+2026-07-05,Ciudad de Guatemala,24.5,0
+2026-07-06,Ciudad de Guatemala,21.0,1
+2026-07-07,Ciudad de Guatemala,23.2,1
+2026-07-08,Ciudad de Guatemala,22.4,0
+2026-07-09,Ciudad de Guatemala,23.9,0
+2026-07-10,Ciudad de Guatemala,19.6,0
+2026-07-11,Ciudad de Guatemala,22.5,1
+2026-07-12,Ciudad de Guatemala,23.4,0
+2026-07-13,Ciudad de Guatemala,22.5,1
+2026-07-14,Ciudad de Guatemala,22.0,1
+2026-07-15,Ciudad de Guatemala,22.0,1
+2026-07-16,Ciudad de Guatemala,21.6,0
+2026-07-17,Ciudad de Guatemala,22.8,1
+2026-07-18,Ciudad de Guatemala,21.6,0
+2026-07-19,Ciudad de Guatemala,23.2,1
+2026-07-20,Ciudad de Guatemala,22.7,0
+2026-07-21,Ciudad de Guatemala,19.4,1
+2026-07-22,Ciudad de Guatemala,18.7,0
+2026-07-23,Ciudad de Guatemala,18.7,0
+2026-07-24,Ciudad de Guatemala,19.5,1
+2026-07-25,Ciudad de Guatemala,21.7,1
+2026-07-26,Ciudad de Guatemala,20.5,0
+2026-07-27,Ciudad de Guatemala,19.4,0
+2026-07-28,Ciudad de Guatemala,20.1,1
+2026-07-29,Ciudad de Guatemala,25.7,0
+2026-07-30,Ciudad de Guatemala,25.5,1
+2026-07-31,Ciudad de Guatemala,23.5,0
+2026-08-01,Ciudad de Guatemala,21.5,1
+2026-08-02,Ciudad de Guatemala,27.9,0
+2026-08-03,Ciudad de Guatemala,21.8,1
+2026-08-04,Ciudad de Guatemala,19.0,0
+2026-08-05,Ciudad de Guatemala,21.4,0
+2026-08-06,Ciudad de Guatemala,19.8,1
+2026-08-07,Ciudad de Guatemala,23.8,0
+2026-08-08,Ciudad de Guatemala,20.8,0
+2026-08-09,Ciudad de Guatemala,21.8,0
+2026-08-10,Ciudad de Guatemala,21.9,1
+2026-08-11,Ciudad de Guatemala,24.5,0
+2026-08-12,Ciudad de Guatemala,16.3,1
+2026-08-13,Ciudad de Guatemala,15.5,1
+2026-08-14,Ciudad de Guatemala,21.3,1
+2026-08-15,Ciudad de Guatemala,19.5,0
+2026-08-16,Ciudad de Guatemala,16.6,1
+2026-08-17,Ciudad de Guatemala,21.1,0
+2026-08-18,Ciudad de Guatemala,24.7,0
+2026-08-19,Ciudad de Guatemala,22.1,0
+2026-08-20,Ciudad de Guatemala,18.3,1
+2026-08-21,Ciudad de Guatemala,23.2,0
+2026-08-22,Ciudad de Guatemala,23.6,0
+2026-08-23,Ciudad de Guatemala,19.5,1
+2026-08-24,Ciudad de Guatemala,17.5,0
+2026-08-25,Ciudad de Guatemala,23.2,0
+2026-08-26,Ciudad de Guatemala,19.4,1
+2026-08-27,Ciudad de Guatemala,17.7,1
+2026-08-28,Ciudad de Guatemala,17.0,1
+2026-08-29,Ciudad de Guatemala,17.6,1
+2026-08-30,Ciudad de Guatemala,20.4,0
+2026-08-31,Ciudad de Guatemala,27.8,0
+2026-09-01,Ciudad de Guatemala,19.9,1
+2026-09-02,Ciudad de Guatemala,19.2,0
+2026-09-03,Ciudad de Guatemala,21.8,1
+2026-09-04,Ciudad de Guatemala,20.9,0
+2026-09-05,Ciudad de Guatemala,20.4,0
+2026-09-06,Ciudad de Guatemala,19.1,0
+2026-09-07,Ciudad de Guatemala,20.0,0
+2026-09-08,Ciudad de Guatemala,18.5,0
+2026-09-09,Ciudad de Guatemala,21.2,0
+2026-09-10,Ciudad de Guatemala,18.5,0
+2026-09-11,Ciudad de Guatemala,21.3,1
+2026-09-12,Ciudad de Guatemala,19.0,0
+2026-09-13,Ciudad de Guatemala,21.5,0
+2026-09-14,Ciudad de Guatemala,20.0,0
+2026-09-15,Ciudad de Guatemala,18.2,0
+2026-09-16,Ciudad de Guatemala,19.5,0
+2026-09-17,Ciudad de Guatemala,18.1,1
+2026-09-18,Ciudad de Guatemala,21.8,0
+2026-09-19,Ciudad de Guatemala,17.9,0
+2026-09-20,Ciudad de Guatemala,21.0,1
+2026-09-21,Ciudad de Guatemala,19.4,0
+2026-09-22,Ciudad de Guatemala,20.1,0
+2026-09-23,Ciudad de Guatemala,22.1,0
+2026-09-24,Ciudad de Guatemala,18.8,1
+2026-09-25,Ciudad de Guatemala,23.1,0
+2026-09-26,Ciudad de Guatemala,14.1,1
+2026-09-27,Ciudad de Guatemala,17.1,1
+2026-09-28,Ciudad de Guatemala,23.8,1
+2026-09-29,Ciudad de Guatemala,22.0,1
+2026-09-30,Ciudad de Guatemala,18.7,0
+2026-10-01,Ciudad de Guatemala,20.5,1
+2026-10-02,Ciudad de Guatemala,24.8,1
+2026-10-03,Ciudad de Guatemala,19.7,0
+2026-10-04,Ciudad de Guatemala,24.0,0
+2026-10-05,Ciudad de Guatemala,18.6,1
+2026-10-06,Ciudad de Guatemala,16.7,1
+2026-10-07,Ciudad de Guatemala,19.7,0
+2026-10-08,Ciudad de Guatemala,19.9,1
+2026-10-09,Ciudad de Guatemala,22.5,1
+2026-10-10,Ciudad de Guatemala,19.8,1
+2026-10-11,Ciudad de Guatemala,22.9,0
+2026-10-12,Ciudad de Guatemala,25.3,0
+2026-10-13,Ciudad de Guatemala,16.6,0
+2026-10-14,Ciudad de Guatemala,20.8,1
+2026-10-15,Ciudad de Guatemala,19.2,1
+2026-10-16,Ciudad de Guatemala,23.6,0
+2026-10-17,Ciudad de Guatemala,25.5,0
+2026-10-18,Ciudad de Guatemala,18.4,0
+2026-10-19,Ciudad de Guatemala,23.9,0
+2026-10-20,Ciudad de Guatemala,21.8,0
+2026-10-21,Ciudad de Guatemala,21.5,1
+2026-10-22,Ciudad de Guatemala,18.9,0
+2026-10-23,Ciudad de Guatemala,22.9,0
+2026-10-24,Ciudad de Guatemala,26.7,0
+2026-10-25,Ciudad de Guatemala,23.9,0
+2026-10-26,Ciudad de Guatemala,19.5,1
+2026-10-27,Ciudad de Guatemala,20.1,1
+2026-10-28,Ciudad de Guatemala,27.8,0
+2026-10-29,Ciudad de Guatemala,24.7,1
+2026-10-30,Ciudad de Guatemala,24.3,0
+2026-10-31,Ciudad de Guatemala,22.9,1
+2026-04-01,Antigua Guatemala,15.7,1
+2026-04-02,Antigua Guatemala,21.3,0
+2026-04-03,Antigua Guatemala,20.2,0
+2026-04-04,Antigua Guatemala,17.7,1
+2026-04-05,Antigua Guatemala,19.3,1
+2026-04-06,Antigua Guatemala,22.6,0
+2026-04-07,Antigua Guatemala,15.5,1
+2026-04-08,Antigua Guatemala,22.1,0
+2026-04-09,Antigua Guatemala,18.1,1
+2026-04-10,Antigua Guatemala,17.3,0
+2026-04-11,Antigua Guatemala,22.5,1
+2026-04-12,Antigua Guatemala,21.2,0
+2026-04-13,Antigua Guatemala,16.0,0
+2026-04-14,Antigua Guatemala,16.5,1
+2026-04-15,Antigua Guatemala,19.8,0
+2026-04-16,Antigua Guatemala,17.8,1
+2026-04-17,Antigua Guatemala,17.4,0
+2026-04-18,Antigua Guatemala,22.7,0
+2026-04-19,Antigua Guatemala,18.3,0
+2026-04-20,Antigua Guatemala,19.6,0
+2026-04-21,Antigua Guatemala,24.6,0
+2026-04-22,Antigua Guatemala,16.2,1
+2026-04-23,Antigua Guatemala,19.7,0
+2026-04-24,Antigua Guatemala,20.6,0
+2026-04-25,Antigua Guatemala,16.9,0
+2026-04-26,Antigua Guatemala,21.4,1
+2026-04-27,Antigua Guatemala,20.7,0
+2026-04-28,Antigua Guatemala,23.4,0
+2026-04-29,Antigua Guatemala,21.5,0
+2026-04-30,Antigua Guatemala,16.5,1
+2026-05-01,Antigua Guatemala,15.7,1
+2026-05-02,Antigua Guatemala,19.9,1
+2026-05-03,Antigua Guatemala,16.5,1
+2026-05-04,Antigua Guatemala,19.0,1
+2026-05-05,Antigua Guatemala,17.6,1
+2026-05-06,Antigua Guatemala,22.1,0
+2026-05-07,Antigua Guatemala,17.8,0
+2026-05-08,Antigua Guatemala,20.5,1
+2026-05-09,Antigua Guatemala,18.8,0
+2026-05-10,Antigua Guatemala,22.6,0
+2026-05-11,Antigua Guatemala,24.6,1
+2026-05-12,Antigua Guatemala,18.6,0
+2026-05-13,Antigua Guatemala,19.0,0
+2026-05-14,Antigua Guatemala,24.3,0
+2026-05-15,Antigua Guatemala,22.8,0
+2026-05-16,Antigua Guatemala,22.1,0
+2026-05-17,Antigua Guatemala,19.8,0
+2026-05-18,Antigua Guatemala,21.5,0
+2026-05-19,Antigua Guatemala,18.7,1
+2026-05-20,Antigua Guatemala,21.0,1
+2026-05-21,Antigua Guatemala,21.0,0
+2026-05-22,Antigua Guatemala,20.7,0
+2026-05-23,Antigua Guatemala,20.6,1
+2026-05-24,Antigua Guatemala,23.5,0
+2026-05-25,Antigua Guatemala,19.7,1
+2026-05-26,Antigua Guatemala,21.8,0
+2026-05-27,Antigua Guatemala,22.3,1
+2026-05-28,Antigua Guatemala,23.4,0
+2026-05-29,Antigua Guatemala,22.4,0
+2026-05-30,Antigua Guatemala,20.3,1
+2026-05-31,Antigua Guatemala,22.3,0
+2026-06-01,Antigua Guatemala,17.0,1
+2026-06-02,Antigua Guatemala,24.0,0
+2026-06-03,Antigua Guatemala,22.4,0
+2026-06-04,Antigua Guatemala,24.1,0
+2026-06-05,Antigua Guatemala,17.3,0
+2026-06-06,Antigua Guatemala,17.3,0
+2026-06-07,Antigua Guatemala,16.8,1
+2026-06-08,Antigua Guatemala,20.0,0
+2026-06-09,Antigua Guatemala,18.7,1
+2026-06-10,Antigua Guatemala,21.9,0
+2026-06-11,Antigua Guatemala,23.0,0
+2026-06-12,Antigua Guatemala,22.0,0
+2026-06-13,Antigua Guatemala,22.1,0
+2026-06-14,Antigua Guatemala,19.3,1
+2026-06-15,Antigua Guatemala,24.6,0
+2026-06-16,Antigua Guatemala,20.9,1
+2026-06-17,Antigua Guatemala,19.5,1
+2026-06-18,Antigua Guatemala,21.2,1
+2026-06-19,Antigua Guatemala,19.4,1
+2026-06-20,Antigua Guatemala,21.8,0
+2026-06-21,Antigua Guatemala,22.0,1
+2026-06-22,Antigua Guatemala,20.6,0
+2026-06-23,Antigua Guatemala,18.1,1
+2026-06-24,Antigua Guatemala,21.7,0
+2026-06-25,Antigua Guatemala,22.1,1
+2026-06-26,Antigua Guatemala,19.2,0
+2026-06-27,Antigua Guatemala,24.1,0
+2026-06-28,Antigua Guatemala,20.4,0
+2026-06-29,Antigua Guatemala,21.7,1
+2026-06-30,Antigua Guatemala,18.6,1
+2026-07-01,Antigua Guatemala,23.4,0
+2026-07-02,Antigua Guatemala,22.8,0
+2026-07-03,Antigua Guatemala,18.9,1
+2026-07-04,Antigua Guatemala,21.0,0
+2026-07-05,Antigua Guatemala,21.7,0
+2026-07-06,Antigua Guatemala,17.7,0
+2026-07-07,Antigua Guatemala,19.0,0
+2026-07-08,Antigua Guatemala,18.3,1
+2026-07-09,Antigua Guatemala,22.2,1
+2026-07-10,Antigua Guatemala,15.8,1
+2026-07-11,Antigua Guatemala,22.3,0
+2026-07-12,Antigua Guatemala,20.2,1
+2026-07-13,Antigua Guatemala,15.7,1
+2026-07-14,Antigua Guatemala,20.5,0
+2026-07-15,Antigua Guatemala,21.7,0
+2026-07-16,Antigua Guatemala,19.5,1
+2026-07-17,Antigua Guatemala,23.5,0
+2026-07-18,Antigua Guatemala,21.0,0
+2026-07-19,Antigua Guatemala,19.6,0
+2026-07-20,Antigua Guatemala,20.4,1
+2026-07-21,Antigua Guatemala,18.5,1
+2026-07-22,Antigua Guatemala,17.7,0
+2026-07-23,Antigua Guatemala,17.2,1
+2026-07-24,Antigua Guatemala,20.2,0
+2026-07-25,Antigua Guatemala,14.8,1
+2026-07-26,Antigua Guatemala,17.3,1
+2026-07-27,Antigua Guatemala,17.9,1
+2026-07-28,Antigua Guatemala,20.0,0
+2026-07-29,Antigua Guatemala,21.1,0
+2026-07-30,Antigua Guatemala,16.1,0
+2026-07-31,Antigua Guatemala,14.6,1
+2026-08-01,Antigua Guatemala,17.7,0
+2026-08-02,Antigua Guatemala,20.0,0
+2026-08-03,Antigua Guatemala,17.4,1
+2026-08-04,Antigua Guatemala,15.1,0
+2026-08-05,Antigua Guatemala,19.3,0
+2026-08-06,Antigua Guatemala,20.7,1
+2026-08-07,Antigua Guatemala,17.8,0
+2026-08-08,Antigua Guatemala,16.8,1
+2026-08-09,Antigua Guatemala,19.8,0
+2026-08-10,Antigua Guatemala,19.8,1
+2026-08-11,Antigua Guatemala,18.4,0
+2026-08-12,Antigua Guatemala,19.4,0
+2026-08-13,Antigua Guatemala,18.4,0
+2026-08-14,Antigua Guatemala,21.4,0
+2026-08-15,Antigua Guatemala,21.7,1
+2026-08-16,Antigua Guatemala,19.3,0
+2026-08-17,Antigua Guatemala,18.5,0
+2026-08-18,Antigua Guatemala,19.9,0
+2026-08-19,Antigua Guatemala,21.3,0
+2026-08-20,Antigua Guatemala,18.3,0
+2026-08-21,Antigua Guatemala,13.4,0
+2026-08-22,Antigua Guatemala,15.6,1
+2026-08-23,Antigua Guatemala,15.8,1
+2026-08-24,Antigua Guatemala,17.9,0
+2026-08-25,Antigua Guatemala,23.6,0
+2026-08-26,Antigua Guatemala,20.6,0
+2026-08-27,Antigua Guatemala,17.4,0
+2026-08-28,Antigua Guatemala,16.2,0
+2026-08-29,Antigua Guatemala,21.8,0
+2026-08-30,Antigua Guatemala,19.4,0
+2026-08-31,Antigua Guatemala,15.3,0
+2026-09-01,Antigua Guatemala,15.1,1
+2026-09-02,Antigua Guatemala,22.9,0
+2026-09-03,Antigua Guatemala,18.1,0
+2026-09-04,Antigua Guatemala,19.2,0
+2026-09-05,Antigua Guatemala,18.3,0
+2026-09-06,Antigua Guatemala,17.4,0
+2026-09-07,Antigua Guatemala,15.1,1
+2026-09-08,Antigua Guatemala,19.4,1
+2026-09-09,Antigua Guatemala,21.6,0
+2026-09-10,Antigua Guatemala,21.3,0
+2026-09-11,Antigua Guatemala,18.4,1
+2026-09-12,Antigua Guatemala,20.4,0
+2026-09-13,Antigua Guatemala,22.8,0
+2026-09-14,Antigua Guatemala,16.0,0
+2026-09-15,Antigua Guatemala,19.3,0
+2026-09-16,Antigua Guatemala,15.3,1
+2026-09-17,Antigua Guatemala,22.0,0
+2026-09-18,Antigua Guatemala,16.7,1
+2026-09-19,Antigua Guatemala,20.3,1
+2026-09-20,Antigua Guatemala,16.0,0
+2026-09-21,Antigua Guatemala,14.1,0
+2026-09-22,Antigua Guatemala,14.8,1
+2026-09-23,Antigua Guatemala,18.1,1
+2026-09-24,Antigua Guatemala,17.8,0
+2026-09-25,Antigua Guatemala,18.0,0
+2026-09-26,Antigua Guatemala,14.9,1
+2026-09-27,Antigua Guatemala,22.1,0
+2026-09-28,Antigua Guatemala,22.1,0
+2026-09-29,Antigua Guatemala,14.0,1
+2026-09-30,Antigua Guatemala,19.8,0
+2026-10-01,Antigua Guatemala,16.9,1
+2026-10-02,Antigua Guatemala,17.5,0
+2026-10-03,Antigua Guatemala,19.9,1
+2026-10-04,Antigua Guatemala,15.6,1
+2026-10-05,Antigua Guatemala,17.3,1
+2026-10-06,Antigua Guatemala,19.9,1
+2026-10-07,Antigua Guatemala,18.9,1
+2026-10-08,Antigua Guatemala,21.3,0
+2026-10-09,Antigua Guatemala,22.1,0
+2026-10-10,Antigua Guatemala,18.7,1
+2026-10-11,Antigua Guatemala,17.1,1
+2026-10-12,Antigua Guatemala,19.6,0
+2026-10-13,Antigua Guatemala,21.0,0
+2026-10-14,Antigua Guatemala,17.8,0
+2026-10-15,Antigua Guatemala,19.9,1
+2026-10-16,Antigua Guatemala,19.2,0
+2026-10-17,Antigua Guatemala,19.5,0
+2026-10-18,Antigua Guatemala,17.9,0
+2026-10-19,Antigua Guatemala,22.7,0
+2026-10-20,Antigua Guatemala,18.8,1
+2026-10-21,Antigua Guatemala,15.0,1
+2026-10-22,Antigua Guatemala,15.8,0
+2026-10-23,Antigua Guatemala,18.4,1
+2026-10-24,Antigua Guatemala,20.1,0
+2026-10-25,Antigua Guatemala,16.3,1
+2026-10-26,Antigua Guatemala,20.4,0
+2026-10-27,Antigua Guatemala,19.8,0
+2026-10-28,Antigua Guatemala,16.7,1
+2026-10-29,Antigua Guatemala,14.6,0
+2026-10-30,Antigua Guatemala,19.0,0
+2026-10-31,Antigua Guatemala,21.2,0
+2026-04-01,Cobán,16.7,1
+2026-04-02,Cobán,19.7,1
+2026-04-03,Cobán,19.5,1
+2026-04-04,Cobán,18.9,0
+2026-04-05,Cobán,19.0,1
+2026-04-06,Cobán,21.1,1
+2026-04-07,Cobán,16.9,0
+2026-04-08,Cobán,15.1,1
+2026-04-09,Cobán,19.9,1
+2026-04-10,Cobán,20.5,0
+2026-04-11,Cobán,21.3,0
+2026-04-12,Cobán,18.9,0
+2026-04-13,Cobán,20.8,0
+2026-04-14,Cobán,21.1,1
+2026-04-15,Cobán,15.0,1
+2026-04-16,Cobán,18.9,1
+2026-04-17,Cobán,23.1,1
+2026-04-18,Cobán,20.2,1
+2026-04-19,Cobán,19.3,0
+2026-04-20,Cobán,15.7,1
+2026-04-21,Cobán,21.2,1
+2026-04-22,Cobán,19.0,1
+2026-04-23,Cobán,13.0,1
+2026-04-24,Cobán,18.3,0
+2026-04-25,Cobán,20.4,1
+2026-04-26,Cobán,16.4,1
+2026-04-27,Cobán,20.5,1
+2026-04-28,Cobán,15.7,1
+2026-04-29,Cobán,18.6,1
+2026-04-30,Cobán,19.5,1
+2026-05-01,Cobán,13.4,1
+2026-05-02,Cobán,19.4,1
+2026-05-03,Cobán,15.2,0
+2026-05-04,Cobán,20.6,0
+2026-05-05,Cobán,21.2,1
+2026-05-06,Cobán,17.2,1
+2026-05-07,Cobán,20.8,0
+2026-05-08,Cobán,18.1,1
+2026-05-09,Cobán,20.6,1
+2026-05-10,Cobán,20.2,1
+2026-05-11,Cobán,23.1,0
+2026-05-12,Cobán,19.9,1
+2026-05-13,Cobán,19.0,0
+2026-05-14,Cobán,17.2,1
+2026-05-15,Cobán,15.2,0
+2026-05-16,Cobán,18.2,1
+2026-05-17,Cobán,20.4,0
+2026-05-18,Cobán,19.4,1
+2026-05-19,Cobán,20.2,0
+2026-05-20,Cobán,14.9,1
+2026-05-21,Cobán,19.1,0
+2026-05-22,Cobán,19.7,1
+2026-05-23,Cobán,20.5,0
+2026-05-24,Cobán,12.9,1
+2026-05-25,Cobán,17.1,1
+2026-05-26,Cobán,17.3,1
+2026-05-27,Cobán,20.6,0
+2026-05-28,Cobán,21.1,1
+2026-05-29,Cobán,22.7,0
+2026-05-30,Cobán,16.7,1
+2026-05-31,Cobán,25.6,0
+2026-06-01,Cobán,22.3,1
+2026-06-02,Cobán,24.6,0
+2026-06-03,Cobán,15.7,0
+2026-06-04,Cobán,22.2,0
+2026-06-05,Cobán,21.9,0
+2026-06-06,Cobán,20.2,0
+2026-06-07,Cobán,24.0,0
+2026-06-08,Cobán,19.2,1
+2026-06-09,Cobán,20.4,1
+2026-06-10,Cobán,20.4,0
+2026-06-11,Cobán,19.9,0
+2026-06-12,Cobán,14.9,1
+2026-06-13,Cobán,18.3,1
+2026-06-14,Cobán,15.9,1
+2026-06-15,Cobán,18.6,0
+2026-06-16,Cobán,23.1,0
+2026-06-17,Cobán,20.2,1
+2026-06-18,Cobán,20.5,1
+2026-06-19,Cobán,21.5,0
+2026-06-20,Cobán,20.0,1
+2026-06-21,Cobán,21.6,0
+2026-06-22,Cobán,17.7,0
+2026-06-23,Cobán,18.7,1
+2026-06-24,Cobán,23.6,0
+2026-06-25,Cobán,17.3,1
+2026-06-26,Cobán,19.7,0
+2026-06-27,Cobán,14.8,1
+2026-06-28,Cobán,14.2,0
+2026-06-29,Cobán,19.8,1
+2026-06-30,Cobán,17.3,0
+2026-07-01,Cobán,21.0,1
+2026-07-02,Cobán,23.7,0
+2026-07-03,Cobán,20.9,0
+2026-07-04,Cobán,17.2,0
+2026-07-05,Cobán,21.6,1
+2026-07-06,Cobán,20.5,1
+2026-07-07,Cobán,16.4,1
+2026-07-08,Cobán,20.5,1
+2026-07-09,Cobán,15.5,1
+2026-07-10,Cobán,17.9,1
+2026-07-11,Cobán,17.3,1
+2026-07-12,Cobán,21.9,0
+2026-07-13,Cobán,16.3,1
+2026-07-14,Cobán,20.6,1
+2026-07-15,Cobán,17.2,1
+2026-07-16,Cobán,18.2,1
+2026-07-17,Cobán,15.2,0
+2026-07-18,Cobán,18.4,1
+2026-07-19,Cobán,19.0,1
+2026-07-20,Cobán,22.5,0
+2026-07-21,Cobán,20.4,0
+2026-07-22,Cobán,17.9,1
+2026-07-23,Cobán,17.4,1
+2026-07-24,Cobán,19.6,0
+2026-07-25,Cobán,16.9,1
+2026-07-26,Cobán,16.0,1
+2026-07-27,Cobán,18.6,0
+2026-07-28,Cobán,19.0,1
+2026-07-29,Cobán,19.5,0
+2026-07-30,Cobán,16.1,1
+2026-07-31,Cobán,18.7,1
+2026-08-01,Cobán,17.3,0
+2026-08-02,Cobán,16.2,0
+2026-08-03,Cobán,19.0,1
+2026-08-04,Cobán,14.9,1
+2026-08-05,Cobán,14.9,0
+2026-08-06,Cobán,16.0,0
+2026-08-07,Cobán,15.1,1
+2026-08-08,Cobán,18.5,0
+2026-08-09,Cobán,18.0,1
+2026-08-10,Cobán,14.9,1
+2026-08-11,Cobán,16.5,1
+2026-08-12,Cobán,18.1,0
+2026-08-13,Cobán,21.9,0
+2026-08-14,Cobán,15.7,1
+2026-08-15,Cobán,14.3,1
+2026-08-16,Cobán,12.6,1
+2026-08-17,Cobán,11.8,0
+2026-08-18,Cobán,14.5,0
+2026-08-19,Cobán,17.7,1
+2026-08-20,Cobán,18.4,1
+2026-08-21,Cobán,17.9,1
+2026-08-22,Cobán,15.6,1
+2026-08-23,Cobán,17.5,1
+2026-08-24,Cobán,13.9,1
+2026-08-25,Cobán,12.7,1
+2026-08-26,Cobán,15.4,1
+2026-08-27,Cobán,16.7,0
+2026-08-28,Cobán,19.5,0
+2026-08-29,Cobán,18.5,0
+2026-08-30,Cobán,14.0,1
+2026-08-31,Cobán,14.0,1
+2026-09-01,Cobán,16.2,1
+2026-09-02,Cobán,17.3,0
+2026-09-03,Cobán,18.3,0
+2026-09-04,Cobán,15.9,1
+2026-09-05,Cobán,19.5,0
+2026-09-06,Cobán,13.4,1
+2026-09-07,Cobán,14.1,1
+2026-09-08,Cobán,13.2,1
+2026-09-09,Cobán,14.5,1
+2026-09-10,Cobán,16.2,0
+2026-09-11,Cobán,12.8,1
+2026-09-12,Cobán,10.7,1
+2026-09-13,Cobán,14.2,1
+2026-09-14,Cobán,19.8,0
+2026-09-15,Cobán,17.9,1
+2026-09-16,Cobán,16.5,1
+2026-09-17,Cobán,16.7,1
+2026-09-18,Cobán,15.7,0
+2026-09-19,Cobán,12.7,1
+2026-09-20,Cobán,18.3,0
+2026-09-21,Cobán,17.2,1
+2026-09-22,Cobán,17.4,0
+2026-09-23,Cobán,22.0,0
+2026-09-24,Cobán,20.7,1
+2026-09-25,Cobán,15.1,1
+2026-09-26,Cobán,17.4,1
+2026-09-27,Cobán,16.6,1
+2026-09-28,Cobán,22.3,1
+2026-09-29,Cobán,19.3,0
+2026-09-30,Cobán,21.6,0
+2026-10-01,Cobán,18.9,0
+2026-10-02,Cobán,9.9,1
+2026-10-03,Cobán,18.9,1
+2026-10-04,Cobán,14.2,1
+2026-10-05,Cobán,17.4,0
+2026-10-06,Cobán,18.2,1
+2026-10-07,Cobán,19.6,1
+2026-10-08,Cobán,17.3,1
+2026-10-09,Cobán,16.6,0
+2026-10-10,Cobán,15.4,1
+2026-10-11,Cobán,20.4,1
+2026-10-12,Cobán,19.6,0
+2026-10-13,Cobán,19.3,0
+2026-10-14,Cobán,16.5,0
+2026-10-15,Cobán,17.9,1
+2026-10-16,Cobán,17.0,0
+2026-10-17,Cobán,18.8,1
+2026-10-18,Cobán,17.9,1
+2026-10-19,Cobán,18.4,0
+2026-10-20,Cobán,19.2,0
+2026-10-21,Cobán,22.1,0
+2026-10-22,Cobán,19.2,0
+2026-10-23,Cobán,22.5,0
+2026-10-24,Cobán,18.0,1
+2026-10-25,Cobán,16.3,1
+2026-10-26,Cobán,20.5,0
+2026-10-27,Cobán,18.9,1
+2026-10-28,Cobán,17.6,0
+2026-10-29,Cobán,21.3,0
+2026-10-30,Cobán,20.7,0
+2026-10-31,Cobán,22.4,0
+2026-04-01,Puerto San José,29.6,0
+2026-04-02,Puerto San José,27.3,0
+2026-04-03,Puerto San José,33.5,0
+2026-04-04,Puerto San José,28.8,0
+2026-04-05,Puerto San José,27.2,0
+2026-04-06,Puerto San José,28.1,1
+2026-04-07,Puerto San José,27.8,0
+2026-04-08,Puerto San José,27.6,1
+2026-04-09,Puerto San José,25.3,1
+2026-04-10,Puerto San José,27.1,0
+2026-04-11,Puerto San José,30.6,1
+2026-04-12,Puerto San José,30.4,0
+2026-04-13,Puerto San José,27.6,0
+2026-04-14,Puerto San José,28.8,0
+2026-04-15,Puerto San José,27.4,1
+2026-04-16,Puerto San José,29.8,0
+2026-04-17,Puerto San José,29.0,1
+2026-04-18,Puerto San José,32.5,1
+2026-04-19,Puerto San José,32.2,0
+2026-04-20,Puerto San José,31.0,0
+2026-04-21,Puerto San José,29.8,0
+2026-04-22,Puerto San José,25.7,1
+2026-04-23,Puerto San José,28.8,1
+2026-04-24,Puerto San José,28.9,0
+2026-04-25,Puerto San José,30.5,1
+2026-04-26,Puerto San José,30.6,0
+2026-04-27,Puerto San José,31.4,0
+2026-04-28,Puerto San José,36.3,0
+2026-04-29,Puerto San José,25.9,1
+2026-04-30,Puerto San José,28.2,0
+2026-05-01,Puerto San José,33.8,1
+2026-05-02,Puerto San José,29.3,0
+2026-05-03,Puerto San José,31.3,0
+2026-05-04,Puerto San José,29.8,1
+2026-05-05,Puerto San José,27.7,1
+2026-05-06,Puerto San José,25.2,0
+2026-05-07,Puerto San José,30.5,1
+2026-05-08,Puerto San José,30.5,0
+2026-05-09,Puerto San José,29.1,0
+2026-05-10,Puerto San José,31.8,0
+2026-05-11,Puerto San José,30.1,1
+2026-05-12,Puerto San José,29.5,1
+2026-05-13,Puerto San José,31.0,1
+2026-05-14,Puerto San José,32.7,0
+2026-05-15,Puerto San José,28.9,1
+2026-05-16,Puerto San José,31.1,0
+2026-05-17,Puerto San José,33.0,0
+2026-05-18,Puerto San José,28.8,0
+2026-05-19,Puerto San José,30.3,0
+2026-05-20,Puerto San José,29.4,1
+2026-05-21,Puerto San José,30.4,0
+2026-05-22,Puerto San José,35.2,1
+2026-05-23,Puerto San José,32.7,1
+2026-05-24,Puerto San José,29.9,0
+2026-05-25,Puerto San José,29.8,0
+2026-05-26,Puerto San José,32.9,0
+2026-05-27,Puerto San José,28.7,1
+2026-05-28,Puerto San José,30.7,0
+2026-05-29,Puerto San José,33.2,0
+2026-05-30,Puerto San José,34.0,0
+2026-05-31,Puerto San José,32.5,0
+2026-06-01,Puerto San José,31.3,0
+2026-06-02,Puerto San José,31.1,1
+2026-06-03,Puerto San José,29.1,0
+2026-06-04,Puerto San José,31.3,0
+2026-06-05,Puerto San José,27.5,1
+2026-06-06,Puerto San José,30.5,1
+2026-06-07,Puerto San José,32.6,0
+2026-06-08,Puerto San José,30.0,0
+2026-06-09,Puerto San José,34.0,0
+2026-06-10,Puerto San José,34.1,0
+2026-06-11,Puerto San José,29.5,0
+2026-06-12,Puerto San José,32.8,1
+2026-06-13,Puerto San José,34.2,0
+2026-06-14,Puerto San José,30.8,0
+2026-06-15,Puerto San José,34.6,0
+2026-06-16,Puerto San José,32.8,0
+2026-06-17,Puerto San José,37.0,0
+2026-06-18,Puerto San José,27.9,1
+2026-06-19,Puerto San José,33.5,0
+2026-06-20,Puerto San José,31.4,0
+2026-06-21,Puerto San José,29.7,1
+2026-06-22,Puerto San José,25.3,0
+2026-06-23,Puerto San José,34.8,0
+2026-06-24,Puerto San José,33.1,0
+2026-06-25,Puerto San José,31.8,0
+2026-06-26,Puerto San José,31.6,0
+2026-06-27,Puerto San José,30.4,0
+2026-06-28,Puerto San José,27.7,1
+2026-06-29,Puerto San José,29.5,0
+2026-06-30,Puerto San José,28.5,0
+2026-07-01,Puerto San José,30.1,0
+2026-07-02,Puerto San José,32.5,1
+2026-07-03,Puerto San José,30.6,1
+2026-07-04,Puerto San José,32.5,0
+2026-07-05,Puerto San José,28.1,1
+2026-07-06,Puerto San José,33.6,0
+2026-07-07,Puerto San José,30.3,0
+2026-07-08,Puerto San José,30.8,0
+2026-07-09,Puerto San José,28.4,0
+2026-07-10,Puerto San José,31.1,1
+2026-07-11,Puerto San José,26.1,0
+2026-07-12,Puerto San José,27.7,1
+2026-07-13,Puerto San José,27.3,1
+2026-07-14,Puerto San José,31.6,1
+2026-07-15,Puerto San José,31.1,1
+2026-07-16,Puerto San José,29.4,0
+2026-07-17,Puerto San José,32.5,0
+2026-07-18,Puerto San José,28.4,1
+2026-07-19,Puerto San José,28.2,0
+2026-07-20,Puerto San José,30.7,0
+2026-07-21,Puerto San José,29.5,0
+2026-07-22,Puerto San José,28.9,0
+2026-07-23,Puerto San José,24.9,1
+2026-07-24,Puerto San José,29.2,0
+2026-07-25,Puerto San José,28.4,1
+2026-07-26,Puerto San José,25.7,1
+2026-07-27,Puerto San José,30.3,1
+2026-07-28,Puerto San José,29.3,0
+2026-07-29,Puerto San José,32.4,1
+2026-07-30,Puerto San José,25.5,1
+2026-07-31,Puerto San José,29.1,1
+2026-08-01,Puerto San José,30.8,0
+2026-08-02,Puerto San José,28.1,1
+2026-08-03,Puerto San José,27.9,1
+2026-08-04,Puerto San José,31.9,1
+2026-08-05,Puerto San José,28.3,1
+2026-08-06,Puerto San José,24.7,1
+2026-08-07,Puerto San José,29.4,0
+2026-08-08,Puerto San José,30.4,0
+2026-08-09,Puerto San José,24.2,1
+2026-08-10,Puerto San José,27.1,0
+2026-08-11,Puerto San José,30.0,0
+2026-08-12,Puerto San José,26.0,1
+2026-08-13,Puerto San José,29.3,0
+2026-08-14,Puerto San José,27.2,0
+2026-08-15,Puerto San José,26.7,0
+2026-08-16,Puerto San José,30.0,1
+2026-08-17,Puerto San José,31.3,0
+2026-08-18,Puerto San José,31.0,1
+2026-08-19,Puerto San José,27.2,0
+2026-08-20,Puerto San José,32.0,0
+2026-08-21,Puerto San José,23.2,1
+2026-08-22,Puerto San José,31.3,0
+2026-08-23,Puerto San José,29.2,1
+2026-08-24,Puerto San José,24.1,1
+2026-08-25,Puerto San José,28.8,0
+2026-08-26,Puerto San José,23.9,1
+2026-08-27,Puerto San José,26.6,0
+2026-08-28,Puerto San José,30.8,0
+2026-08-29,Puerto San José,31.6,0
+2026-08-30,Puerto San José,27.2,1
+2026-08-31,Puerto San José,29.0,0
+2026-09-01,Puerto San José,31.3,0
+2026-09-02,Puerto San José,28.5,1
+2026-09-03,Puerto San José,24.9,0
+2026-09-04,Puerto San José,29.0,1
+2026-09-05,Puerto San José,27.7,0
+2026-09-06,Puerto San José,34.6,1
+2026-09-07,Puerto San José,25.3,1
+2026-09-08,Puerto San José,26.2,1
+2026-09-09,Puerto San José,25.5,0
+2026-09-10,Puerto San José,27.4,0
+2026-09-11,Puerto San José,27.2,1
+2026-09-12,Puerto San José,26.6,1
+2026-09-13,Puerto San José,26.6,0
+2026-09-14,Puerto San José,25.9,0
+2026-09-15,Puerto San José,33.5,0
+2026-09-16,Puerto San José,26.7,0
+2026-09-17,Puerto San José,27.3,0
+2026-09-18,Puerto San José,21.9,1
+2026-09-19,Puerto San José,30.1,0
+2026-09-20,Puerto San José,27.9,1
+2026-09-21,Puerto San José,27.6,0
+2026-09-22,Puerto San José,29.2,1
+2026-09-23,Puerto San José,31.4,0
+2026-09-24,Puerto San José,31.3,1
+2026-09-25,Puerto San José,29.5,0
+2026-09-26,Puerto San José,30.6,0
+2026-09-27,Puerto San José,29.2,1
+2026-09-28,Puerto San José,28.8,0
+2026-09-29,Puerto San José,27.5,0
+2026-09-30,Puerto San José,26.3,1
+2026-10-01,Puerto San José,30.9,0
+2026-10-02,Puerto San José,26.5,1
+2026-10-03,Puerto San José,31.1,0
+2026-10-04,Puerto San José,35.4,0
+2026-10-05,Puerto San José,31.9,1
+2026-10-06,Puerto San José,32.0,0
+2026-10-07,Puerto San José,31.0,1
+2026-10-08,Puerto San José,30.1,1
+2026-10-09,Puerto San José,31.9,0
+2026-10-10,Puerto San José,30.8,0
+2026-10-11,Puerto San José,29.0,0
+2026-10-12,Puerto San José,27.0,1
+2026-10-13,Puerto San José,25.6,1
+2026-10-14,Puerto San José,32.0,1
+2026-10-15,Puerto San José,28.1,0
+2026-10-16,Puerto San José,31.0,0
+2026-10-17,Puerto San José,25.7,1
+2026-10-18,Puerto San José,32.9,0
+2026-10-19,Puerto San José,33.6,0
+2026-10-20,Puerto San José,28.9,1
+2026-10-21,Puerto San José,30.1,0
+2026-10-22,Puerto San José,30.2,0
+2026-10-23,Puerto San José,30.9,0
+2026-10-24,Puerto San José,29.3,1
+2026-10-25,Puerto San José,31.1,0
+2026-10-26,Puerto San José,30.2,1
+2026-10-27,Puerto San José,31.2,0
+2026-10-28,Puerto San José,31.8,0
+2026-10-29,Puerto San José,26.8,0
+2026-10-30,Puerto San José,35.1,0
+2026-10-31,Puerto San José,32.6,0
