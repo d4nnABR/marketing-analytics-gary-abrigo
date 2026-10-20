@@ -5,7 +5,7 @@
 |---|---|
 | Notebook ejecutado | [`laboratorio_recomendacion.ipynb`](./laboratorio_recomendacion.ipynb) |
 | Branch | https://github.com/d4nnABR/marketing-analytics-gary-abrigo/tree/Tarea_Actividad_3_Grupo_5 |
-| App de Streamlit | Pendiente de desplegar. Archivo: [`app.py`](./app.py) |
+| App de Streamlit | https://eynnbrmuprenrzosos9zvq.streamlit.app/ (archivo: [`app.py`](./app.py)) |
 | Conclusión | [`CONCLUSION.md`](./CONCLUSION.md) |
 | Databricks | `/Repos/gdabrigo@correo.url.edu.gt/marketing-analytics-gary-abrigo/Semana_4/Tarea/laboratorio_recomendacion` |
 
