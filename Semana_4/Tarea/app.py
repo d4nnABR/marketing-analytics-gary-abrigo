@@ -1,11 +1,4 @@
-"""
-Recomendador de productos — Laboratorio de Recomendación (Actividad 3, Grupo 5).
-
-Una app para que alguien de negocio explore los recomendadores del laboratorio: elegir un cliente y un
-método, ver sus 3 recomendaciones con el "porque", y comparar los métodos (hit rate y cobertura).
-
-Correr con:  streamlit run app.py
-"""
+"""Recomendador de productos. Correr con: streamlit run app.py"""
 from pathlib import Path
 
 import numpy as np
@@ -34,7 +27,7 @@ def cargar():
     X = M.values.astype(np.float32)
     H = (pd.crosstab(hold["customer_id"], hold["item"]) > 0).astype(int).reindex(
         index=M.index, columns=productos, fill_value=0).values
-    NUEVO = H * (1 - X)                                   # probó algo NUEVO en el holdout
+    NUEVO = H * (1 - X)
     NUEVO[:, productos.index("Agua")] = 0
     es_control = (exp.set_index("customer_id").loc[M.index, "grupo"] == "control").values
     return productos, M.index.values, X, NUEVO, es_control, catalogo.set_index("item")["precio"].reindex(productos).values
@@ -49,7 +42,7 @@ elegibles = (NUEVO.sum(axis=1) > 0) & es_control
 
 @st.cache_data
 def similitud_items():
-    S = np.round(cosine_similarity(X.T), 6)               # se redondea para que los empates se resuelvan siempre igual
+    S = np.round(cosine_similarity(X.T), 6)
     np.fill_diagonal(S, 0)
     return S
 
@@ -65,15 +58,13 @@ S_IT = similitud_items()
 
 
 def vecinos(filas, K):
-    """Para cada fila de `filas`: posiciones de sus K clientes más parecidos y las similitudes."""
     sims = np.round(cosine_similarity(X[filas], X), 6)
-    sims[np.arange(len(filas)), filas] = 0                # un cliente no es vecino de sí mismo
+    sims[np.arange(len(filas)), filas] = 0
     orden = np.argsort(-sims, axis=1, kind="stable")[:, :K]
     return orden, np.take_along_axis(sims, orden, axis=1)
 
 
 def puntajes(metodo, filas, K, k_svd):
-    """Matriz de puntajes (len(filas) × 29) del método elegido."""
     filas = np.asarray(filas)
     if metodo == "Popularidad":
         return np.tile(popularidad.astype(float), (len(filas), 1))
@@ -84,19 +75,18 @@ def puntajes(metodo, filas, K, k_svd):
         return np.stack([sims[i] @ X[orden[i]] for i in range(len(filas))])
     if metodo == "SVD":
         return modelo_svd(k_svd)[filas]
-    # Final: ítem para quien tiene historial, popularidad para quien no (arranque en frío)
+
     return np.where(tiene_historial[filas][:, None], X[filas] @ S_IT, popularidad[None, :].astype(float))
 
 
 def top3(scores, filas):
-    s = np.where(X[filas] > 0, -np.inf, scores).astype(float)     # no recomendar lo ya comprado
-    s[:, COL_AGUA] = -np.inf                                       # ni el Agua
+    s = np.where(X[filas] > 0, -np.inf, scores).astype(float)
+    s[:, COL_AGUA] = -np.inf
     return np.argsort(-s, axis=1, kind="stable")[:, :3]
 
 
 @st.cache_data(show_spinner="Calculando recomendaciones para los 8,000 clientes…")
 def top3_todos(metodo, K, k_svd, bloque=500):
-    """Top 3 de cada cliente con el método elegido (por bloques para no gastar memoria)."""
     partes = []
     for ini in range(0, len(X), bloque):
         filas = np.arange(ini, min(ini + bloque, len(X)))
@@ -106,7 +96,6 @@ def top3_todos(metodo, K, k_svd, bloque=500):
 
 @st.cache_data
 def comparar(muestra, K, k_svd, semilla=0):
-    """Hit rate@3, precisión@3 y cobertura de cada método, solo en clientes de CONTROL que probaron algo nuevo."""
     rng = np.random.default_rng(semilla)
     cand = np.where(elegibles)[0]
     filas = np.sort(rng.choice(cand, size=muestra, replace=False)) if muestra < len(cand) else cand
@@ -120,9 +109,7 @@ def comparar(muestra, K, k_svd, semilla=0):
     return pd.DataFrame(out).T, len(filas)
 
 
-def porque(metodo, fila, producto_j, K, filas_vec=None):
-    """Frase que explica por qué se recomienda el producto j al cliente `fila`."""
-    nombre = productos[producto_j]
+def porque(metodo, fila, producto_j, K):
     x_vec = X[fila]
     if metodo == "Filtrado por ítem" or (metodo.startswith("Final") and tiene_historial[fila]):
         compras = [(productos[i], S_IT[i, producto_j]) for i in np.where(x_vec > 0)[0] if i != COL_AGUA]
@@ -139,7 +126,6 @@ def porque(metodo, fila, producto_j, K, filas_vec=None):
     return f"es de lo más comprado: lo compró el {popularidad[producto_j] / len(X):.0%} de los clientes"
 
 
-# ---------------------------------------------------------------------------------------------------
 st.title("☕ Recomendador de productos")
 st.caption("Ayuda a decidir qué 3 productos mostrar a cada cliente en el carrusel «Para ti» y qué método conviene "
            "llevar al siguiente experimento, comparando cuánto aciertan con datos que ningún método vio.")
