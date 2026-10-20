@@ -28,10 +28,11 @@ Efecto del carrusel: ΔARPU +US$1.11 (IC 95%: +0.37 a +1.86), Δmargen neto +US$
 - **Clientes sin historial (334):** el recomendador final les muestra la popularidad.
 
 ## App de Streamlit
-- **Recomendar:** 3 productos por cliente con puntaje, precio y «porque».
-- **Comparar métodos:** hit rate@3, precisión@3 y cobertura en el grupo control.
-- **La verdad oculta:** hit rate frente a ingreso incremental.
-- **Controles:** método, vecinos (K), factores del SVD y número de clientes a evaluar.
+Bilingüe (ES/EN), con el tema de las demás apps.
+- **Recomendaciones:** 3 productos por cliente con puntaje, precio y «porque».
+- **Comparación de métodos:** hit rate@3, precisión@3 y cobertura en el grupo control.
+- **Verdad oculta:** hit rate frente a ingreso incremental.
+- **Controles:** idioma, método, ID de cliente, vecinos (K) y factores del SVD.
 
 ```bash
 cd Semana_4/Tarea
