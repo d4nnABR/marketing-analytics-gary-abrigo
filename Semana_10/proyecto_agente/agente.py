@@ -192,10 +192,10 @@ def relacion_clv_cac(clv: float, cac: float, margen_mensual: float) -> dict:
     margen_mensual: margen por cliente al mes (US$).
     Regla del curso: CLV/CAC de 3 o más es sano."""
     # Baranda: los tres datos tienen que ser positivos
-    if clv <= 0 or cac <= 0 or margen_mensual <= 0:
+    if COMPLETAR:                                     # pista: clv <= 0 or cac <= 0 or margen_mensual <= 0
         return {"error": "CLV, CAC y margen mensual deben ser mayores que 0."}
-    razon = clv / cac
-    meses = cac / margen_mensual
+    razon = COMPLETAR                                 # pista: clv ÷ cac
+    meses = COMPLETAR                                 # pista: cac ÷ margen_mensual
     if razon >= 3:
         lectura = "sano (3 o más)"
     elif razon >= 1:
@@ -221,7 +221,7 @@ def estimar_elasticidad(segmento: str = "", fuente: str = "precios") -> dict:
             return {"error": f"La fuente '{fuente}' no tiene columna de segmento."}
         disponibles = sorted(df["segmento"].astype(str).unique())
         df = df[df["segmento"].astype(str).str.lower() == segmento.lower()]
-        if df.empty:
+        if COMPLETAR:                                 # pista: df.empty  (no quedó ningún renglón)
             return {"error": f"No existe el segmento '{segmento}'. Segmentos disponibles: {disponibles}"}
 
     # 3. Baranda: precios y unidades positivos, y al menos 3 precios distintos
@@ -230,7 +230,7 @@ def estimar_elasticidad(segmento: str = "", fuente: str = "precios") -> dict:
         return {"error": "Se necesitan pruebas con al menos 3 precios distintos para estimar la elasticidad."}
 
     # 4. La pendiente de ln(unidades) contra ln(precio) es la elasticidad
-    eps = float(np.polyfit(np.log(df["precio"]), np.log(df["unidades"]), 1)[0])
+    eps = float(np.polyfit(COMPLETAR, COMPLETAR, 1)[0])    # pista: np.log(df["precio"]), np.log(df["unidades"])
 
     if eps < -1:
         lectura = "elástica: las ventas reaccionan más que el precio"
@@ -251,18 +251,18 @@ def proponer_precio(precio_actual: float, costo: float, elasticidad: float, unid
     # Barandas de datos
     if p <= 0 or C <= 0 or Q <= 0:
         return {"error": "Precio, costo y unidades deben ser mayores que 0."}
-    if e >= 0:
+    if COMPLETAR:                                     # pista: e >= 0  (la elasticidad debe ser negativa)
         return {"error": "La elasticidad debe ser negativa (si sube el precio, se vende menos). Revisa el signo."}
     # Precio óptimo (solo existe si la demanda es elástica, ε < −1)
     if e < -1:
-        p_optimo = C * e / (1 + e)
+        p_optimo = COMPLETAR                          # pista: C × e ÷ (1 + e)
     else:
         p_optimo = None
     # Reglas de la empresa
     propuesto = p * 1.10 if p_optimo is None else p_optimo
-    propuesto = min(propuesto, p * 1.10)
+    propuesto = min(propuesto, COMPLETAR)             # pista: tope de subir máximo 10% → p × 1.10
     propuesto = max(propuesto, p * 0.90)        # tope: bajar máximo 10%
-    propuesto = max(propuesto, 1.2 * C)
+    propuesto = max(propuesto, COMPLETAR)             # pista: margen mínimo → 1.2 × C
     cambio = propuesto / p - 1
 
     def utilidad(precio):
@@ -271,7 +271,7 @@ def proponer_precio(precio_actual: float, costo: float, elasticidad: float, unid
     return {"precio_optimo": round(p_optimo, 2) if p_optimo else "no hay óptimo: con ε entre -1 y 0 conviene subir hasta el tope",
             "precio_propuesto": round(propuesto, 2), "cambio_pct": round(cambio * 100, 1),
             "utilidad_mensual_hoy": round(utilidad(p)), "utilidad_mensual_propuesta": round(utilidad(propuesto)),
-            "requiere_aprobacion_humana": abs(cambio) > 0.05}
+            "requiere_aprobacion_humana": COMPLETAR}  # pista: abs(cambio) > 0.05
 
 def metricas_regla_asociacion(producto_a: str, producto_b: str, fuente: str = "tickets") -> dict:
     """Soporte, confianza y lift de la regla A → B (Apriori, venta cruzada), calculados con los
@@ -302,9 +302,9 @@ def metricas_regla_asociacion(producto_a: str, producto_b: str, fuente: str = "t
     # 4. Las tres fórmulas
     soporte_a = con_a.sum() / n
     soporte_b = con_b.sum() / n
-    soporte_ab = (con_a & con_b).sum() / n
-    confianza = soporte_ab / soporte_a
-    lift = confianza / soporte_b
+    soporte_ab = COMPLETAR                            # pista: (con_a & con_b).sum() ÷ n
+    confianza = COMPLETAR                             # pista: soporte_ab ÷ soporte_a
+    lift = COMPLETAR                                  # pista: confianza ÷ soporte_b
     return {"tickets": int(n), "soporte_a": round(float(soporte_a), 4), "soporte_b": round(float(soporte_b), 4),
             "soporte_ab": round(float(soporte_ab), 4), "confianza": round(float(confianza), 4), "lift": round(float(lift), 2),
             "lectura": "vale la pena recomendar B a quien compra A" if lift > 1 else "no se compran juntos más de lo normal"}
@@ -323,7 +323,7 @@ def segmentar_clientes(k: int, fuente: str = "clientes") -> dict:
         return {"error": str(e)}
 
     # 2. Barandas: k razonable y al menos 2 variables
-    if k < 2 or k > 6:
+    if COMPLETAR:                                     # pista: k < 2 or k > 6
         return {"error": "k debe estar entre 2 y 6 segmentos."}
     variables = FUENTES[fuente].get("variables", [])
     if len(variables) < 2:
@@ -332,7 +332,7 @@ def segmentar_clientes(k: int, fuente: str = "clientes") -> dict:
     # 3. Estandarizar (misma escala para todas) y correr k-means
     datos = df[variables].dropna()
     X = StandardScaler().fit_transform(datos)
-    etiquetas = KMeans(n_clusters=int(k), n_init=10, random_state=0).fit_predict(X)
+    etiquetas = KMeans(n_clusters=int(k), n_init=10, random_state=0).fit_predict(COMPLETAR)   # pista: X
     datos = datos.assign(segmento=etiquetas)
 
     # 4. Resumen por segmento
@@ -374,7 +374,7 @@ def buscar_apunte(tema: str) -> dict:
     for ruta in archivos:
         texto = open(ruta, encoding="utf-8").read()
         for parrafo in re.split(r"\n\s*\n", texto):             # un párrafo = un pedazo (chunk)
-            puntos = sum(_sin_acentos(parrafo).count(p) for p in palabras)
+            puntos = sum(_sin_acentos(parrafo).count(p) for p in COMPLETAR)   # pista: palabras
             if puntos > 0:
                 resultados.append((puntos, os.path.basename(ruta), parrafo.strip()[:600]))
 
@@ -382,7 +382,7 @@ def buscar_apunte(tema: str) -> dict:
     if not resultados:
         return {"aviso": "No encontré nada sobre ese tema en los apuntes.", "archivos": [os.path.basename(a) for a in archivos]}
     resultados.sort(reverse=True)
-    return {"resultados": [{"archivo": a, "texto": t} for _, a, t in resultados[:3]]}
+    return {"resultados": [{"archivo": a, "texto": t} for _, a, t in resultados[:COMPLETAR]]}   # pista: 3
 
 # ============================================================ 5. El agente
 
