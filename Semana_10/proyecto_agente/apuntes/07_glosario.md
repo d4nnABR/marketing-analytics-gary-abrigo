@@ -1,0 +1,21 @@
+# Glosario de siglas del curso
+
+- A/B: experimento con un grupo que recibe la acción y otro de control.
+- ARPU: Average Revenue Per User, ingreso promedio por usuario.
+- BG/NBD: modelo Beta Geométrica / Binomial Negativa para predecir compras y P(vivo).
+- CAC: Customer Acquisition Cost, costo de adquirir un cliente.
+- Churn: proporción de clientes que se va en un periodo.
+- CLV: Customer Lifetime Value, valor de vida del cliente.
+- d: tasa de descuento mensual (0.8% en el curso).
+- DBSCAN: agrupamiento por densidad que marca ruido.
+- ε: elasticidad precio. εx: elasticidad cruzada. ε(c): elasticidad del churn al precio.
+- GMM: Gaussian Mixture Model, mezcla de gaussianas.
+- Holdout: periodo o grupo reservado para probar un modelo.
+- Lift: confianza de una regla ÷ soporte del consecuente.
+- m: margen mensual por cliente. m': margen nuevo.
+- P*: precio óptimo. c': churn máximo tolerable.
+- Qini: curva para evaluar modelos de uplift.
+- RFM: Recencia, Frecuencia y Monto.
+- ROI: Return On Investment, retorno de la inversión.
+- Uplift: efecto incremental de una acción frente a no hacerla.
+- WTP: Willingness To Pay, disposición a pagar.

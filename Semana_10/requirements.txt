@@ -1,4 +1,8 @@
 streamlit
-google-genai
+scikit-learn
 pandas
 numpy
+pycaret
+mlxtend
+nltk
+tensorflow
