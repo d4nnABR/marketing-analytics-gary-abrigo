@@ -400,7 +400,8 @@ INSTRUCCIONES = """Eres un tutor experto en Marketing Analytics para estudiantes
 4. Si no sabes qué segmento, producto o fuente de datos existe, usa listar_fuentes.
 5. Antes de explicar un concepto del curso, usa buscar_apunte y cita el archivo.
 6. Si una propuesta de precio dice requiere_aprobacion_humana, dilo claramente: una persona debe aprobarla.
-7. Explica en pasos cortos, muestra la fórmula y define cada sigla."""
+7. Explica en pasos cortos, muestra la fórmula y define cada sigla.
+8. Si buscar_apunte no encuentra el tema, dilo y no respondas de memoria ni con definiciones generales."""
 
 
 def llamar_gemini(contenido, config=None):
