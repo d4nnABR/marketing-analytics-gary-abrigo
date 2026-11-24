@@ -404,15 +404,26 @@ INSTRUCCIONES = """Eres un tutor experto en Marketing Analytics para estudiantes
 8. Si buscar_apunte no encuentra el tema, dilo y no respondas de memoria ni con definiciones generales."""
 
 
+# Modelos de respaldo por si el principal está saturado (error 503)
+RESPALDO = [m for m in sorted(modelos) if m != MODELO and "flash" in m][-2:]
+
+
 def llamar_gemini(contenido, config=None):
-    """Llama a Gemini. Si nos pasamos del límite gratuito (error 429), espera 40 segundos y reintenta."""
-    for intento in range(4):
+    """Llama a Gemini y reintenta solo.
+    Error 429 (límite gratuito): espera 40 segundos. Error 503 (saturado): espera 10 segundos
+    y, tras 2 fallos, prueba un modelo de respaldo."""
+    candidatos = [MODELO] + RESPALDO
+    for intento in range(6):
+        modelo = candidatos[min(intento // 2, len(candidatos) - 1)]
         try:
-            return client.models.generate_content(model=MODELO, contents=contenido, config=config)
-        except errors.ClientError as e:
-            if e.code == 429 and intento < 3:
+            return client.models.generate_content(model=modelo, contents=contenido, config=config)
+        except (errors.ClientError, errors.ServerError) as e:
+            if e.code == 429 and intento < 5:
                 print("Límite de Gemini (15 llamadas por minuto). Espero 40 segundos...")
                 time.sleep(40)
+            elif e.code == 503 and intento < 5:
+                print(f"Gemini saturado (503) con {modelo}. Espero 10 segundos y reintento...")
+                time.sleep(10)
             else:
                 raise
 
